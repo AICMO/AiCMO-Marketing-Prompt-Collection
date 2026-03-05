@@ -1,0 +1,162 @@
+name: Repo Improver
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: repo-improver
+  cancel-in-progress: true
+
+jobs:
+  improve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Audit repository
+        run: |
+          {
+            echo "=== REPOSITORY AUDIT ==="
+            echo "Generated: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo ""
+
+            echo "=== DIRECTORY STRUCTURE (prompt count per directory) ==="
+            find . -type d \
+              -not -path './.git*' \
+              -not -path './.github*' \
+              -not -path './.claude*' \
+              -not -path './.idea*' \
+              -not -path './Researches*' \
+              -not -path './integrations*' \
+              -not -name '.' | sort | while read -r dir; do
+              count=$(find "$dir" -maxdepth 1 -name "*.md" \
+                -not -name "README.md" -not -name "Readme.md" 2>/dev/null | wc -l | tr -d ' ')
+              echo "$count prompts | $dir"
+            done
+            echo ""
+
+            echo "=== EMPTY DIRECTORIES (priority gaps) ==="
+            find . -type d \
+              -not -path './.git*' \
+              -not -path './.github*' \
+              -not -path './.claude*' \
+              -not -path './.idea*' \
+              -not -path './Researches*' \
+              -not -path './integrations*' \
+              -not -name '.' | sort | while read -r dir; do
+              count=$(find "$dir" -maxdepth 1 -name "*.md" \
+                -not -name "README.md" -not -name "Readme.md" 2>/dev/null | wc -l | tr -d ' ')
+              if [ "$count" -eq 0 ]; then
+                echo "  EMPTY: $dir"
+              fi
+            done
+            echo ""
+
+            echo "=== SPARSE DIRECTORIES (1 prompt only) ==="
+            find . -type d \
+              -not -path './.git*' \
+              -not -path './.github*' \
+              -not -path './.claude*' \
+              -not -path './.idea*' \
+              -not -path './Researches*' \
+              -not -path './integrations*' \
+              -not -name '.' | sort | while read -r dir; do
+              count=$(find "$dir" -maxdepth 1 -name "*.md" \
+                -not -name "README.md" -not -name "Readme.md" 2>/dev/null | wc -l | tr -d ' ')
+              if [ "$count" -eq 1 ]; then
+                file=$(find "$dir" -maxdepth 1 -name "*.md" \
+                  -not -name "README.md" -not -name "Readme.md" 2>/dev/null)
+                echo "  SPARSE: $dir → $file"
+              fi
+            done
+            echo ""
+
+            echo "=== ALL EXISTING PROMPTS ==="
+            find . -name "*.md" \
+              -not -path './.git*' \
+              -not -path './.github*' \
+              -not -name "README.md" \
+              -not -name "Readme.md" | sort
+            echo ""
+
+            echo "=== RECENT GIT HISTORY (last 30 commits) ==="
+            git log --oneline -30
+            echo ""
+
+            echo "=== PROMPT TEMPLATE STANDARD ==="
+            cat PROMPT_TEMPLATE.md 2>/dev/null || echo "(template file not found)"
+          } > /tmp/audit.txt
+
+          echo "--- Audit summary ---"
+          head -40 /tmp/audit.txt
+
+      - name: Generate improvement
+        id: llm
+        uses: aicmo/llm-call-action@v1
+        with:
+          prompt_file: .github/prompts/repo-improver.md
+          data_file: /tmp/audit.txt
+          output_file: /tmp/llm_response.txt
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          max_turns: 5
+          min_response_length: 500
+
+      - name: Parse response
+        id: parse
+        run: |
+          RESPONSE=$(cat /tmp/llm_response.txt)
+
+          # Extract fields using awk
+          ACTION=$(echo "$RESPONSE" | awk '/^<<<ACTION>>>/{found=1; next} /^<<<PATH>>>/{found=0} found{print}' | tr -d '[:space:]')
+          FILEPATH=$(echo "$RESPONSE" | awk '/^<<<PATH>>>/{found=1; next} /^<<<CONTENT>>>/{found=0} found{print}' | tr -d '[:space:]')
+          CONTENT=$(echo "$RESPONSE" | awk '/^<<<CONTENT>>>/{found=1; next} /^<<<END>>>/{found=0} found{print}')
+
+          # Validate
+          if [ -z "$ACTION" ] || [ -z "$FILEPATH" ] || [ -z "$CONTENT" ]; then
+            echo "::error::Failed to parse LLM response"
+            echo "ACTION='$ACTION'"
+            echo "FILEPATH='$FILEPATH'"
+            echo "CONTENT length: $(echo "$CONTENT" | wc -c)"
+            echo "--- Raw response (first 200 chars) ---"
+            head -c 200 /tmp/llm_response.txt
+            exit 1
+          fi
+
+          # Sanitize path — must be under a numbered directory
+          if ! echo "$FILEPATH" | grep -qE '^0[1-7]_'; then
+            echo "::error::Path '$FILEPATH' doesn't start with a valid section (01_-07_)"
+            exit 1
+          fi
+
+          # Write content to the target file
+          mkdir -p "$(dirname "$FILEPATH")"
+          echo "$CONTENT" > "$FILEPATH"
+
+          echo "action=$ACTION" >> "$GITHUB_OUTPUT"
+          echo "filepath=$FILEPATH" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push to main
+        env:
+          PAT: ${{ secrets.PAT_TOKEN }}
+        run: |
+          git config user.name "aicmo-bot"
+          git config user.email "bot@aicmo.ai"
+          git remote set-url origin "https://x-access-token:${PAT}@github.com/AICMO/AiCMO-Marketing-Prompt-Collection.git"
+
+          git add "${{ steps.parse.outputs.filepath }}"
+          git commit -m "$(cat <<'EOF'
+          auto: ${{ steps.parse.outputs.action }} — ${{ steps.parse.outputs.filepath }}
+
+          Co-Authored-By: aicmo-bot <bot@aicmo.ai>
+          EOF
+          )"
+          git push
