@@ -59,4 +59,5 @@ jobs:
           git remote set-url origin "https://x-access-token:${PAT}@github.com/AICMO/AiCMO-Marketing-Prompt-Collection.git"
           git add "$FILEPATH"
           git commit -m "${FILEPATH}"
+          git pull --rebase
           git push
