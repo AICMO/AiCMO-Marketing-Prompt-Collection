@@ -58,5 +58,5 @@ jobs:
           git config user.email "zhenya.iosifov@gmail.com"
           git remote set-url origin "https://x-access-token:${PAT}@github.com/AICMO/AiCMO-Marketing-Prompt-Collection.git"
           git add "$FILEPATH"
-          git commit -m "auto: ${FILEPATH}"
+          git commit -m "${FILEPATH}"
           git push
