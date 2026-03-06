@@ -1,0 +1,74 @@
+name: Repo Retro
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday 9am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: repo-retro
+  cancel-in-progress: true
+
+jobs:
+  retro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 100
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Run retro
+        id: llm
+        uses: aicmo/llm-call-action@v1
+        with:
+          prompt_file: .github/prompts/repo-retro.md
+          output_file: /tmp/llm_response.txt
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          max_turns: 20
+          min_response_length: 50
+
+      - name: Apply changes
+        env:
+          PAT: ${{ secrets.PAT_TOKEN }}
+        run: |
+          FIRST_LINE=$(head -1 /tmp/llm_response.txt | tr -d '[:space:]')
+
+          git config user.name "evios"
+          git config user.email "zhenya.iosifov@gmail.com"
+          git remote set-url origin "https://x-access-token:${PAT}@github.com/AICMO/AiCMO-Marketing-Prompt-Collection.git"
+
+          # Handle delete
+          if echo "$FIRST_LINE" | grep -q '^DELETE:'; then
+            FILEPATH=$(echo "$FIRST_LINE" | sed 's/^DELETE://')
+            if [ -f "$FILEPATH" ]; then
+              git rm "$FILEPATH"
+              git commit -m "retro: remove ${FILEPATH}"
+              git push
+            else
+              echo "File not found: $FILEPATH"
+              exit 1
+            fi
+            exit 0
+          fi
+
+          # Handle create/update
+          FILEPATH="$FIRST_LINE"
+          CONTENT=$(tail -n +2 /tmp/llm_response.txt)
+
+          if [ -z "$FILEPATH" ] || [ -z "$CONTENT" ]; then
+            echo "::error::Failed to parse LLM response"
+            head -c 200 /tmp/llm_response.txt
+            exit 1
+          fi
+
+          mkdir -p "$(dirname "$FILEPATH")"
+          echo "$CONTENT" > "$FILEPATH"
+
+          git add "$FILEPATH"
+          git commit -m "retro: improve ${FILEPATH}"
+          git push

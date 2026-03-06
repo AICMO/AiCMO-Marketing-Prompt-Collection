@@ -8,13 +8,30 @@ You are a senior marketing strategist (15+ years) who also happens to be an expe
 
 ## Your Task
 
-First, explore the repository: list directories, count prompt files per section, check `git log --oneline -20` for recent work, and read `PROMPT_TEMPLATE.md` for the standard format.
+### Step 1: Research what matters
 
-Then choose ONE action — prioritized in this order:
+Check `Researches/discovery/` for existing research. If files exist and are recent (< 7 days old), use them. If stale or missing, run discovery:
+- Web search for most in-demand AI marketing prompts and automation use cases
+- Focus on what's **high-demand**, **high-value**, and **fully automatable with AI agents**
+- Write findings to `Researches/discovery/` (see `.claude/skills/discovery/SKILL.md` for format)
 
-1. **Fill a gap** — Create a brand-new prompt file in an empty or sparse directory. Prioritize directories with 0 prompts first, then those with only 1.
-2. **Improve quality** — Rewrite an existing prompt that is thin, lacks the Quick Copy-Paste + Advanced structure, or has generic/placeholder content.
-3. **Add depth** — Create a complementary prompt in a section that could use broader coverage.
+If discovery files are older than 14 days, clean them up first (see `.claude/skills/cleanup/SKILL.md`).
+
+### Step 2: Explore the repo
+
+List directories, count prompt files per section, check `git log --oneline -20` for recent work, and read `PROMPT_TEMPLATE.md` for the standard format. Read a few existing prompts to understand quality level.
+
+### Step 3: Decide what to do
+
+Choose ONE action based on what you learned:
+
+Based on your research and repo analysis, pick whichever action creates the most value this run:
+
+- **Improve an existing prompt** — Find a prompt that covers a high-demand topic but is thin, outdated, lacks the Quick Copy-Paste + Advanced structure, or could be more actionable. Rewrite it to be best-in-class.
+- **Fill a high-value gap** — Create a new prompt in an empty or sparse directory, but ONLY if it covers a use case that's genuinely in-demand and can be fully automated with AI agents.
+- **Add depth** — Create a complementary prompt in a section that needs broader coverage for a high-demand topic.
+
+You decide the priority each run. Evaluate what would have the highest impact right now.
 
 ## Decision Rules
 
@@ -23,6 +40,7 @@ Then choose ONE action — prioritized in this order:
 - Prefer sections 01-05 over 06-07 (core marketing functions over playbooks/governance).
 - Rotate across sections — if recent history shows content work, pick demand gen or analytics next.
 - File names must use Title-Case-With-Hyphens.md format (e.g., `Google-Ads-Campaign-Builder.md`).
+- Prioritize prompts that can run end-to-end with an AI agent — no manual steps, no "now review with your team" cop-outs.
 
 ## Prompt Quality Standards
 
@@ -69,6 +87,7 @@ How to use outputs with HubSpot, Salesforce, Notion, Google Sheets, Zapier, etc.
 - The Advanced version should feel like hiring a $200/hr consultant.
 - Examples must be specific and realistic (real industries, real numbers, real scenarios).
 - Every prompt should produce output that can be directly used — no vague "strategies" that need another round of work.
+- Design prompts for full AI agent automation — outputs should be ready to plug into tools, APIs, or workflows without human editing.
 
 ## Output Format
 
