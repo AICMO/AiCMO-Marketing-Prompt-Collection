@@ -44,7 +44,11 @@ jobs:
 
           # Handle delete
           if echo "$FIRST_LINE" | grep -q '^DELETE:'; then
-            FILEPATH=$(echo "$FIRST_LINE" | sed 's/^DELETE://')
+            FILEPATH=$(echo "$FIRST_LINE" | sed 's/^DELETE://' | tr -d '[:space:]')
+            if ! echo "$FILEPATH" | grep -qE '^0[1-7]_[A-Za-z0-9&()/_ -]+\.md$'; then
+              echo "::error::Delete path validation failed: '$FILEPATH'"
+              exit 1
+            fi
             if [ -f "$FILEPATH" ]; then
               git rm "$FILEPATH"
               git commit -m "retro: remove ${FILEPATH}"
@@ -63,6 +67,11 @@ jobs:
           if [ -z "$FILEPATH" ] || [ -z "$CONTENT" ]; then
             echo "::error::Failed to parse LLM response"
             head -c 200 /tmp/llm_response.txt
+            exit 1
+          fi
+
+          if ! echo "$FILEPATH" | grep -qE '^(0[1-7]_|Researches/)[A-Za-z0-9&()/_ -]+\.md$'; then
+            echo "::error::Path validation failed: '$FILEPATH'"
             exit 1
           fi
 

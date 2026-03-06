@@ -46,8 +46,8 @@ jobs:
             exit 1
           fi
 
-          if ! echo "$FILEPATH" | grep -qE '^0[1-7]_'; then
-            echo "::error::Path '$FILEPATH' doesn't start with a valid section (01_-07_)"
+          if ! echo "$FILEPATH" | grep -qE '^0[1-7]_[A-Za-z0-9&()/_ -]+\.md$'; then
+            echo "::error::Path validation failed: '$FILEPATH'"
             exit 1
           fi
 
