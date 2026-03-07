@@ -1,0 +1,261 @@
+# Marketing OKR & Performance Management Engine - Set, Cascade, and Optimize Marketing Team Goals with AI
+
+**Difficulty:** Advanced | **Time:** 20 min | **Tags:** okr, performance-management, marketing-leadership, team-productivity, kpi, b2b, strategy, automation
+
+## Overview
+Generate a complete, cascading OKR system for your marketing organization — from company-level objectives down to individual contributor goals — with built-in scoring rubrics, QBR templates, and performance review frameworks. Use this when setting quarterly goals, running performance reviews, or rebuilding how your marketing team tracks and proves its impact.
+
+## Quick Copy-Paste Version
+
+You are a Chief Marketing Officer with 20 years of experience building high-performance marketing teams at B2B SaaS companies. You specialize in OKR frameworks that actually drive revenue, not just activity.
+
+My marketing team context:
+- Company stage: [Series B SaaS / enterprise / startup / other]
+- Marketing team size: [e.g., 12 people]
+- Team structure: [e.g., demand gen, content, product marketing, brand]
+- Company ARR: [e.g., $8M]
+- ARR growth target this year: [e.g., 80%]
+- Primary GTM motion: [inbound / outbound / PLG / partner / hybrid]
+- Current quarter: [Q2 2026]
+- Top 3 company priorities this quarter: [e.g., expand into mid-market, launch new product line, reduce CAC]
+- Biggest marketing challenge right now: [e.g., pipeline coverage, brand awareness, team alignment]
+
+Deliver a complete Marketing OKR & Performance Management System:
+
+1. MARKETING OBJECTIVES (3-4 per quarter)
+   - Write objectives that are ambitious, qualitative, and inspiring — not metrics
+   - Each objective must directly support a company-level priority
+   - Show how each marketing objective ladders up to revenue or retention
+
+2. KEY RESULTS (3-5 per objective)
+   - Specific, measurable, time-bound
+   - Mix of leading indicators (pipeline, MQLs, content output) and lagging indicators (ARR, NRR)
+   - Include a "confidence score" for each KR (1-10 scale with your reasoning)
+   - Define what "on track," "at risk," and "missed" looks like for each KR
+
+3. CASCADED TEAM OKRs
+   For each marketing sub-function (demand gen, content, product marketing, brand/comms), write 1-2 objectives with 2-3 key results that directly feed the team-level OKRs above.
+
+4. INDIVIDUAL CONTRIBUTOR GOAL FRAMEWORK
+   - A template for ICs to write their own quarterly goals that connect to team OKRs
+   - 3 goal categories: output goals (what you ship), impact goals (what changes), growth goals (what you learn)
+   - Scoring rubric: 0.0, 0.3, 0.7, 1.0 scale with behavioral anchors for each level
+
+5. WEEKLY CHECK-IN TEMPLATE
+   - A 15-minute async update format (works in Notion, Slack, or Google Docs)
+   - Fields: progress on each KR, blockers, decisions needed, next week's priorities
+
+6. QUARTERLY BUSINESS REVIEW (QBR) AGENDA
+   - 60-minute QBR structure for marketing leadership
+   - What to present, how to tell the story, how to handle missed KRs without defensiveness
+   - Framework for setting next quarter's OKRs based on learnings
+
+7. PERFORMANCE REVIEW TEMPLATE
+   - Mid-year and annual review structure for marketing ICs and managers
+   - Self-assessment prompts, manager assessment rubric, 360 peer feedback questions
+   - Career growth conversation guide: how to discuss promotion readiness
+
+Output everything in a format ready to paste into Notion or Google Docs.
+
+## Advanced Customizable Version
+
+ROLE: You are an elite marketing operations strategist and executive coach who has built OKR systems for 50+ marketing teams at companies from $1M to $500M ARR. You understand that most OKR programs fail because they measure activity instead of outcomes, or they disconnect team goals from company revenue.
+
+COMPANY CONTEXT:
+- Company name: [CompanyName]
+- Industry/vertical: [e.g., B2B HR tech, fintech, devtools]
+- Business model: [SaaS / marketplace / transactional / hybrid]
+- Stage and ARR: [e.g., Series C, $18M ARR]
+- YoY growth rate: [e.g., 65% last year, targeting 80% this year]
+- CAC and payback period: [e.g., $8,400 blended CAC, 14-month payback]
+- LTV:CAC ratio: [e.g., 4.2x]
+- Current NRR: [e.g., 108%]
+
+MARKETING TEAM STRUCTURE:
+- Total headcount: [e.g., 18 FTEs + 4 contractors]
+- Sub-teams and leads: [e.g., Demand Gen (4), Content (3), PMM (3), Brand (2), RevOps (2), Growth (2), Marketing Ops (2)]
+- Key open roles: [e.g., VP Marketing, Sr. Content Writer]
+- Tech stack: [e.g., HubSpot, Salesforce, Outreach, G2, Bombora, Clearbit]
+
+STRATEGIC PRIORITIES (this quarter):
+1. [Priority 1: e.g., Penetrate enterprise segment (500+ employee companies)]
+2. [Priority 2: e.g., Launch self-serve free tier to drive PLG motion]
+3. [Priority 3: e.g., Reduce blended CAC by 20% through content-led inbound]
+
+CURRENT PERFORMANCE BASELINE:
+- Monthly MQLs: [e.g., 340]
+- MQL-to-SQL conversion: [e.g., 22%]
+- Pipeline generated by marketing last quarter: [e.g., $3.2M]
+- Pipeline influence: [e.g., 78% of closed-won deals had marketing touchpoint]
+- Content output last quarter: [e.g., 8 blog posts, 2 webinars, 1 ebook]
+- Brand metrics: [e.g., G2 category rank #4, 220 reviews]
+
+CHALLENGES AND CONSTRAINTS:
+- [e.g., Sales team says marketing pipeline quality is low — SQL-to-opportunity rate dropped from 38% to 29%]
+- [e.g., Content team is understaffed and producing reactively, not strategically]
+- [e.g., Attribution model is last-touch; board wants multi-touch reporting by Q3]
+- Budget constraint: [e.g., No additional headcount budget; must do more with current team]
+
+DELIVERABLES REQUIRED:
+
+**PART 1: STRATEGIC MARKETING OBJECTIVES**
+Write 3-4 objectives for the quarter that are:
+- Qualitative and motivating (NOT metric-based — that's what KRs are for)
+- Directly linked to revenue, retention, or strategic company milestones
+- Believably achievable in 12 weeks but requiring genuine stretch
+- Ordered by strategic priority
+For each objective: write a 2-sentence rationale explaining WHY this objective matters now.
+
+**PART 2: KEY RESULTS WITH SCORING MODELS**
+For each objective, write 3-5 key results:
+- Format: "From [baseline] → [target] by [date]"
+- Include a confidence score (1-10) with 1-paragraph rationale
+- Define threshold scoring:
+  * 0.0 = [what constitutes failure]
+  * 0.3 = [minimal progress]
+  * 0.7 = [solid progress — acceptable]
+  * 1.0 = [target achieved]
+  * 1.3 = [exceeded target — recalibrate if happens consistently]
+- Flag which KRs are "controllable" (input metrics) vs "influenced" (output metrics dependent on sales/product)
+
+**PART 3: CASCADED SUB-TEAM OKRs**
+For each sub-team (Demand Gen, Content, PMM, Brand, RevOps, Growth):
+- 1-2 sub-team objectives that directly feed the marketing team OKRs
+- 2-3 key results per objective with owner and measurement method
+- Show the dependency map: which sub-team OKRs are inputs to which team KRs
+- Identify shared KRs that require cross-team collaboration and name the DRI (Directly Responsible Individual)
+
+**PART 4: IC GOAL-SETTING FRAMEWORK**
+Template for individual contributors to self-author their quarterly goals:
+
+GOAL CATEGORY 1 — OUTPUT GOALS (what I will ship)
+"By [date], I will deliver [specific artifact or campaign or initiative] that [measurable impact]."
+Scoring rubric with behavioral anchors.
+
+GOAL CATEGORY 2 — IMPACT GOALS (what will change because of my work)
+"My work will result in [measurable outcome] by [date], as measured by [metric/system]."
+Scoring rubric.
+
+GOAL CATEGORY 3 — GROWTH GOALS (what I will learn or develop)
+"I will develop [specific skill or capability] by [method] and demonstrate mastery via [evidence]."
+Scoring rubric.
+
+Include: 3 example IC goal sets for different roles (Demand Gen Manager, Content Strategist, Product Marketing Manager) showing what great looks like vs. mediocre.
+
+**PART 5: RHYTHM OF BUSINESS**
+Weekly check-in template (async, 15 min to complete):
+- OKR pulse: RAG (Red/Amber/Green) status for each KR with 1-sentence update
+- This week's top 3 wins
+- Blockers requiring leadership input
+- Next week's 3 priorities
+
+Monthly marketing team meeting agenda (60 min):
+- Segment-by-segment: what's working, what isn't
+- Pipeline review with marketing-influenced pipeline waterfall
+- One deep-dive (rotate: demand gen, content, PMM, brand)
+- Cross-functional alignment items (sales, product, CS)
+
+QBR structure (90 min, quarterly):
+- Marketing's story of the quarter (narrative arc, not just metrics)
+- OKR scoring ceremony with candid red/yellow/green review
+- Attribution and pipeline contribution analysis
+- Learnings and experiments from the quarter
+- Next quarter OKR preview and team input session
+- Recognition: top contributor of the quarter
+
+**PART 6: PERFORMANCE REVIEW SYSTEM**
+Mid-year self-assessment template (2 pages max):
+- 5 accomplishments with quantified impact
+- 3 areas of growth demonstrated
+- 2 development priorities for H2
+- Peer collaboration reflection
+- Manager support request
+
+Annual review rubric for marketing ICs (5 dimensions):
+1. Results vs. Goals (OKR scores)
+2. Craft and quality of work
+3. Cross-functional collaboration
+4. Judgment and prioritization
+5. Growth trajectory
+
+For each dimension: behavioral anchors at "Below expectations," "Meets expectations," "Exceeds expectations," and "Outstanding."
+
+360 peer feedback questions (10 questions, designed to surface specific behavioral evidence):
+[Generate questions that reveal real performance data, not vague impressions]
+
+Promotion-readiness framework:
+- The difference between "performing at level N" vs. "ready for level N+1"
+- Leading indicators of promotion readiness (observable behaviors, not tenure)
+- How to have the promotion conversation: manager guide and IC guide
+
+**OUTPUT FORMAT:**
+Structure everything as a ready-to-use Notion document with clear H1/H2/H3 headers, tables where appropriate, and callout boxes for key principles. Every section should be immediately usable — no placeholders that require another round of writing.
+
+## Example Input/Output
+
+**Input Example:**
+- Company: Veridian Analytics (B2B data intelligence SaaS)
+- ARR: $11.2M, targeting $18M by year-end
+- Marketing team: 11 people (3 demand gen, 2 content, 2 PMM, 2 brand, 1 RevOps, 1 marketing manager)
+- Primary GTM: inbound-led with outbound overlay
+- Top company priorities: expand enterprise upmarket, reduce churn, launch new integrations ecosystem
+- Challenge: pipeline coverage at 2.1x target (need 3.5x), content is reactive
+
+**Output Example (Objective 1):**
+
+> **Objective: Establish Veridian as the undisputed data intelligence authority for enterprise RevOps teams**
+>
+> *Why this matters now: Our enterprise deal sizes are 4x SMB but we're losing to established players in late-stage evaluations due to brand credibility gaps. This quarter we build the proof points and distribution to win that conversation before the sales cycle starts.*
+>
+> Key Results:
+> - KR1: Publish 3 enterprise-specific research reports that earn 50+ citations from sales/analyst community by June 30 (Confidence: 7/10 — content team has capacity; distribution is the risk)
+> - KR2: Increase enterprise MQLs (500+ employee companies) from 47/month → 85/month (Confidence: 6/10 — intent signals exist; paid amplification budget approved)
+> - KR3: Achieve G2 Enterprise category rank from #7 → #4 with 30 net new verified enterprise reviews (Confidence: 8/10 — CS partnership established; review campaign templated)
+> - KR4: Marketing-sourced pipeline from enterprise segment: $0 → $1.8M by June 30 (Confidence: 5/10 — lagging indicator; dependent on sales cycle length)
+>
+> Scoring: 0.0 = <40 enterprise MQLs, pipeline <$800K | 0.7 = 70-84 MQLs, pipeline $1.4M-$1.8M | 1.0 = all KRs met | 1.3 = enterprise pipeline >$2.5M
+
+**Demand Gen Sub-team Cascaded OKR:**
+> *Objective: Build a repeatable enterprise demand engine that fills top-of-funnel with 500+ employee ICP accounts*
+>
+> KR1: Launch ABM program targeting 150 named enterprise accounts; achieve 40% engagement rate (marketing touchpoint) by May 31 — Owner: Demand Gen Lead, measured in HubSpot
+> KR2: Paid media ROAS from enterprise segments: $0.80 → $1.40 pipeline per $1 spent — Owner: Paid Media Manager, measured in Salesforce + Attribution tool
+
+## Success Metrics
+
+- **OKR health:** At least 80% of KRs have a confidence score >5 at quarter start; no KR is unscored by week 3
+- **Cascade completeness:** 100% of ICs have 3+ documented goals within 2 weeks of quarter start
+- **Review completion rate:** >90% of quarterly and annual reviews completed on time
+- **QBR quality:** Leadership can articulate marketing's pipeline contribution, CAC, and top 3 learnings without looking at slides
+- **Goal clarity:** In anonymous survey, >80% of marketing team members say they understand how their work connects to company revenue goals
+- **OKR scoring accuracy:** Predicted confidence scores at quarter start correlate >0.6 with actual Q-end scores (team is learning to set realistic targets)
+
+## Related Prompts
+
+- [`../../01_CMO-&-Leadership/Strategy-&-Planning/Marketing-Budget-Allocation-Engine.md`](../../01_CMO-&-Leadership/Strategy-&-Planning/Marketing-Budget-Allocation-Engine.md)
+- [`../../01_CMO-&-Leadership/Reporting-&-ROI/CMO-Board-Presentation-Builder.md`](../../01_CMO-&-Leadership/Reporting-&-ROI/CMO-Board-Presentation-Builder.md)
+- [`../../01_CMO-&-Leadership/Team-Building-&-Org-Design/Marketing-Team-Org-Design-Hiring-Prioritization-Engine.md`](../../01_CMO-&-Leadership/Team-Building-&-Org-Design/Marketing-Team-Org-Design-Hiring-Prioritization-Engine.md)
+- [`../../05_Analytics-&-Marketing-Operations/KPI-Dashboard-Creation/Marketing-Anomaly-Detection-Performance-Alerting-Engine.md`](../../05_Analytics-&-Marketing-Operations/KPI-Dashboard-Creation/Marketing-Anomaly-Detection-Performance-Alerting-Engine.md)
+
+## Integration Tips
+
+- **Notion:** Paste the full OKR output into a Notion database with properties for Owner, Status (RAG), Confidence, and Quarter. Use Notion's formula field to auto-calculate weighted OKR scores. Link sub-team OKRs to team OKRs using Notion Relations.
+- **Google Sheets:** Create a master OKR tracker with one tab per objective, weekly check-in columns, and a dashboard tab that aggregates scores using AVERAGEIF formulas.
+- **Slack:** Set up a weekly recurring Slack reminder (via Workflow Builder) that prompts each team member to paste their async check-in update in the #marketing-okr-updates channel.
+- **Salesforce + HubSpot:** Map each KR that references pipeline or MQL metrics directly to a saved report in your CRM. Paste the report URL into the OKR tracker so progress updates are one click away.
+- **Lattice / Leapsome / 15Five:** Import the IC goal framework and performance review rubric into your performance management tool to run reviews at scale. Use the 360 questions as custom survey templates.
+- **Linear / Asana:** For output-based KRs (deliverables, campaigns), link each KR to the corresponding project in your project management tool so work and goals stay synchronized.
+
+## Troubleshooting
+
+- **Problem: OKRs get set but ignored by week 4 of the quarter.**
+  Solution: The weekly check-in ritual is non-negotiable. Assign a Marketing Ops person to own the rhythm — send the template every Monday, aggregate responses Tuesday, highlight blockers in the leadership Slack channel. If the check-in takes >20 minutes, the template is too complex; strip it down to 5 fields.
+
+- **Problem: Key results feel gamed — team hits the number but misses the spirit of the objective.**
+  Solution: Add a "spirit check" to your QBR: for each achieved KR, ask "Did this result actually move us toward the objective?" If yes, celebrate it. If no, add a qualitative guardrail to the KR definition for next quarter. Example: MQL volume KR should include a quality threshold (SQLs generated or opportunity conversion rate), not just raw lead count.
+
+- **Problem: Individual contributors don't connect their goals to team OKRs — they just list their to-do list.**
+  Solution: Run a 30-minute "OKR alignment workshop" at the start of each quarter. Show the cascade on a single slide (Company → Marketing → Sub-team → IC). Ask each IC: "Which of your goals, if missed, would damage one of our team KRs?" If they can't answer, the goals need rewriting. Pair junior ICs with their manager for the first two quarters until goal-writing becomes a practiced skill.
+
+## Version History
+- v1.0: Initial creation (auto-generated)
