@@ -1,742 +1,344 @@
-# Marketing Attribution & ROI Engine - Revenue Impact Intelligence System
+# Marketing Attribution & ROI Intelligence Engine - Multi-Touch Revenue Attribution & Marketing ROI Modeling System
 
-**Difficulty:** Advanced | **Time:** 50 min | **Tags:** attribution, roi, analytics, measurement, revenue, performance
+**Difficulty:** Advanced | **Time:** 30 min | **Tags:** attribution, roi, revenue-intelligence, multi-touch, analytics, b2b, pipeline, reporting
 
 ## Overview
-Create comprehensive marketing attribution and ROI measurement systems that accurately track customer journeys, attribute revenue to marketing touchpoints, and optimize budget allocation based on true marketing contribution. This framework provides multi-touch attribution modeling, lifetime value analysis, and predictive ROI optimization for data-driven marketing investment decisions.
+Build a complete multi-touch attribution model for your marketing program, assign fractional revenue credit to every channel and campaign, and produce an executive-ready ROI report with budget reallocation recommendations. Use this when leadership questions marketing's revenue contribution, when CRM-reported pipeline doesn't match platform numbers, or when you need to choose between competing attribution methodologies.
 
 ## Quick Copy-Paste Version
 
-```
-Create a comprehensive marketing attribution and ROI analysis system for: [YOUR BUSINESS]
+You are a senior marketing analytics strategist specializing in B2B revenue attribution. Analyze the following funnel and channel data to produce a complete multi-touch attribution model with executive-ready ROI conclusions.
 
-Business Context:
-- Business Model: [B2B/B2C/SaaS/E-commerce/Services]
-- Average Deal Size: [Dollar amount]
-- Sales Cycle Length: [Days/weeks/months]
-- Marketing Channels: [List primary channels - paid ads, email, content, etc.]
-- Current Tracking: [Google Analytics, CRM, attribution tools]
-- Attribution Challenge: [What's hard to measure currently]
+**Company Context:**
+- B2B SaaS | ACV: $28,000 | Sales cycle: 67 days | Close rate (SQL to Closed-Won): 22%
+- Total marketing budget last quarter: $180,000
+- Total Closed-Won revenue last quarter: $1,260,000 (45 deals)
+- CRM: HubSpot | Primary conversion events: Demo Request → SQL → Closed-Won
 
-Generate a complete attribution system including:
-1. Multi-touch attribution model setup (first-touch, last-touch, linear, time-decay)
-2. Customer journey mapping and touchpoint analysis
-3. Channel-specific ROI calculation and optimization
-4. Marketing mix modeling for budget allocation
-5. Lifetime value attribution and prediction
-6. Cross-device and cross-channel tracking integration
-7. Executive dashboard with actionable insights
+**Touchpoint Data (Last Quarter, from CRM contact activity logs):**
 
-Include specific implementation steps, measurement frameworks, and optimization recommendations.
-```
+Touchpoints recorded across all 45 closed deals (total touchpoints: 612):
+- Organic Search (SEO blog + landing pages): 148 touchpoints, appeared in 38 of 45 deals
+- LinkedIn Ads (Sponsored Content + Lead Gen Forms): 97 touchpoints, appeared in 29 of 45 deals
+- Google Ads (Search): 84 touchpoints, appeared in 31 of 45 deals
+- Email Nurture (HubSpot sequences): 112 touchpoints, appeared in 41 of 45 deals
+- Direct / Dark Social (unknown source): 89 touchpoints, appeared in 35 of 45 deals
+- Content Downloads (gated whitepapers, ROI calculators): 52 touchpoints, appeared in 24 of 45 deals
+- Webinar / Virtual Event: 18 touchpoints, appeared in 11 of 45 deals
+- Referral / Partner: 12 touchpoints, appeared in 8 of 45 deals
+
+**Channel Spend Last Quarter:**
+- LinkedIn Ads: $62,000
+- Google Ads: $48,000
+- Content Production (blog, whitepapers): $28,000
+- Email Marketing (platform + labor): $14,000
+- Webinar Hosting: $11,000
+- SEO (agency + tools): $17,000
+Total: $180,000
+
+Run ALL four attribution models below and present results in a single comparison table:
+
+1. **First-Touch:** 100% credit to the first touchpoint recorded in each deal
+2. **Last-Touch:** 100% credit to the touchpoint immediately before demo request or opportunity creation
+3. **Linear:** Equal credit distributed across all touchpoints in each deal
+4. **W-Shaped (Position-Based):** 40% credit to first touch, 40% to lead creation touch, 20% distributed across middle touches
+
+For each model, produce:
+- Revenue attributed per channel
+- ROI per channel (attributed revenue / channel spend)
+- MQL and SQL contribution estimate per channel
+- Recommended channel investment action (Scale / Hold / Optimize / Cut)
+
+Then recommend which attribution model to adopt as primary and why, based on the sales cycle length and touchpoint distribution shown. Close with a 90-day budget reallocation recommendation showing exact dollar moves.
 
 ## Advanced Customizable Version
 
-```
-You are a world-class marketing analytics expert and attribution strategist with deep expertise in marketing measurement, statistical modeling, and revenue optimization. Your specialization is building sophisticated attribution systems that provide accurate marketing ROI measurement and enable data-driven budget optimization for complex multi-channel marketing environments.
-
-Create a comprehensive marketing attribution and ROI measurement system for: [BUSINESS CONTEXT]
-
-**BUSINESS AND MARKETING CONTEXT:**
-- Industry Sector: [Technology/Healthcare/Financial/Retail/B2B Services/etc.]
-- Business Model: [B2B/B2C/Marketplace/Subscription/Transaction/Hybrid]
-- Revenue Model: [One-time purchase/Subscription/Usage-based/Services/Mixed]
-- Customer Journey: [Simple/Complex/Multi-stakeholder/Long consideration]
-- Sales Process: [Self-service/Sales-assisted/Enterprise sales/Channel]
-- Marketing Complexity: [Single channel/Multi-channel/Omnichannel/Integrated]
-- Data Maturity: [Basic tracking/Advanced analytics/Predictive modeling/AI-powered]
-- Attribution Needs: [Campaign optimization/Budget allocation/Channel performance/ROI measurement]
-
-**COMPREHENSIVE MARKETING ATTRIBUTION FRAMEWORK:**
-
-**1. MULTI-TOUCH ATTRIBUTION MODEL ARCHITECTURE:**
-
-**Advanced Attribution Modeling Engine:**
-```python
-# Marketing Attribution Intelligence System
-class MarketingAttributionEngine:
-    def __init__(self, customer_journey_data, revenue_data):
-        self.journey_data = customer_journey_data
-        self.revenue_data = revenue_data
-        self.attribution_models = self.build_attribution_models()
-        self.measurement_framework = self.create_measurement_system()
-        
-    def build_attribution_models(self):
-        """Create multiple attribution models for comparison and optimization"""
-        return {
-            'first_touch': self.create_first_touch_model(),
-            'last_touch': self.create_last_touch_model(),
-            'linear': self.create_linear_attribution_model(),
-            'time_decay': self.create_time_decay_model(),
-            'position_based': self.create_position_based_model(),
-            'data_driven': self.create_algorithmic_attribution_model(),
-            'markov_chain': self.create_markov_chain_model(),
-            'shapley_value': self.create_shapley_value_model()
-        }
-    
-    def create_algorithmic_attribution_model(self):
-        """Build machine learning-based attribution model"""
-        from sklearn.ensemble import RandomForestRegressor
-        import numpy as np
-        
-        # Feature engineering for touchpoint analysis
-        features = self.engineer_attribution_features()
-        
-        # Train model to predict conversion probability by touchpoint
-        attribution_model = RandomForestRegressor(
-            n_estimators=100,
-            max_depth=10,
-            random_state=42
-        )
-        
-        attribution_model.fit(features['X_train'], features['y_train'])
-        
-        # Calculate feature importance for attribution weights
-        attribution_weights = self.calculate_attribution_weights(
-            attribution_model.feature_importances_
-        )
-        
-        return {
-            'model': attribution_model,
-            'weights': attribution_weights,
-            'accuracy': self.validate_model_accuracy(attribution_model, features),
-            'implementation': self.create_model_implementation_guide()
-        }
-    
-    def calculate_revenue_attribution(self, attribution_model, time_period):
-        """Calculate revenue attribution across all marketing touchpoints"""
-        touchpoint_revenue = {}
-        
-        for customer_journey in self.get_converted_journeys(time_period):
-            journey_revenue = customer_journey.revenue_value
-            touchpoint_weights = attribution_model.calculate_weights(customer_journey.touchpoints)
-            
-            for touchpoint, weight in touchpoint_weights.items():
-                attributed_revenue = journey_revenue * weight
-                
-                if touchpoint.channel not in touchpoint_revenue:
-                    touchpoint_revenue[touchpoint.channel] = {
-                        'attributed_revenue': 0,
-                        'touchpoint_count': 0,
-                        'unique_customers': set()
-                    }
-                
-                touchpoint_revenue[touchpoint.channel]['attributed_revenue'] += attributed_revenue
-                touchpoint_revenue[touchpoint.channel]['touchpoint_count'] += 1
-                touchpoint_revenue[touchpoint.channel]['unique_customers'].add(customer_journey.customer_id)
-        
-        return self.calculate_channel_performance_metrics(touchpoint_revenue)
-```
-
-**Attribution Model Comparison Framework:**
-```
-Marketing Attribution Model Analysis:
-
-MODEL 1: FIRST-TOUCH ATTRIBUTION
-Definition: 100% credit to first marketing touchpoint
-Best For: Brand awareness and top-of-funnel optimization
-Limitations: Ignores nurturing and conversion touchpoints
-
-Analysis Results:
-- Google Ads: 45% of attributed revenue ($2.3M)
-- Organic Search: 25% of attributed revenue ($1.3M)
-- Social Media: 15% of attributed revenue ($750K)
-- Direct Traffic: 10% of attributed revenue ($500K)
-- Email Marketing: 5% of attributed revenue ($250K)
-
-Insights: Overvalues awareness channels, undervalues conversion channels
-
-MODEL 2: LAST-TOUCH ATTRIBUTION  
-Definition: 100% credit to final marketing touchpoint before conversion
-Best For: Conversion optimization and closing channel performance
-Limitations: Ignores awareness and consideration influence
-
-Analysis Results:
-- Email Marketing: 40% of attributed revenue ($2.0M)
-- Direct Traffic: 30% of attributed revenue ($1.5M)
-- Google Ads: 20% of attributed revenue ($1.0M)
-- Organic Search: 7% of attributed revenue ($350K)
-- Social Media: 3% of attributed revenue ($150K)
-
-Insights: Overvalues closing channels, undervalues awareness building
-
-MODEL 3: LINEAR ATTRIBUTION
-Definition: Equal credit distributed across all touchpoints in customer journey
-Best For: Balanced view of all marketing contributions
-Limitations: Assumes all touchpoints have equal influence
-
-Analysis Results:
-- Google Ads: 28% of attributed revenue ($1.4M)
-- Email Marketing: 25% of attributed revenue ($1.25M)
-- Organic Search: 20% of attributed revenue ($1.0M)
-- Direct Traffic: 15% of attributed revenue ($750K)
-- Social Media: 12% of attributed revenue ($600K)
-
-Insights: Provides balanced view but may not reflect true influence patterns
-
-MODEL 4: TIME-DECAY ATTRIBUTION
-Definition: More credit to touchpoints closer to conversion
-Best For: Balancing awareness and conversion with recency bias
-Configuration: 7-day half-life decay function
-
-Analysis Results:
-- Email Marketing: 35% of attributed revenue ($1.75M)
-- Google Ads: 25% of attributed revenue ($1.25M)
-- Direct Traffic: 20% of attributed revenue ($1.0M)
-- Organic Search: 12% of attributed revenue ($600K)
-- Social Media: 8% of attributed revenue ($400K)
-
-Insights: Balances awareness and conversion with logical recency weighting
-
-MODEL 5: POSITION-BASED (U-SHAPED) ATTRIBUTION
-Definition: 40% to first touch, 40% to last touch, 20% distributed among middle
-Best For: Emphasizing awareness and conversion while acknowledging nurturing
-Configuration: 40%-20%-40% split
-
-Analysis Results:
-- Google Ads: 32% of attributed revenue ($1.6M) - Strong first and last touch
-- Email Marketing: 30% of attributed revenue ($1.5M) - Strong conversion influence
-- Organic Search: 18% of attributed revenue ($900K) - Consistent throughout journey
-- Direct Traffic: 12% of attributed revenue ($600K) - Strong conversion influence
-- Social Media: 8% of attributed revenue ($400K) - Primarily awareness
-
-Insights: Highlights importance of both awareness and conversion optimization
-
-MODEL 6: DATA-DRIVEN ALGORITHMIC ATTRIBUTION
-Definition: Machine learning model analyzing conversion contribution patterns
-Best For: Most accurate attribution based on actual conversion behavior
-Model Accuracy: 87% prediction accuracy on holdout data
-
-Analysis Results:
-- Email Marketing: 31% of attributed revenue ($1.55M) - High conversion influence
-- Google Ads: 29% of attributed revenue ($1.45M) - Strong across full funnel
-- Organic Search: 19% of attributed revenue ($950K) - Consistent quality traffic
-- Direct Traffic: 13% of attributed revenue ($650K) - Brand-driven conversions
-- Social Media: 8% of attributed revenue ($400K) - Awareness and social proof
-
-Insights: Most accurate representation of true marketing contribution
-
-RECOMMENDED ATTRIBUTION MODEL: Data-Driven with Time-Decay validation
-Rationale: Highest accuracy with logical recency weighting for operational decisions
-```
-
-**2. CUSTOMER JOURNEY MAPPING AND ANALYSIS:**
-
-**Comprehensive Journey Intelligence:**
-
-**Customer Journey Analysis Framework:**
-```python
-# Customer Journey Analytics Engine
-class CustomerJourneyAnalytics:
-    def __init__(self, touchpoint_data, conversion_data):
-        self.touchpoint_data = touchpoint_data
-        self.conversion_data = conversion_data
-        self.journey_patterns = self.analyze_journey_patterns()
-        self.path_analysis = self.conduct_path_analysis()
-        
-    def analyze_conversion_paths(self):
-        """Identify high-performing customer journey patterns"""
-        journey_analysis = {}
-        
-        # Group journeys by conversion outcome
-        converted_journeys = self.get_converted_customer_journeys()
-        non_converted_journeys = self.get_non_converted_customer_journeys()
-        
-        # Analyze journey characteristics
-        for journey_type, journeys in {'converted': converted_journeys, 'non_converted': non_converted_journeys}.items():
-            journey_analysis[journey_type] = {
-                'average_touchpoints': self.calculate_average_touchpoints(journeys),
-                'average_journey_length': self.calculate_average_duration(journeys),
-                'most_common_paths': self.identify_common_paths(journeys),
-                'channel_sequences': self.analyze_channel_sequences(journeys),
-                'conversion_accelerators': self.identify_conversion_accelerators(journeys)
-            }
-        
-        return self.generate_journey_insights(journey_analysis)
-    
-    def identify_optimal_journey_paths(self):
-        """Find highest-converting customer journey patterns"""
-        path_performance = {}
-        
-        # Analyze all unique customer paths
-        unique_paths = self.extract_unique_customer_paths()
-        
-        for path in unique_paths:
-            if len(path.customers) >= 20:  # Minimum sample size
-                path_performance[path.sequence] = {
-                    'conversion_rate': path.conversion_rate,
-                    'average_revenue': path.average_customer_value,
-                    'path_frequency': len(path.customers),
-                    'average_journey_time': path.average_duration,
-                    'drop_off_points': self.identify_drop_off_points(path),
-                    'optimization_opportunities': self.identify_optimization_opportunities(path)
-                }
-        
-        return sorted(path_performance.items(), key=lambda x: x[1]['conversion_rate'], reverse=True)
-```
-
-**Customer Journey Intelligence Report:**
-```
-Customer Journey Analysis: High-Performing Path Identification
-
-TOP-PERFORMING CONVERSION PATHS:
-
-Path 1: The "Research-First" Journey (Conversion Rate: 34%)
-Sequence: Organic Search → Blog Content → Email Signup → Email Nurture → Demo Request → Sales Call → Conversion
-- Average Journey Time: 45 days
-- Average Customer Value: $3,200
-- Path Frequency: 23% of all conversions
-- Key Success Factors: High-quality educational content, targeted email nurturing
-
-Optimization Opportunities:
-- Accelerate demo request through content CTAs (+15% potential improvement)
-- Personalize email content based on blog topics (+8% potential improvement)
-- Add social proof in email sequence (+12% potential improvement)
-
-Path 2: The "Referral-Driven" Journey (Conversion Rate: 42%)
-Sequence: Direct/Referral → Homepage → Product Pages → Pricing → Demo Request → Conversion
-- Average Journey Time: 18 days
-- Average Customer Value: $4,100
-- Path Frequency: 15% of all conversions
-- Key Success Factors: Strong referral program, clear value proposition, streamlined demo process
-
-Optimization Opportunities:
-- Strengthen referral incentives (+10% potential improvement)
-- Optimize pricing page for referral traffic (+7% potential improvement)
-- Add customer testimonials on homepage (+13% potential improvement)
-
-Path 3: The "Paid-to-Trial" Journey (Conversion Rate: 28%)
-Sequence: Google Ads → Landing Page → Free Trial → Product Onboarding → Conversion
-- Average Journey Time: 14 days (trial period)
-- Average Customer Value: $2,800
-- Path Frequency: 31% of all conversions
-- Key Success Factors: Targeted ad copy, optimized landing pages, effective onboarding
-
-Optimization Opportunities:
-- Improve trial-to-paid conversion in onboarding (+20% potential improvement)
-- Add urgency elements to trial expiration (+9% potential improvement)
-- Implement usage-based trial extension (+14% potential improvement)
-
-UNDERPERFORMING PATH ANALYSIS:
-
-Path: The "Social-to-Site" Journey (Conversion Rate: 8%)
-Sequence: Social Media → Website → Content → Exit (No Conversion)
-- Average Journey Time: 3 days before drop-off
-- Drop-off Point: 67% exit after first content piece
-- Path Frequency: 18% of all traffic (high volume, low conversion)
-
-Optimization Strategy:
-- Implement social-specific landing pages (+25% retention improvement)
-- Add social proof and testimonials (+15% conversion improvement)
-- Create social-specific content offers (+20% email capture improvement)
-- Retargeting campaign for social visitors (+30% return visit improvement)
-
-JOURNEY ACCELERATION OPPORTUNITIES:
-
-High-Impact Optimizations:
-1. Email Nurture Enhancement: Add behavioral triggers based on content consumption (+18% conversion rate improvement)
-2. Demo Process Optimization: Reduce friction and add instant scheduling (+22% demo-to-sale improvement)
-3. Retargeting Integration: Cross-channel retargeting for abandoned journeys (+35% re-engagement improvement)
-4. Progressive Profiling: Gradual information collection for better personalization (+14% conversion improvement)
-
-Channel Interaction Analysis:
-- Email + Content: 45% higher conversion when combined vs. standalone
-- Paid + Organic: 62% higher lifetime value when both touchpoints present
-- Social + Direct: 28% faster conversion when social precedes direct traffic
-- Demo + Email: 73% higher deal size when demo follows email nurturing
-```
-
-**3. CHANNEL-SPECIFIC ROI CALCULATION AND OPTIMIZATION:**
-
-**Advanced ROI Measurement Framework:**
-
-**Multi-Dimensional ROI Analysis:**
-```python
-# Channel ROI Optimization Engine
-class ChannelROIEngine:
-    def __init__(self, channel_data, attribution_model, cost_data):
-        self.channel_data = channel_data
-        self.attribution_model = attribution_model
-        self.cost_data = cost_data
-        self.roi_calculations = self.calculate_comprehensive_roi()
-        
-    def calculate_channel_roi_metrics(self):
-        """Calculate multiple ROI metrics for comprehensive analysis"""
-        roi_metrics = {}
-        
-        for channel in self.channel_data:
-            # Basic ROI calculation
-            attributed_revenue = self.attribution_model.get_attributed_revenue(channel)
-            channel_investment = self.cost_data.get_channel_cost(channel)
-            
-            # Advanced ROI metrics
-            roi_metrics[channel.name] = {
-                'basic_roi': (attributed_revenue - channel_investment) / channel_investment,
-                'roas': attributed_revenue / channel_investment,
-                'customer_acquisition_cost': channel_investment / channel.acquired_customers,
-                'lifetime_value_roi': self.calculate_ltv_roi(channel),
-                'payback_period': self.calculate_payback_period(channel),
-                'marginal_roi': self.calculate_marginal_roi(channel),
-                'brand_value_contribution': self.estimate_brand_value_impact(channel),
-                'market_share_impact': self.calculate_market_share_contribution(channel)
-            }
-        
-        return self.create_roi_optimization_recommendations(roi_metrics)
-    
-    def optimize_budget_allocation(self, total_budget, constraints):
-        """Optimize budget allocation across channels for maximum ROI"""
-        from scipy.optimize import minimize
-        
-        # Define optimization objective function
-        def negative_total_roi(budget_allocation):
-            total_roi = 0
-            for i, channel in enumerate(self.channels):
-                channel_budget = budget_allocation[i]
-                channel_roi = self.predict_channel_roi_at_budget(channel, channel_budget)
-                total_roi += channel_roi * channel_budget
-            return -total_roi  # Negative because we want to maximize
-        
-        # Define constraints
-        budget_constraints = [
-            {'type': 'eq', 'fun': lambda x: sum(x) - total_budget},  # Total budget constraint
-            {'type': 'ineq', 'fun': lambda x: x}  # Non-negative budget constraint
-        ]
-        
-        # Add channel-specific constraints
-        for constraint in constraints:
-            budget_constraints.append(constraint)
-        
-        # Optimize budget allocation
-        initial_allocation = [total_budget / len(self.channels)] * len(self.channels)
-        optimization_result = minimize(
-            negative_total_roi,
-            initial_allocation,
-            method='SLSQP',
-            constraints=budget_constraints
-        )
-        
-        return self.format_optimization_results(optimization_result)
-```
-
-**Channel ROI Performance Analysis:**
-```
-Channel ROI Analysis and Optimization Report:
-
-CHANNEL PERFORMANCE MATRIX:
-
-Google Ads - Paid Search:
-- Investment: $150,000 | Attributed Revenue: $750,000
-- ROI: 400% | ROAS: 5.0:1 | CAC: $125
-- Lifetime Value ROI: 850% (including repeat purchases)
-- Payback Period: 3.2 months
-- Marginal ROI: 320% (ROI of last $10K spent)
-- Performance Rating: ⭐⭐⭐⭐⭐ (Excellent)
-
-Optimization Recommendations:
-- Increase budget by 40% ($60K) for estimated +$240K revenue
-- Focus on high-performing long-tail keywords
-- Implement smart bidding for 15% efficiency gain
-- Expected ROI improvement: 380% → 420%
-
-Email Marketing:
-- Investment: $25,000 | Attributed Revenue: $312,000
-- ROI: 1,148% | ROAS: 12.5:1 | CAC: $18
-- Lifetime Value ROI: 2,100% (high retention channel)
-- Payback Period: 0.8 months
-- Marginal ROI: 890% (still highly efficient at scale)
-- Performance Rating: ⭐⭐⭐⭐⭐ (Excellent)
-
-Optimization Recommendations:
-- Scale email program by 200% ($50K additional investment)
-- Implement advanced segmentation for +25% performance
-- Add behavioral triggers for +35% conversion improvement
-- Expected ROI improvement: 1,148% → 1,280%
-
-Content Marketing:
-- Investment: $80,000 | Attributed Revenue: $240,000
-- ROI: 200% | ROAS: 3.0:1 | CAC: $95
-- Lifetime Value ROI: 450% (long-term brand building)
-- Payback Period: 8.2 months
-- Marginal ROI: 165% (decreasing returns at higher spend)
-- Performance Rating: ⭐⭐⭐⭐ (Good)
-
-Optimization Recommendations:
-- Maintain current investment level (optimal point reached)
-- Focus on higher-converting content types
-- Improve content-to-email conversion rates
-- Expected ROI improvement: 200% → 230%
-
-Social Media Marketing:
-- Investment: $45,000 | Attributed Revenue: $90,000
-- ROI: 100% | ROAS: 2.0:1 | CAC: $180
-- Lifetime Value ROI: 280% (brand awareness value)
-- Payback Period: 12.5 months
-- Marginal ROI: 75% (diminishing returns)
-- Performance Rating: ⭐⭐⭐ (Fair)
-
-Optimization Recommendations:
-- Reduce budget by 30% ($13.5K) and reallocate
-- Focus on highest-performing platforms only
-- Shift to brand awareness metrics vs. direct conversion
-- Expected ROI improvement: 100% → 125%
-
-Trade Shows/Events:
-- Investment: $120,000 | Attributed Revenue: $180,000
-- ROI: 50% | ROAS: 1.5:1 | CAC: $400
-- Lifetime Value ROI: 185% (high-value customer acquisition)
-- Payback Period: 18 months
-- Marginal ROI: 25% (low efficiency)
-- Performance Rating: ⭐⭐ (Needs Improvement)
-
-Optimization Recommendations:
-- Reduce investment by 50% ($60K) and focus on tier-1 events
-- Improve lead qualification and follow-up processes
-- Add digital amplification of event participation
-- Expected ROI improvement: 50% → 85%
-
-OPTIMIZED BUDGET ALLOCATION:
-
-Current Allocation vs. Optimized Allocation:
-Channel | Current | Optimized | Change | Expected Revenue Impact
-Google Ads | $150K | $210K | +$60K | +$240K revenue
-Email Marketing | $25K | $75K | +$50K | +$625K revenue
-Content Marketing | $80K | $80K | $0 | Maintain current performance
-Social Media | $45K | $31.5K | -$13.5K | -$18K revenue (acceptable)
-Events | $120K | $60K | -$60K | -$30K revenue (efficiency gain)
-New Channels | $0 | $43.5K | +$43.5K | +$130K revenue (testing budget)
-
-Total Investment: $420K → $500K (+$80K investment)
-Expected Revenue: $1.572M → $2.519M (+$947K revenue)
-Overall ROI Improvement: 274% → 404% (+130 percentage points)
-
-MARGINAL ROI ANALYSIS:
-
-Channel Efficiency at Scale:
-- Email Marketing: ROI remains above 800% until $100K investment
-- Google Ads: ROI remains above 300% until $250K investment
-- Content Marketing: ROI drops below 150% after $90K investment
-- Social Media: ROI drops below 75% after $35K investment
-- Events: ROI negative above $80K investment
-
-Investment Priority Queue:
-1. Email Marketing expansion: +$50K for 1,250% ROI
-2. Google Ads scaling: +$60K for 380% ROI
-3. New channel testing: +$43.5K for 300% estimated ROI
-4. Content optimization: $0 additional, focus on conversion
-5. Social media reduction: -$13.5K, reallocate budget
-6. Events reduction: -$60K, focus on top-tier only
-```
-
-**4. MARKETING MIX MODELING AND ATTRIBUTION:**
-
-**Statistical Marketing Mix Analysis:**
-
-**Marketing Mix Modeling Framework:**
-```python
-# Marketing Mix Modeling Engine
-class MarketingMixModel:
-    def __init__(self, sales_data, marketing_data, external_factors):
-        self.sales_data = sales_data
-        self.marketing_data = marketing_data
-        self.external_factors = external_factors
-        self.mmm_model = self.build_marketing_mix_model()
-        
-    def build_marketing_mix_model(self):
-        """Build statistical model to understand marketing contribution"""
-        import pandas as pd
-        from sklearn.preprocessing import StandardScaler
-        from sklearn.linear_model import Ridge
-        from sklearn.metrics import r2_score
-        
-        # Prepare data with adstock and saturation curves
-        model_data = self.prepare_mmm_data()
-        
-        # Apply adstock transformation (carryover effects)
-        adstock_data = self.apply_adstock_transformation(model_data)
-        
-        # Apply saturation curves (diminishing returns)
-        saturated_data = self.apply_saturation_curves(adstock_data)
-        
-        # Build ridge regression model
-        X = saturated_data.drop(['revenue'], axis=1)
-        y = saturated_data['revenue']
-        
-        scaler = StandardScaler()
-        X_scaled = scaler.fit_transform(X)
-        
-        mmm_model = Ridge(alpha=1.0)
-        mmm_model.fit(X_scaled, y)
-        
-        # Calculate model performance
-        y_pred = mmm_model.predict(X_scaled)
-        model_r2 = r2_score(y, y_pred)
-        
-        return {
-            'model': mmm_model,
-            'scaler': scaler,
-            'feature_names': X.columns.tolist(),
-            'model_accuracy': model_r2,
-            'coefficients': dict(zip(X.columns, mmm_model.coef_)),
-            'baseline_contribution': self.calculate_baseline_contribution(y),
-            'channel_contributions': self.calculate_channel_contributions(mmm_model, X_scaled, X.columns)
-        }
-    
-    def simulate_budget_scenarios(self, scenario_budgets):
-        """Simulate revenue impact of different budget allocations"""
-        scenario_results = {}
-        
-        for scenario_name, budget_allocation in scenario_budgets.items():
-            # Transform budget allocation through adstock and saturation
-            transformed_inputs = self.transform_budget_inputs(budget_allocation)
-            
-            # Predict revenue with MMM model
-            scaled_inputs = self.mmm_model['scaler'].transform([transformed_inputs])
-            predicted_revenue = self.mmm_model['model'].predict(scaled_inputs)[0]
-            
-            # Calculate incremental impact
-            baseline_revenue = self.calculate_baseline_revenue()
-            incremental_revenue = predicted_revenue - baseline_revenue
-            
-            scenario_results[scenario_name] = {
-                'total_investment': sum(budget_allocation.values()),
-                'predicted_revenue': predicted_revenue,
-                'incremental_revenue': incremental_revenue,
-                'total_roi': incremental_revenue / sum(budget_allocation.values()) if sum(budget_allocation.values()) > 0 else 0,
-                'channel_contributions': self.calculate_scenario_contributions(budget_allocation)
-            }
-        
-        return scenario_results
-```
-
-Generate comprehensive marketing attribution and ROI measurement system with multi-touch attribution, customer journey analysis, channel optimization, and predictive budget allocation.
-```
+ROLE: You are a VP of Marketing Analytics with deep expertise in B2B revenue attribution, marketing mix modeling, and CFO-level ROI reporting. You use a combination of heuristic attribution models, cohort analysis, and incremental lift reasoning to give CMOs defensible, accurate numbers — not platform-inflated vanity metrics.
+
+BUSINESS CONTEXT:
+Company: [Company Name]
+Business model: [B2B SaaS / B2B Services / B2C E-commerce / D2C / Marketplace]
+ACV or Average Order Value: $[X]
+Sales cycle length: [X days]
+Close rate (SQL → Closed-Won): [X]%
+Marketing-sourced pipeline target: [X]% of total pipeline
+CRM platform: [HubSpot / Salesforce / Pipedrive / Other]
+Attribution window: [X days before first touch to deal creation]
+Total marketing budget: $[X] per [month/quarter]
+Total Closed-Won revenue (period): $[X] | Total deals: [X]
+Total pipeline generated (period): $[X] | Open opportunities: [X]
+
+TOUCHPOINT DATA:
+Provide either:
+(A) Touchpoint-level data: For each closed deal, list every touchpoint (channel, content, date, deal ID) — ideal if exporting from HubSpot Contact Activity or Salesforce Campaign Influence
+(B) Aggregate summary: Total touchpoints per channel across all closed deals, number of deals each channel appeared in, and average position (first / middle / last) per channel
+
+[Paste touchpoint data here]
+
+CHANNEL SPEND DATA:
+For each marketing channel active during the measurement period:
+Channel | Monthly/Quarterly Spend | Primary Goal | Primary Asset Type
+
+[Paste spend data here]
+
+DARK FUNNEL ESTIMATE:
+Direct / unknown source traffic %: [X]%
+Self-reported attribution data available (post-demo survey): [Yes/No]
+If yes, paste self-reported first-touch distribution: [Channel: X%]
+LinkedIn organic engagement estimate (impressions, not tracked): [X impressions/month]
+Community / word-of-mouth referral estimate: [X deals/quarter]
+
+ANALYSIS FRAMEWORK:
+
+1. FOUR-MODEL ATTRIBUTION COMPARISON
+
+Run all four models simultaneously and produce a master attribution table.
+
+FIRST-TOUCH MODEL:
+- Logic: 100% of deal revenue credited to the first recorded touchpoint for each contact/account
+- Best for: Brand awareness investment decisions, top-of-funnel channel evaluation
+- Limitation: Ignores all nurture, middle-funnel, and closing touches
+
+LAST-TOUCH MODEL:
+- Logic: 100% of deal revenue credited to the touchpoint immediately preceding opportunity creation or demo request
+- Best for: Conversion optimization, bottom-of-funnel investment decisions
+- Limitation: Inflates credit for demand capture channels (Google Search, retargeting) at the expense of demand creation channels (content, social)
+
+LINEAR MODEL:
+- Logic: Revenue divided equally across all touchpoints in the deal's history
+- Best for: Long sales cycles (60+ days) with many touchpoints; rewards consistent nurture
+- Limitation: Treats a 5-second ad impression identically to a 45-minute webinar
+
+W-SHAPED (POSITION-BASED) MODEL:
+- Logic: First touch = 40%, Lead creation touch = 40%, Remaining touches split the final 20%
+- Best for: B2B SaaS with a clear MQL/demo-request milestone; balances awareness and conversion credit
+- Limitation: 40/40/20 split is arbitrary — consider customizing based on sales cycle data
+
+TIME-DECAY MODEL (optional, for sales cycles > 90 days):
+- Logic: Touchpoints closer to deal close receive exponentially more credit (half-life: [X days])
+- Formula: Credit weight = e^(-λ × days_before_close), where λ = ln(2) / half_life
+- Best for: Complex enterprise sales with 3-12 month cycles
+
+RECOMMENDED MODEL SELECTION LOGIC:
+- Sales cycle < 30 days AND < 5 touchpoints per deal: Use Last-Touch
+- Sales cycle 30-90 days AND 5-15 touchpoints: Use W-Shaped
+- Sales cycle > 90 days AND > 15 touchpoints: Use Time-Decay or Linear
+- Any cycle, if self-reported survey data is available: Weight models 50% algorithmic + 50% self-reported
+
+2. DARK FUNNEL ADJUSTMENT
+
+The "Direct / Unknown" bucket in B2B attribution typically contains:
+- LinkedIn organic (impressions, comments, DMs not tracked by CRM)
+- Dark social shares (content shared in Slack, email, WhatsApp — no referrer)
+- Podcast / PR / analyst mentions
+- Word-of-mouth referrals not captured in CRM
+
+ADJUSTMENT METHODOLOGY:
+Step 1: Run post-demo survey asking "How did you first hear about us?" — collect for minimum 30 respondents
+Step 2: Map survey responses to channels — this gives self-reported first-touch distribution
+Step 3: Apply survey distribution to reallocate the "Direct / Unknown" revenue bucket
+Step 4: Recalculate all four models with adjusted dark funnel allocation
+Step 5: Report both pre- and post-adjustment numbers to leadership — flag the methodology difference
+
+If no survey data exists, apply this conservative heuristic for B2B SaaS:
+- LinkedIn organic: 30% of dark funnel
+- Word of mouth / referral: 25% of dark funnel
+- Podcast / PR / content share: 20% of dark funnel
+- Genuinely direct (typed URL): 25% of dark funnel
+
+3. CHANNEL ROI CALCULATION
+
+For each channel, calculate:
+
+Attributed Revenue (per chosen model): $[X]
+Channel Spend: $[X]
+Gross ROI: (Attributed Revenue - Channel Spend) / Channel Spend × 100 = [X]%
+Payback Period: Channel Spend / (Monthly Attributed Revenue) = [X] months
+
+Pipeline Contribution:
+- Marketing-Sourced Pipeline: Revenue of open opportunities where marketing was first touch
+- Marketing-Influenced Pipeline: Revenue of open opportunities where marketing appeared anywhere in journey
+
+B2B Benchmark Context (apply to score each channel):
+- Elite channel ROI (scale aggressively): > 500% ROI
+- Strong channel ROI (scale with optimization): 200–500% ROI
+- Breakeven zone (optimize before scaling): 50–200% ROI
+- Underperforming (diagnose or cut): < 50% ROI
+
+4. COHORT ANALYSIS BY DEAL SIZE
+
+Segment attribution results by deal size:
+- SMB (ACV < $10K): Which channels drive small deals fastest?
+- Mid-Market (ACV $10K–$100K): Which channels appear most in sweet-spot deals?
+- Enterprise (ACV > $100K): Which channels appear in largest deals?
+
+Insight goal: Identify if your highest-spend channels are optimized for your highest-value segments or if you're inadvertently generating low-ACV leads at premium CPL rates.
+
+5. TIME-TO-REVENUE ANALYSIS
+
+For each channel, calculate:
+- Average days from first touch to demo request: [X days]
+- Average days from demo request to Closed-Won: [X days]
+- Total average days from first touch to revenue: [X days]
+- Compare vs. company-average sales cycle: faster / slower / at parity
+
+Insight: Channels with below-average time-to-revenue are acceleration assets. Channels with above-average time-to-revenue are awareness/nurture assets. Budget them accordingly — do not cut a slow-but-necessary awareness channel based on last-touch ROI alone.
+
+6. INCREMENTALITY SANITY CHECK
+
+For your top 3 channels by attributed revenue, apply the incrementality question:
+"If we spent $0 on [Channel] for 90 days, what would actually happen to revenue?"
+
+Framework:
+- HIGH incrementality (cut = real revenue loss): Channels where your ICP can only discover you this way, or where competitors would capture that demand instead
+- MEDIUM incrementality (cut = partial revenue loss): Channels that accelerate deals but do not create them
+- LOW incrementality (cut = minimal revenue loss): Channels capturing demand already created by other channels
+
+Flag any channel where Last-Touch attribution is significantly higher than W-Shaped or Linear — this is the primary signal of a low-incrementality "credit-claiming" channel (typically: branded search, retargeting).
+
+7. EXECUTIVE ROI REPORT FORMAT
+
+Produce a board-ready summary with these sections:
+
+HEADLINE METRICS:
+- Total marketing investment: $[X]
+- Total Closed-Won revenue in period: $[X]
+- Marketing-sourced revenue (primary attribution model): $[X] ([X]% of total)
+- Marketing-influenced revenue: $[X] ([X]% of total)
+- Blended marketing ROI: [X]x return on every $1 invested
+- Cost per Closed Deal: $[X]
+- Marketing pipeline coverage ratio: $[X] pipeline / $[X] quota = [X]x
+
+CHANNEL SCORECARD TABLE:
+Channel | Spend | Attributed Revenue (W-Shaped) | ROI | Deals Influenced | Avg Deal ACV | Time to Revenue | Action
+
+NARRATIVE INSIGHTS (3-5 bullet points):
+- "Our #1 ROI channel is [X], returning $[X] for every $1 invested — we are leaving an estimated $[X] in pipeline uncaptured by not scaling this channel."
+- "Last-touch attribution was overcrediting [Channel] by [X]x vs. W-Shaped — after correcting for attribution inflation, its ROI drops to [X]%."
+- "Dark funnel accounts for [X]% of our deals. After self-reported survey adjustment, LinkedIn Organic is our #1 awareness driver despite generating $0 in last-touch revenue."
+
+8. 90-DAY BUDGET REALLOCATION PLAN
+
+Based on channel ROI and incrementality analysis:
+
+SCALE (increase budget):
+- Channel: [X] | Current spend: $[X]/mo | Recommended: $[X]/mo | Rationale: [ROI + incrementality logic]
+
+HOLD (maintain budget, optimize):
+- Channel: [X] | Current spend: $[X]/mo | Recommended: $[X]/mo | Optimize: [specific action]
+
+REALLOCATE (shift budget to higher-ROI channel):
+- From: [Channel A] $[X] | To: [Channel B] $[X] | Net budget neutral | Expected outcome: [metric]
+
+CUT (eliminate or pause):
+- Channel: [X] | Current spend: $[X]/mo | Recommended: $0 | Rationale: Low incrementality confirmed by [evidence]
+
+TEST BUDGET (10% of total budget reserved for new channels):
+- Hypothesis: [What you're testing and why] | Success metric: [X] | Measurement period: [X days]
+
+OUTPUT CONSTRAINTS:
+- All revenue numbers must distinguish between "attributed" (model output) and "verified" (CRM Closed-Won)
+- Flag any channel where platform-reported attribution exceeds CRM-verified contribution by > 2x — this is attribution window inflation
+- Do not recommend cutting a channel based solely on last-touch attribution without running the incrementality sanity check first
+- Every budget recommendation must cite specific evidence from the attribution analysis
 
 ## Example Input/Output
 
 **Input Example:**
-- Business Model: B2B SaaS CRM platform
-- Average Deal Size: $4,800 annually
-- Sales Cycle Length: 65 days average
-- Marketing Channels: Google Ads, LinkedIn Ads, Content Marketing, Email, Webinars, Trade Shows
-- Current Tracking: Google Analytics, HubSpot CRM, some UTM tracking
-- Attribution Challenge: Long sales cycles, multiple touchpoints, hard to measure content impact
+
+Company: Veritas Workflows — compliance automation SaaS for financial services
+ACV: $42,000 | Sales cycle: 74 days | Close rate: 19% | Budget: $210,000/quarter
+Closed-Won: $1,890,000 (45 deals) | CRM: Salesforce
+
+Touchpoints across 45 deals (total: 738 touchpoints):
+- Organic Search: 181 TPs, in 41/45 deals
+- Google Ads (Search): 94 TPs, in 33/45 deals
+- LinkedIn Ads: 112 TPs, in 28/45 deals
+- LinkedIn Organic (exec posts): 67 TPs, in 22/45 deals (tracked via UTM on bio links)
+- Email Nurture: 143 TPs, in 43/45 deals
+- Webinar (monthly compliance briefings): 41 TPs, in 19/45 deals
+- Direct / Unknown: 100 TPs, in 38/45 deals
+
+Channel spend: Google Ads $58K | LinkedIn Ads $72K | Content/SEO $31K | Email $16K | Webinars $18K | Events $15K
 
 **Output Example:**
 
-### Marketing Attribution System Architecture
+**Attribution Comparison Table:**
 
-**Multi-Touch Attribution Results:**
-```json
-{
-  "attribution_model": "data_driven_algorithmic",
-  "model_accuracy": "87%",
-  "confidence_interval": "±5%",
-  "attribution_results": {
-    "google_ads": {
-      "attributed_revenue": "$1,450,000",
-      "attribution_percentage": "29%",
-      "investment": "$180,000",
-      "roi": "706%"
-    },
-    "linkedin_ads": {
-      "attributed_revenue": "$950,000", 
-      "attribution_percentage": "19%",
-      "investment": "$120,000",
-      "roi": "692%"
-    },
-    "content_marketing": {
-      "attributed_revenue": "$1,200,000",
-      "attribution_percentage": "24%",
-      "investment": "$95,000",
-      "roi": "1,163%"
-    }
-  }
-}
-```
+| Channel | First-Touch Rev | Last-Touch Rev | Linear Rev | W-Shaped Rev | Spend | W-Shaped ROI |
+|---|---|---|---|---|---|---|
+| Organic Search | $756,000 | $283,500 | $461,434 | $582,750 | $31,000 | 1,780% |
+| Google Ads | $283,500 | $661,500 | $241,327 | $302,400 | $58,000 | 421% |
+| LinkedIn Ads | $189,000 | $189,000 | $287,247 | $264,600 | $72,000 | 267% |
+| LinkedIn Organic | $0 | $0 | $171,886 | $94,500 | $0 | ∞ |
+| Email Nurture | $0 | $378,000 | $366,819 | $283,500 | $16,000 | 1,672% |
+| Webinars | $189,000 | $94,500 | $105,230 | $198,450 | $18,000 | 1,003% |
+| Direct/Unknown | $472,500 | $283,500 | $256,057 | $163,800 | $0 | — |
 
-**Customer Journey Analysis:**
-- **Average Journey Length**: 8.3 touchpoints over 65 days
-- **Highest Converting Path**: Content → Email → LinkedIn Ad → Demo → Sale (42% conversion)
-- **Most Common Path**: Google Ad → Content → Email → Demo → Sale (28% conversion)
-- **Journey Acceleration Opportunity**: Add retargeting after content engagement (+23% faster conversion)
+**Recommended Model: W-Shaped**
+Rationale: 74-day sales cycle with a clearly defined demo-request milestone (MQL → SQL handoff) makes the W-Shaped model structurally appropriate. First touch and lead creation are the two highest-leverage moments in this funnel; distributing 40% credit to each captures that reality better than Linear (which undersells the importance of first touch) or Last-Touch (which overcredits Google Search by 2.3x).
 
-**Budget Optimization Recommendations:**
-```
-Current vs. Optimized Budget Allocation:
+**Key Insights:**
 
-Channel           | Current  | Optimized| Change   | Expected ROI
-Google Ads        | $180K    | $220K    | +$40K    | +$284K revenue
-LinkedIn Ads      | $120K    | $140K    | +$20K    | +$138K revenue  
-Content Marketing | $95K     | $95K     | $0       | Maintain efficiency
-Email Marketing   | $35K     | $65K     | +$30K    | +$375K revenue
-Trade Shows       | $150K    | $80K     | -$70K    | Focus on ROI
+1. **Email is massively undervalued by last-touch.** Last-touch attributes $378K to email (it's a common closing channel in a 74-day cycle). W-Shaped drops that to $283K — still the #3 channel. But the real insight: email's ROI is 1,672% because spend is only $16K. This is your highest-leverage channel per dollar invested.
 
-Total Investment: $580K → $600K (+$20K net)
-Expected Revenue: $5.0M → $5.8M (+$800K revenue)
-Overall ROI: 762% → 867% (+105 percentage points)
-```
+2. **Google Ads attribution inflation alert.** Last-touch gives Google Ads $661K (35% of all revenue). W-Shaped drops it to $302K (16%). Google Search is a demand capture channel for Veritas — it's capturing leads already warmed by Organic Search and LinkedIn. Incrementality score: MEDIUM. Do not scale Google Ads before scaling Organic Search and LinkedIn first.
 
-**Marketing Mix Model Insights:**
-- **Baseline Revenue**: 35% from organic/brand strength
-- **Paid Channels**: 45% of revenue attribution
-- **Owned Channels**: 20% of revenue attribution  
-- **Saturation Analysis**: Google Ads reaches diminishing returns at $250K spend
-- **Adstock Effects**: Content marketing shows 6-week carryover impact
+3. **LinkedIn Organic is your dark funnel anchor.** 22 of 45 closed deals had a tracked LinkedIn Organic touchpoint — and this undercounts actual influence since most LinkedIn impressions are untracked. After dark funnel adjustment (reallocating 30% of the Direct/Unknown bucket), LinkedIn Organic estimated attributed revenue rises to ~$220K with $0 spend. This is your highest-ROI asset. Invest in executive LinkedIn content immediately.
+
+4. **Webinar ROI is 1,003%.** 19 of 45 deals attended at least one webinar. At $18K/quarter cost, this is dramatically underinvested. Each webinar attendee who converts represents $42K ACV — at a CPL of approximately $947/attendee-who-closed.
+
+**90-Day Budget Reallocation:**
+
+| Action | Channel | Current | Recommended | Change |
+|---|---|---|---|---|
+| Scale | Content/SEO | $31K/qtr | $52K/qtr | +$21K |
+| Scale | Webinars | $18K/qtr | $34K/qtr | +$16K |
+| Scale | Email (automation + sequences) | $16K/qtr | $22K/qtr | +$6K |
+| Hold + Optimize | LinkedIn Ads | $72K/qtr | $65K/qtr | -$7K |
+| Reduce | Google Ads | $58K/qtr | $43K/qtr | -$15K |
+| New Test | LinkedIn Organic (content program) | $0 | $15K/qtr | +$15K |
+| Cut | Events (low attribution data) | $15K/qtr | $0 | -$15K |
+| **Net** | | **$210K** | **$231K** | **+$21K for 10% test budget** |
+
+**Projected Impact (90 days):**
+- Organic search pipeline: +$340K (increased content production)
+- Webinar-sourced deals: +6 deals/quarter at $42K ACV = +$252K pipeline
+- Google Ads savings reallocated to higher-ROI channels: net pipeline positive within 60 days
 
 ## Success Metrics
-- **Attribution Accuracy**: 85%+ confidence in revenue attribution
-- **ROI Improvement**: 20-40% improvement in marketing ROI through optimization
-- **Budget Efficiency**: 15-30% better budget allocation vs. gut-feel decisions
-- **Revenue Predictability**: ±10% accuracy in revenue forecasting
-- **Decision Speed**: 75% faster budget allocation decisions with data
+- Attribution model agreed upon by marketing, sales, and finance within one review cycle
+- Platform-reported revenue vs. CRM-verified revenue variance < 2x per channel
+- Marketing-sourced pipeline coverage ratio ≥ 3x monthly quota
+- Executive report reviewed and accepted by CFO/CEO without re-work requests
+- Budget reallocation implemented within 30 days of analysis completion
+- Quarterly attribution re-run scheduled and automated via Looker Studio or BI tool
 
 ## Related Prompts
-- [Marketing Performance Dashboard](../KPI-Dashboard-Creation/Marketing-Performance-Dashboard-Generator.md) - Visualize attribution results
-- [Customer Intelligence Knowledge Base](../AI-Knowledge-Base-Management/Customer-Intelligence-Knowledge-Base.md) - Customer journey data
-- [Annual Marketing Strategy](../../01_CMO-&-Leadership/Strategy-&-Planning/Annual-Marketing-Strategy-Framework.md) - Strategic budget planning
+- [Paid Media Cross-Channel Performance Intelligence Engine](./Paid-Media-Cross-Channel-Performance-Intelligence-Engine.md) - Optimize channel-level performance once attribution confirms budget priorities
+- [SEO Organic Performance Analytics Engine](./SEO-Organic-Performance-Analytics-Engine.md) - Deep-dive organic channel analysis to validate attribution-driven investment in SEO
+- [Marketing ROI Reporting Automation](../../01_CMO-&-Leadership/Reporting-&-ROI/Marketing-ROI-Reporting-Automation.md) - Automate ongoing ROI reporting once attribution methodology is established
+- [CMO Board Presentation Builder](../../01_CMO-&-Leadership/Reporting-&-ROI/CMO-Board-Presentation-Builder.md) - Convert attribution insights into board-level narrative and slides
 
 ## Integration Tips
-- **Google Analytics 4**: Set up custom conversion paths and attribution modeling
-- **HubSpot**: Use revenue attribution reports and multi-touch revenue attribution
-- **Salesforce**: Implement campaign influence and opportunity attribution
-- **Adobe Analytics**: Configure customer journey analytics and attribution IQ
-- **Bizible/Marketo Measure**: Advanced B2B attribution with sales integration
+- **Salesforce:** Use the Campaign Influence object with Salesforce's native multi-touch attribution. Go to Setup > Campaign Influence > enable "Auto-Association." Export via Reports > Campaign Reports > Campaign Influence with Primary Campaign Source. For custom W-Shaped logic, use the Customizable Campaign Influence model (requires Salesforce Enterprise+).
+- **HubSpot:** Navigate to Reports > Attribution > Revenue Attribution. HubSpot natively supports First-Touch, Last-Touch, Linear, U-Shaped (= W-Shaped without deal close touch), W-Shaped, and Full-Path models. Export the attribution breakdown as CSV and paste directly into the Advanced Version. Note: HubSpot attribution only tracks known contacts — anonymous website visits are not included.
+- **Google Looker Studio:** Connect HubSpot or Salesforce via native connectors. Build a blended attribution dashboard with model toggle (use a Looker Studio parameter to switch between models in a single view). Share with CFO and sales leadership for live review during QBRs.
+- **Google Sheets:** Use SUMIF formulas to calculate W-Shaped attribution manually from a touchpoint export. Template: Column A = Deal ID, Column B = Channel, Column C = Position (First/Middle/Last), Column D = Deal ACV. Then apply position-based weighting with IF statements.
+- **Segment / Rudderstack (CDP):** Route all website events through a CDP to unify anonymous pre-session behavior with known contact records. This dramatically reduces the "Direct/Unknown" bucket — typically from 30-40% down to 10-15% of touchpoints — by resolving identity across devices and sessions before first form fill.
+- **Zapier / Make:** Automate a monthly data pull from your CRM's attribution report into Google Sheets. Trigger an AI analysis run on the 1st of each month to produce a standing attribution report without manual data assembly. Send output summary via Slack to the marketing leadership channel.
+- **Self-Reported Attribution (Typeform/HubSpot Forms):** Add a "How did you first hear about us?" field to every demo request form. Route responses to a custom CRM property. After 60+ responses, query: `SELECT self_reported_channel, COUNT(*) FROM demo_requests GROUP BY 1` — this becomes your dark funnel decoder ring and should be weighted into the attribution model each quarter.
 
 ## Troubleshooting
 
-**Common Issues:**
+**Problem: Platform-reported ROAS is 5x higher than CRM-verified attributed revenue per channel.**
+Solution: This is attribution window inflation — the most common B2B attribution problem. Platforms default to claiming credit with generous windows (Google: 30-day click + 30-day view; Meta: 7-day click + 1-day view). Fix by: (1) Standardizing all platforms to a 7-day click, 0-day view window. (2) Using CRM Closed-Won revenue as your ground truth, not platform-reported conversions. (3) Running this attribution analysis from your CRM's activity log, not from platform dashboards. The discrepancy between platform numbers and CRM numbers is a known and expected gap — always present CRM-verified numbers to leadership and note that platform numbers overcount due to multi-platform overlap.
 
-**Problem**: Attribution models show conflicting results
-**Solution**: Use ensemble approach with multiple models, validate with incrementality testing, and establish model confidence intervals.
+**Problem: My Salesforce or HubSpot attribution shows most deals as "Direct" or "Unknown Source" — attribution data is sparse.**
+Solution: This means your CRM was not capturing touchpoints before opportunity creation. Fix going forward: (1) Install UTM tracking on all paid and email links using a consistent UTM taxonomy (utm_source, utm_medium, utm_campaign). (2) Enable HubSpot's "Original Source" and "Latest Source" properties on all contact records. (3) In Salesforce, turn on Campaign Influence auto-association for all active campaigns. (4) For historical analysis: use your ad platform dashboards to reconstruct first-touch distribution — cross-reference demo request dates with campaign impression/click dates to estimate channel contribution for dark-funnel-heavy periods.
 
-**Problem**: Long sales cycles make attribution difficult
-**Solution**: Implement view-through attribution windows, use predictive analytics for in-flight opportunities, and track micro-conversions as leading indicators.
-
-**Problem**: Cross-device tracking gaps in customer journeys
-**Solution**: Implement customer ID stitching, use probabilistic matching, and validate with survey data on customer behavior patterns.
-
-**Problem**: Offline touchpoints not captured in digital attribution
-**Solution**: Create unique campaign codes for offline channels, implement call tracking, and use survey attribution for events and PR.
-
-## Advanced Features
-
-### Machine Learning Attribution
-- Deep learning models for complex journey pattern recognition
-- Real-time attribution adjustment based on new conversion data
-- Predictive attribution for in-flight customer journeys
-- Automated model selection and ensemble optimization
-
-### Incrementality Testing
-- Geo-holdout testing for true channel incrementality
-- Time-based incrementality analysis with synthetic controls
-- Channel interaction effect measurement
-- Media saturation curve optimization
-
-### Advanced Analytics Integration
-- Customer lifetime value attribution and prediction
-- Cross-channel interaction effect modeling
-- Brand equity impact measurement and attribution
-- Competitive conquest attribution analysis
+**Problem: Sales leadership disputes marketing attribution, claiming deals were "sales-sourced" that marketing claims as "marketing-sourced."**
+Solution: This is a definitional dispute, not a data dispute. Solve it by establishing shared definitions before running attribution: (1) "Marketing-sourced" = first touchpoint in the deal was a marketing-owned channel (ads, content, email, SEO). (2) "Sales-sourced" = first touchpoint was SDR outreach, networking, or direct executive relationship. (3) "Marketing-influenced" = marketing appeared anywhere in the deal journey regardless of source. Present all three metrics in the executive report — total marketing-influenced pipeline is always the most politically defensible number because it does not require winning the "who sourced it" debate.
 
 ## Version History
-- v1.0: Comprehensive marketing attribution framework with multi-touch modeling, customer journey analysis, ROI optimization, and predictive budget allocation
+- v1.0: Initial creation (auto-generated)
