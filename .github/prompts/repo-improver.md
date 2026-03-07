@@ -91,7 +91,10 @@ How to use outputs with HubSpot, Salesforce, Notion, Google Sheets, Zapier, etc.
 
 ## Output Format
 
-First line: the file path (relative to repo root). Everything after: the file content. Nothing else.
+You are running in CI with no interactive approval. Do NOT use the Write tool or any file-writing tools. Output your response as plain text directly to stdout:
+- First line: the file path (relative to repo root)
+- Everything after: the file content
+- Nothing else. No explanations, no permission requests, no commentary.
 
 Example:
 
