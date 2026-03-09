@@ -51,3 +51,6 @@ DELETE: path/to/file.md
 To update/rewrite, output the full file content as usual.
 
 If multiple files need changes, pick the single highest-impact change this run.
+
+If no changes are needed, output exactly:
+NOCHANGES
