@@ -1,386 +1,455 @@
-# TikTok Ads Campaign Builder - Full-Funnel Short-Form Video Ad Strategy & Creative Generator
+# TikTok Ads Campaign Builder - B2C, D2C & B2B TikTok Advertising Intelligence Engine
 
-**Difficulty:** Advanced | **Time:** 20-30 min | **Tags:** tiktok-ads, short-form-video, paid-social, demand-generation, creator-economy
+**Difficulty:** Intermediate | **Time:** 15-25 min | **Tags:** tiktok-ads, paid-social, short-form-video, d2c-advertising, demand-generation
 
 ## Overview
-Generates a complete TikTok advertising campaign — from audience targeting and creative strategy to ad format selection, video scripts, and optimization rules — for any product or service. Use it when launching a new TikTok Ads campaign, scaling D2C or B2B2C spend on the platform, or rebuilding underperforming creative that does not match TikTok's native content culture.
+Builds complete TikTok advertising campaigns with platform-native creative strategy, audience segmentation, and bid optimization across all TikTok ad formats. Use when you want to reach high-intent consumers and younger professional buyers with video-first creative that generates measurable pipeline, ROAS, or brand lift.
 
 ## Quick Copy-Paste Version
 
-You are an expert TikTok Ads strategist with deep knowledge of TikTok Ads Manager, short-form video creative psychology, and full-funnel campaign architecture.
+You are a TikTok Ads specialist building a complete campaign for [Your Product/Service].
 
-Build a complete TikTok ad campaign for:
-- Product/Service: [Your Product / App / Physical Product / Service]
-- Target audience: [e.g., women 25-34 interested in skincare and wellness]
-- Monthly budget: $[X]
-- Goal: [Awareness / App Installs / Lead Gen / Purchases / Website Traffic]
-- Average order value or product price: $[X]
+PRODUCT: [Your Product] — [1-sentence description of what it does and who it's for]
+TARGET AUDIENCE: [Demographics + psychographics, e.g., "Women 25-34 interested in skincare and wellness"]
+GOAL: [App installs / E-commerce ROAS / Lead gen / Brand awareness / Video views]
+MONTHLY BUDGET: $[X]
+GEOGRAPHIC TARGETS: [US only / Global / Specific countries]
 
-Deliver:
+Build a complete TikTok Ads campaign including:
 
-1. CAMPAIGN ARCHITECTURE
-   - Recommended campaign objectives and budget split % across funnel stages
-   - Ad formats for each stage: TopView, Brand Takeover, In-Feed Ads, Spark Ads, Branded Hashtag Challenge, Collection Ads
-   - Bidding strategies per campaign (CPM, CPV, CPC, oCPM, Target CPA)
+1. AUDIENCE TARGETING STRATEGY
+   - Core interest and behavioral categories to target
+   - Custom audience recommendations (pixel retargeting, email upload, engagement-based)
+   - Lookalike audience seed list strategy
+   - Demographics: age range, gender, device, operating system
+   - Audience exclusions to avoid wasted spend
 
-2. AUDIENCE TARGETING STACK
-   - Interest and behavior targeting combinations
-   - Custom Audience strategy (website visitors, customer list upload, app activity)
-   - Lookalike Audience setup from seed lists
-   - Remarketing sequences (video viewers, profile visitors, website visitors)
-   - Negative audience exclusions
+2. AD FORMAT SELECTION
+   - Recommended format mix with budget allocation rationale
+   - In-Feed Ads: number of creatives, placement strategy
+   - Spark Ads: organic post amplification opportunities
+   - TopView or Brand Takeover: only if budget > $X/day
+   - TikTok Shopping Ads: if e-commerce, product catalog strategy
 
-3. VIDEO AD SCRIPTS & CREATIVE BRIEFS (write all of these)
-   - 9-second awareness hook (pattern interrupt for the For You Page)
-   - 15-second In-Feed Ad (native-feel, no logo-first)
-   - 30-second In-Feed Ad (problem-agitate-solve structure)
-   - Spark Ad brief (how to brief a creator for authentic UGC)
+3. CREATIVE BRIEFS (write full scripts for all)
+   - 3 In-Feed video scripts (15-60 seconds each)
+   - Hook (first 3 seconds — the make-or-break moment)
+   - Body (problem-solution or story arc)
+   - CTA (verbal + on-screen overlay text)
+   - Visual/transition direction notes
+   - On-screen text overlays and captions
+   - Sound/music strategy (trending audio vs. original)
 
-4. CAMPAIGN SETTINGS & OPTIMIZATION RULES
-   - Device, placement, and dayparting recommendations
-   - Frequency caps and creative rotation rules
-   - Automated rules: when to pause, when to scale, CPA thresholds
-   - Content safety: inventory filter and category exclusions
+4. CAMPAIGN STRUCTURE
+   - Campaign objective with rationale
+   - Ad group breakdown by audience segment
+   - Bid strategy: Cost Cap / Bid Cap / Lowest Cost recommendation
+   - Daily budget per ad group with scaling triggers
+   - A/B testing framework for creative and audiences
 
-5. 30-DAY OPTIMIZATION ROADMAP
-   - Week 1: Launch checklist and early signals to watch
-   - Week 2: Creative performance analysis triggers
-   - Week 3: Audience expansion and Lookalike testing
-   - Week 4: Scale or cut decision framework
+5. LANDING PAGE ALIGNMENT
+   - Mobile-first landing page requirements for TikTok traffic
+   - Above-the-fold element that matches video energy
+   - Load speed requirements (TikTok users bounce in < 3 seconds)
+   - Checkout/lead form optimization for TikTok-sourced traffic
 
-Format everything as structured tables and numbered lists ready to execute in TikTok Ads Manager.
+6. TIKTOK-SPECIFIC OPTIMIZATION RULES
+   - Creative refresh cadence (TikTok fatigue: 7-14 days)
+   - Sound-on vs. sound-off strategy
+   - Aspect ratio and safe zones for text overlays
+   - Trending sounds and effects to leverage without going stale
+
+7. MEASUREMENT FRAMEWORK
+   - KPIs by objective with industry benchmarks
+   - TikTok Pixel events to implement
+   - TikTok Attribution Analytics setup
+   - 30-day optimization roadmap
+
+Output everything ready to implement in TikTok Ads Manager.
 
 ## Advanced Customizable Version
 
-ROLE: You are a Senior TikTok Ads Strategist with 8+ years managing $30M+ in paid social spend, specializing in short-form video creative, creator partnerships, and full-funnel TikTok performance marketing for D2C, B2B SaaS, and mobile apps. You apply the Hook-Retain-Convert framework for creative, Jobs-to-be-Done theory for audience psychology, and the Creator-Native-First principle — every ad must feel like organic TikTok content, not a commercial.
+ROLE: You are a senior paid social strategist specializing in TikTok's advertising ecosystem with deep expertise in short-form video creative psychology, TikTok's unique algorithm dynamics, and the platform's entertainment-first ad experience. You understand that TikTok users scroll at extreme speed, reward authentic and entertaining content above polish, and respond to pattern interrupts, storytelling, and cultural relevance over traditional ad formats.
 
 CONTEXT:
 - Company: [Company Name]
-- Product/Service: [Detailed description — what it does, who it's for, key differentiators]
-- Target ICP: [Age range, gender split, interests, behaviors, pain points, buying triggers]
-- Monthly TikTok budget: $[X]
-- Existing assets: [Do they have UGC? Creator relationships? Customer testimonials? Raw product video?]
-- Primary conversion goal: [Purchase / App Install / Lead Form / Demo / Trial Signup]
-- Target CPA or ROAS: $[X] CPA or [X]x ROAS
-- Competitors running TikTok Ads: [Competitor 1, Competitor 2]
-- Geographic focus: [Countries/Regions]
-- Customer LTV: $[X] (to calculate allowable CPA ceiling)
+- Product/Service: [Full description including price point]
+- Category: [D2C E-commerce / B2C App / B2B SaaS / Consumer Services / CPG / Retail / Financial Services / Other]
+- Primary ICP: [Demographics, psychographics, behavioral signals — be specific]
+- Purchase Cycle: [Impulse (< 24 hrs) / Considered (1-4 weeks) / Long-cycle (1-6 months)]
+- Monthly TikTok Ads Budget: $[X]
+- Campaign Duration: [X weeks/months]
+- Primary KPI: [ROAS target / CPL target / CPA target / CPM target / App install cost]
+- Secondary KPI: [Brand recall / Follower growth / Engagement rate / Share of voice]
+- Existing TikTok Presence: [None / @[handle] with X followers / Active organic strategy]
+- Current Creative Assets: [None / UGC library / Professional video / Mix of both]
+- Competitor TikTok Activity: [What competitors are doing on TikTok, if known]
 
-OBJECTIVE:
-Design a full-funnel TikTok Ads system that:
-1. Captures attention on the For You Page with native-feel creative that earns the scroll-stop
-2. Retains attention through authentic storytelling and social proof
-3. Converts warm audiences at or below target CPA using behaviorally sequenced retargeting
-4. Feeds TikTok's pixel and event data back into the algorithm for compound optimization
+OBJECTIVE: Design a full-funnel TikTok advertising strategy that generates [X purchases/installs/leads] at [target CPA/ROAS] while building long-term brand equity through platform-native content.
 
-OUTPUT REQUIRED — deliver each section in full:
+DELIVERABLES:
 
 ---
 
-### SECTION 1: STRATEGIC CAMPAIGN ARCHITECTURE
+## PART 1: TIKTOK AUDIENCE INTELLIGENCE REPORT
 
-Create a 3-tier funnel campaign structure:
+### Audience Architecture
 
-**Tier 1 — Top of Funnel (Awareness & Discovery)**
-- Campaign objective: Video Views or Reach
-- Budget allocation (% of total)
-- KPI: Video View Rate (VVR), CPM, 6-second view rate benchmarks for category
-- Ad formats: In-Feed Ads, TopView (if budget > $10K/month), Spark Ads from organic posts
-- Audience: Broad interest + behavior targeting, TikTok-recommended audience expansion ON
-- Creative approach: Hook-first, zero brand logo in first 3 seconds, native entertainment style
+TikTok's targeting operates through a combination of Interest Targeting, Behavioral Targeting, and TikTok's own algorithm signals. Unlike Facebook/Meta, TikTok's algorithm will EXPAND beyond your specified targeting when it detects strong engagement signals — meaning creative quality is the #1 targeting lever.
 
-**Tier 2 — Middle of Funnel (Consideration & Engagement)**
-- Campaign objective: Traffic or Community Interaction
-- Budget allocation
-- KPI: Click-through rate, profile visits, video completion rate (50%+ threshold)
-- Ad formats: In-Feed Ads with CTA overlay, Spark Ads with comment seeding
-- Audience: Video viewers (25%, 50%, 75%), profile visitors (30 days), website visitors (30-60 days)
-- Creative approach: Problem-solution demos, "POV:" and "Story time:" formats, before/after
+TIER 1 — HIGH INTENT (Purchase/Conversion Audiences)
+Target: Users showing active buying signals in your category
 
-**Tier 3 — Bottom of Funnel (Conversion)**
-- Campaign objective: Conversions or Lead Generation
-- Budget allocation
-- KPI: CPA, ROAS, Add-to-Cart rate, Lead Form completion rate
-- Ad formats: Collection Ads (for e-commerce), Lead Generation Ads, In-Feed with Shop Now CTA
-- Audience: Website visitors (7-14 days, segmented by page depth), Add-to-Cart abandoners, Customer Match for exclusion, Lookalike 1% from purchasers
-- Creative approach: Testimonial-forward, urgency/scarcity hooks, direct response with price anchor
+Custom Audiences (highest priority):
+- Website Pixel: Visitors to [pricing / product / cart] pages in last 30 days
+- Customer Email Upload: Match existing customers for exclusion + lookalike seed
+- Engagement Retargeting: Users who watched > 75% of previous TikTok videos
+- App Activity: If applicable, lapsed users or high-engagement segments
 
----
+Interest Targeting for Intent Layer:
+- Primary interest categories: [list 5-8 from TikTok's taxonomy relevant to your category]
+- Behavioral signals: Users who clicked similar ads, engaged with similar content
+- Purchase behavior targeting: Available for e-commerce (TikTok Shopping signals)
 
-### SECTION 2: AUDIENCE TARGETING MATRIX
+TIER 2 — CONSIDERATION (Education/Nurture Audiences)
+Target: Users aware of the problem but not yet evaluating solutions
 
-Build a targeting matrix table with columns: Audience Type | Signal | TikTok Segment | Expected CPM | Priority
+Interest + Behavioral Combinations:
+- Interest: [broader category interests]
+- Layer: [behavioral signals indicating research mode]
+- Exclude: [existing customers, current retargeting pools]
 
-Include:
-- Interest Targeting: Top 5 interest categories with sub-interest refinements
-- Behavior Targeting: In-app behaviors (creators followed, hashtags engaged, shopping behavior)
-- Custom Audiences:
-  * Website Custom Audience: pixel events (ViewContent, AddToCart, InitiateCheckout, Purchase) with time windows
-  * Customer File: Upload hashed email list for suppression (current customers) and Lookalike seed
-  * App Activity: if applicable — open, registration, purchase events
-- Lookalike Audiences:
-  * LAL 1% from purchasers (highest intent seed)
-  * LAL 2-5% from website visitors (volume seed for ToF)
-  * LAL from video viewers 75% (engagement-based seed)
-- Remarketing Tiers:
-  * Tier A (hottest): Add-to-Cart / Lead Form abandoners, checkout initiators (7 days)
-  * Tier B (warm): Product page visitors, 75%+ video viewers, profile visitors (30 days)
-  * Tier C (cool): Any website visitor, 25%+ video viewers (60 days)
-- Negative Audiences: Existing customers (suppress from acquisition campaigns), competitor employee list if B2B
+TIER 3 — AWARENESS (Broad Reach/Algorithm-Led)
+Target: Let TikTok's algorithm find your audience via Broad Targeting or Interest-only targeting with strong creative
+
+Broad Targeting Strategy:
+- Minimum viable targeting: Age range + gender only (let algorithm optimize)
+- This works best when: Creative is strong AND budget > $100/day AND pixel has > 50 events
+- Risk: Higher CPM initially, but often finds cheaper converters long-term
+- Recommendation: Test 20% of budget on broad targeting vs. interest-targeted audiences
+
+Lookalike Audiences:
+- Seed 1: Top 10% LTV customers (for ROAS optimization)
+- Seed 2: Highest-engagement video viewers (for awareness)
+- Seed 3: Form completers / app installers (for lead gen)
+- Lookalike percentage: Start at 1-3%, expand to 5-10% as algorithm trains
 
 ---
 
-### SECTION 3: CREATIVE BRIEFS & FULL SCRIPTS
+## PART 2: CREATIVE STRATEGY & VIDEO SCRIPTS
 
-Apply the Hook-Retain-Convert Framework to every format:
-- HOOK (0-3 sec): Scroll-stop moment — visual pattern interrupt or verbal curiosity gap
-- RETAIN (3-20 sec): Earn continued attention through entertainment, education, or emotion
-- CONVERT (final 5 sec): Single frictionless CTA matched to funnel stage
+### TikTok Creative Psychology Framework
 
-**FORMAT A — 9-Second Awareness Hook (For You Page Interrupt)**
-Purpose: Pure pattern interrupt. No product demo. Establish curiosity.
-Write word-for-word script with on-screen text overlay copy and visual direction notes.
-Must pass the "3-second mute test" — works without sound if captions are added.
+TikTok ads succeed on five creative laws:
+1. **Hook in Frame 1**: The thumbnail and first 0.5 seconds must stop the scroll. Use text overlays, pattern interrupts, or unexpected visuals.
+2. **Native First**: Ads that feel like organic TikToks get 2-3x better performance. Avoid corporate production quality.
+3. **Sound-On Assumption**: 93% of TikTok users keep sound on — use music, voiceover, and sound effects strategically.
+4. **Story Arc in 15-30 Seconds**: Hook → Problem/Conflict → Solution → Proof → CTA. Every second must earn the next.
+5. **Authentic > Perfect**: iPhone footage, real people, unpolished environments outperform studio production in most categories.
 
-**FORMAT B — 15-Second In-Feed Ad (Native Discovery)**
-Purpose: Feel like a friend's post, not an ad. Use trending audio or concept hooks.
-Write word-for-word script. Include: opening hook type (question / bold statement / "POV:" / "Nobody talks about..."), body, CTA button text.
-Add trending sound/audio direction note.
+### Creative Variants (write full scripts for each)
 
-**FORMAT C — 30-Second In-Feed Ad (Problem-Agitate-Solve)**
-Write full word-for-word script. Structure: Hook (0-3s) > Pain agitation (3-10s) > Solution reveal (10-22s) > Social proof micro-moment (22-27s) > CTA (27-30s).
-Include: on-screen text overlays at each beat, visual direction, caption style (all-caps, emoji placement).
+FORMAT A: IN-FEED AD — PROBLEM/SOLUTION ARC (3 variants, 15-30 seconds each)
 
-**FORMAT D — Spark Ad Creator Brief**
-Write a complete creator brief for a UGC creator partnership:
-- Creator profile: follower range, niche, tone (authentic over polished)
-- Talking points: 3 must-mention facts, 1 must-show product moment
-- Prohibited: what NOT to say or show (brand guidelines, claims)
-- Hook options: Give 3 hook scripts they can choose from or riff on
-- CTA: Exact call-to-action language and link destination
-- Video style direction: lighting, pacing, caption style, music vibe
-- Deliverable: raw, unedited file + 3 cut variations
+Variant 1 — HOOK: RELATABLE PAIN POINT
+- Opening hook (0-3 sec): [On-screen text + voiceover — must name the pain loudly]
+- Body (3-20 sec): [Show the problem visually, then pivot to solution demo]
+- Proof moment (20-25 sec): [Before/after, testimonial clip, result metric]
+- CTA (25-30 sec): [Verbal CTA + text overlay + clear action]
+- On-screen captions: [Full text for sound-off viewing]
+- Music direction: [Trending audio style — energetic/emotional/casual]
+- Visual transitions: [Specific editing style that matches content category]
+- B-roll notes: [Product shots, screen recordings, UGC-style moments]
 
-**FORMAT E — Lead Generation Ad (B2B or Service)**
-Write a 20-second In-Feed script optimized for TikTok Lead Gen form completion:
-- Hook that calls out the exact audience ("If you're a [job title/persona]...")
-- Single compelling offer (checklist, free audit, calculator, demo)
-- Social proof element (number of customers, a recognizable logo, a result stat)
-- Frictionless CTA: "Tap to get your free [X]" — form auto-fills from TikTok profile data
+Variant 2 — HOOK: BOLD CLAIM OR CONTROVERSIAL STATEMENT
+- Opening hook (0-3 sec): [A statement that challenges a belief your audience holds]
+- Body (3-20 sec): [Build evidence, demonstrate, show social proof]
+- Proof moment (20-25 sec): [Real results — numbers, reviews, before/after]
+- CTA (25-30 sec):
+- On-screen captions:
+- Music direction:
+- Visual style: [More documentary/authoritative than Variant 1]
 
----
+Variant 3 — HOOK: STORYTELLING/NARRATIVE
+- Opening hook (0-3 sec): [Drop into the middle of a story — in media res]
+- Body (3-20 sec): [Character (relatable person) faces problem → finds solution]
+- Proof moment (20-25 sec):
+- CTA (25-30 sec):
+- On-screen captions:
+- Music direction: [Emotional, builds during story arc]
 
-### SECTION 4: BIDDING & BUDGET OPTIMIZATION SYSTEM
+FORMAT B: SPARK ADS — ORGANIC AMPLIFICATION
+Spark Ads boost existing organic TikToks as paid placements. Identify organic content candidates:
+- Organic post type 1: [UGC review or testimonial with > X views organically]
+- Organic post type 2: [Behind-the-scenes or product demo with authentic engagement]
+- Requirements for Spark eligibility: Account must authorize via Spark Ads code
+- Targeting overlay: Layer interest targeting on top of organic reach
+- Budget recommendation: [X% of total budget]
+- Why Spark outperforms dark posts: Social proof (likes/comments) carries over to paid delivery
 
-**Bid Strategy by Campaign Tier:**
-- ToF: CPM or Lowest Cost — recommended starting CPM and expected impression volume
-- MoF: Cost Cap CPV — recommended cost-per-view target and 14-day ramp plan
-- BoF: Target CPA or Highest Value — recommended starting CPA bid (set at 1.5-2x actual target during learning), conversion window (7-day click, 1-day view for most products; 1-day click for impulse)
+FORMAT C: COLLECTION ADS (E-commerce only)
+Combines In-Feed video with instant storefront experience:
+- Hero video (15 sec): [Product showcase with lifestyle context]
+- Product tiles: 3-4 products featured below video
+- Instant page template: [TikTok Instant Page vs. redirect to website]
+- Best for: [Impulse categories: fashion, beauty, home goods, accessories]
 
-**Budget Pacing Rules:**
-- Minimum daily budget for learning phase: $50/day per ad group (TikTok requires sufficient spend to exit learning)
-- Budget split recommendation across formats: % to Spark Ads vs. standard In-Feed
-- Day-of-week performance expectations (D2C: Thu-Sun peak; B2B: Tue-Thu)
-- Budget reallocation trigger: if CPA > target by 50% after 2,000 impressions, reallocate 25% to best performer
-
-**Automated Rules to Set Up:**
-| Rule Name | Condition | Action | Frequency |
-|---|---|---|---|
-| Pause high-CPA ad groups | CPA > 2x target after 500 clicks | Pause ad group | Daily |
-| Scale winning campaigns | CPA < target by 25%, spend < 80% of budget | Increase daily budget 20% | Weekly |
-| Creative fatigue alert | CTR drops > 30% week-over-week | Flag for creative refresh | Daily |
-| Frequency cap breach | Avg. frequency > 3 per week (ToF) | Expand audience or rotate creative | Weekly |
-| Zero-conversion alert | 0 conversions after $[2x CPA target] spend | Pause + notify for review | Daily |
-
----
-
-### SECTION 5: CREATIVE REFRESH & ANTI-FATIGUE SYSTEM
-
-TikTok creative fatigues faster than any other paid platform — typically within 7-14 days for high-spend campaigns. Build a proactive refresh system:
-
-**Creative Rotation Rules:**
-- Run minimum 3-5 creative variants per ad group at launch
-- Rotate in new creative every 7-10 days for campaigns spending > $500/day
-- Never pause a winning creative — duplicate the ad group and refresh, keep the winner running
-
-**Creative Performance Scoring (evaluate weekly):**
-| Metric | Strong | Weak | Action |
-|---|---|---|---|
-| 6-second View Rate | > 25% | < 15% | Rewrite hook |
-| Video Completion Rate | > 40% (15-sec), > 25% (30-sec) | Below | Tighten retention section |
-| CTR (In-Feed) | > 1.5% | < 0.8% | Test new CTA copy/button |
-| CPA vs Target | < 100% of target | > 150% | Pause after 500 clicks |
-
-**Content Archetypes to Rotate Through:**
-1. Testimonial/UGC — real customer, unpolished, authentic language
-2. "POV:" scenario — viewer is the protagonist experiencing the transformation
-3. Educational "hack" — teach something genuinely useful, product is the tool
-4. Before/After reveal — visual transformation with timeline
-5. Founder/brand story — human behind the product, vulnerability-forward
-6. Trending audio remix — native TikTok trend with brand angle
+FORMAT D: TOPTOPVIEW / BRAND TAKEOVER (For budgets > $500/day)
+- Use case: [New product launch / seasonal peak / competitive conquest]
+- Creative requirements: 5-15 second video, no CTA overlay in first 3 seconds
+- Expected CPM: $15-40 (premium placement, guaranteed top-of-feed position)
+- Audience: Cannot be interest-targeted — broad reach only
+- Recommendation: Only invest if organic TikTok presence is active (amplifies effect)
 
 ---
 
-### SECTION 6: MEASUREMENT FRAMEWORK
+## PART 3: CAMPAIGN ARCHITECTURE
 
-**Primary KPIs by Funnel Stage:**
-| Stage | KPI | Benchmark | Tool |
-|---|---|---|---|
-| ToF | 6-Second View Rate | > 20% | TikTok Ads Manager |
-| ToF | CPM | $5-12 (B2C), $15-30 (B2B) | TikTok Ads Manager |
-| MoF | Video Completion Rate (15-sec) | > 40% | TikTok Ads Manager |
-| MoF | Profile Visit Rate | > 2% of viewers | TikTok Analytics |
-| BoF | CPA | At or below target | TikTok Pixel + Ads Manager |
-| BoF | ROAS | > 2x (D2C), pipeline-based (B2B) | TikTok Pixel + CRM |
-| BoF | Add-to-Cart Rate | > 5% of clicks (e-commerce) | TikTok Pixel |
+### Campaign Structure (TikTok Ads Manager)
 
-**TikTok Pixel Setup — Events to Fire:**
-- ViewContent (product page view)
-- AddToCart
-- InitiateCheckout
-- CompletePayment / Purchase (with value parameter)
-- Lead (for lead gen campaigns)
-- For B2B SaaS: PageView on pricing + demo pages as micro-conversion signals
+CAMPAIGN 1: [Name] — AWARENESS/TOP-OF-FUNNEL
+- Campaign Objective: Video Views or Reach
+- Campaign Budget Optimization (CBO): ON — let TikTok allocate across ad groups
+- Daily Budget: $[X]/day
+- Bid Strategy: Lowest Cost
 
-**Attribution Model:** TikTok default is last-click; use 7-day click / 1-day view for most campaigns. For impulse purchases, test 1-day click. Cross-reference with GA4 and CRM data to capture view-through impact.
+Ad Group 1.1: [Broad Interest Targeting]
+- Age/Gender: [Target range]
+- Interests: [3-5 interest categories]
+- Behavioral signals: [Add if available]
+- Placements: TikTok only (exclude Pangle network initially)
+- Creative: [Variant 1 + Variant 2 from Part 2]
+- Video view optimization: 6-second views (cheapest awareness signal)
 
-**TikTok Shop Integration (if applicable):** Connect product catalog for Collection Ads. Track Video Shopping Ads separately from standard In-Feed to compare CPP (cost per purchase) by format.
+Ad Group 1.2: [Lookalike — Engagement Seed]
+- Audience: Lookalike 1-3% based on top video viewers
+- Creative: [Variant 3 — storytelling format works best for lookalikes]
+- Bid: $[X] CPM target
+
+CAMPAIGN 2: [Name] — CONSIDERATION/MIDDLE-OF-FUNNEL
+- Campaign Objective: Traffic or Lead Generation
+- CBO: ON
+- Daily Budget: $[X]/day
+
+Ad Group 2.1: [Interest + Behavioral — Research Mode]
+- Audience: [Layered interest + behavioral targeting]
+- Creative: [Longer format — 30-60 second educational content]
+- CTA: "Learn More" → educational landing page
+
+Ad Group 2.2: [Video View Retargeting]
+- Audience: Users who watched > 50% of Campaign 1 videos
+- Creative: [More direct product pitch — warmer audience tolerates harder sell]
+- CTA: "Shop Now" / "Get Started" / "Book a Demo"
+
+CAMPAIGN 3: [Name] — CONVERSION/BOTTOM-OF-FUNNEL
+- Campaign Objective: Conversions (requires 50+ pixel events/week to optimize)
+- CBO: OFF (manual budget control for ROAS management)
+- Bid Strategy: Cost Cap at $[X] CPA target
+
+Ad Group 3.1: [Pixel Retargeting — High Intent]
+- Audience: Website visitors — pricing/product/cart pages, last 14 days
+- Exclude: Past purchasers (last 30 days)
+- Creative: [Social proof heavy — reviews, testimonials, UGC]
+- CTA: Most direct offer (discount, free trial, guarantee)
+- Daily Budget: $[X]/day (highest CPM tolerance for bottom-funnel)
+
+Ad Group 3.2: [Lookalike — Customer Seed 1-3%]
+- Audience: 1% lookalike of highest LTV customers
+- Creative: [Mix of Variant 1 and social proof]
+
+### Budget Allocation Model
+| Campaign | Monthly Budget | % of Total | Primary KPI |
+|----------|---------------|------------|-------------|
+| Awareness (TOFU) | $X | 20% | CPV, Brand Lift |
+| Consideration (MOFU) | $X | 30% | CTR, CPL |
+| Conversion (BOFU) | $X | 40% | CPA, ROAS |
+| Creative Testing Reserve | $X | 10% | Hook Rate, CVR |
+
+### Creative Rotation Schedule
+TikTok creative fatigue is aggressive — high-frequency users see creative within 2-3 days:
+- Week 1-2: Launch 3 creative variants per ad group
+- Week 2: Identify winner (highest hook rate + lowest CPA)
+- Week 3: Scale winner, pause bottom performer, introduce 1 new variant
+- Week 4: Full creative refresh if CPAs trending up > 20% from baseline
+- Ongoing: Always have 2 new untested creatives in reserve
 
 ---
 
-### SECTION 7: 30-DAY LAUNCH & OPTIMIZATION PLAYBOOK
+## PART 4: LANDING PAGE STRATEGY
 
-**Pre-Launch Checklist (Day 0):**
-- [ ] TikTok Pixel installed and verified (test all conversion events)
-- [ ] Website Custom Audiences populated (minimum 1,000 users for BoF remarketing)
-- [ ] Customer file uploaded and Lookalike audiences created
-- [ ] Minimum 3 creative variants per ad group ready
-- [ ] Spark Ad permissions granted by creator accounts
-- [ ] Brand Safety: Inventory Filter set to "Standard" or "Limited" based on brand guidelines
-- [ ] UTM parameters configured for all ad URLs
-- [ ] Baseline CPA and ROAS benchmarks from other channels documented
+TikTok traffic converts differently than search or LinkedIn traffic. Users arrive from an entertainment context with high emotional arousal but low purchase intent — your landing page must meet them there.
 
-**Week 1 (Days 1-7) — Learning Phase:**
-- Do not optimize or pause ad groups; allow TikTok's algorithm to learn
-- Monitor daily: impression delivery, 6-second view rate, CPM
-- Red flags requiring immediate action: CPM > 3x benchmark, zero impressions (audience too narrow), policy rejection
-- Do NOT pause underperforming creatives before 1,000 impressions per variant
+PRIMARY LANDING PAGE REQUIREMENTS:
+- Load in < 2 seconds on mobile (TikTok users abandon at 3 seconds)
+- Above-the-fold must match the video's visual style and energy
+- No full-screen popups on first visit (kills trust from ad click)
+- One primary CTA — TikTok traffic does not browse
 
-**Week 2 (Days 8-14) — Creative Analysis:**
-- Pull Creative Report: sort by 6-Second View Rate, then VCR, then CTR
-- Pause bottom 20% of creatives (lowest VVR after 2,000+ impressions)
-- Identify top creative: what format, hook type, and audio drove performance?
-- Brief and launch 2 new variants inspired by top performer's hook structure
+Page Architecture:
+- Hero section: [Mirror the emotional hook from the video — same tone, same promise]
+- Social proof placement: [Reviews, UGC photos, count of customers — above the fold if possible]
+- Product/offer clarity: [Price, key benefit, risk reversal (free return, guarantee) in 3 bullet points max]
+- Primary CTA: [Single button — low commitment for TOFU, direct purchase for BOFU]
+- Mobile checkout: [Shop Pay / Apple Pay / Google Pay — reduce friction to single tap]
 
-**Week 3 (Days 15-21) — Audience Expansion:**
-- Test Lookalike 1% vs. 2-5% from top seed list
-- Enable TikTok Audience Expansion on top-performing ad groups (auto-find similar users)
-- Test new interest/behavior combinations inspired by Week 1-2 data (who converted?)
-- Launch creator Spark Ad if not live in Week 1; compare CTR and CVR to standard In-Feed
+TikTok-Specific Page Tactics:
+- Embed top-performing TikTok video on landing page as social proof
+- Include creator-style product photos (not studio shots) to maintain visual continuity
+- Add "As seen on TikTok" badge if brand has organic traction
+- For lead gen: Single-field form (email only) outperforms multi-field by 3-5x for TikTok traffic
 
-**Week 4 (Days 22-30) — Scale or Cut:**
-- Campaigns at or below target CPA: increase daily budget 20-30%, duplicate to new geo if applicable
-- Campaigns at 150%+ of target CPA: pause targeting layer by layer to diagnose — audience first, then creative
-- Document: winning audience segment, winning creative archetype, optimal budget allocation
-- Plan next month's creative calendar (minimum 6 new variants) based on learnings
+TikTok Instant Pages (Alternative):
+- Load 11x faster than external URLs
+- Use for: Product showcases, event registrations, lead gen
+- Limitation: No custom pixel events (only TikTok-native tracking)
+- Best for: Budgets < $5K/month where website load speed is a risk
+
+---
+
+## PART 5: MEASUREMENT & OPTIMIZATION FRAMEWORK
+
+### TikTok Pixel Implementation Priority
+Events to implement (in order):
+1. PageView — all pages
+2. ViewContent — product detail pages, pricing page
+3. AddToCart — if e-commerce
+4. InitiateCheckout — purchase intent signal
+5. CompletePayment / Lead — primary conversion event
+6. Subscribe — if subscription product
+
+TikTok Attribution Settings:
+- Click-through attribution window: 7 days (default — appropriate for most categories)
+- View-through attribution window: 1 day (adjust based on purchase cycle length)
+- For long-cycle B2B: Extend click-through to 28 days to capture delayed conversions
+
+### KPI Dashboard
+| Metric | Benchmark | Your Target | Alert Threshold |
+|--------|-----------|-------------|-----------------|
+| Hook Rate (watched 3+ sec) | 25-40% | X% | < 20% |
+| Hold Rate (watched 100%) | 15-25% | X% | < 10% |
+| CTR (In-Feed) | 1.0-2.5% | X% | < 0.5% |
+| CPM | $6-$18 | $X | > $30 |
+| CPC | $0.50-$2.50 | $X | > $5 |
+| CVR (Landing Page) | 3-12% | X% | < 2% |
+| CPA / CPL | Category-dependent | $X | > 2x target |
+| ROAS (E-commerce) | 2-4x average | Xx | < 1.5x |
+| Creative Fatigue Signal | CTR drops > 20% | Monitor weekly | Act at -25% CTR |
+
+### Hook Rate Optimization Protocol
+Hook rate (% who watch past 3 seconds) is the single most predictive metric for TikTok ad performance:
+- Hook rate < 20%: The opening 3 seconds are failing. Recut with new opening, different on-screen text, or pattern interrupt.
+- Hook rate 20-30%: Average — iterate the hook, keep the body.
+- Hook rate > 35%: Strong hook. Now optimize the CTA and landing page.
+
+### 30-Day Optimization Roadmap
+Week 1: Launch and establish baseline
+- Launch all three campaigns with 2-3 creative variants each
+- Set up daily performance alerts (CPM, CPA, ROAS vs. targets)
+- Monitor hook rate hourly for first 48 hours per creative
+- Do NOT pause or edit campaigns in first 3-5 days (learning phase protection)
+
+Week 2: Creative performance analysis
+- Identify top performer by hook rate + CPA combination
+- Pause creatives with hook rate < 20% — script new hooks
+- Check audience overlap between ad groups — add exclusions if > 30% overlap
+- Analyze demographic breakdown: which age/gender is converting cheapest?
+
+Week 3: Audience and bid refinement
+- Launch 1-2 new creative variants based on Week 2 learnings
+- Test Broad Targeting ad group if not already running (20% of budget)
+- For conversion campaigns: Add Cost Cap if Lowest Cost ROAS is inconsistent
+- Build lookalike audiences from Week 2 converters
+
+Week 4: Scale and systematize
+- Increase budget 20% on ad groups meeting CPA/ROAS targets
+- Establish creative production pipeline: 2 new creatives per week ongoing
+- Document winning creative frameworks (hook type, format, length, CTA) for brief templates
+- Set up automated rules: pause ad groups when CPA > 2x target for 3 consecutive days
+
+---
 
 ## Example Input/Output
 
-**Input:**
-- Company: Lumé Skincare (D2C, clean beauty serums for acne-prone skin)
-- Target ICP: Women 18-34, interested in skincare, beauty routines, clean beauty, #skintok
-- Monthly budget: $12,000
-- Goal: Purchases (hero product: $48 Clearing Serum)
-- Target CPA: $22
-- Target ROAS: 2.2x
-- Existing assets: 3 customer testimonial videos, 6 product demo clips, 2 creator partnerships
+**Example Input:**
+- Company: Glossier (hypothetical new campaign)
+- Product: Cloud Paint blush — $22, buildable gel-cream formula
+- ICP: Women 18-34, beauty enthusiasts, skincare-first makeup approach
+- Goal: E-commerce purchases, 3.5x ROAS target
+- Budget: $30,000/month
+- Campaign Duration: 60 days (pre-holiday)
 
-**Output Excerpt:**
+**Example Output (Partial):**
 
-**Campaign Architecture:**
-| Campaign | Objective | Budget | Bidding | Goal |
-|---|---|---|---|---|
-| ToF — Discovery | Video Views | $3,000 (25%) | CPM $7 target | 400K+ impressions, 22%+ 6-sec VVR |
-| MoF — Consideration | Traffic | $2,400 (20%) | Cost Cap CPV $0.04 | Site visits, 40%+ VCR |
-| BoF — Purchase | Conversions | $6,600 (55%) | Target CPA $24 | Purchases at or below $22 CPA |
+**Winning Creative Concept — Variant 1 (Hook: Bold Claim):**
 
-**Sample 9-Second Awareness Hook Script:**
-> [VISUAL: Close-up of congested skin, harsh lighting]
-> ON-SCREEN TEXT (0s): "POV: You've tried EVERYTHING for acne"
-> [VISUAL: Cut to glowing clear skin, 3 months later]
-> ON-SCREEN TEXT (5s): "This serum changed everything"
-> [VISUAL: Lumé bottle, hand holding it casually]
-> SOUND: trending soft piano audio
-> NO VOICEOVER — pure visual storytelling
+*First 3 seconds (on-screen text):* "Why does every blush look orange on my skin?"
+*Voiceover:* "I asked this question for 8 years until I found Cloud Paint."
+*(3-10 sec):* Close-up of hand swatch — deep skin tone, buildable coverage, no orange cast. Text overlay: "Works on EVERY skin tone"
+*(10-20 sec):* Speed application on real person (non-model), natural lighting
+*(20-25 sec):* Before/after cheek — subtle to glam in 4 swipes
+*(25-30 sec):* "Link in bio • 20% off for new customers"
+*Music:* [Trending lo-fi pop — calm energy, lets product speak]
+*Aspect ratio:* 9:16 full vertical, text safe zone maintained
 
-**Sample 30-Second In-Feed Script:**
-> [0-3s HOOK — VOICEOVER + TEXT]: "Nobody tells you that most serums are making your acne worse." [VISUAL: frustrated woman checking skin in mirror]
-> [3-10s AGITATE]: "Alcohol, synthetic fragrance, harsh actives — they strip your barrier and cause rebound breakouts. I wasted $400 finding this out." [VISUAL: flat lay of rejected products crossed out]
-> [10-22s SOLVE]: "Lumé's Clearing Serum uses willow bark and niacinamide — clinically shown to reduce breakouts by 62% in 6 weeks. No stripping, no purge." [VISUAL: product on skin, texture close-up, ingredient callout text]
-> [22-27s PROOF]: "14,000 reviews. 4.9 stars. Women with cystic acne saying it's the first thing that actually worked." [VISUAL: UGC review screenshot scroll]
-> [27-30s CTA]: "Link in bio. Try it risk-free — 60-day guarantee." [CTA BUTTON: "Shop Now"]
+**Predicted Performance Benchmarks:**
+- Hook rate: 32-38% (strong pain point identification)
+- Hold rate: 22% (relatable before/after drives completion)
+- CTR: 1.8-2.4% (beauty category typically strong CTR)
+- CVR on landing page: 7-10% (impulse price point, visual category)
+- Projected ROAS: 3.2-4.1x (within target range by Day 21 post-optimization)
 
-**Spark Ad Creator Brief (sample):**
-- Creator profile: 50K-500K followers, #skincaretok niche, real skin not filtered, casual talking-head style
-- Hook options to riff on: (1) "I stopped using my $90 serum for this $48 one and here's why..." (2) "Dermatologist told me THIS ingredient is what actually clears acne..." (3) "Rating every serum I've tried for cystic acne (brutal honest review)"
-- Must mention: willow bark + niacinamide combo, 60-day guarantee, "clean formula"
-- Must show: applying product, skin texture in natural lighting (no filters)
-- CTA: "Link in my bio — they have a 60-day money back guarantee so I had nothing to lose"
-- Deliverable: 30-45 second raw file + 3 cut variations at 9s, 15s, 30s
-
-**Top Interest Targeting Combinations:**
-| Interest Cluster | Sub-behaviors | Expected CPM |
-|---|---|---|
-| Beauty & Skincare > Skincare Routines | Engaged with #skintok, #acne content | $6-8 |
-| Health & Wellness > Clean Beauty | Follows clean beauty creators | $7-10 |
-| Beauty & Skincare > Product Reviews | Watches skincare reviews to completion | $8-11 |
-| Shopping > Beauty & Personal Care | Added beauty products to cart in-app | $9-13 |
+**Campaign Structure:**
+- Campaign 1 (Awareness): $6K/month — Video Views objective, Tier 1 beauty interests
+- Campaign 2 (MOFU): $9K/month — Traffic to editorial landing page, lookalike 1-3%
+- Campaign 3 (Conversion): $12K/month — Purchase objective, pixel retargeting + lookalike 1%
+- Creative Testing Reserve: $3K/month — New hook variants, UGC amplification via Spark Ads
 
 ## Success Metrics
 
-| Signal | Target | Timeline |
-|---|---|---|
-| 6-Second View Rate | > 22% | Week 1 |
-| Video Completion Rate (30-sec) | > 28% | Week 1 |
-| CTR (In-Feed) | > 1.2% | Week 2 |
-| CPA (BoF campaign) | At or below target | Week 4+ |
-| ROAS | > 2x | Month 2+ |
-| Creative Fatigue Signal | CTR drop < 20% week-over-week | Ongoing |
+**Green Light Signals:**
+- Hook rate > 30% on primary creative within first 48 hours
+- CPA within 40% of target by end of Week 2 (TikTok algorithms need time to learn)
+- CTR > 1.5% on In-Feed ads
+- Landing page CVR > 4% from TikTok traffic specifically
+- ROAS trending upward week-over-week as algorithm optimizes
 
-**Creative Quality Check:**
-- Does the hook create a scroll-stop in the first 2 seconds without sound?
-- Does the ad look like organic TikTok content, not a brand commercial?
-- Is the CTA single, frictionless, and matched to funnel stage?
-- Is social proof specific — numbers, timeframes, real customer language?
-- Would this ad appear naturally on the For You Page of the target audience?
+**Red Flags Requiring Immediate Action:**
+- Hook rate < 15% across all creatives — fundamental problem with opening; rewrite scripts
+- CPA > 3x target after 7 days — audience-creative mismatch or landing page failure
+- Spend delivery < 60% of budget — bids too low, audience too narrow, or account health issues
+- CTR > 3% but CVR < 1% — creative is generating curiosity clicks, not purchase intent; landing page disconnect
 
 ## Related Prompts
 
-- [`../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Meta-Ads-Campaign-Builder.md`](../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Meta-Ads-Campaign-Builder.md)
-- [`../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/YouTube-Ads-Campaign-Builder.md`](../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/YouTube-Ads-Campaign-Builder.md)
-- [`../../03_Content-&-Creative/Social-Media-Content/LinkedIn-Thought-Leadership-Engine.md`](../../03_Content-&-Creative/Social-Media-Content/LinkedIn-Thought-Leadership-Engine.md)
-- [`../../03_Content-&-Creative/Video-&-Audio-Scripts/Social-Media-Video-Scripts.md`](../../03_Content-&-Creative/Video-&-Audio-Scripts/Social-Media-Video-Scripts.md)
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Meta-Ads-Campaign-Builder.md`
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/YouTube-Ads-Campaign-Builder.md`
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Cross-Channel-Paid-Media-Budget-Allocation-&-ROAS-Optimization-Engine.md`
+- `../../03_Content-&-Creative/Social-Media-Content/TikTok-Organic-Content-Strategy-Engine.md`
 
 ## Integration Tips
 
-- **TikTok Ads Manager:** Use the Bulk Upload feature to create multiple ad groups with different audience combinations simultaneously. Export the targeting matrix from this prompt and map it to TikTok's Interest and Behavior taxonomy in the audience builder.
-- **TikTok Pixel + Shopify:** Install the TikTok Shopify app for automatic pixel firing on all e-commerce events. Enable Advanced Matching (pass hashed email at checkout) to improve attribution by 15-25% in cookieless environments.
-- **HubSpot/Salesforce (B2B):** Tag TikTok Lead Gen form submissions with source = "tiktok_ads" and campaign tier. Create a HubSpot workflow: TikTok lead form submitted → enroll in 5-email nurture sequence → notify SDR if lead score > 40.
-- **Zapier:** Connect TikTok Lead Generation Ads to your CRM or email platform — new TikTok lead form submission triggers contact creation and sends the lead magnet instantly, without manual export.
-- **Google Sheets:** Build a weekly creative performance tracker: pull TikTok Ads Manager data via API or manual export, track 6-sec VVR, VCR, CTR, CPA, and ROAS by creative variant. Use conditional formatting to surface creative fatigue signals automatically.
-- **Notion:** Use the 30-day optimization playbook as a Notion project — each week's tasks become a checklist database. Add a "Creative Library" database to log every ad variant with its hook type, format, performance score, and fatigue date.
-- **Triple Whale / Northbeam:** For D2C brands running multi-channel paid social, use a dedicated attribution tool to capture TikTok's view-through conversions that last-click models miss. TikTok typically shows 30-50% more influenced revenue in MMM vs. native attribution.
+**Shopify / WooCommerce:** Install TikTok's native Shopify app for pixel implementation and TikTok Shopping catalog sync. Enable TikTok Pixel Helper Chrome extension to verify all AddToCart and Purchase events fire correctly before launching conversion campaigns. Use Shopify's UTM auto-tagging with `utm_source=tiktok&utm_medium=paid-social` to track TikTok-sourced revenue in Google Analytics alongside TikTok Ads Manager reporting.
+
+**HubSpot (B2B/Lead Gen):** Map TikTok Lead Gen Form submissions directly to HubSpot via TikTok's native HubSpot integration (available in TikTok Ads Manager → Assets → Lead Generation). Creates contacts with `Lead Source = TikTok Ads` for pipeline attribution. Build a Smart List of TikTok-sourced leads to measure downstream close rates vs. other channels.
+
+**Google Analytics 4:** Create a TikTok paid social channel group in GA4. Critical: TikTok traffic often misattributes to "Direct" due to mobile app click behavior. Verify UTM parameters are appending correctly on all TikTok ad destination URLs. Build a TikTok Exploration report tracking new users → add-to-cart → purchase path with average days to conversion.
+
+**Klaviyo / Email Automation:** Sync TikTok pixel events to Klaviyo via Klaviyo's CDI integration. When users visit product pages via TikTok ads but don't purchase, trigger a "TikTok Browse Abandonment" email sequence with TikTok-style UGC imagery to maintain visual continuity from ad to email.
+
+**Zapier Workflow:** TikTok Lead Gen Form submission → Zapier → HubSpot contact creation → Slack notification to sales team with lead details → Personalized email send from rep within 5 minutes (speed-to-lead for TikTok audiences is critical — leads go cold within 1 hour).
+
+**TikTok Events API (Server-Side Pixel):** Implement TikTok's Events API alongside browser pixel to recover iOS 14.5+ signal loss. Events API captures conversions that browser pixel misses, typically improving attributed conversions 15-30%. Requires backend developer implementation or Segment/mParticle CDP integration.
 
 ## Troubleshooting
 
-**Problem: 6-second view rate below 15% — ads are getting skipped immediately**
-Fix: The hook is not creating a scroll-stop. Rewrite opening 2 seconds — lead with a bold visual (unexpected, high-contrast, or emotionally arresting) or a verbal pattern interrupt ("Wait — before you scroll, this is for you if..."). Avoid opening with a logo, product shot, or brand intro. Test a "POV:" hook format which signals personal relevance to the viewer instantly.
+**Problem: Ads spending but ROAS/CPA not hitting targets after 14 days**
+*Fix:* TikTok's algorithm needs 50+ pixel conversion events per week to exit the learning phase. If you're below this threshold, the campaign is optimizing with insufficient data. Solution path: (1) Switch conversion objective to a higher-funnel event like AddToCart or ViewContent to generate more signal events faster; (2) consolidate ad groups to concentrate budget and accelerate learning; (3) lower your CPA target 30% temporarily to allow algorithm to explore more broadly. Once you hit 50+ weekly events, tighten the target back to goal.
 
-**Problem: High view rate but near-zero clicks or conversions**
-Fix: The hook earns attention but the CTA or offer is not compelling enough to interrupt behavior. Check three things: (1) Is the CTA button text specific — "Get Free Sample" not "Learn More"? (2) Does the landing page load in under 2 seconds on mobile — TikTok traffic is 95%+ mobile and bounce rates are unforgiving? (3) Does the offer in the ad exactly match what the user lands on — any mismatch between ad promise and landing page kills conversion rate.
+**Problem: Strong hook rate but low click-through rate (CTR < 0.5%)**
+*Fix:* Users are watching the video but not clicking. This means the content is entertaining (high hook/hold rate) but the CTA or offer isn't compelling enough for your cold audience. Audit your CTA: is the ask too large for a first interaction? Test softer CTAs ("Learn More" vs. "Buy Now"), test adding an offer or incentive in the final 5 seconds of the video (free shipping, limited discount, free trial), and ensure the verbal CTA matches the on-screen overlay text — mixed signals reduce clicks.
 
-**Problem: CPA is consistently 2x+ target after 4 weeks of optimization**
-Fix: Either the audience-product fit is wrong or the allowable CPA is below what TikTok's algorithm needs to find buyers at scale. Run a TikTok Attribution Analytics report to see the true view-through influenced revenue — your blended CPA may be lower than reported. If the unit economics are confirmed to not work, test a lower-AOV front-end offer (sample, lead magnet, tripwire) to acquire customers at a lower CPA and recoup LTV on the back end with email/SMS retention.
+**Problem: Low delivery / ads not spending full budget**
+*Fix:* Three common causes on TikTok: (1) Audience is too narrow — TikTok recommends a minimum potential reach of 1M+ for conversion campaigns; expand age range or reduce interest layers; (2) Bid is below market rate — switch to Lowest Cost bidding temporarily to discover market CPM, then set Cost Cap 20% above that floor; (3) Ad creative review delay — TikTok reviews all new creatives, which can take 24-48 hours; plan creative submissions 2 days before intended launch dates, especially during peak periods (Black Friday, Q4).
 
 ## Version History
 - v1.0: Initial creation (auto-generated)
