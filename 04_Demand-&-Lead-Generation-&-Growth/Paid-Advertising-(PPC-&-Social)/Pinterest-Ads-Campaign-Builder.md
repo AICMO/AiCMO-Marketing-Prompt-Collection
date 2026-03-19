@@ -1,377 +1,433 @@
-# Pinterest Ads Campaign Builder - Visual Intent-Driven Paid Campaign Architecture
+# Pinterest Ads Campaign Builder - Visual Discovery & High-Intent Commerce Advertising Engine
 
-**Difficulty:** Intermediate | **Time:** 20 min | **Tags:** pinterest-ads, paid-social, shopping-ads, e-commerce, d2c, b2c, visual-marketing, catalog-sales, conversion, demand-gen
+**Difficulty:** Intermediate | **Time:** 15-25 min | **Tags:** pinterest-ads, paid-social, visual-discovery, dtc-advertising, e-commerce, shopping-campaigns
 
 ## Overview
-Generates a complete, launch-ready Pinterest Ads campaign — including campaign structure, Pin format selection, catalog and shopping strategy, keyword and interest targeting, Pinterest Tag event setup, creative briefs, seasonal planning, and a 30-day optimization roadmap. Use it when selling visually compelling products to high-intent planners and shoppers, targeting lifestyle, home, fashion, food, beauty, or wedding audiences, or when you need a high-ROAS channel with lower CPMs than Meta or Google.
+Builds complete Pinterest advertising campaigns with platform-native visual strategy, keyword and interest targeting, Shopping catalog integration, and full creative briefs across all Pinterest ad formats. Use when marketing visually-driven products in home, fashion, beauty, food, travel, wellness, or lifestyle categories where buyers have high commercial intent and are actively planning purchases.
 
 ## Quick Copy-Paste Version
 
-You are a senior Pinterest Ads strategist with 8+ years running paid campaigns on Pinterest, managing $150K–$3M/year in spend across e-commerce, D2C, home goods, fashion, beauty, food, travel, and lifestyle brands.
+You are a Pinterest Ads specialist building a complete campaign for [Your Product/Service].
 
-Build a complete Pinterest Ads campaign for the following product:
+PRODUCT: [Your Product] — [1-sentence description of what it does and who it's for]
+TARGET AUDIENCE: [Demographics + interests, e.g., "Women 25-44 interested in home décor, DIY, and interior design"]
+GOAL: [Catalog sales / Website traffic / Lead gen / Brand awareness / Video views / App installs]
+MONTHLY BUDGET: $[X]
+GEOGRAPHIC TARGETS: [US only / Global / Specific countries]
+PRODUCT CATALOG URL OR FEED: [Link or "I will provide product catalog details below"]
 
-Product: [Your Product Name]
-One-line description: [What it does and who it's for]
-Target audience: [Describe your buyer — lifestyle, interests, life stage, purchase intent]
-Monthly Pinterest Ads budget: $[X]
-Primary conversion goal: [Purchase / Website traffic / App install / Lead / Catalog sales / Brand awareness]
-Product catalog available: [Yes — connected to Pinterest / No / In progress]
-Visual assets available: [Lifestyle photography / Product-only shots / Video / UGC / None yet]
-Top product categories: [e.g., home decor, wedding, fitness, recipes, fashion, beauty]
-Geographic target: [US / UK / Canada / Australia / Global]
-Key selling season or upcoming event: [Holiday / Valentine's Day / Mother's Day / Back-to-School / Always-on]
-Biggest competitor on Pinterest: [Competitor brand name or "unknown"]
+Build a complete Pinterest Ads campaign including:
 
-Deliver:
-1. Campaign structure: 3 campaigns (Awareness, Consideration, Conversion/Catalog Sales) with budget splits and Pinterest campaign objectives
-2. Pin format recommendation per funnel stage (Standard, Video, Carousel, Collections, Shopping, Idea Pins)
-3. Targeting plan: interest categories, keywords (50+ terms), customer list audiences, and actalike expansion
-4. Creative briefs for 4 Pin variants: aspect ratio, visual direction, text overlay copy, headline, and CTA
-5. Pinterest Shopping catalog setup checklist if product catalog applies
-6. Pinterest Tag conversion events to install (priority-ordered)
-7. Seasonal content calendar: when to launch campaigns relative to key shopping dates
-8. 30-day optimization playbook with weekly check-in benchmarks and kill criteria
+1. AUDIENCE TARGETING STRATEGY
+   - Interest categories and subcategories to target (Pinterest's 400+ interest taxonomy)
+   - Keyword targeting lists: broad, phrase, and exact match by intent stage
+   - Actalike audience strategy (Pinterest's lookalike equivalent) with seed list
+   - Customer list retargeting: segmentation by behavior (viewers, cart abandoners, purchasers)
+   - Pinterest Tag event retargeting windows: PageVisit (30d), AddToCart (14d), Checkout (180d lookback)
+   - Demographic targeting: age, gender, location, language, device
+   - Audience exclusions: recent purchasers, existing email subscribers
 
-Write creative direction in Pinterest's aspirational, save-worthy style — visuals that feel organic to the feed, not banner ads.
+2. AD FORMAT SELECTION & BUDGET ALLOCATION
+   - Standard Pins: best use cases, image ratio (2:3 recommended), text overlay rules
+   - Video Pins: recommended length (6-15s for awareness, up to 60s for consideration)
+   - Carousel Pins: number of cards, narrative structure, swipe-through strategy
+   - Shopping Ads (Product Pins): catalog integration, feed requirements, bid strategy
+   - Collection Ads: hero image + lifestyle carousel setup for DTC
+   - Idea Ads: educational content format for brand awareness
+   - Budget split across formats with rationale
+
+3. CREATIVE BRIEFS (write complete specs for all)
+   - 3 Standard Pin concepts with full creative direction:
+     - Primary image description (mood, composition, lighting, subject)
+     - Headline (max 100 chars, keyword-rich, benefit-led)
+     - Description (max 500 chars, keyword-rich, includes CTA)
+     - Destination URL and UTM parameters
+   - 2 Video Pin scripts:
+     - Hook frame (first 2 seconds — must stop the scroll)
+     - Visual narrative (show the product in aspirational context)
+     - Closing frame with CTA overlay
+     - Text overlay for sound-off viewing
+   - 1 Carousel Pin storyboard (4-5 cards):
+     - Card-by-card narrative arc (Problem → Solution → Social Proof → CTA)
+
+4. CAMPAIGN STRUCTURE
+   - Campaign objective with rationale
+   - Ad group segmentation by audience type (cold interest → warm retargeting → hot cart abandoners)
+   - Bid strategy: Automatic / Maximum bid / Target CPA recommendation by stage
+   - Daily budget per ad group with pacing notes
+   - Shopping campaign: catalog source, product group segmentation, feed optimization tips
+
+5. PINTEREST-SPECIFIC OPTIMIZATION RULES
+   - Keyword strategy: Pinterest as visual search engine (prioritize mid-funnel search intent)
+   - Pin lifespan advantage: evergreen content strategy vs. seasonal pushes
+   - Seasonal campaign calendar for [product category] (key Pin momentum windows)
+   - Board strategy to support paid amplification with organic Pin authority
+   - Creative freshness: Pinterest recommends new creatives every 30-90 days (much slower fatigue than Meta/TikTok)
+   - Text overlay best practices: top or bottom 15%, contrasting color, <6 words
+   - Safe zone guidelines for vertical (1000x1500px) and square (1000x1000px) formats
+
+6. SHOPPING & CATALOG SETUP
+   - Product feed requirements: title optimization with keywords, description, price, availability
+   - Collections setup: group products into lifestyle themes vs. category
+   - Verified Merchant Program checklist for organic Shopping distribution bonus
+   - Dynamic retargeting setup for abandoned cart recovery via catalog
+
+7. MEASUREMENT FRAMEWORK
+   - KPIs by objective with Pinterest industry benchmarks (CTR: 0.2-0.5%, CPC: $0.10-$1.50, ROAS target: 3-6x for e-commerce)
+   - Pinterest Tag implementation: required events and parameters
+   - Pinterest Conversion API (CAPI) setup for cookieless measurement
+   - View-through attribution window recommendation (Pinterest's long consideration cycle: 30d view, 30d click)
+   - 30-day optimization roadmap with weekly decision checkpoints
+
+Output everything ready to implement in Pinterest Ads Manager.
 
 ## Advanced Customizable Version
 
-ROLE: You are a performance marketing director specializing in Pinterest Ads, with deep expertise in visual intent targeting, shopping catalog optimization, seasonal demand planning, and conversion funnel architecture for brands selling to consumers in the planning and discovery phase of their purchase journey. You understand that Pinterest users are aspirational planners — they discover ideas weeks or months before buying — and that winning creative must feel like an inspiring Pin, not a paid ad.
+ROLE: You are a senior Pinterest Ads strategist with deep expertise in visual discovery psychology, Pinterest's unique commercial intent ecosystem, and the "Pinner journey" from inspiration to purchase. You understand that Pinterest functions as a visual search engine where users arrive with planning intent (not entertainment intent), that Pins have a lifespan of months rather than hours, and that the platform disproportionately influences high-consideration purchases in home, fashion, food, beauty, and wellness. You build campaigns that align with where Pinners are in their planning cycle — inspiration → research → action — and engineer creative that earns organic repins to extend paid investment.
 
 CONTEXT:
-Company: [Company Name]
-Product/Service: [Detailed description — what it is, how it looks, pricing, SKU count if applicable]
-Product category: [e.g., "Handmade ceramic home decor," "DTC activewear for women 30–50," "Wedding stationery and invitations," "Premium organic skincare line"]
-ICP (Ideal Customer Profile):
-  - Who they are: [Age range, gender skew, life stage, income level, homeowner/renter, lifestyle descriptors]
-  - What they care about: [Aesthetics, aspirations, occasions they plan for, Pinterest behavior — do they search keywords or browse feeds?]
-  - Key life events driving purchase: [New home, wedding, baby, holiday entertaining, fitness goals, seasonal refresh]
-  - Average order value: $[X]
-  - Purchase cycle length: [Impulse (<24 hrs) / Consideration (1–4 weeks) / Planned (1–3 months)]
-Monthly Pinterest Ads budget: $[X]
-Campaign flight: [Always-on / Seasonal burst around: X date / New product launch]
-Primary KPI: [ROAS / CPA / CPL / Website traffic / Video views / Catalog sales revenue]
-Target ROAS: [X] or "establish baseline — this is a new channel"
-Target CPA: $[X] or "unknown — first run"
-Secondary KPI: [Save rate / Brand awareness lift / New customer acquisition rate]
-Product catalog feed: [Shopify / WooCommerce / BigCommerce / Google Merchant Center sync / Custom feed / Not yet set up]
-Pinterest Tag installed: [Yes / No]
-Customer email list size: [X records available for upload]
-Existing Pinterest organic presence: [Follower count, monthly views, top-performing Pins if known]
-Top organic Pin topics/keywords: [What's already working organically, if anything]
-CRM/CDP: [Klaviyo / HubSpot / Attentive / Salesforce / other]
-Conversion funnel: [Direct-to-product-page / Quiz/quiz funnel / Email capture first / Subscription box]
+- Company: [Company Name]
+- Product/Service: [Full description including price point and margin profile]
+- Category: [Home Décor / Fashion / Beauty / Food & Beverage / Travel / Fitness & Wellness / DIY & Crafts / Baby & Kids / Weddings / Financial Services / B2B / Other]
+- Primary ICP: [Demographics, life stage, psychographics, values — be specific]
+- Average Order Value: $[X]
+- Purchase Cycle: [Impulse (< 48 hrs) / Considered (1-4 weeks) / Event-driven (seasonal/life milestone)]
+- Monthly Pinterest Ads Budget: $[X]
+- Has Product Catalog: [Yes — feed URL: X / No — manual product setup]
+- Top-performing creative assets: [Describe or say "none yet"]
+- Existing Pinterest presence: [Boards, followers, organic Pins if any]
+- Primary competitors on Pinterest: [Name 2-3 if known]
+- Key conversion event: [Purchase / Lead / App install / Newsletter signup]
+- Attribution model: [Last-click / Linear / Data-driven]
 
-OBJECTIVE: Build a complete Pinterest Ads campaign architecture that leverages Pinterest's unique planning-intent audience, visual search behavior, and shopping infrastructure to drive measurable revenue. Output must be implementable by a media buyer or e-commerce manager within 4 hours using Pinterest Ads Manager.
+OBJECTIVE: Build a full-funnel Pinterest Ads strategy that captures demand across all three Pinner intent stages, maximizes Shopping ROAS for catalog products, and leverages Pinterest's unique evergreen content advantage to compound returns over time.
 
-DELIVERABLES:
+CONSTRAINTS:
+- Every creative recommendation must account for sound-off viewing (85%+ of Pinterest is silent)
+- All keyword lists must align with Pinterest's search-first architecture (not Google keyword logic)
+- Shopping campaigns must include feed optimization specs, not just targeting
+- Budget recommendations must reflect Pinterest's longer optimization window (3-4 weeks minimum vs. Meta's 7-14 days)
+- Include seasonal moment planning — Pinterest users plan 2-3 months ahead of major events
 
-1. AUDIENCE & INTENT RESEARCH MAP
-   Define the Pinterest audience strategy across three layers:
-   
-   Layer 1 — Interest Targeting:
-   - Select 8–12 Pinterest interest categories from Pinterest's taxonomy that match your ICP
-   - For each: category name, estimated monthly reach on Pinterest, relevance score (High/Medium/Low), and recommended campaign stage (awareness vs. conversion)
-   - Flag interest categories where CPMs skew high due to advertiser competition (Weddings, Home Decor, Food tend to be competitive)
-   
-   Layer 2 — Keyword Targeting:
-   - Provide 60–80 keywords organized by intent tier:
-     - Discovery keywords (broad lifestyle terms): [e.g., "cozy home ideas," "minimalist decor"]
-     - Category keywords (product-adjacent): [e.g., "ceramic vase ideas," "handmade pottery"]
-     - Shopping keywords (buyer-intent): [e.g., "buy ceramic bowls," "ceramic vase for sale," "gifts for home decor lovers"]
-     - Occasion/seasonal keywords: [e.g., "Christmas table setting ideas," "Mother's Day gift ideas," "housewarming gifts"]
-   - Flag keywords with seasonality spikes using Pinterest Trends (note peak months)
-   - Negative keyword list (15–20 terms to exclude irrelevant searches)
-   
-   Layer 3 — Audience Targeting:
-   - Customer list audience: upload specs (email + phone hashing), recommended use (exclusion of existing customers from acquisition campaigns OR lookalike seed)
-   - Actalike audience: 1% lookalike from customer list — estimated reach and expected CPM premium vs. interest targeting
-   - Pinterest engagement audience: users who engaged with your Pins in the last 30/60/180 days — use for retargeting
-   - Website visitor audience: Pinterest Tag retargeting windows (7, 14, 30, 60 days) — which window to prioritize per campaign stage
-   - Demographic overlays: age range, gender, location, language, device type — specify recommended settings and any demographic suppression (e.g., exclude 18–24 if AOV is $200+)
+OUTPUT STRUCTURE:
 
-2. CAMPAIGN ARCHITECTURE
-   Design 3–4 campaigns:
-   
-   Campaign 1: Brand Awareness & Discovery
-   - Objective: Brand Awareness or Video Views
-   - Budget: [% of monthly total] — reasoning: Pinterest's CPMs are low; invest here for frequency
-   - Targeting: Broad interest + keyword (discovery tier) — no purchase intent filter
-   - Ad group structure: 2 ad groups — (a) interest-only targeting, (b) keyword-only targeting, to isolate performance
-   - Flight: Always-on OR launched 6–8 weeks before seasonal peak
-   
-   Campaign 2: Consideration & Traffic
-   - Objective: Consideration (formerly Traffic)
-   - Budget: [% of monthly total]
-   - Targeting: Category + shopping keywords + actalike audience
-   - Ad group structure: 3 ad groups — (a) keyword targeting with interest overlay, (b) actalike audience, (c) retargeting engaged Pinterest users
-   - Flight: Always-on; increase budget 3–4 weeks before key selling dates
-   
-   Campaign 3: Conversion / Catalog Sales
-   - Objective: Conversions OR Catalog Sales (if product feed connected)
-   - Budget: [% of monthly total] — highest priority for ROAS optimization
-   - Targeting: Shopping keywords + website retargeting (14–30 day window) + customer list exclusion
-   - Ad group structure: 3 ad groups — (a) shopping keywords / buyer intent, (b) cart abandoner retargeting (30-day window), (c) category browsers who didn't convert (60-day window)
-   - Flight: Always-on; max budget in peak selling windows
-   
-   Campaign 4 (Optional): Shopping Spotlight / Catalog Prospecting
-   - Objective: Catalog Sales with dynamic product ads
-   - Budget: [% of monthly total if applicable]
-   - Targeting: Interest + keyword with Pinterest's auto-optimized catalog delivery
-   - Best for: Brands with 20+ SKUs and a clean product feed
-   
-   For each campaign: Pinterest campaign objective setting, naming convention ([Brand]_[Objective]_[Targeting]_[Format]_[Date]), ad group naming, and pacing recommendation (standard vs. accelerated).
+### 1. PINTEREST AUDIENCE ARCHITECTURE
 
-3. PIN FORMAT STRATEGY & CREATIVE BRIEFS
-   
-   STANDARD IMAGE PIN (Primary format for all funnel stages):
-   - Recommended aspect ratio: 2:3 (1000 x 1500px) — outperforms 1:1 and 16:9 on Pinterest by 30–40% in saved rate
-   - Visual direction: [Lifestyle-in-context shot vs. product flat lay vs. before/after vs. styled scene]
-   - Text overlay: Yes/No recommendation based on category (home decor = minimal text; recipe = ingredient list overlay; fashion = no text)
-   - Headline: Up to 100 characters — should describe the Pin's content, not sell
-   - Description: Up to 500 characters — keyword-rich, conversational, include 3–5 relevant hashtags
-   - CTA: [Shop Now / Learn More / Save / Get Recipe / See More]
-   
-   VIDEO PIN (Priority for awareness + consideration):
-   - Recommended length: 6–15 seconds for awareness; 15–30 seconds for consideration
-   - First 2 seconds critical: Pin must convey value without sound (85% of Pinterest video plays are muted)
-   - Aspect ratios: 2:3 (mobile-first) or 1:1 (square, lower CPM but less feed real estate)
-   - Use cases: Product reveal, how-it's-made, styling tutorial, before/after transformation, recipe/DIY process
-   - Caption: Required for accessibility + keyword indexing
-   
-   CAROUSEL PIN (Best for multi-product or step-by-step content):
-   - 2–5 cards; each card should work standalone (Pinterest users don't always swipe)
-   - Card 1: Hook image with clear value prop; Cards 2–4: Features, use cases, or product variants; Card 5: CTA card with offer
-   - Use for: Product collections, outfit options, room makeover steps, recipe variations
-   
-   COLLECTIONS AD (High-converting format for e-commerce):
-   - Hero image or video at top + 3 product images below (auto-pulled from catalog)
-   - Best for: Showcasing a product line around a lifestyle theme (e.g., "Summer Kitchen Collection")
-   - Requires product catalog feed
-   
-   SHOPPING PIN (Catalog-driven, highest purchase intent):
-   - Pulled directly from product catalog — title, price, and availability auto-populated
-   - Pinterest adds a shopping bag icon signaling buyability
-   - Optimize product feed: high-quality product images + lifestyle image variant, keyword-rich titles, accurate pricing, in-stock status
-   - Best for: Any brand with Shopify/WooCommerce feed — set up and let Pinterest's algorithm optimize delivery
-   
-   For each format: provide a complete creative brief with visual concept, copy, and A/B test variation idea.
+**Funnel Stage 1 — Cold (Awareness/Discovery):**
+- Interest targeting: [List 10-15 specific Pinterest interest categories with subcategories]
+- Keyword targeting — Broad match: [20 broad keywords capturing early planning intent]
+- Keyword targeting — Phrase match: [15 phrases capturing mid-funnel research queries]
+- Keyword targeting — Exact match: [10 high-commercial-intent terms for bottom-funnel]
+- Actalike audience: Seed list recommendation + expected match rate
+- Demographic filters: Age bands, gender (if relevant), location, language
 
-4. FULL CREATIVE BRIEFS — 4 PIN VARIANTS
-   
-   Variant 1 — Aspirational Lifestyle (Discovery/Awareness)
-   - Format: Standard Image Pin (2:3)
-   - Visual concept: [Specific scene description — e.g., "Morning light streaming through linen curtains, ceramic mug on a reclaimed wood table, product displayed naturally in scene — conveys slow living aesthetic"]
-   - Text overlay: None (or minimal — 5 words max)
-   - Headline: [Write it — describe what's in the Pin, not a sales pitch]
-   - Description: [Write 150–200 characters — conversational, keyword-rich, ends with soft CTA]
-   - Hashtags: [5 relevant hashtags]
-   - Targeting: Awareness campaign, broad interest audiences
-   - Why it saves: [One sentence on why a user would save this to a board]
-   
-   Variant 2 — Product Feature / Use Case (Consideration)
-   - Format: Video Pin or Carousel (2:3)
-   - Visual concept: [Product in use — specific scenario showing benefit, not features]
-   - Headline: [Benefit-driven, under 80 characters]
-   - Description: [Problem → solution framing, 200 characters, 3–5 hashtags]
-   - CTA: [Shop Now / See How It Works]
-   - Targeting: Consideration campaign, category keywords + actalike
-   
-   Variant 3 — Seasonal / Occasion Hook (High-Intent Period)
-   - Format: Standard Image Pin with text overlay
-   - Visual concept: [Seasonally-appropriate styled scene — e.g., holiday table setting, Valentine's flat lay, spring refresh mood]
-   - Text overlay: [Occasion-specific — e.g., "Valentine's Day Gift Ideas Under $75"]
-   - Description: [Includes seasonal keywords, urgency (limited stock / ships in time for X), 3 hashtags]
-   - CTA: Shop Now
-   - Targeting: Conversion campaign, shopping keywords + seasonal keyword overlay, website retargeters
-   - Launch timing: [X weeks before the holiday based on Pinterest's 45-day planning index]
-   
-   Variant 4 — Social Proof / UGC Style (Conversion)
-   - Format: Standard Image Pin or Carousel
-   - Visual concept: [Customer photo or UGC-style lifestyle image — authentic, not studio-polished]
-   - Headline: [Customer outcome or quote — e.g., "This is the only [product] I've ever repurchased"]
-   - Description: [Review-inspired copy, includes price anchor if AOV-appropriate, 2–3 hashtags]
-   - CTA: Shop Now
-   - Targeting: Conversion campaign, retargeting audiences (cart abandoners, site visitors)
+**Funnel Stage 2 — Warm (Consideration/Retargeting):**
+- PageVisit retargeting: Window, exclusions, bid premium
+- Category/product viewer retargeting: Segment by product group viewed
+- Video viewer retargeting: 25%, 50%, 95% completion audiences
+- Engagement retargeting: Pin savers (high commercial intent signal)
 
-5. PINTEREST SHOPPING CATALOG SETUP
-   (Skip if no product catalog; complete checklist if applicable)
-   
-   Step 1: Feed Source Connection
-   - Shopify: Install Pinterest Sales Channel app → auto-syncs inventory
-   - WooCommerce: Use Pinterest for WooCommerce plugin
-   - BigCommerce: Native Pinterest integration in Channel Manager
-   - Custom feed: Upload CSV/XML via Pinterest Merchant Center with required fields: id, title, description, link, image_link, price, availability, condition, google_product_category
-   
-   Step 2: Catalog Feed Optimization
-   - Product title formula: [Brand] + [Material/Feature] + [Product Type] + [Color/Size] — keyword-rich, under 150 chars
-   - Product description: 500–1,000 words; include top 5–8 shopping keywords naturally; answer "what is it, who is it for, what does it do"
-   - Image requirements: Minimum 600 x 900px (2:3 ratio preferred); white or lifestyle background; no text/logos on primary image
-   - Price accuracy: Ensure catalog price matches landing page price — mismatch causes disapproval
-   - Availability: "in stock" / "preorder" / "out of stock" — update feed daily or via real-time API sync
-   - GTIN/MPN: Include for brand-name products to unlock additional Shopping features
-   
-   Step 3: Merchant Verification
-   - Claim your website domain in Pinterest Business Settings → adds verified merchant badge → increases CTR 15–25%
-   - Complete Pinterest Merchant Guidelines review — avoid policy violations (no health claims, no misleading pricing)
-   
-   Step 4: Dynamic Retargeting
-   - Enable Pinterest's catalog-based dynamic retargeting — shows users the exact product they viewed on your site
-   - Requires Pinterest Tag with AddToCart and PageVisit events firing on product pages
-   - Estimated ROAS uplift from dynamic retargeting vs. static ads: 2–3x
+**Funnel Stage 3 — Hot (Conversion/Recovery):**
+- AddToCart abandoners: Window, bid multiplier, creative angle (urgency + social proof)
+- Dynamic product retargeting via catalog: Setup and creative requirements
+- Customer list exclusion + suppression strategy
+- Post-purchase cross-sell audience: Lookalike from purchaser list
 
-6. PINTEREST TAG & CONVERSION TRACKING
-   Priority-ordered event list:
-   
-   Priority 1 — PageVisit: Fire on all website pages (base tracking)
-   Priority 2 — ViewCategory: Fire on collection/category pages with category parameter
-   Priority 3 — AddToCart: Fire on add-to-cart action with product_id, product_name, value, currency
-   Priority 4 — Checkout: Fire on order confirmation page with order_value, order_quantity, currency, line_items
-   Priority 5 — Lead: Fire on email capture, quiz completion, or account creation
-   Priority 6 — Custom events: [Suggest 2–3 based on product — e.g., WishlistAdd, ProductReview, SubscribeNewsletter]
-   
-   UTM parameter structure for Pinterest campaigns:
-   utm_source=pinterest&utm_medium=paid-social&utm_campaign=[campaign-name]&utm_content=[pin-variant]&utm_term=[keyword-if-applicable]
-   
-   Attribution window recommendation:
-   - Awareness campaigns: 30-day view, 7-day click (Pinterest's planning cycle is long)
-   - Conversion campaigns: 7-day click, 1-day view
-   - Always compare Pinterest-attributed vs. last-click attributed ROAS — Pinterest's view-through contribution is significant and often underreported in last-click models
-   
-   Verification: Use Pinterest Tag Helper Chrome extension to confirm all events fire correctly before launching campaigns.
+### 2. CAMPAIGN & AD GROUP STRUCTURE
 
-7. SEASONAL CAMPAIGN PLANNING CALENDAR
-   Pinterest users plan 45 days ahead of events on average. Launch campaigns EARLIER than you would on Meta or Google.
-   
-   | Season / Event | Pinterest Launch Date | Peak Spend Window | Budget Multiplier |
-   |---|---|---|---|
-   | Valentine's Day (Feb 14) | Dec 27 | Jan 20 – Feb 7 | 1.5x |
-   | Mother's Day (2nd Sun May) | Mar 20 | Apr 20 – May 4 | 1.8x |
-   | Memorial Day / Summer | Apr 1 | Apr 20 – May 25 | 1.2x |
-   | Back-to-School (Aug–Sep) | Jun 15 | Jul 15 – Aug 15 | 1.3x |
-   | Halloween (Oct 31) | Aug 20 | Sep 15 – Oct 20 | 1.2x |
-   | Thanksgiving / Black Friday | Sep 15 | Oct 25 – Nov 25 | 2.0x |
-   | Christmas / Holiday | Sep 25 | Nov 1 – Dec 15 | 2.5x |
-   | New Year / Resolutions | Nov 25 | Dec 26 – Jan 15 | 1.4x |
-   
-   Seasonal creative rules:
-   - Update Pin visuals to match the season's aesthetic 6–8 weeks before peak (holiday colors, styled props, seasonal backgrounds)
-   - Refresh keyword targeting to include occasion-specific terms 8 weeks before event
-   - Don't stop seasonal campaigns abruptly at the holiday — taper over 1 week to capture late buyers
+**Campaign 1: Shopping / Catalog Sales** (recommended primary campaign)
+- Objective: Catalog Sales
+- Ad groups: [Segment by product collection, price tier, or audience temperature]
+- Bid strategy: Target ROAS of [X]x with Automatic bidding for first 2 weeks
+- Budget: $[X]/day
+- Shopping ad creative optimization: Title formula, lifestyle image vs. product white-background testing
 
-8. 30-DAY OPTIMIZATION PLAYBOOK
-   
-   Week 1 (Days 1–7): Launch & Verify
-   - Confirm Pinterest Tag is firing on all priority events before spending
-   - Launch Awareness and Consideration campaigns first; hold Conversion campaign until Tag has 50+ events
-   - Check: Are ads approved? (Pinterest review takes up to 24 hours) — flag and fix any rejections immediately
-   - Benchmark: Expect CPM $1.50–$5.00; CPC $0.25–$1.50; Save Rate target > 0.5%
-   - Do not adjust bids — let Pinterest's algorithm gather impression data (minimum 1,000 impressions before drawing conclusions)
-   
-   Week 2 (Days 8–14): Baseline Assessment
-   - Identify top-performing interest categories and keywords by CTR and Save Rate
-   - Pause interest categories with CTR < 0.10% after 2,000+ impressions
-   - Pause keywords with 0 clicks after 500+ impressions — insufficient volume or poor match
-   - A/B test: Run Variant 1 and Variant 2 creative in separate ad groups — isolate by turning off everything else
-   - Launch Conversion campaign if Pinterest Tag has recorded 50+ Checkout events
-   - Check: Is shopping catalog approved and serving? Fix any product disapprovals (check Pinterest Merchant Center for feed errors)
-   
-   Week 3 (Days 15–21): Scale Winners
-   - Increase budget 25–30% on top-performing ad groups (lowest CPA or highest ROAS)
-   - Introduce Variant 3 (seasonal) and Variant 4 (social proof) creative
-   - Launch actalike audience expansion if customer list has 100+ matched users
-   - Enable dynamic retargeting if catalog is connected and pixel has 500+ AddToCart events
-   - Check: Outbound click rate target > 0.15% (signals traffic quality); Save rate > 0.8% (signals content resonance)
-   
-   Week 4 (Days 22–30): Optimize & Report
-   - Calculate blended ROAS vs. target — include view-through attribution from Pinterest Analytics
-   - Identify top 3 keywords by conversion volume — add these as exact match in dedicated ad groups with higher bids
-   - Kill any ad group with ROAS < 1.0x after $200+ spend — reallocate to winners
-   - Build 30-day performance report: spend, impressions, CPM, CTR, Save Rate, outbound clicks, CPC, conversions, CPA, ROAS
-   - Decision matrix: Kill (ROAS < 1.0x), Pause & Iterate (ROAS 1.0–1.5x, creative refresh needed), Scale (ROAS > 2.0x), Maintain (ROAS 1.5–2.0x, stable)
+**Campaign 2: Consideration / Traffic**
+- Objective: Consideration (drives high-intent website traffic)
+- Ad formats: Standard Pins, Carousel Pins, Video Pins
+- Audience: Cold interest + keyword targeting
+- Creative angle: Inspirational lifestyle content → "Save this" + "Shop now"
+- Budget: $[X]/day
 
-OUTPUT FORMAT: Use clear headers for each section. Provide actual interest category names, actual keywords, actual copy, and actual bid ranges — not vague suggestions. The output should be paste-ready into Pinterest Ads Manager documentation and a media buyer's campaign setup checklist.
+**Campaign 3: Awareness / Brand**
+- Objective: Brand awareness or Video Views
+- Ad formats: Video Pins (6-15 seconds), Idea Ads
+- Audience: Broadest cold audience by interest + Actalike
+- KPI: CPM, awareness lift, Pin saves (earned media indicator)
+- Budget: $[X]/day (only if total budget > $3,000/month)
+
+### 3. CREATIVE STRATEGY & BRIEFS
+
+**Pinterest Creative Principles:**
+- Vertical format (2:3 ratio, 1000x1500px) outperforms square by 30-40% on mobile
+- Pins with text overlay perform 6% better on brand awareness
+- Lifestyle context outperforms white-background product shots for discovery campaigns
+- Pins that look like organic content (not ads) earn repins and extend organic reach
+- Color psychology for [product category]: [Specific palette recommendations]
+
+**Standard Pin Creative Pack (3 Pins):**
+
+Pin 1 — Aspirational Lifestyle
+- Image concept: [Describe scene, setting, model or product placement, mood, lighting]
+- Headline: "[Keyword-rich, benefit-led, max 100 chars]"
+- Description: "[Max 500 chars including 3-4 target keywords naturally woven in, benefit statement, and soft CTA]"
+- CTA button: [Shop Now / Learn More / Get Offer / Sign Up]
+- Target audience: Cold interest + keyword
+- UTM: utm_source=pinterest&utm_medium=paid&utm_campaign=awareness&utm_content=pin1-lifestyle
+
+Pin 2 — Social Proof / Results
+- Image concept: [Before/after, user review visual, transformation shot, or aggregate result stat]
+- Headline: "[Proof-led headline with specificity]"
+- Description: "[Testimonial excerpt + product benefit + CTA]"
+- Target audience: Warm retargeting (site visitors 30d)
+
+Pin 3 — Product Feature / How-To
+- Image concept: [Step-by-step visual, close-up product detail, or "how to use" infographic style]
+- Headline: "[How-to or tip-led headline — performs well in Pinterest search]"
+- Description: "[Educational + keyword-rich + product CTA]"
+- Target audience: Keyword targeting — phrase match research queries
+
+**Video Pin Scripts (2 Videos):**
+
+Video 1 — Hook & Reveal (15 seconds, sound-off optimized)
+- Frame 0-2s (Hook): [Visual pattern interrupt — unexpected angle, bold color, satisfying motion]
+- Frame 2-8s (Problem/Context): [Show relatable pain point or desire without narration]
+- Frame 8-13s (Solution/Product Reveal): [Product shown in use, clear benefit visible]
+- Frame 13-15s (CTA): [Brand logo + text CTA overlay + URL]
+- On-screen text overlays: [Full captions for each frame — assume no audio]
+- Music/SFX: [Upbeat, royalty-free recommendation appropriate to category]
+
+Video 2 — Transformation Story (30 seconds)
+- Opening frame: [State of "before" — aspirational tension]
+- Middle act: [Product in context, showing journey or process]
+- Closing frame: [After state, benefit achieved, CTA with urgency or offer]
+- Text overlay strategy: Key benefit callouts at each stage
+
+**Carousel Pin (5 Cards — Product Collection or How-To):**
+- Card 1 (Cover): [Hero image — must work as standalone Pin, high-curiosity hook]
+- Card 2: [First feature/step/product in collection]
+- Card 3: [Second feature/step/product — include price if shopping]
+- Card 4: [Social proof or lifestyle shot]
+- Card 5 (CTA): [Brand + offer + "Shop the Collection" or "Get Started"]
+
+### 4. KEYWORD STRATEGY (PINTEREST SEARCH INTELLIGENCE)
+
+Pinterest keyword targeting differs from Google: users search with planning and aspiration intent ("small bedroom ideas," "fall dinner party decor"), not purchase-ready intent. Build keyword lists that intercept early-stage search and convert through inspirational creative.
+
+**Keyword Architecture for [Product Category]:**
+
+Tier 1 — Broad Discovery (high volume, high competition):
+[List 10 broad keywords]
+
+Tier 2 — Category Research (mid-funnel planning queries):
+[List 15 phrase-match keywords including "ideas," "inspiration," "how to," "best," "DIY"]
+
+Tier 3 — Commercial Intent (buyer-ready terms):
+[List 10 exact-match keywords including "buy," "best [product]," "[product] sale," brand + product terms]
+
+Tier 4 — Seasonal/Event-Driven (2-3 month planning window):
+[List 8-10 seasonal keywords aligned to upcoming events: holidays, seasons, life events]
+
+Negative keywords to exclude: [List 10-15 irrelevant or low-intent terms]
+
+### 5. SHOPPING CAMPAIGN OPTIMIZATION
+
+**Product Feed Optimization (Critical for Shopping Ads performance):**
+- Title formula: [Primary keyword] + [Product type] + [Key differentiator] + [Color/Size if relevant]
+  Example: "Minimalist Ceramic Planter — Handmade Indoor Plant Pot — Matte White 6-inch"
+- Description: Lead with primary keyword, include 3 secondary keywords, 150-300 characters
+- Image requirements: 1:1 or 2:3 ratio, lifestyle preferred over white background for Pinterest
+- Price: Always include — Pinterest users filter by price range
+- Availability: Real-time feed sync recommended (daily minimum)
+- Custom labels: Segment by margin tier (High/Medium/Low), bestseller status, seasonal relevance
+
+**Product Group Segmentation:**
+- Group 1: Best sellers + high margin → Highest ROAS target, aggressive bidding
+- Group 2: New arrivals → Lower ROAS target, test and learn budget
+- Group 3: Seasonal/promotional items → Surge budget during peak planning windows
+- Group 4: Low performers → Monitor-only or exclude from Shopping campaigns
+
+**Verified Merchant Program Checklist:**
+- Return policy visible on site ✓
+- Contact information accessible ✓
+- Pinterest Tag installed with Checkout event ✓
+- Secure checkout (HTTPS) ✓
+- [Platform-specific requirements: Shopify / WooCommerce / Magento integration notes]
+
+### 6. SEASONAL CAMPAIGN CALENDAR
+
+Pinterest users plan 2-3 months ahead. Build campaign surges around these high-intent windows:
+
+| Quarter | Key Moments | Pinterest Planning Spike | Budget Recommendation |
+|---------|-------------|--------------------------|----------------------|
+| Q1 (Jan-Mar) | New Year's resolutions, Valentine's Day, Spring refresh | Dec 15 – Feb 28 | +20% above baseline |
+| Q2 (Apr-Jun) | Mother's Day, graduation, summer prep, wedding season | Mar 15 – May 31 | +30% above baseline |
+| Q3 (Jul-Sep) | Back to school, fall home refresh, Halloween | Jun 15 – Aug 31 | +15% above baseline |
+| Q4 (Oct-Dec) | Holiday gifting, Thanksgiving, Christmas, New Year's | Sep 15 – Dec 15 | +40-60% above baseline |
+
+[Category-specific seasonal moments for [product category]]
+
+### 7. MEASUREMENT & ATTRIBUTION FRAMEWORK
+
+**KPIs by Campaign Objective:**
+
+| Objective | Primary KPI | Pinterest Benchmark | Your Target |
+|-----------|-------------|---------------------|-------------|
+| Shopping/Catalog Sales | ROAS | 3-6x | [X]x |
+| Traffic/Consideration | CPC | $0.10–$1.50 | $[X] |
+| Video Views | CPV | $0.01–$0.05 | $[X] |
+| Brand Awareness | CPM | $2–$5 | $[X] |
+| Lead Generation | CPL | $1–$5 | $[X] |
+
+**Pinterest Tag Implementation (Required Events):**
+- PageVisit: All pages (with page_type parameter)
+- ViewCategory: Category pages
+- AddToCart: With value and currency
+- InitiateCheckout: Checkout start
+- Checkout: Purchase event with order_id, value, currency, line_items
+- Signup: For lead gen campaigns
+
+**Pinterest Conversion API (CAPI) Setup:**
+- Server-side event matching via Pinterest CAPI eliminates iOS 14+ tracking loss
+- Match keys: email (hashed SHA-256), phone (hashed), external_id
+- Implementation priority: Checkout > AddToCart > PageVisit
+- Deduplication: Send both browser Tag and CAPI with event_id for deduplication
+
+**Attribution Window Recommendation:**
+Pinterest users have long consideration windows (planning-first platform). Use:
+- Click-through attribution: 30 days
+- View-through attribution: 30 days
+- Engaged-view attribution: 30 days (for video campaigns)
+
+This is longer than Meta's default — do not cut windows short or you will undercount Pinterest's contribution.
+
+**30-Day Optimization Roadmap:**
+
+Week 1-2: Learning Phase
+- DO NOT optimize bids — let Pinterest's algorithm collect data
+- Monitor: Spend pacing, CTR by creative, Pin save rate (leading indicator of quality)
+- Action: Kill any Pin with CTR < 0.1% after 1,000 impressions
+
+Week 3: First Optimization Pass
+- Identify top 2-3 Pins by CTR and conversion rate → increase budget allocation by 20%
+- Pause underperforming ad groups (CPA > 2x target with 50+ clicks)
+- Keyword pruning: Add negative keywords based on search term report
+
+Week 4+: Scale Phase
+- Apply bid adjustments: +15-25% for Actalike audiences showing ROAS above target
+- Launch new creative variations based on Week 1-3 learnings
+- Begin evergreen Pin strategy: Refresh creative quarterly, not monthly (Pinterest's slower fatigue cycle)
+- Expand Actalike audiences using purchaser seed list
 
 ## Example Input/Output
 
-**Input Example:**
-Product: Linen bedding collection (duvet covers, pillowcases, flat sheets)
-One-line description: Stonewashed European linen bedding for design-conscious adults who want a calm, luxurious bedroom
-Target audience: Women 28–45, homeowners, interested in interior design, slow living, sustainability
-Monthly budget: $6,000
-Primary goal: Catalog sales (ROAS)
-Product catalog: Shopify (connected)
-Visual assets: Professional lifestyle photography, some UGC from customers
-Top categories: Home decor, bedroom design, sustainable living
-Geographic target: US, Canada, UK, Australia
-Key season: Holiday gifting (launching mid-October)
-Competitor: Cultiver, Parachute Home
+**Input:**
+- Company: Verdana Home
+- Product: Handmade ceramic planters and indoor garden accessories, $45–$190 average price
+- ICP: Women 28-45, homeowners, interested in interior design, plants, and sustainable living
+- Goal: Catalog sales, target 4x ROAS
+- Budget: $8,000/month
+- Has Shopify catalog: Yes
+- Key season: Spring (March–May)
 
-**Output Example (excerpt):**
+**Output Excerpt:**
 
-**Interest Targeting Selection (Top 6 of 12):**
-- Home Decor (reach: 45M+ monthly) — broad but core; use for awareness only, CPM $2.50–$4.00
-- Bedroom Design (reach: 12M monthly) — high relevance; use for consideration, CPM $3.00–$5.00
-- Sustainable Living (reach: 8M monthly) — ICP values match; use for consideration, CPM $2.00–$3.50
-- Luxury Bedding (reach: 2M monthly) — small but high intent; use for conversion, CPM $4.00–$6.00
-- Interior Design (reach: 38M monthly) — broad awareness; combine with keyword overlay
-- Slow Living (reach: 3M monthly) — niche but ICP-perfect; test at low budget ($300/month)
+**Campaign 1: Shopping — Catalog Sales**
 
-**Top 15 Shopping Keywords (Buyer Intent Tier):**
-linen duvet cover, linen sheets queen, stonewashed linen bedding, luxury linen bedding, european linen sheets, linen bedding set, best linen sheets, organic linen duvet, linen duvet cover queen, Belgian linen sheets, linen bedding australia, linen bedding canada, premium bedding sets, gift for home, bedroom upgrade ideas
+Ad Group 1A: Best Sellers — Cold (Interest targeting)
+- Interests: Indoor Plants, Plant Parent, Home Décor, Scandinavian Interior, Minimalist Design, Boho Home
+- Bid strategy: Automatic, ROAS target 4x
+- Budget: $120/day
+- Creative: Lifestyle Pins showing planters in styled home environments with natural light
 
-**Seasonal Launch Recommendation:**
-Launch campaign October 12 — 6 weeks before Black Friday. Holiday creative theme: "The gift of a beautiful bedroom." Text overlay: "Give the gift of great sleep — linen bedding, from $89." Target CPA by Nov 25: $42 (based on $180 AOV and 4.3x target ROAS).
+Ad Group 1B: Cart Abandoners — Hot (Retargeting 14d)
+- Audience: Pinterest Tag AddToCart last 14 days, exclude purchasers 90d
+- Bid: +40% above base bid (urgency creative)
+- Budget: $30/day
+- Creative: "Still thinking it over? Free shipping ends Sunday" + product image of abandoned item
 
-**Creative Brief — Variant 3 (Holiday/Seasonal):**
-Format: Standard Image Pin (2:3, 1000x1500px)
-Visual: Styled bedroom scene — white linen duvet, warm morning light, small wrapped gift box on the bed with a sprig of pine. Neutral, editorial tone. No model.
-Text overlay (bottom third, white text on light-tinted overlay): "The gift they'll use every single day."
-Headline: Linen Bedding That Gets Softer Every Wash — From $89
-Description: Stonewashed European linen bedding for the bedroom they've always wanted. Perfect gift for the holidays — ships in 3–5 days. Free shipping on orders over $150. #LinenBedding #HolidayGifts #BedroomDecor #SlowLiving #GiftForHome
-CTA: Shop Now
+**Keyword Highlights (Phrase Match):**
+"indoor plant pots ideas," "minimalist planter ceramic," "boho plant stand ideas," "indoor plants decoration living room," "plant shelf ideas for home"
 
-**Week 2 Kill Criteria:**
-- Pause any interest category with CTR < 0.08% after 3,000 impressions
-- Pause keywords with 0 outbound clicks after 400+ impressions
-- Pause any ad creative with Save Rate < 0.3% after 1,000 impressions — indicates poor creative-audience fit
-- Flag any ad group with CPA > $90 (2.1x target) for creative revision before scaling
+**Pin 1 Creative Brief:**
+- Image: Morning light streaming through a linen-curtained window, styled shelf with 3 Verdana matte white ceramic planters in varying heights, trailing pothos plant, linen book stack, ceramic mug. Warm, aspirational, editorial feel.
+- Headline: "Indoor Plants Look Better in Handmade Ceramics"
+- Description: "Give your plant collection the home it deserves. Verdana planters are handcrafted from stoneware clay — each one unique, every one stunning. Free shipping on orders over $75. Shop the spring collection now. #IndoorPlants #CeramicPlanter #PlantMom #HomeDecor"
+- UTM: utm_source=pinterest&utm_medium=cpc&utm_campaign=spring-catalog&utm_content=lifestyle-pin1
+
+**Week 1 Performance Benchmarks:**
+- CTR target: > 0.35% (Strong for home/décor category)
+- Pin save rate: > 0.8% (indicates organic amplification potential)
+- Shopping CPC: < $0.90
+- ROAS Week 1 (learning): Accept 2-3x while algorithm optimizes
 
 ## Success Metrics
-- **Save Rate benchmark:** 0.5–2.0% for Standard Image Pins (saves signal content resonance and drive long-tail organic distribution — Pins continue to earn saves and clicks for months or years after a campaign ends)
-- **Outbound CTR benchmark:** 0.15–0.50% for consideration/conversion campaigns (lower than Google or LinkedIn — Pinterest is a planning platform, not a direct-click platform)
-- **CPM benchmark:** $1.50–$6.00 depending on category competitiveness and audience size (home decor and wedding skew higher)
-- **CPC benchmark:** $0.30–$2.00 for conversion-stage campaigns; $0.10–$0.60 for awareness campaigns
-- **ROAS benchmark (e-commerce):** 2.0–6.0x for catalog sales campaigns; Pinterest typically outperforms Meta on ROAS for home, fashion, beauty, and food categories
-- **Catalog approval rate:** Aim for > 95% of products approved in Merchant Center — disapprovals suppress campaign reach
-- **30-day success threshold:** Blended ROAS at or above 1.8x breakeven ROAS; CPA at or below 1.5x target CPA; Save Rate above 0.5% indicating organic amplification is happening
-- **Long-tail signal:** Check organic Pin impressions in Pinterest Analytics 60 days post-campaign — paid Pins that earned saves during a campaign continue to circulate organically, extending effective ROAS
+
+**Green Light Indicators (Campaign is working):**
+- Shopping ROAS > 3x after 30 days of learning
+- Pin save rate > 1% (strong signal — Pinners are bookmarking for future purchase)
+- CPC below $1.20 for consideration campaigns
+- CTR > 0.3% for Standard Pins in home/lifestyle categories
+- Cart abandonment retargeting ROAS > 6x
+
+**Yellow Flags (Needs optimization):**
+- CTR < 0.15% after 2,000 impressions → Creative not resonating; test new imagery
+- ROAS flat between weeks 3-6 → Expand audience or add new creative format
+- Impression share declining → Bid too conservative; increase by 15-20%
+
+**Red Flags (Structural issues):**
+- Pin saves high but no conversions → Landing page mismatch with Pinterest expectation (inspirational vs. pushy)
+- Catalog Shopping disapproved → Feed issues; check title keyword density and image specs
+- No data in Ads Manager after 48 hours → Pinterest Tag not firing correctly
 
 ## Related Prompts
-- [`Meta-Ads-Campaign-Builder.md`](./Meta-Ads-Campaign-Builder.md) — For broader social reach with overlapping lifestyle audience targeting
-- [`TikTok-Ads-Campaign-Builder.md`](./TikTok-Ads-Campaign-Builder.md) — For video-first creative strategy targeting similar D2C and e-commerce audiences
-- [`Retargeting-Remarketing-Campaign-Intelligence-Engine.md`](./Retargeting-Remarketing-Campaign-Intelligence-Engine.md) — Layer retargeting across channels to close Pinterest-engaged visitors
-- [`../../03_Content-&-Creative/Visual-Asset-Generation/AI-Image-Prompt-Engineering.md`](../../03_Content-&-Creative/Visual-Asset-Generation/AI-Image-Prompt-Engineering.md) — Generate Pinterest-optimized visual creative briefs and AI image prompts
+
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Meta-Ads-Campaign-Builder.md` — Full-funnel Facebook & Instagram campaign architecture
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Retargeting-Remarketing-Campaign-Intelligence-Engine.md` — Cross-platform retargeting strategy for cart abandoners and warm audiences
+- `../../03_Content-&-Creative/Social-Media-Content/Social-Commerce-&-Shoppable-Content-Revenue-Engine.md` — Shoppable content strategy across visual platforms
+- `../../03_Content-&-Creative/Email-Marketing/DTC-E-Commerce-Email-Lifecycle-&-Revenue-Automation-Engine.md` — Email follow-up sequences for Pinterest-sourced traffic that doesn't convert immediately
 
 ## Integration Tips
-- **Shopify:** Install the Pinterest Sales Channel app (free, from Pinterest) — syncs product catalog automatically, installs Pinterest Tag via Shopify theme, and enables checkout tracking without manual code. Enables Shopping Pins and dynamic retargeting with zero developer time.
-- **Klaviyo:** Sync Klaviyo email segments to Pinterest Customer Lists via CSV export or Zapier — use your "VIP customers" and "lapsed buyers" segments as lookalike seeds for actalike audiences. Re-upload lists monthly to keep audiences fresh.
-- **Google Analytics 4:** Add Pinterest UTM parameters to all Pin links; build a Pinterest channel group in GA4 to track multi-touch attribution. Compare GA4 last-click ROAS vs. Pinterest's view-through ROAS — truth is usually in the middle.
-- **Triple Whale / Northbeam:** If running omnichannel D2C attribution, add Pinterest as a paid social channel in your MTA platform. Pinterest's halo effect on other channels (email open rates lift when Pinterest awareness is running) is typically visible in blended MTA models.
-- **Notion / Google Sheets:** Use the seasonal campaign calendar table as a Notion database with campaign status, launch date, budget, and ROAS columns. Pull Pinterest Ads API data into Google Sheets via Supermetrics or Pinterest's native Google Sheets integration for weekly automated reporting.
-- **Zapier:** Create automation: Pinterest Ad spend threshold exceeded → Slack alert to media buyer → pause ad group automatically via Pinterest API. Use for budget guardrails during high-spend seasonal peaks.
-- **Creative workflow:** Route all Pin creative through a 2:3 aspect ratio Canva template library — build a master template set for each Pin format (Standard, Carousel, Collections) and version across seasons by swapping hero images and text overlays. Reduces creative production time by 60–70%.
+
+**Shopify:**
+- Install Pinterest Sales Channel app for automatic catalog sync and Pinterest Tag setup
+- Enable "Pinterest Shopping" to create Product Pins automatically from your catalog
+- Use Shopify's Pinterest CAPI integration (native) to reduce iOS 14+ signal loss
+- Tag product collections for Pinterest board recommendations
+
+**WooCommerce:**
+- Pinterest for WooCommerce plugin handles feed generation and Tag installation
+- Set up automatic feed refresh (daily) via plugin settings
+- Enable Rich Pins for automatic metadata sync (price, availability, product title)
+
+**Google Sheets / Zapier:**
+- Build a Pinterest performance dashboard pulling from Pinterest Ads API via Zapier
+- Automate weekly KPI report: ROAS, CPC, CTR, save rate → Slack or email
+- Create automated budget pacing alerts: "If daily spend < 80% of budget → notify media buyer"
+
+**Klaviyo / Email Marketing:**
+- Sync customer email lists to Pinterest as matched audiences for suppression (exclude buyers) and Actalike seed lists
+- Post-purchase: trigger Pinterest "Thank You" Pin save email sequence to encourage organic repins
+- Segment: High-LTV customers → Actalike seed for Tier 1 expansion campaigns
+
+**Notion / Airtable:**
+- Track Pin creative inventory with status (Active / Fatigued / Paused), creation date, and performance metrics
+- Build a quarterly creative refresh calendar — Pinterest's slower fatigue cycle (30-90 days) means less production needed vs. Meta
+
+**Triple Whale / Northbeam:**
+- Add Pinterest as a connected channel in your MTA tool — Pinterest's long consideration cycle is systematically undercounted in last-click models
+- Use Post-Purchase Survey (PPS) to capture "How did you hear about us?" — Pinterest often shows up there but not in GA4
 
 ## Troubleshooting
-- **Problem:** Pinterest Ads delivering high impressions and saves but very low outbound clicks and conversions.
-  **Solution:** This is Pinterest's planning platform behavior — users save Pins to revisit later, not click immediately. First, verify your landing page loads in under 3 seconds on mobile (Pinterest traffic is 85% mobile; slow load = immediate bounce). Second, install dynamic retargeting to re-engage savers who visit your site days or weeks later. Third, check that your landing page continues the aesthetic promise of the Pin — a mismatch between a beautiful lifestyle Pin and a generic product page kills conversion. Add lifestyle imagery and social proof above the fold on landing pages receiving Pinterest traffic. Expect conversion cycles of 2–6 weeks for considered purchases.
 
-- **Problem:** Shopping catalog has high disapproval rates (> 10% of products rejected in Pinterest Merchant Center).
-  **Solution:** The most common disapproval causes are: (1) Price mismatch between catalog feed and website — run a feed audit and ensure your catalog syncs at least daily; (2) Low-quality product images — Pinterest requires minimum 600x900px, no watermarks, no promotional overlays on the primary image; (3) Prohibited product categories — Pinterest restricts certain supplements, weapons, and financial products. Log into Pinterest Merchant Center → Catalogs → review the disapproval reason for each rejected product. Fix the feed source (Shopify/WooCommerce product data) and re-sync — don't manually override individual products, or they'll break again on the next sync.
+**Problem: Shopping Pins disapproved or catalog not syncing**
+Fix: Audit product feed for these common issues: (1) title contains prohibited terms or is too short (<3 words), (2) image is white-background square — Pinterest prefers 2:3 lifestyle images, (3) price missing or in wrong currency format, (4) availability field is blank or inconsistent. Use Pinterest's Catalog Health dashboard to identify specific errors. For Shopify, disconnect and reconnect the Pinterest Sales Channel to force a fresh sync.
 
-- **Problem:** ROAS on Pinterest is far below target in weeks 1–2 and the temptation is to kill the channel.
-  **Solution:** Pinterest requires a longer evaluation window than Meta or Google because of its planning-cycle nature. Do not evaluate ROAS in the first 14 days. Instead, evaluate Save Rate and CTR as leading indicators of audience-creative fit. A Pin with a > 1.0% Save Rate and > 0.20% CTR in week 1 will typically convert at scale in weeks 3–6 as retargeting activates and dynamic retargeting closes the loop. Give conversion campaigns a minimum $500 in spend before drawing conclusions, and compare Pinterest-attributed ROAS (7-day click + 30-day view) in Pinterest Analytics alongside last-click ROAS in GA4 — Pinterest's true contribution is almost always higher than GA4's last-click model shows.
+**Problem: High Pin saves but almost zero conversions**
+Fix: This is the #1 Pinterest-specific failure mode. Pinners save for future reference, then forget or buy elsewhere. Solutions: (1) Strengthen email capture at the top of the landing page — offer a discount or free content to capture intent now, (2) Retarget Pin savers (this is a distinct, high-intent audience in Pinterest Ads) with time-sensitive offers, (3) Ensure landing page matches the inspirational/aspirational creative energy of the Pin — overly promotional landing pages create cognitive dissonance, (4) Extend attribution window to 60 days to capture delayed conversion credit.
+
+**Problem: Campaign spend not reaching daily budget**
+Fix: Pinterest frequently under-delivers in small accounts or new campaigns. Solutions: (1) Broaden audience targeting — if audience is under 500K, Pinterest won't have enough inventory, (2) Increase bids by 25% — Automatic bidding sometimes underbids in competitive categories, (3) Add more keywords — minimum 20-30 keywords per ad group, (4) Ensure creative passes review — rejected Pins silently reduce delivery, (5) Verify Pinterest Tag is active — without conversion data, algorithm cannot optimize and throttles spend.
 
 ## Version History
 - v1.0: Initial creation (auto-generated)
