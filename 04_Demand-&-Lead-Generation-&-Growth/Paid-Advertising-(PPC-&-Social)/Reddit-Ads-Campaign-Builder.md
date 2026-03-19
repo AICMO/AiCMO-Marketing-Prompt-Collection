@@ -1,362 +1,361 @@
-# Reddit Ads Campaign Builder - B2B & B2C Reddit Advertising Intelligence Engine
+# Reddit Ads Campaign Builder - Community-Native Paid Advertising & Intent-Based Demand Generation Engine
 
-**Difficulty:** Intermediate | **Time:** 15-25 min | **Tags:** reddit-ads, paid-social, community-marketing, b2b-advertising, demand-generation
+**Difficulty:** Intermediate | **Time:** 15-25 min | **Tags:** reddit-ads, paid-social, community-targeting, b2b-advertising, d2c-advertising, subreddit-targeting, demand-generation
 
 ## Overview
-Builds complete Reddit advertising campaigns targeting high-intent communities (subreddits) with native-feeling ad creative, audience segmentation, and bid strategies. Use when you want to reach technical buyers, enthusiast communities, and niche professional audiences who actively research products on Reddit before purchasing.
+Builds complete Reddit advertising campaigns with community-native creative strategy, subreddit and keyword targeting, and bid optimization across all Reddit ad formats. Use when you want to reach high-intent buyers inside the communities where they already research purchase decisions — before they ever reach Google or your website.
 
 ## Quick Copy-Paste Version
 
 You are a Reddit Ads specialist building a complete campaign for [Your Product/Service].
 
-PRODUCT: [Your Product] — [1-sentence description of what it does]
-TARGET AUDIENCE: [Job title or persona, e.g., "DevOps engineers evaluating CI/CD tools"]
-GOAL: [Lead gen / Brand awareness / App installs / Website traffic]
+PRODUCT: [Your Product] — [1-sentence description of what it does and who it's for]
+TARGET COMMUNITY: [e.g., "SaaS founders, DevOps engineers, D2C beauty consumers, personal finance enthusiasts"]
+GOAL: [Brand awareness / Lead gen / App installs / E-commerce conversions / Website traffic]
 MONTHLY BUDGET: $[X]
 GEOGRAPHIC TARGETS: [US only / Global / Specific countries]
+BRAND TONE: [How authentic/technical/playful should copy feel? Reddit skews skeptical — be honest]
 
 Build a complete Reddit Ads campaign including:
 
-1. SUBREDDIT TARGETING LIST
-   - 10-15 specific subreddits with subscriber counts and relevance rationale
-   - Split into: Primary (highest intent), Secondary (research phase), Tertiary (awareness)
-   - Include both broad and niche communities
+1. SUBREDDIT TARGETING STRATEGY
+   - 10-15 high-relevance subreddits to target with subscriber count and relevance rationale
+   - Subreddit tiers: Tier 1 (direct category), Tier 2 (adjacent interests), Tier 3 (lifestyle/demographic)
+   - Subreddits to EXCLUDE to avoid brand safety issues or wasted spend
+   - Keyword targeting list: 20+ terms that surface in-market conversations across subreddits
+   - Interest category targeting as a complement to community targeting
+   - Custom audience options: pixel retargeting, email list upload, lookalike from converters
 
-2. AUDIENCE SEGMENTS
-   - Interest-based targeting keywords (Reddit's interest categories)
-   - Custom audience strategy (pixel retargeting, lookalikes, email list uploads)
-   - Reddit community targeting vs. keyword targeting recommendation
+2. AD FORMAT SELECTION & BUDGET ALLOCATION
+   - Recommended format mix with budget rationale:
+     - Promoted Posts (image/video/text): primary format specs and use cases
+     - Video Ads: completion rate benchmarks and optimal length by objective
+     - Conversation Ads: when to use comment-seeding format for community trust
+     - Carousel Ads: product showcase or multi-benefit storytelling
+     - Dynamic Product Ads: if e-commerce, catalog feed setup
+     - Free-Form Ads: for technical or developer audiences needing long-form context
+   - Budget split across formats and ad groups
 
-3. AD CREATIVE (write all copy)
-   - 3 Promoted Post ads (native feed format, conversational tone, no hard sell)
-   - 2 Conversation Placement ads (appear in comment threads)
-   - 1 Takeover ad concept (for awareness campaigns)
-   - Headlines: under 300 characters each
-   - Body copy: under 500 characters each
-   - CTA button text options for each
+3. CREATIVE BRIEFS (write complete copy for all)
+   - 3 Promoted Post variants (each with headline, body copy, CTA button text):
+     - Variant A: Problem-aware (speaks to pain the community discusses)
+     - Variant B: Solution-aware (for users deeper in research)
+     - Variant C: Community-native (written like a redditor sharing a discovery, not an ad)
+   - 1 Video Ad script (15-30 seconds): hook, value statement, proof point, CTA
+   - Copy rules for Reddit: no corporate jargon, acknowledge skepticism, cite real numbers, invite discussion
+   - Headline character limits: 300 chars; Body: 10,000 chars — recommend optimal lengths
 
 4. CAMPAIGN STRUCTURE
-   - Campaign objective selection with rationale
-   - Ad group breakdown by subreddit cluster
-   - Bid strategy: CPM vs. CPC vs. CPV recommendation with target ranges
-   - Daily budget allocation across ad groups
+   - Campaign objective with rationale (Awareness / Traffic / Conversions / App Installs / Video Views)
+   - Ad group breakdown: one per audience segment or subreddit cluster
+   - Bid strategy: CPM (brand awareness) vs. CPC (traffic/leads) vs. Optimized CPM (conversions)
+   - Daily budget per ad group with scaling triggers (CTR > X%, CPA < $Y)
+   - Frequency capping recommendations (Reddit users see the same ad fast — cap at 2-3/week)
+   - A/B test: 2 creative vs. 2 audience segments in Week 1
 
 5. LANDING PAGE ALIGNMENT
-   - Recommended landing page type for Reddit traffic (low-commitment, value-first)
-   - Above-the-fold headline that matches Reddit user intent
-   - Social proof elements that resonate with Reddit's skeptical audience
+   - Landing page element that matches the subreddit community's language and expectations
+   - Social proof that resonates with Reddit skeptics (case studies, G2 ratings, real user quotes)
+   - CTA framing for community-minded buyers (avoid aggressive FOMO; emphasize transparency)
+   - Form length recommendation for Reddit-sourced traffic (shorter = better)
 
 6. REDDIT-SPECIFIC OPTIMIZATION RULES
-   - Comment strategy (should brand respond in comment threads?)
-   - Karma and authenticity signals to include in ads
-   - Topics/tones to avoid that trigger Reddit backlash
-   - Optimal posting times (day/hour)
+   - Comment monitoring strategy: how to respond to ad comments (Reddit comments are public)
+   - Upvote/downvote dynamics: what makes Reddit users engage vs. hide an ad
+   - Time-of-day targeting: Reddit peak hours by subreddit type
+   - Seasonal or trending subreddit moments to intercept
+   - Creative refresh cadence (Reddit fatigue: typically 2-3 weeks)
 
 7. MEASUREMENT FRAMEWORK
-   - KPIs by campaign objective
-   - Reddit Pixel events to track
-   - Benchmark CPCs/CPMs for this category
-   - 30-day optimization checklist
+   - KPIs by objective with Reddit industry benchmarks:
+     - Promoted Post CTR: 0.2-0.5% (good), > 0.5% (excellent)
+     - Video completion rate: 25%+ for 30-second ads
+     - CPL targets by vertical
+   - Reddit Pixel events to implement (PageView, Lead, Purchase, AddToCart)
+   - Conversions API setup for server-side tracking (post iOS 14.5)
+   - 30-day optimization roadmap with weekly decision checkpoints
 
-Output everything ready to implement in Reddit Ads Manager.
+Output everything ready to implement in Reddit Ads Manager (ads.reddit.com).
 
 ## Advanced Customizable Version
 
-ROLE: You are a senior paid social strategist with deep expertise in Reddit's unique advertising ecosystem, community dynamics, and the platform's distinctive user psychology. You understand that Reddit users are highly skeptical of overt advertising, value authenticity and helpfulness, and make purchase decisions based on peer recommendations within communities they trust.
+ROLE: You are a senior paid social strategist specializing in Reddit's advertising ecosystem with deep expertise in community psychology, subreddit culture dynamics, and intent-based targeting inside niche communities. You understand that Reddit users are among the most ad-skeptical audiences on the internet — they will call out inauthentic copy in the comments, vote ads down, and share screenshots of bad ads in meta-subreddits. You know that Reddit also represents one of the highest-intent research environments on the internet, where buyers actively seek peer recommendations before making purchase decisions. Your campaigns convert by earning community trust, not fighting it.
 
 CONTEXT:
 - Company: [Company Name]
-- Product/Service: [Full description]
-- Category: [B2B SaaS / Developer Tools / Consumer Tech / E-commerce / Financial Services / Other]
-- Primary ICP: [Job titles, seniority, company size, industry]
-- Current Funnel Stage Targeting: [TOFU Awareness / MOFU Consideration / BOFU Decision]
-- Monthly Reddit Ads Budget: $[X]
-- Campaign Duration: [X weeks/months]
-- Primary KPI: [CAC target / CPL target / ROAS target / CPA target]
-- Secondary KPI: [Brand recall / Share of voice / Subreddit sentiment]
-- Existing Reddit Presence: [None / r/[CompanySubreddit] with X members / Active commenting history]
-- Competitor Reddit Activity: [What competitors are doing on Reddit, if known]
+- Product/Service: [Full description including price point and primary differentiators]
+- Category: [B2B SaaS / Developer Tools / D2C E-commerce / Consumer App / Financial Services / Gaming / Health & Wellness / Recruiting / Other]
+- Primary ICP: [Job title, demographics, psychographics, pain points — be specific]
+- Purchase Cycle: [Impulse (< 48 hrs) / Considered (1-4 weeks) / Long-cycle enterprise (1-6 months)]
+- Current Reddit Presence: [None / Organic posts / Active community member / Own subreddit]
+- Monthly Reddit Ads Budget: $[X] (Reddit minimum: $5/day per campaign)
+- Previous Paid Social Performance: [Optional: CTR, CPL, ROAS from other platforms for benchmarking]
+- Key Differentiators vs. Competition: [3-5 specific points you can prove]
+- Proof Points Available: [Case studies, G2 reviews, usage stats, notable customers]
+- Brand Voice Constraints: [Any messaging restrictions, regulatory requirements, tone guidelines]
 
-OBJECTIVE: Design a full-funnel Reddit advertising strategy that generates [X leads/month OR $X pipeline] while maintaining positive community sentiment and brand authenticity.
+OBJECTIVE: Generate a complete, implementation-ready Reddit Ads campaign strategy that feels native to Reddit's culture, targets buyers at the moment of peer research, and produces measurable pipeline or revenue within 60 days.
 
-DELIVERABLES:
+OUTPUT REQUIREMENTS:
 
----
+### Section 1: Community Intelligence Map
 
-## PART 1: REDDIT AUDIENCE INTELLIGENCE REPORT
+**Primary Subreddit Targets (Tier 1 — Direct Category):**
+For each subreddit, provide:
+- Subreddit name and subscriber count
+- Why this community is in-market for [Product]
+- Estimated CPM range and competitiveness
+- Content tone/culture notes (e.g., r/devops: highly technical, no fluff; r/entrepreneur: hustle-positive, open to tools)
+- Recommended ad message angle for this specific community
 
-### Subreddit Landscape Analysis
-For each tier, provide: subreddit name, subscriber count estimate, community rules relevant to ads, typical content tone, and why this audience is valuable.
+**Secondary Subreddit Targets (Tier 2 — Adjacent Interests):**
+Communities that overlap with ICP's professional or lifestyle identity, even if not directly category-relevant.
 
-TIER 1 — HIGH INTENT (Decision-Making Phase)
-Target: Users actively evaluating, comparing, or asking for recommendations
-Examples relevant to [product category]:
-- List 5-7 subreddits with direct purchase intent signals
-- Identify "comparison" or "best of" thread patterns in these subs
+**Demographic Subreddit Targets (Tier 3 — Persona Identity):**
+For B2C/D2C: lifestyle subreddits that match buyer profile
+For B2B: career and industry subreddits (e.g., r/cscareerquestions for developer tools)
 
-TIER 2 — RESEARCH PHASE (Consideration)
-Target: Users learning about the problem space, not yet in buying mode
-- List 5-7 subreddits where prospects educate themselves
-- Note common pain point threads and language patterns
+**Keyword Targeting List:**
+30 keywords and phrases that appear in Reddit threads when users are actively researching or complaining about the problem [Product] solves. Group by:
+- Problem-aware keywords ("how to fix X", "struggling with Y")
+- Solution-aware keywords (competitor names, category terms)
+- Brand-adjacent keywords (tools, integrations, workflows)
 
-TIER 3 — AWARENESS (Broad Reach)
-Target: Large communities where ICP exists among broader audience
-- List 4-6 high-subscriber subreddits for brand building
-- Calculate estimated ICP % within each community
+**Exclusion List:**
+Subreddits and keywords to exclude for brand safety, audience mismatch, or negative association.
 
-### Keyword & Interest Targeting
-- Reddit Interest categories to select (from Reddit's taxonomy)
-- Keyword targeting terms (Reddit matches users who've engaged with these keywords)
-- Negative keywords to exclude irrelevant traffic
-- Custom audience strategy:
-  * Pixel-based retargeting: segment by page visited, time on site
-  * Email list upload: match against Reddit users
-  * Lookalike audience: seed list recommendation
+### Section 2: Campaign Architecture
 
----
+**Campaign 1: Awareness & Community Entry**
+- Objective: Brand awareness or traffic
+- Format: Promoted Post (text-heavy, community-native voice)
+- Audience: Tier 2 + Tier 3 subreddits + keyword targeting
+- Bid: CPM, $[X] daily budget
+- Success metric: Brand recall lift, click-through to educational content
 
-## PART 2: CREATIVE STRATEGY & AD COPY
+**Campaign 2: Consideration & Intent Capture**
+- Objective: Conversions or Lead Gen
+- Format: Promoted Post (image or carousel) + Video Ad
+- Audience: Tier 1 subreddits + direct keyword intent targeting
+- Bid: Optimized CPM or CPC, $[X] daily budget
+- Success metric: CPL < $[X], MQL quality score
 
-### Reddit Ad Psychology Framework
-Apply these principles to all creative:
-- **Authenticity First**: Write like a helpful community member, not a marketer
-- **Value Before Ask**: Lead with insight or data, not product pitch
-- **Community Language**: Mirror the vocabulary, humor, and tone of target subreddits
-- **Transparent Promotion**: Reddit users respect brands that are upfront about advertising
-- **Problem Framing**: Start with the pain, not the solution
+**Campaign 3: Retargeting & Conversion**
+- Objective: Conversions
+- Format: Dynamic Product Ads (e-commerce) or Image Promoted Posts (SaaS/B2B)
+- Audience: Reddit Pixel website visitors (segmented by page visited), email custom audience
+- Bid: CPC with conversion optimization, $[X] daily budget
+- Success metric: Return ROAS or SQLs from retargeting pool
 
-### Creative Variants (write full copy for each)
+### Section 3: Creative System
 
-FORMAT A: PROMOTED POST — Native Feed (3 variants)
-Structure: [Attention-grabbing headline that sounds organic] + [Body that provides value or tells a story] + [Soft CTA]
+**Reddit Creative Principles:**
+1. Write like a redditor, not a brand manager. Use real language, contractions, first-person observations.
+2. Acknowledge you're advertising. Reddit users respond to honesty ("We're a small team and built X because we had this problem too").
+3. Lead with the problem, not the solution. Reddit communities bond over shared pain.
+4. Include a proof point upfront (number, quote, or recognizable customer name).
+5. Invite engagement. Ending with a question increases comment interaction and organic algorithmic amplification.
+6. Never use stock photography. Reddit users recognize it instantly and scroll past.
 
-Variant 1 — PROBLEM/SOLUTION ANGLE:
-- Headline (< 300 chars):
-- Body (< 500 chars):
-- Image/Video concept:
-- CTA button text:
-- Target subreddit tier: [Tier 1/2/3]
+**Creative Variant A — Problem-Aware (Subreddit: r/[TargetSubreddit])**
+Headline: [Max 300 chars — pain-led, specific, no marketing speak]
+Body Copy: [150-300 words — problem empathy, solution reveal, social proof, soft CTA]
+CTA Button: [Visit site / Learn more / Get started / Download — match to funnel stage]
+Visual Direction: [Real product screenshot / User testimonial graphic / Data visualization / Before/after — never stock]
+Community Tone Notes: [How to adjust language for this specific subreddit's culture]
 
-Variant 2 — DATA/INSIGHT ANGLE:
-- Headline (< 300 chars):
-- Body (< 500 chars):
-- Image/Video concept:
-- CTA button text:
-- Target subreddit tier:
+**Creative Variant B — Solution-Aware (Competitor Displacement)**
+Headline: [Position against the known alternative in this community]
+Body Copy: [Direct comparison without naming competitor — "Unlike other tools that do X, we Y"]
+CTA Button: [Try free / See comparison / Get a demo]
+Visual Direction: [Side-by-side feature table / ROI data / Customer quote callout]
+Proof Point: [Specific metric: "Teams using [Product] reduce X by 47% in 30 days"]
 
-Variant 3 — SOCIAL PROOF/COMMUNITY ANGLE:
-- Headline (< 300 chars):
-- Body (< 500 chars):
-- Image/Video concept:
-- CTA button text:
-- Target subreddit tier:
+**Creative Variant C — Community-Native (Low-Friction Awareness)**
+Format: Text-only Promoted Post (looks like an organic post)
+Headline: [Phrased as a statement a real redditor might make, e.g., "After 3 years of spreadsheet hell, we finally built something better"]
+Body Copy: [Tells a story of the problem-to-solution journey. First-person. Humble. Invites the community to ask questions.]
+CTA Button: [Check it out]
+Comment Strategy: [Template response for first 3 types of comments: skeptical, curious, critical]
 
-FORMAT B: CONVERSATION PLACEMENT ADS (2 variants)
-These appear in comment threads — highest context relevance
-- Variant 1: Appears in "[type of discussion thread]" contexts
-  * Headline:
-  * Body (very short, < 200 chars):
-  * Why this placement works here:
+**Video Ad Script (15-30 seconds):**
+- First 3 seconds (hook): [Visual + text that stops the scroll — state the problem bluntly]
+- Seconds 4-15 (value): [Show the solution working, not explain it — screen recording or real-use demo]
+- Seconds 16-25 (proof): [One data point or customer result, on-screen text]
+- Final 5 seconds (CTA): [Single action with URL or app store link]
+- Sound-off strategy: [All key info communicated via on-screen text captions]
+- Thumbnail frame: [Which frame to use as static preview — highest visual clarity moment]
 
-- Variant 2: Appears in "[type of discussion thread]" contexts
-  * Headline:
-  * Body:
-  * Why this placement works here:
+### Section 4: Bid & Budget Optimization Framework
 
-FORMAT C: FREE-FORM CREATIVE TESTS
-- Meme-adjacent concept (if appropriate for subreddit tone):
-- AMA (Ask Me Anything) teaser concept:
-- Comparison data table format:
+**Phase 1 (Days 1-14): Learning & Audience Validation**
+- Run 2 ad groups per campaign with conservative daily caps
+- Do not adjust bids in the first 7 days (Reddit's algorithm needs 50+ conversions to exit learning)
+- Track: Impressions by subreddit, CTR by creative, Cost per landing page view
+- Kill threshold: Ad groups with CTR < 0.1% after 10,000 impressions
 
-### Comment Strategy
-Recommendation for brand engagement in ad comment threads:
-- Should brand respond? [Yes/No/Sometimes] — rationale
-- Comment response templates for:
-  * Positive engagement: [template]
-  * Skeptical or critical comment: [template]
-  * Competitor comparison question: [template]
-  * Feature request: [template]
+**Phase 2 (Days 15-30): Optimization & Scaling**
+- Pause bottom 50% of ad groups by CPA
+- Increase budget 20% on top performers every 3 days
+- Test 2 new creative variants against the winning control
+- Add winning keyword terms to Tier 1 targeting; remove low-performing subreddits
+- Implement frequency cap: 3 impressions per user per 7 days
 
----
+**Phase 3 (Days 31-60): Scaling & Lookalike Expansion**
+- Build lookalike audiences from pixel converters (minimum 100 converters for reliable lookalike)
+- Expand to top 5 new subreddits identified from Audience Insights data
+- Introduce Conversation Ads format to build community trust in high-performing subreddits
+- Begin reporting on pipeline influence, not just direct conversions
 
-## PART 3: CAMPAIGN ARCHITECTURE
+**Bid Strategy Decision Matrix:**
+| Objective | Recommended Bid Type | Starting CPM/CPC Target |
+|-----------|---------------------|--------------------------|
+| Brand awareness | CPM | $3-8 CPM |
+| Traffic to content | CPC | $0.50-2.00 CPC |
+| Lead generation | Optimized CPM | $15-40 CPL target |
+| E-commerce conversions | Optimized CPM | 3-5x ROAS target |
+| App installs | CPC | $1-5 CPC |
 
-### Campaign Structure (Reddit Ads Manager)
+### Section 5: Comment Management Protocol
 
-CAMPAIGN 1: [Name] — [Objective]
-- Objective: [Awareness / Traffic / Conversions / Video Views / App Installs]
-- Budget: $[X]/day
-- Bid Strategy: [CPM for awareness / CPC for traffic / CPA for conversions]
-- Target CPM/CPC/CPA range: $[X]-$[Y]
+Reddit is the only major ad platform where users can publicly comment on your ads. This is both a risk and an opportunity.
 
-Ad Group 1.1: [High-Intent Subreddits]
-- Subreddits: [list]
-- Audience refinement: [interest + keyword layering]
-- Creative: [Variant A1 + A2]
-- Schedule: [days/hours based on subreddit activity peaks]
+**Response Templates:**
+- Skeptical comment ("This looks like spam"): [Acknowledge the skepticism, add a specific data point, invite them to try free]
+- Product question: [Answer directly and thoroughly — Reddit values expertise]
+- Critical comment ("We tried this and it sucked"): [Thank them, ask what went wrong, offer to make it right publicly]
+- Competitive comparison: [Acknowledge the competitor respectfully, highlight your key differentiator without disparaging]
 
-Ad Group 1.2: [Research Phase Subreddits]
-- [Same structure]
+**Upvote Strategy:**
+- Seed 2-3 upvotes on your own ads via team accounts within first hour (Reddit algorithm rewards early momentum)
+- Ask 5 existing customers to upvote and comment authentically on ads they see
+- Do NOT use fake accounts — Reddit's anti-manipulation detection is sophisticated
 
-Ad Group 1.3: [Retargeting — Pixel Audiences]
-- Audience: [Visited pricing page, started trial, engaged with previous ads]
-- Creative: [More direct CTA variant]
-- Frequency cap: [X impressions per user per day]
+**Negative Feedback Protocol:**
+- Monitor ad comments every 6 hours during launch week
+- Any ad accumulating > 3 negative comments without resolution should be paused for creative revision
+- Screenshot positive comments and use as creative assets for future ads
 
-CAMPAIGN 2: [Retargeting/Nurture Campaign]
-- [Same structure focused on bottom-funnel]
+### Section 6: Measurement & Attribution Architecture
 
-### Budget Allocation Model
-| Ad Group | Monthly Budget | % of Total | Primary KPI |
-|----------|---------------|------------|-------------|
-| High-Intent Subs | $X | X% | CPL |
-| Research Subs | $X | X% | CTR |
-| Retargeting | $X | X% | CPA |
-| Testing Reserve | $X | X% | Learning |
-
----
-
-## PART 4: LANDING PAGE STRATEGY
-
-Reddit users are highly skeptical of marketing. Recommend:
-
-PRIMARY LANDING PAGE TYPE: [Long-form educational / Free tool / Research report / Peer comparison page]
-
-Page Architecture:
-- Hero headline (must NOT sound like typical marketing copy):
-- Sub-headline (acknowledge Reddit audience specifically if running subreddit-targeted ads):
-- Trust signals that resonate with Reddit's culture: [Customer logos / Open-source links / Founder transparency / G2 reviews / Reddit testimonials]
-- CTA (low-commitment): [Start free / Read the report / See how it works]
-- What to AVOID: [Aggressive popups, fake urgency, generic stock photos]
-
-Reddit-Specific Page Tactics:
-- Consider a "/reddit" landing page variant acknowledging the community
-- Link to relevant Reddit discussions as social proof
-- Feature customer quotes from Reddit itself (if available)
-
----
-
-## PART 5: MEASUREMENT & OPTIMIZATION FRAMEWORK
-
-### Reddit Pixel Event Taxonomy
-Events to implement (priority order):
+**Reddit Pixel Implementation:**
+Events to fire in priority order:
 1. PageView — all pages
-2. ViewContent — product pages, pricing, features
-3. Lead — form submissions, demo requests
-4. SignUp — trial starts, account creation
-5. Purchase — if e-commerce
+2. Lead — form submission or free trial signup
+3. Purchase — confirmed transaction with revenue value
+4. SignUp — account creation
+5. AddToCart — (e-commerce only)
+6. Search — site search queries for audience building
 
-### KPI Dashboard
-| Metric | Benchmark | Your Target | Alert Threshold |
-|--------|-----------|-------------|-----------------|
-| CTR (Promoted Posts) | 0.2-0.6% | X% | < 0.1% |
-| CPM | $5-$15 | $X | > $25 |
-| CPC | $0.75-$3 | $X | > $5 |
-| CVR (Landing Page) | 2-8% | X% | < 1% |
-| CPL | $50-$300 | $X | > $X |
-| Positive Comment Ratio | > 70% | X% | < 50% |
+**Conversions API (CAPI) Setup:**
+Reddit's CAPI sends server-side events to fill attribution gaps from ad blockers and iOS privacy restrictions.
+- Required fields: email hash, external ID, event name, event time, page URL
+- Deduplication: match client-side Pixel events with CAPI events using event ID
+- Recommended: implement via Zapier, Segment, or direct API integration
 
-### 30-Day Optimization Roadmap
-Week 1: Launch all campaigns, establish baseline
-- Daily: Check comment sections for negative sentiment
-- Monitor CTR by subreddit — pause < 0.1% performers
+**Attribution Window Recommendations:**
+- Click: 7-day post-click (Reddit buyers often research before converting)
+- View: 1-day post-view (conservative; Reddit impression → intent cycle is longer than Instagram)
+- Cross-device: enable for B2B where research happens on desktop but decisions on mobile
 
-Week 2: Creative optimization
-- A/B test winning headline angles
-- Reallocate budget to top-performing subreddits
-- Test conversation placement vs. feed placement CPL
+**Weekly Reporting Dashboard (build in Google Sheets or Looker):**
+| Metric | Baseline Target | Optimization Target |
+|--------|----------------|---------------------|
+| Impressions | — | Track by subreddit |
+| CTR | > 0.2% | > 0.4% |
+| CPC | < $3.00 | < $1.50 |
+| CPL | < $80 | < $40 |
+| ROAS | > 2x | > 4x |
+| Comment sentiment | > 70% positive | > 85% positive |
+| Upvote rate | > 60% | > 75% |
 
-Week 3: Audience refinement
-- Layer interest targeting on top of subreddit targeting
-- Build lookalike from pixel-based converters
-- Test keyword targeting vs. subreddit targeting efficiency
-
-Week 4: Scale and systematize
-- Scale budget 20% on top performers
-- Build creative refresh pipeline (Reddit creative fatigue: ~3-4 weeks)
-- Document subreddit-specific creative rules for future campaigns
+**30-Day Optimization Roadmap:**
+- Week 1: Launch all campaigns, monitor learning phase, do NOT adjust bids
+- Week 2: First creative performance review; pause underperformers, double budget on winners
+- Week 3: Expand winning subreddits; test Conversation Ad format; add keyword targeting layer
+- Week 4: Build retargeting audiences from pixel data; begin lookalike prospecting; pull 30-day full-funnel report
 
 ## Example Input/Output
 
-**Example Input:**
-- Company: Datadog (hypothetical new campaign)
-- Product: Cloud infrastructure monitoring & observability platform
-- ICP: DevOps engineers, SREs, Platform engineers at companies with 200-5,000 employees
-- Goal: Drive trial signups, $180 CPL target
-- Budget: $25,000/month
-- Campaign Duration: 90 days
+**Input:**
+- Company: Hireflow — AI recruiting software for scaling startups ($299/month per seat)
+- ICP: Heads of Talent and Founders at Series A-C startups, 50-500 employees
+- Goal: Lead generation (free trial signups)
+- Budget: $8,000/month
+- Current Reddit presence: None
 
-**Example Output (Partial):**
+**Output Snapshot:**
 
-**Top Subreddits Identified:**
-- r/devops (1.1M members) — TIER 1: Users actively discuss monitoring tools, frequent "what are you using for observability?" threads
-- r/sysadmin (1.2M members) — TIER 1: High-intent infrastructure professionals, active product comparisons
-- r/kubernetes (300K members) — TIER 1: K8s complexity drives monitoring needs; Datadog has native K8s integration
-- r/aws (450K members) — TIER 2: Cloud practitioners evaluating monitoring stacks
-- r/programming (6M members) — TIER 3: Broad reach, engineers at all levels
+**Top Subreddit Targets:**
+- r/recruiting (287K subscribers) — Tier 1: Direct HR professional audience, highly critical of vendor pitches, respond to data. Tone: Professional, benchmark-driven.
+- r/startups (1.9M subscribers) — Tier 1: Founders and early operators making hiring decisions, entrepreneurial mindset. Tone: Founder-to-founder, humble.
+- r/cscareerquestions (850K subscribers) — Tier 2: Engineers who influence or experience hiring — understand what makes recruiting good/bad. Angle: "Here's what the best hiring process looks like."
+- r/humanresources (156K subscribers) — Tier 1: HR professionals evaluating tools. Tone: Compliance-aware, process-driven.
+- r/Entrepreneur (1.4M subscribers) — Tier 2: Founders open to growth tools. Tone: ROI-driven, no-fluff.
+- r/sysadmin, r/devops, r/programming — Tier 3: Technical personas who care about their hiring experience. Angle: awareness.
 
-**Sample Promoted Post (Tier 1 — High Intent):**
+**Top Keyword Targets:** "applicant tracking system," "ATS is terrible," "how to hire engineers," "recruiting software for startups," "Greenhouse alternative," "Lever pricing," "how long should hiring take," "rejected 200 applicants"
 
-*Headline:* "We analyzed 10,000 incident postmortems. The #1 cause of extended outages isn't the bug — it's time-to-detect."
+**Winning Ad Creative (Variant C — Community Native):**
+Headline: After losing 3 great candidates to slow hiring loops, I built something to fix it
+Body: Our team at Hireflow kept watching offers expire because our interview process was a mess. Scheduling across 6 interviewers took 2 weeks. Scorecards sat unfilled. Candidates ghosted us mid-process.
 
-*Body:* "Sharing our analysis from reviewing postmortems across 500+ engineering teams. Mean-time-to-detect (MTTD) accounts for 67% of total incident cost. Happy to share the full dataset in comments."
+So we built an AI that handles scheduling, reminds interviewers, and aggregates scorecards automatically. 400 teams have cut their time-to-hire by 38% on average.
 
-*CTA:* "See the Analysis"
+We're offering free trials to recruiting teams this month. Happy to answer any questions in the comments.
+CTA: Try free for 30 days
 
-*Why it works:* Leads with data and community value, no product mention in headline, invites discussion rather than demanding action.
-
-**Campaign Structure:**
-- Ad Group 1 (r/devops + r/sysadmin + r/kubernetes): $12K/month, $4.50 target CPC
-- Ad Group 2 (r/aws + r/cloudcomputing + r/selfhosted): $7K/month, $3.80 target CPC
-- Ad Group 3 (Pixel retargeting — pricing page visitors): $4K/month, $120 target CPA
-- Testing Reserve: $2K/month
-
-**30-Day Result Benchmark:** 85-120 trial signups at $175-$210 CPL (within target range after optimization)
+**30-Day Results (benchmark):**
+- 2.1M impressions across 8 subreddits
+- 0.38% average CTR
+- 142 trial signups at $56 CPL
+- 18 comments — 72% positive, 4 product questions answered by founder directly
+- 6 trial users converted to paid ($299/mo each) in first 30 days = $1,794 MRR directly attributed
 
 ## Success Metrics
 
-**Green Light Signals:**
-- CTR > 0.3% on Promoted Posts
-- Comment section showing > 70% neutral-to-positive sentiment
-- CPL within 30% of target by end of week 3
-- Landing page CVR > 3% for Reddit traffic
-- Low bounce rate (< 65%) indicating content-ad alignment
+**Campaign is performing well if:**
+- CTR > 0.3% on Promoted Posts (industry average: 0.2%)
+- Comment-to-impression ratio > 0.05% (indicates community resonance, not just scroll-past)
+- Upvote rate > 65% (negative ratio means creative is missing the mark for this community)
+- CPL within 20% of your target within first 21 days (Reddit learning phase: 14-21 days)
+- 0 viral negative comment threads — monitor daily during first 2 weeks
 
-**Red Flags Requiring Immediate Action:**
-- Negative comment ratio > 30% — pull creative, redesign messaging
-- CTR < 0.1% — wrong subreddit targeting or irrelevant creative
-- CPL > 3x target — either wrong audience or disconnect between ad and landing page
-- Upvote-to-downvote ratio on promoted posts trending negative — authenticity issue
+**Warning signs:**
+- Downvote ratio > 40%: Creative is too salesy or irrelevant to subreddit culture
+- CTR > 0.5% but 0 conversions: Landing page/offer mismatch with Reddit traffic expectations
+- Zero comments: Ad is invisible to algorithm — increase bid or try text-only format
 
 ## Related Prompts
-
-- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/LinkedIn-Ads-Campaign-Builder.md`
-- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Meta-Ads-Campaign-Builder.md`
-- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Cross-Channel-Paid-Media-Budget-Allocation-&-ROAS-Optimization-Engine.md`
-- `../../03_Content-&-Creative/Social-Media-Content/User-Generated-Content-UGC-Campaign-Automation-Engine.md`
+- [LinkedIn Ads Campaign Builder](./LinkedIn-Ads-Campaign-Builder.md) — B2B professional targeting with demographic precision
+- [Meta Ads Campaign Builder](./Meta-Ads-Campaign-Builder.md) — Interest and lookalike targeting at scale
+- [Retargeting & Remarketing Campaign Intelligence Engine](./Retargeting-Remarketing-Campaign-Intelligence-Engine.md) — Convert Reddit-sourced visitors who didn't convert first touch
+- [Cross-Channel Paid Media Budget Allocation & ROAS Optimization Engine](./Cross-Channel-Paid-Media-Budget-Allocation-&-ROAS-Optimization-Engine.md) — Where Reddit fits in your full paid media mix
 
 ## Integration Tips
 
-**HubSpot:** Create a Reddit Ads source property in HubSpot CRM. Map Reddit campaign UTMs (`utm_source=reddit&utm_medium=paid-social&utm_campaign=[name]`) to contact records. Build a "Reddit Lead" smart list to track downstream pipeline and closed-won attribution from Reddit-sourced contacts.
+**HubSpot:** Create a Reddit Ads source property in HubSpot contact records using UTM parameters (`utm_source=reddit&utm_medium=paid&utm_campaign=[campaign_name]`). Build a Reddit Leads list view and track MQL→SQL conversion rate separately from other paid channels.
 
-**Google Analytics 4:** Create a Reddit channel group in GA4 under Admin > Channel Groups. Track micro-conversions (blog engagement, pricing page views) in addition to macro-conversions (form fills) since Reddit users often require more nurture touches.
+**Salesforce:** Map Reddit lead source to campaign influence in SFDC. Use Reddit Conversions API + Salesforce Data Cloud to close the attribution loop on enterprise deals where Reddit awareness preceded a 60-day sales cycle.
 
-**Notion/Google Sheets:** Build a Reddit Community Intelligence Dashboard tracking: subreddit sentiment, competitor mention frequency, organic brand mentions, and top-performing discussion threads for organic engagement opportunities.
+**Segment / Rudderstack:** Route Reddit Pixel server-side events through your CDP to unify Reddit touch points with cross-channel buyer journeys. Build Reddit engagement cohorts and compare downstream LTV to LinkedIn and Google cohorts.
 
-**Zapier Workflow:** Reddit trial signup → HubSpot contact creation → Slack notification to SDR team → Personalized LinkedIn connection request from AE (using Reddit lead source as icebreaker context).
+**Zapier:** Trigger Reddit Conversions API events from HubSpot form submissions via Zapier (no developer needed). Workflow: HubSpot form → Zapier → Reddit CAPI → conversion recorded.
 
-**Reddit Ads API:** Automate budget pacing adjustments using Reddit's Marketing API. When CPL exceeds target by 40%, trigger automatic budget reduction to top-performing ad groups. Pull performance data daily into your BI tool for cross-channel reporting.
+**Google Sheets (Reporting):** Pull Reddit Ads API data weekly into Google Sheets via Supermetrics or Porter Metrics. Build a weekly Reddit Ads scorecard comparing CPL, CTR, and ROAS to campaign targets. Share with stakeholders as part of weekly demand gen review.
+
+**Notion (Campaign Management):** Build a Reddit Creative Library in Notion — track every ad variant's performance, comment sentiment, upvote rate, and creative refresh date. Link each Notion entry to the live Reddit Ads Manager URL for one-click access.
 
 ## Troubleshooting
 
-**Problem: High CTR but terrible conversion rate (< 1%)**
-*Fix:* Reddit users clicked out of curiosity but landed on a generic marketing page that felt dishonest after a helpful-sounding ad. Create a dedicated Reddit landing page that mirrors the tone of the ad — educational, peer-to-peer, no aggressive CTAs. A/B test a long-form value-first page vs. a short-form peer-comparison page.
+**Problem: Ads are getting downvoted heavily and negative comments are accumulating.**
+Fix: Your creative reads like a traditional ad and Reddit users are rebelling. Immediately pause the ad. Rewrite using Variant C (community-native) framework — first-person, problem-first, no corporate buzzwords. If you have a founder or actual team member, write the ad from their personal perspective. Submit a revised version and monitor comments for the first 6 hours.
 
-**Problem: Comment sections filled with negative sentiment**
-*Fix:* The ad either made a claim that Reddit users know is exaggerated, targeted the wrong subreddit (mismatched audience), or used overtly promotional language. Pause the ad immediately. Reddit negative momentum compounds fast. Redesign creative using community language, have a real employee respond authentically to critics, and restart in smaller, more specific subreddits where the value proposition is undeniably relevant.
+**Problem: Impressions are high but CTR is below 0.1% — zero engagement.**
+Fix: Subreddit audience mismatch or irrelevant creative. Check which subreddits are burning impressions and exclude any where your product has no logical fit. If targeting looks correct, the headline is failing — test a radically different hook that leads with a specific number ("$2,400 wasted per open role") or a community-specific pain point pulled directly from top-upvoted posts in the target subreddit.
 
-**Problem: Very low delivery / ads not spending budget**
-*Fix:* Subreddit targeting is too narrow, CPM/CPC bids are below Reddit's floor for your category, or your ad account has low trust signals (new account). Expand to Tier 2/3 subreddits, increase bids 25-50%, add interest-based targeting layers alongside subreddit targeting, and ensure your Reddit Ads account is fully verified with payment method confirmed for at least 30 days.
+**Problem: CPL is 3-4x your target and you can't get it down.**
+Fix: You're likely converting the wrong audience. Pull your CPL by ad group and subreddit — often 20% of subreddits drive 80% of conversions. Pause everything except the 2-3 lowest-CPL subreddits, concentrate budget there, and run that cohort for 7 more days. Simultaneously check if your landing page messaging matches Reddit traffic expectations — Reddit users need more social proof and less urgency-based FOMO to convert.
 
 ## Version History
 - v1.0: Initial creation (auto-generated)
