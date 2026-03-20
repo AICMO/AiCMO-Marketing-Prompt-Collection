@@ -1,525 +1,396 @@
-# YouTube Ads Campaign Builder - Full-Funnel Video Advertising Strategy & Creative Generator
+# YouTube Ads Campaign Builder - B2B & B2C YouTube Advertising Intelligence Engine
 
-**Difficulty:** Advanced | **Time:** 20-35 min | **Tags:** youtube-ads, video-advertising, paid-media, demand-generation, google-ads
+**Difficulty:** Intermediate | **Time:** 20-30 min | **Tags:** youtube-ads, paid-video, google-ads, demand-generation, video-advertising, b2b-demand-gen
 
 ## Overview
-Builds a complete YouTube advertising campaign — from audience targeting and creative strategy to ad format selection, video scripts, bidding structure, and measurement framework — for any product or service. Use when launching YouTube Ads for the first time, scaling existing spend, or rebuilding underperforming campaigns that do not account for YouTube's unique viewer intent signals and ad format psychology.
+Builds complete YouTube advertising campaigns with platform-native creative strategy, audience targeting, bid optimization, and measurement frameworks across all YouTube ad formats — from skippable in-stream to connected TV. Use when you need to reach high-intent buyers at scale with video creative that drives brand lift, pipeline, and direct-response conversions on the world's second-largest search engine.
 
 ## Quick Copy-Paste Version
 
-You are an expert YouTube Ads strategist with deep knowledge of Google Ads (Video campaigns), YouTube audience psychology, and full-funnel video advertising for both B2B and B2C.
+You are a YouTube Ads specialist building a complete campaign for [Your Product/Service].
 
-Build a complete YouTube Ads campaign for:
-- Product/Service: [Your Product / App / Physical Product / B2B SaaS]
-- Target audience: [e.g., "marketing managers at mid-market SaaS companies" or "women 25-44 interested in home fitness"]
-- Monthly budget: $[X]
-- Goal: [Brand Awareness / Lead Generation / Trial Signups / Purchases / App Installs]
-- Average order value or deal size: $[X]
+PRODUCT: [Your Product] — [1-sentence description of what it does and who it's for]
+TARGET AUDIENCE: [e.g., "B2B: IT Directors at 500–5,000 employee companies" or "B2C: Homeowners 35-55 interested in home improvement"]
+GOAL: [Brand awareness / Lead generation / Website conversions / App installs / Product consideration]
+MONTHLY BUDGET: $[X]
+GEOGRAPHIC TARGETS: [US only / Global / Specific regions]
+EXISTING ASSETS: [Do you have video creative? What length? Or need scripts from scratch?]
 
-Deliver:
+Build a complete YouTube Ads campaign including:
 
-1. CAMPAIGN ARCHITECTURE
-   - Campaign types and objectives across the funnel (Video Reach, Video Views, Demand Gen, Conversions)
-   - Ad format selection for each stage: Skippable In-Stream, Non-Skippable In-Stream, Bumper Ads, In-Feed Video Ads, YouTube Shorts Ads, Masthead (if applicable)
-   - Budget split % across campaign types
-
-2. AUDIENCE TARGETING STACK
-   - Google Audiences to layer: Affinity, Custom Affinity, In-Market, Custom Intent, Life Events
-   - Remarketing sequences: YouTube video viewers, website visitors, customer match
+1. AUDIENCE TARGETING STRATEGY
+   - Custom intent audiences based on search behavior (Google Search-synced)
+   - In-market audience segments relevant to this product category
+   - Affinity audiences and custom affinity segments to build
+   - Demographics: age, gender, parental status, household income
    - Placement targeting: specific YouTube channels and videos to target
-   - Demographic + psychographic refinements
-   - Negative placements and exclusion list
+   - Topic and keyword targeting strategy
+   - Remarketing layers: website visitors, YouTube channel engagers, customer list upload
+   - Audience exclusions to eliminate waste
 
-3. VIDEO AD SCRIPTS & CREATIVE BRIEFS (write all of these)
-   - 6-second Bumper Ad (non-skippable, pure brand impact)
-   - 15-second Non-Skippable In-Stream Ad (awareness with forced attention)
-   - 30-second Skippable In-Stream Ad (Hook in first 5 seconds before skip button appears)
-   - 2-minute In-Feed Video Ad (discovery format, works like a mini YouTube video)
+2. AD FORMAT SELECTION AND BUDGET ALLOCATION
+   - Skippable in-stream ads (15 sec–3 min): recommended use cases and budget %
+   - Non-skippable in-stream ads (15–20 sec): when to use and frequency caps
+   - Bumper ads (6 sec): sequencing and frequency strategy
+   - In-feed video ads (YouTube search and home feed): targeting rationale
+   - Masthead ads: only if budget supports $X/day minimum
+   - YouTube Shorts ads: if short-form is part of strategy
+   - Connected TV (CTV) targeting: household-level reach strategy
 
-4. CAMPAIGN SETTINGS & BIDDING
-   - Bid strategies per campaign tier: CPM, CPV, Target CPA, Maximize Conversions
-   - Target CPM and CPV benchmarks for your category
-   - Frequency caps by campaign type
-   - Brand Safety settings and content exclusion categories
+3. CREATIVE BRIEFS (write full scripts for all primary formats)
+   - 1 Skippable in-stream ad (30–60 sec)
+     * Hook (first 5 seconds — must hold attention before "Skip Ad" appears)
+     * Problem statement or pattern interrupt (seconds 5–15)
+     * Solution reveal and proof (seconds 15–45)
+     * Clear CTA with visual direction (final 10 seconds)
+   - 1 Non-skippable or bumper ad (15 sec or 6 sec version)
+     * One-idea structure: single message, single emotion
+     * Brand recall placement (first 2 seconds for bumpers)
+   - 1 In-feed video thumbnail and title (search intent-driven)
+   - Companion banner copy aligned to each creative
 
-5. 30-DAY OPTIMIZATION ROADMAP
-   - Week 1: Launch and learning phase signals
-   - Week 2: Creative performance analysis
-   - Week 3: Audience expansion and placement refinement
-   - Week 4: Scale or cut decision framework
+4. CAMPAIGN STRUCTURE IN GOOGLE ADS
+   - Campaign type and bidding strategy (Target CPA / Target ROAS / Maximize Conversions / CPV)
+   - Ad group breakdown by audience segment or funnel stage
+   - Video action campaign vs. awareness campaign structure
+   - Frequency capping settings by format
+   - Brand safety settings and content exclusions
 
-Format everything as structured tables and actionable checklists ready to implement in Google Ads.
+5. LANDING PAGE ALIGNMENT
+   - Post-click page requirements that match video message
+   - Above-the-fold headline that continues the video's narrative
+   - Social proof elements most effective for video-sourced traffic
+   - Lead form or conversion flow optimized for warm video traffic
+
+6. YOUTUBE-SPECIFIC OPTIMIZATION RULES
+   - View-through conversion window settings (recommended: 1-day)
+   - Creative refresh cadence to combat view fatigue
+   - YouTube Analytics signals to monitor weekly
+   - Brand Lift Study setup criteria (minimum spend threshold)
+   - Connected TV vs. mobile delivery split optimization
+
+7. MEASUREMENT FRAMEWORK
+   - KPIs by campaign objective with YouTube benchmarks (VTR, CPV, CTR, CPVC)
+   - Google Ads conversion tracking tags and YouTube event tags to implement
+   - Attribution model recommendation for video-assisted conversions
+   - 90-day test-and-learn roadmap
+
+Output everything ready to implement in Google Ads / YouTube Ads Manager.
 
 ## Advanced Customizable Version
 
-ROLE: You are a Senior YouTube Ads Strategist with 10+ years managing $50M+ in video advertising spend across B2B SaaS, D2C e-commerce, and enterprise software. You apply the ABCDs of YouTube creative effectiveness (Attention, Branding, Connection, Direction) and the 5-second hook framework — your campaigns must earn attention before the skip button appears. You understand that YouTube viewers have high intent (they are choosing to consume content) and that the right ad in front of the right content is as important as the ad itself.
+ROLE: You are a senior paid video strategist specializing in YouTube's advertising ecosystem with deep expertise in video creative psychology, Google's audience intelligence layer, and YouTube's unique position as both a search engine and a social platform. You understand that YouTube's skippable format punishes traditional ad thinking and rewards the first 5 seconds above all else, that B2B buyers research solutions on YouTube just as much as consumers, and that YouTube's Custom Intent audiences give advertisers access to Google's search data in a video environment — making YouTube the most sophisticated B2B demand gen paid video channel available.
 
 CONTEXT:
 - Company: [Company Name]
-- Product/Service: [Detailed description — what it does, who it's for, key differentiators]
-- Target ICP: [Demographics, firmographics (B2B), psychographics, pain points, job-to-be-done]
-- Monthly YouTube Ads budget: $[X]
-- Existing video assets: [Do they have produced video content? Testimonials? Demo recordings? Explainer videos?]
-- Primary conversion goal: [Purchase / Trial Signup / Demo Request / App Install / Lead Form]
-- Target CPA or ROAS: $[X] CPA or [X]x ROAS
-- Competitors running YouTube Ads: [Competitor 1, Competitor 2 — describe their ad style if known]
-- Geographic focus: [Countries/Regions]
-- Customer LTV: $[X] (to calculate allowable CPA ceiling)
-- Current organic YouTube presence: [None / Channel with X subscribers / Active content publishing]
-
-OBJECTIVE:
-Design a full-funnel YouTube advertising system that:
-1. Captures viewer attention within the first 5 seconds before the skip button activates
-2. Builds brand memory structures through repeated, varied creative exposure
-3. Converts high-intent audiences using behaviorally sequenced video retargeting
-4. Feeds Google's machine learning algorithm with quality conversion signals for compound optimization
-
-OUTPUT REQUIRED — deliver each section in full:
-
----
-
-### SECTION 1: STRATEGIC CAMPAIGN ARCHITECTURE
-
-Create a 3-tier funnel campaign structure optimized for YouTube's viewer intent signals:
-
-**Tier 1 — Top of Funnel (Awareness & Brand Building)**
-- Campaign type: Video Reach Campaign (maximize unique reach)
-- Budget allocation: 30-40% of total
-- KPI: Unique reach, CPM, brand lift (if running Brand Lift Study), view-through rate
-- Ad formats:
-  * Bumper Ads (6-sec, non-skippable) — brand reinforcement for warm audiences
-  * Non-Skippable In-Stream (15-sec) — forced attention for cold audiences
-  * YouTube Masthead (CPD buy, if budget > $50K/month) — homepage takeover for launch moments
-- Audience: Broad custom affinity + in-market, demographic targeting, NO remarketing (exclude existing customers and website visitors)
-- Creative approach: Lead with brand visual identity, single memorable message, audio logo in last 2 seconds
-
-**Tier 2 — Middle of Funnel (Consideration & Intent Building)**
-- Campaign type: Video View Campaign (CPV) or Demand Gen
-- Budget allocation: 25-35% of total
-- KPI: View rate (target > 35% for skippable), earned views, clicks to website, engaged view rate
-- Ad formats:
-  * Skippable In-Stream (30-60 sec) — tell the full story, earn the skip
-  * In-Feed Video Ads (discovery format) — appear in YouTube search results and related video sidebars
-- Audience: Custom Intent (based on YouTube search behavior + Google search behavior), Affinity layered with In-Market, video viewers from Tier 1 campaigns
-- Creative approach: Problem-solution narrative, product demo, education-forward, CTA to content (not hard sell)
-
-**Tier 3 — Bottom of Funnel (Conversion)**
-- Campaign type: Video Action Campaign or Demand Gen with conversion objective
-- Budget allocation: 30-40% of total
-- KPI: CPA, ROAS, view-through conversions, conversion rate from YouTube traffic
-- Ad formats:
-  * Skippable In-Stream with call-to-action overlay and sitelink extensions — direct response format
-  * YouTube Shorts Ads — vertical format for mobile-first conversion sequences
-- Audience: Website visitors (7-30 days segmented by depth), YouTube video viewers (25%, 50%, 75% completion), Customer Match for suppression/lookalike seed, Similar Segments from converters
-- Creative approach: Testimonial-forward, specific results and numbers, urgency, frictionless CTA matched to conversion action
-
----
-
-### SECTION 2: AUDIENCE TARGETING MATRIX
-
-Build a complete targeting matrix. For each audience type, specify: Audience Name | Signal Source | YouTube Targeting Method | Expected CPM | Funnel Stage | Priority
-
-**GOOGLE AUDIENCES TO ACTIVATE:**
-
-Affinity Audiences (broad reach, interest-based):
-- Identify 3-5 Affinity Audience categories from Google's taxonomy most relevant to [product category]
-- For each: estimated audience size, CPM range, and why this affinity signals potential buyer intent
-
-Custom Affinity Audiences (tailored interest targeting):
-- Build custom affinity audience using: competitor URLs, relevant industry websites, YouTube channel URLs of content your ICP watches
-- Input signals: [List 10-15 URLs or keywords that define your ICP's online behavior]
-- Expected: more precise reach than standard Affinity, slightly higher CPM
-
-In-Market Audiences (active purchase intent):
-- Identify 3-5 In-Market segments where Google's algorithm has determined users are actively researching/comparing products in your category
-- Priority rank by alignment to conversion goal
-
-Custom Intent Audiences (search behavior-based):
-- Build custom intent audience using Google Search keywords your ICP searches before buying
-- List 20-30 seed keywords that signal commercial intent
-- This audience reaches people on YouTube who have recently searched these terms on Google — highest commercial intent of any YouTube audience type
-
-Life Events (B2C only, where applicable):
-- Identify relevant life events (new job, new home, starting business, recent graduate) that create purchase triggers for [product]
-
-**REMARKETING SEQUENCES:**
-
-YouTube Engagement Audiences:
-- Video viewers — 25% watched: warm audience, include in MoF campaigns
-- Video viewers — 50% watched: high interest signal, prioritize in BoF
-- Video viewers — 75%+ watched: hottest YouTube signal, include in BoF with most direct CTA
-- Channel subscribers: brand loyalists, test upsell/cross-sell messaging
-- Liked, commented, shared: social proof signaling, use as lookalike seed
-
-Website Visitor Audiences (via Google tag):
-- All website visitors (30 days): broad retargeting, nurture-focused creative
-- Pricing page visitors (14 days): highest intent signal, direct CTA creative
-- Blog/content visitors (60 days): education-phase, offer next-step content
-- Demo/trial page visitors who did NOT convert (7 days): urgency + objection-handling creative
-- Checkout abandoners / form starters (7 days): strongest retargeting signal
-
-Customer Match:
-- Upload hashed email list of current customers (for suppression from acquisition campaigns)
-- Use customer list as seed for Similar Segments (YouTube's lookalike equivalent)
-- Upload MQL or SQL list for account-based video retargeting (B2B)
-
-**PLACEMENT TARGETING:**
-
-Managed placements to research and add:
-- [5-10 specific YouTube channels your ICP watches — competitor reviews, industry analysis, professional education, conference recordings]
-- [Specific viral or evergreen videos that rank for "[product category] review/comparison/tutorial" searches]
-- YouTube search placements: target In-Feed ads on YouTube search results for competitor brand names and category keywords
-
-**NEGATIVE PLACEMENTS:**
-
-- Children's content (YouTube Kids, kids' channels)
-- Sensitive content categories (violence, profanity, adult content) — set via Brand Safety > Inventory Type: "Limited Inventory" for B2B
-- Specific channels where brand adjacency is inappropriate
-- Non-English content placements (if single-market campaign)
-
----
-
-### SECTION 3: VIDEO AD CREATIVE BRIEFS & FULL SCRIPTS
-
-Apply the YouTube ABCDs framework to every format:
-- **A — Attention**: Hook attention in the first 5 seconds (before skip button)
-- **B — Branding**: Introduce brand within first 5 seconds, not after the hook
-- **C — Connection**: Create emotional resonance through storytelling, humor, or insight
-- **D — Direction**: Single, clear call-to-action matched to funnel stage
-
-**FORMAT A — 6-Second Bumper Ad (Non-Skippable)**
-Purpose: Reinforce one brand message after In-Stream exposure. Not for cold audiences alone.
-Constraint: Zero seconds to waste. Every frame must carry meaning.
-Script structure: [Single visual + single text overlay + audio logo = complete brand message]
-
-Write word-for-word script with:
-- On-screen visual direction (second by second)
-- Voiceover or text-only (bumpers often perform better text-only with sound off)
-- End card: brand logo + tagline + visual CTA (no clickable CTA in bumper format)
-- Audio: brand sonic identity or impactful sound effect in final second
-
-Variant A1: Problem statement bumper (creates cognitive itch before longer ad)
-Variant A2: Proof/result bumper (one number, one result, brand logo — retargeting only)
-
----
-
-**FORMAT B — 15-Second Non-Skippable In-Stream Ad**
-Purpose: Forced attention — viewer cannot skip. Maximum efficiency per second.
-Constraint: Every second must either build desire or establish brand relevance.
-Script structure: Hook (0-3s) > Differentiator (3-10s) > CTA (10-15s)
-
-Write word-for-word script with:
-- Opening visual (must not start with logo — lead with emotion, tension, or result)
-- Voiceover script (word for word) with timing marks
-- On-screen text overlays
-- CTA overlay text (appears at second 5 and stays visible)
-- End card design brief
-- Audio tone direction
-
----
-
-**FORMAT C — 30-Second Skippable In-Stream Ad**
-Purpose: The workhorse of YouTube Ads. Must earn the skip — give viewers a reason to watch past second 5.
-Constraint: The skip button appears at second 5. The hook must be strong enough that skipping feels like losing something.
-Script structure: Hook (0-5s, pre-skip) > Story / Education (5-22s) > Social Proof (22-27s) > CTA (27-30s)
-
-Write word-for-word script with:
-- Pre-skip hook (seconds 0-5): the make-or-break moment. Must trigger curiosity, fear, desire, or recognition in the target viewer. This section must contain: one emotional trigger + one relevance signal (so ICP knows this ad is for them)
-- Body (5-22s): narrative or demonstration that delivers on the hook's promise
-- Proof moment (22-27s): a specific number, customer name, or visible result
-- CTA (27-30s): single action, stated twice (voiceover + on-screen text)
-- Companion banner copy (appears beside the video): headline + CTA button text
-
-Produce 3 variants targeting different psychological angles:
-- Variant C1: Fear/Pain angle (problem agitation → solution relief)
-- Variant C2: Aspiration angle (show the transformation, then the path)
-- Variant C3: Social Proof angle (lead with a customer result or testimonial)
-
----
-
-**FORMAT D — 2-Minute In-Feed Video Ad (Discovery Format)**
-Purpose: Appears in YouTube search results and related video sidebars. Viewers opt-in to watch — they clicked because the thumbnail and title were compelling. Treat like a mini YouTube video, not an ad.
-Constraint: Must provide genuine value. Viewers who clicked chose to watch — reward that choice or they'll bounce immediately.
-Script structure: Immediate value delivery (0-10s) > Education/demonstration (10-90s) > Soft CTA (90-120s)
-
-Write:
-- Thumbnail concept: what image + text overlay drives the click (A/B test 2 options)
-- Title options (3 variants, each under 70 characters, no clickbait): targets the YouTube search query your ICP uses before buying
-- Full 2-minute script with chapter markers
-- CTA: contextual — offer something that matches the educational content (not a hard sell)
-- Cards and End Screen strategy: link to related videos or website
-
----
-
-**FORMAT E — YouTube Shorts Ad (9-16 seconds, vertical)**
-Purpose: Reaches viewers consuming Shorts content. Unskippable in between Shorts. Must feel native to Shorts culture — raw, fast, authentic.
-Script structure: Hook (0-2s) > Message (2-12s) > CTA swipe-up (12-16s)
-
-Write:
-- Opening frame (must hook in 1 second — text overlay or bold visual)
-- Word-for-word script (extremely tight, every word earns its place)
-- CTA: "Swipe up" action — where does it go, what is the offer?
-- Visual pacing: fast cuts, text overlays, no talking head for more than 3 seconds
-- Authenticity signals: no heavy production, no stock footage — raw and credible
-
----
-
-### SECTION 4: BIDDING & BUDGET OPTIMIZATION SYSTEM
-
-**Bid Strategy Selection by Campaign Type:**
-
-| Campaign Type | Recommended Bid Strategy | Starting Bid Target | When to Use |
-|---|---|---|---|
-| Video Reach (ToF) | Target CPM | $X-$Y (category-dependent) | Maximizing unique reach across target audience |
-| Video Views (MoF) | Maximum CPV or Target CPV | $0.05-$0.15 for B2C; $0.15-$0.40 for B2B | Building engaged view volume before conversion |
-| Demand Gen (MoF/BoF) | Maximize Conversions → then Target CPA | Start 30% above target CPA for learning phase | Omni-channel placements, YouTube + Discover + Gmail |
-| Video Action / Conversion (BoF) | Target CPA (after 50+ conversions/month) | Set at 1.5-2x actual target CPA during learning | Driving specific conversion actions |
-| Remarketing (BoF) | Target CPA or Maximize Conversions | 20-30% lower CPA target than cold audience | Recapturing high-intent users already familiar with brand |
-
-**YouTube-Specific Bidding Rules:**
-- Learning phase: Do not change bids or audiences for minimum 2 weeks after launch or 50 conversions (whichever comes first)
-- CPV floor: YouTube's algorithm penalizes bids below competitive floor — if serving is low, check whether your CPV bid is above auction floor for your audience
-- Viewability and placement: Skippable ads only charge when viewer watches 30 seconds (or completes shorter video) or clicks — no charge for skips. Factor this into CPV efficiency calculations.
-- ROAS bidding: Only activate after 100+ purchase conversion signals in 30 days — insufficient data before this point leads to erratic bidding
-
-**Frequency Capping by Campaign Type:**
-| Campaign | Recommended Frequency Cap | Rationale |
-|---|---|---|
-| Bumper Ads (ToF) | 5 impressions/user/week | Reinforcement without annoyance; bumpers are short |
-| Non-Skippable In-Stream (ToF) | 2 impressions/user/week | Forced attention fatigues fast |
-| Skippable In-Stream (MoF) | 3 views/user/week | Allow multiple touchpoints for consideration building |
-| Video Action (BoF) | 7 impressions/user/week | High frequency needed to drive bottom-funnel action |
-| Remarketing (all formats) | 10 impressions/user/week | Warmest audience justifies higher exposure |
-
-**Automated Rules to Configure:**
-| Rule Name | Condition | Action | Check Frequency |
-|---|---|---|---|
-| Pause underperforming creatives | View rate < 15% after 5,000 impressions | Pause creative, flag for replacement | Daily |
-| Scale top performers | CPA < target by 20%, budget < 80% utilized | Increase daily budget by 20% | Weekly |
-| CPA overspend alert | CPA > 2x target after $500 spend | Pause ad group, notify for review | Daily |
-| Creative fatigue detection | View rate drops > 25% week-over-week | Add to creative refresh queue | Weekly |
-| Placement quality check | Average placement CPM > 2x campaign CPM | Review and add to negative placements | Weekly |
-
----
-
-### SECTION 5: BRAND SAFETY & CONTENT ADJACENCY STRATEGY
-
-YouTube brand safety is critical — your ad appears adjacent to content. Wrong placement = brand damage.
-
-**Inventory Type Selection:**
-- B2B / Enterprise: "Limited Inventory" — avoids controversial content, profanity, adult themes
-- B2C Mainstream: "Standard Inventory" — appropriate for most brands
-- Only use "Expanded Inventory" if brand and budget explicitly allow adjacency to edge content
-
-**Content Exclusion Categories (check all that apply):**
-- [ ] Tragedy and conflict
-- [ ] Sensitive social issues
-- [ ] Profanity and rough language (B2B default)
-- [ ] Sexually suggestive content
-- [ ] Sensational and shocking content
-- [ ] In-video ads on embedded external placements (YouTube.com only for controlled brand safety)
-
-**Placement-Level Exclusion Strategy:**
-- Pull placement report after Week 2. Sort by: impressions > 5,000. For any placement with CTR < 0.1% OR any placement where brand adjacency is questionable, add to exclusion list.
-- Create a master negative placement list you grow over time — this is a compounding competitive advantage.
-
----
-
-### SECTION 6: YOUTUBE SHOPPING & PRODUCT INTEGRATION (E-commerce)
-
-If applicable to [product category]:
-
-**Video Action + Product Feed Integration:**
-- Link Google Merchant Center product feed to Video Action campaign
-- Products automatically displayed as carousel below video ad
-- Smart shopping-style optimization: Google algorithm selects which products to show based on viewer intent signals
-- Recommended for: D2C brands with 20+ SKUs, any product with strong visual appeal
-
-**YouTube Direct Response Creative for E-commerce:**
-- Product demo in first 10 seconds — show the product being used, not just displayed
-- Price anchoring: show value first, then reveal price
-- Scarcity/urgency signals where genuine (limited stock, seasonal offer)
-- "Shop Now" companion banner with product image carousel
-
----
-
-### SECTION 7: MEASUREMENT FRAMEWORK & ATTRIBUTION
-
-**Primary KPIs by Funnel Stage:**
-| Stage | KPI | Benchmark | Measurement Tool |
-|---|---|---|---|
-| ToF — Reach | Unique Reach | % of target audience reached | Google Ads Reach Planner + reporting |
-| ToF — Brand | View-Through Rate (VTR) | > 15% for non-skip; > 35% for skippable | Google Ads |
-| ToF — Awareness | Brand Recall Lift | +5-15% lift vs. control | YouTube Brand Lift Study |
-| MoF | Engaged View Rate | > 40% of 30-sec views | Google Ads |
-| MoF | Click-Through Rate | 0.5-1.5% (B2C); 0.2-0.8% (B2B) | Google Ads |
-| BoF | CPA | At or below target | Google Ads + CRM |
-| BoF | View-Through Conversions | Track separately from click-through | Google Ads attribution |
-| BoF | ROAS | > 2x (D2C); pipeline-based (B2B) | Google Ads + CRM |
-
-**Google Tag / Conversion Setup:**
-- Import Google Analytics 4 goals into Google Ads for holistic view
-- Set up micro-conversions as secondary conversion actions: blog engagement, pricing page visit, video watch time thresholds on organic channel
-- Attribution model: Use Data-Driven Attribution (DDA) if > 300 conversions/month — this gives YouTube credit for its role in assist conversion paths. Use last-click only if data insufficient, but expect YouTube to be systematically under-valued.
-- View-Through Conversion window: 3 days (not the default 30 days) — 30-day view-through attribution massively overstates YouTube's direct contribution; 3 days is more defensible with CFO audience
-
-**YouTube Brand Lift Study:**
-- Activate if monthly spend > $10,000 for 4+ weeks
-- Measures: Ad recall, brand awareness, consideration, favorability, purchase intent
-- Use to prove YouTube's upper-funnel impact beyond what last-click CPA shows
-- Critical for B2B: YouTube builds brand trust over time, which shortens sales cycles — Brand Lift Study provides evidence for continued budget
-
-**Cross-Channel Attribution Reporting:**
-Connect to your BI stack (Looker, Tableau, Google Data Studio) via Google Ads API. Track:
-- YouTube-first touchpoint conversion paths (YouTube → organic search → demo)
-- YouTube-assist touchpoint rate (% of conversions where YouTube appeared in path)
-- Incrementality: run YouTube holdout experiment (suppress ads to 10% of audience for 4 weeks, compare conversion rates to exposed group)
-
----
-
-### SECTION 8: 30-DAY LAUNCH & OPTIMIZATION PLAYBOOK
-
-**Pre-Launch Checklist (Day 0):**
-- [ ] Google tag installed on all conversion pages, verified via Tag Assistant
-- [ ] All conversion actions imported into Google Ads with correct values
-- [ ] Remarketing audiences populated: minimum 1,000 users for website visitors, 10,000 for Customer Match
-- [ ] Video assets uploaded: minimum 3 creative variants per ad group
-- [ ] Brand Safety settings configured and reviewed
-- [ ] Negative placement list seeded from historical data or competitor research
-- [ ] UTM parameters configured for all video ads
-- [ ] Companion banner creative uploaded for all In-Stream formats
-- [ ] Budget pacing reviewed: daily budget set to deliver evenly across the month
-
-**Week 1 (Days 1-7) — Learning Phase:**
-- Allow campaigns to run without changes; Google's algorithm needs data to optimize
-- Monitor daily: impression volume, CPM/CPV vs. benchmarks, frequency per user
-- Red flags requiring immediate action: zero impressions (audience too narrow or bid below floor), policy rejection, CPM > 3x benchmark indicating hyper-competitive placement targets
-- Do NOT pause underperforming creatives before 5,000 impressions per variant — insufficient data
-
-**Week 2 (Days 8-14) — Creative Performance Analysis:**
-- Pull Creative Report: sort by View Rate (skippable) and Completion Rate (all formats)
-- Pause bottom 20% of creatives with < 15% VTR after 5,000 impressions
-- Identify top creative: what hook type, format, and message angle drove highest view-through?
-- Brief 2-3 new creative variants inspired by top performer's hook structure but with different angles
-- Review placement report: identify top-spending placements, add irrelevant or low-quality placements to exclusion list
-
-**Week 3 (Days 15-21) — Audience Refinement:**
-- Build Similar Segments from any audience that has generated > 20 conversions
-- Test In-Market segments not yet active — add as observation first, then bid adjust up if outperforming
-- Layer Custom Intent audience (Google Search behavior signals) on top of Affinity for MoF — compare CTR and CVR vs. Affinity alone
-- Launch In-Feed Video Ad format if not yet active — compare CPV and downstream conversion quality to In-Stream
-
-**Week 4 (Days 22-30) — Scale or Cut:**
-- Campaigns at or below target CPA: increase daily budget 20-30%; test new geographic markets if budget allows
-- Campaigns at 150%+ target CPA: diagnose systematically — pull segments report (device, gender, age, placement) and exclude underperforming segments before pausing whole campaign
-- Document: winning creative archetype, highest-converting audience segment, optimal CPV bid, average touchpoints to conversion from YouTube-first path
-- Plan Month 2 creative calendar: minimum 6 new variants; schedule Brand Lift Study if spend qualifies
+- Product/Service: [Full description including price point and ACV/AOV]
+- Category: [B2B SaaS / Enterprise Software / D2C E-commerce / B2C Consumer / Professional Services / Financial Services / Healthcare / Other]
+- Primary ICP: [Role, company size, industry, pain points — be specific]
+- Purchase Cycle: [Short (< 30 days) / Mid-cycle (1–3 months) / Long-cycle (3–12 months)]
+- Monthly YouTube Ads Budget: $[X] (note: $5K/month minimum for meaningful data)
+- Existing Creative Assets: [Existing videos available / Need scripts only / Need full production brief]
+- Current Funnel Stage Focus: [Top of funnel awareness / Mid-funnel consideration / Bottom-funnel demand capture]
+- Key Competitors: [Who are you competing against for attention and share of search?]
+- Target Geographic Markets: [List regions or countries]
+
+OBJECTIVE: Design a full-stack YouTube advertising strategy that builds measurable pipeline, using YouTube's unique combination of search intent data, video storytelling, and Google's audience graph.
+
+DELIVERABLES:
+
+**1. AUDIENCE ARCHITECTURE**
+
+*Custom Intent Audiences (most powerful for B2B):*
+- List 15–20 high-intent search terms that define your ICP's active research behavior (competitor brand searches, category searches, problem-specific queries, tool/solution searches)
+- Structure 3 custom intent audience segments: (a) Category Researchers, (b) Competitor Evaluators, (c) Problem-Aware but Solution-Unaware
+- Signal mapping: which Google Ads search terms should feed each segment
+
+*In-Market and Affinity Audiences:*
+- Top 5 most relevant in-market segments with estimated CPV benchmarks
+- Custom affinity segments to build using URLs of industry publications, competitor websites, and relevant conferences
+- Layering strategy: which audience combinations produce highest intent
+
+*Remarketing Architecture:*
+- Website visitor segmentation by page depth and URL pattern
+- YouTube channel engagers (viewed > 30 seconds, subscribed, liked)
+- Customer match lists: best use cases (suppress, upsell, lookalike seed)
+- Sequential remarketing: video ad sequence order for retargeting
+
+*Exclusions List:*
+- Audiences to exclude (existing customers, competitors, unrelated interests)
+- Placement-level exclusions by content category (content not brand-safe for your vertical)
+- Age and geographic exclusions
+
+**2. CAMPAIGN ARCHITECTURE**
+
+*Full-Funnel Campaign Structure:*
+
+Campaign Layer 1 — Awareness (CPV/CPM bidding):
+- Format: Skippable in-stream + bumper sequencing
+- Audience: Cold custom intent + in-market audiences
+- Goal: 70%+ of target ICP exposed to brand message 3× before remarketing
+- Budget allocation: X% of total
+
+Campaign Layer 2 — Consideration (Video Action Campaign):
+- Format: Skippable in-stream with strong CTA overlays + in-feed video
+- Audience: Warm custom intent + channel engagers
+- Goal: Drive to gated content, demo request page, or product page
+- Budget allocation: X% of total
+
+Campaign Layer 3 — Conversion (Target CPA):
+- Format: Non-skippable + bumper for frequency + in-feed for search demand capture
+- Audience: Website remarketing + high-intent custom intent segments
+- Goal: Demo book, free trial, purchase
+- Budget allocation: X% of total
+
+*Bidding Strategy Decision Tree:*
+- < $10K/month: CPV bidding, manual optimization
+- $10K–$50K/month: Target CPV → shift to Maximize Conversions after 50+ conversions
+- > $50K/month: Target CPA or Target ROAS with portfolio bid strategy across campaigns
+
+*Connected TV Strategy:*
+- CTV-specific creative requirements (no overlays, sound-on assumed, 15–30 sec formats only)
+- Household income targeting layers for B2B and premium B2C
+- Frequency caps: 3–5 impressions per household per week maximum
+- CTV vs. mobile split: recommended starting ratio and optimization signals
+
+**3. CREATIVE STRATEGY AND SCRIPTS**
+
+*The 5-Second Rule — Hook Architecture:*
+YouTube skippable ads give you exactly 5 seconds before "Skip Ad" appears. The hook must do ONE of:
+- State a problem so specific the viewer thinks "they're talking to me"
+- Make a bold contrarian claim that violates expectations
+- Show a result so compelling the viewer must know how
+- Name the target audience explicitly ("If you're a [role] at a [company type]…")
+
+*Script 1: Problem-Solution (Best for Awareness — 45–60 sec):*
+[Write full script for [Company Name] following this structure:]
+- Seconds 0–5: Hook — [Specific problem statement targeting your ICP's #1 pain]
+- Seconds 5–15: Agitate — expand on the cost/consequence of the problem
+- Seconds 15–35: Solution reveal — introduce product and key differentiator
+- Seconds 35–50: Proof — one specific customer outcome with numbers
+- Seconds 50–60: CTA — single action, urgency element, voiceover + visual overlay
+
+*Script 2: Social Proof / Results-Led (Best for Consideration — 30 sec):*
+[Write full script following this structure:]
+- Seconds 0–5: Hook — Lead with a customer result ("We went from X to Y in Z weeks")
+- Seconds 5–20: Briefly explain what product does and how it works
+- Seconds 20–28: Secondary proof point or G2/Gartner badge mention
+- Seconds 28–30: CTA — direct response with URL overlay
+
+*Script 3: Direct Response / Demo Request (Best for Conversion — 15–20 sec, non-skippable):*
+[Write full script following this structure:]
+- One core message: solve [specific pain] + call to action
+- No more than 3 pieces of information
+- Last 5 seconds: hold on product visual + CTA URL
+
+*In-Feed Video Ad (YouTube Search Placement):*
+- Thumbnail creative brief: what should appear in the thumbnail to drive clicks from search?
+- Title (max 100 chars): [Search-intent aligned title that reads like content, not an ad]
+- Description (max 35 chars per line, 2 lines): [Value proposition + CTA]
+
+*Companion Banner (300×60px):*
+- Headline: [matches the video's CTA]
+- CTA button text: [5 words maximum]
+
+**4. LANDING PAGE ALIGNMENT**
+
+*Post-Click Conversion Path:*
+- Match message from video to headline within 3 words to prevent cognitive dissonance
+- Above-the-fold must include: headline, subheadline, social proof indicator, form/CTA
+- Recommended social proof for video-sourced traffic: G2/Gartner ratings, customer logos, specific stat ("$2.3M revenue generated for 450+ customers")
+- Mobile optimization requirements: YouTube is 70% mobile, landing page must load in < 2 seconds
+
+*Form Optimization:*
+- Fields to include vs. remove to maximize video-sourced conversion rates
+- Progressive profiling strategy for B2B multi-touch paths
+- Thank-you page content to bridge to next funnel stage
+
+**5. TRACKING AND MEASUREMENT SETUP**
+
+*Google Ads Tag Implementation:*
+- Conversion actions to track: [Page view / Form submit / Phone call / App install / Purchase]
+- View-through conversion window: set to 1 day (video-assisted attribution)
+- Cross-device attribution settings
+- Google Analytics 4 integration events to map to YouTube campaigns
+
+*Key Performance Indicators by Campaign Type:*
+
+Awareness Campaigns:
+- Video view rate (VTR): benchmark 30–45% for skippable, higher for well-targeted
+- CPV (Cost Per View): $0.03–$0.08 for most B2B segments
+- Earned views and engagement rate
+- Brand lift metrics (set up Brand Lift Study at $15K+ monthly spend)
+
+Consideration Campaigns:
+- Click-through rate (CTR): 0.5–1.5% for skippable, 0.2–0.8% for bumpers
+- Cost Per Click (CPC): benchmark varies by industry ($1–$8 for B2B)
+- View-through conversion rate
+
+Conversion Campaigns:
+- Cost Per Conversion (CPC/CPA): set targets based on LTV ratio
+- Video-assisted conversion rate
+- ROAS (for e-commerce)
+
+*90-Day Optimization Roadmap:*
+
+Days 1–30 (Launch and Learn):
+- Week 1: Launch awareness campaign with 3 audience segments, establish baseline CPV
+- Week 2: Review VTR heatmap; pause underperforming audiences
+- Week 3: Launch consideration campaign to channel engagers and website visitors
+- Week 4: First creative analysis; identify which hook is driving highest VTR
+
+Days 31–60 (Optimize):
+- Shift budget to top-performing audiences (80/20 rule)
+- Launch non-skippable/bumper remarketing sequence
+- A/B test landing page headlines based on video message that drove most clicks
+- Begin CTV campaign if budget allows
+
+Days 61–90 (Scale):
+- Launch Target CPA bidding once 50+ conversions logged
+- Expand winning creative to new audiences using lookalike seeds
+- Set up Brand Lift Study to quantify brand awareness lift
+- Build sequential ad series: 3-ad story arc for high-value accounts
+
+**6. YOUTUBE-SPECIFIC BEST PRACTICES**
+
+*Creative Fatigue Management:*
+- Skippable in-stream: refresh creative every 4–6 weeks for hot audiences
+- Bumper ads: can run 8–12 weeks before fatigue (shorter format, less wear)
+- Rotate 3+ creatives per ad group at launch; let algorithm optimize
+- Do not delete underperforming ads — pause to preserve historical data
+
+*Brand Safety Configuration:*
+- Inventory type: Standard inventory for B2B; Conservative for highly regulated industries
+- Content category exclusions: Turn off "Tragedy and Conflict," "Profanity and Rough Language" for all campaigns
+- Placement-level exclusions: Add exclusion list of low-quality channels (YouTube provides predefined lists)
+- Sensitive topic exclusions specific to your vertical
+
+*YouTube Analytics Weekly Monitoring:*
+- Audience retention curve: if > 30% drop-off at seconds 0–5, hook needs rewrite
+- Where did people stop watching? — identifies script weaknesses
+- Earned actions (likes, shares, follows): high earned action rate = algorithm amplification
+- Top placement report: which specific channels and videos are converting?
 
 ## Example Input/Output
 
-**Input:**
-- Company: Gong (hypothetical campaign for revenue intelligence platform)
-- Product: AI-powered revenue intelligence — records, transcribes, and analyzes sales calls
-- ICP: VP Sales, Revenue Operations, CROs at B2B SaaS companies with 50-500 AEs
-- Goal: Demo requests, $400 CPL target
-- Monthly Budget: $45,000
-- Existing assets: 2 customer testimonial videos, 1 product demo video (3 minutes), 1 brand video (90 seconds)
-- Competitors: Chorus.ai, Salesloft, Clari
+**Example Input:**
+Company: Mosaic Analytics
+Product: B2B SaaS revenue intelligence platform for mid-market sales teams; $24K ACV; 45-day sales cycle
+ICP: VP Sales, Revenue Operations Managers at 200–2,000 employee B2B companies in SaaS and professional services
+Goal: Drive demo requests; target CPA of $200 per booked demo
+Budget: $18,000/month
+Existing Creative: No video assets; need complete scripts
 
-**Output (Partial):**
+---
 
-**Campaign Architecture:**
-| Campaign | Type | Budget | Objective | KPI |
-|---|---|---|---|---|
-| ToF — Brand | Video Reach | $9,000 (20%) | Unique reach | CPM < $18, reach 250K+ unique VPs/CROs |
-| MoF — Consideration | Video Views | $13,500 (30%) | Engaged views | CPV < $0.25, VTR > 30% |
-| BoF — Demo Requests | Video Action | $18,000 (40%) | Demo form submissions | CPA < $400 |
-| Remarketing — Hot Intent | Video Action | $4,500 (10%) | Demo form submissions | CPA < $250 |
+**Example Output (Partial — Awareness Campaign Script):**
 
-**Audience Targeting for BoF Campaign:**
-- Custom Intent: Searches for "revenue intelligence software," "Gong alternative," "sales call recording tool," "Chorus.ai pricing," "conversation intelligence ROI"
-- In-Market: Business Software > CRM & Sales Force Automation (Google's In-Market segment for sales tech buyers)
-- Customer Match: Upload 12,000 known contacts from Salesforce — suppress from acquisition, seed for Similar Segments
-- Remarketing: Demo page visitors (14 days) — highest intent, direct CTA creative
+**Script 1: "The Forecast Problem" — Skippable In-Stream (55 sec)**
 
-**Sample 30-Second Skippable In-Stream Script (Variant C1 — Fear/Pain Angle):**
+*[HOOK — Seconds 0–5]*
+VISUAL: Close-up of a VP Sales staring at a spreadsheet, visibly frustrated
+VO: "If your sales forecast is still wrong by 30% every quarter…"
+[Hold 1 beat]
+VO: "…keep watching."
 
-> [0-3s PRE-SKIP HOOK — CLOSE-UP OF VP SALES FACE, STRESSED, REVIEWING NUMBERS]
-> VOICEOVER: "Your sales team just missed quota. Again."
-> ON-SCREEN TEXT: "Sound familiar?" [Gong logo appears at 3s — small, top-right corner]
->
-> [5-15s BODY — SPLIT SCREEN: SALES CALL CHAOS vs. GONG DASHBOARD]
-> VOICEOVER: "Most revenue leaders are flying blind — they hear the wins, never the losses. Gong shows you every deal, every conversation, every risk — in real time."
-> ON-SCREEN TEXT: "See every deal. Catch every risk."
->
-> [15-25s PROOF]
-> VOICEOVER: "Companies using Gong increase win rates by 28% in 90 days. Your competitors are already using it."
-> ON-SCREEN TEXT: "+28% Win Rate. 4,000+ Revenue Teams."
->
-> [25-30s CTA]
-> VOICEOVER: "See Gong in action. Request a demo today."
-> ON-SCREEN TEXT: "Get a Live Demo →"
-> COMPANION BANNER: "See every deal. +28% win rate. → Request Demo"
+*[AGITATE — Seconds 5–15]*
+VISUAL: Cut to a CRO in a board meeting, board member pointing at chart
+VO: "You're not just missing number. You're losing trust with your board, burning rep capacity on deals that will never close, and making headcount decisions based on bad data."
 
-**Top Managed Placement Targets:**
-- YC startup pitch compilations (watch audience: founders and VPs evaluating tools)
-- SaaStr Annual conference recordings (verified B2B SaaS revenue leader audience)
-- Outreach.io, Salesforce tutorial channels (buyers actively in tech evaluation)
-- Revenue Operations roundtable videos (direct ICP self-selection)
+*[SOLUTION — Seconds 15–35]*
+VISUAL: Clean product UI showing pipeline health score, deal risk flags
+VO: "Mosaic Analytics connects to your CRM and gives every sales leader a real-time revenue intelligence layer — deal health scores, risk signals, forecast accuracy grading, all in one dashboard."
+TEXT OVERLAY: "Real-Time Revenue Intelligence for B2B Sales Teams"
 
-**Expected 30-Day Benchmarks:**
-- Unique ToF reach: 280,000-320,000 VPs/CROs
-- MoF engaged views: 48,000-55,000 (at $0.24 average CPV)
-- BoF demo requests: 95-120 demos at $370-$420 CPL
-- Remarketing conversion rate: 4.2-5.8% for demo page retargeting cohort
+*[PROOF — Seconds 35–50]*
+VISUAL: Customer logo (B2B SaaS company) + stat card
+VO: "Teams like Clearbit and Zuora improved forecast accuracy by 42% in 60 days — without changing their CRM or sales process."
+
+*[CTA — Seconds 50–55]*
+VISUAL: Screen shows MosaicAnalytics.com/demo, product dashboard in background
+VO: "See your pipeline the way your top reps see it. Book a free 20-minute demo."
+TEXT OVERLAY: "Book Your Demo → MosaicAnalytics.com/demo"
+
+---
+
+**Custom Intent Audience — "Competitor Evaluators" Segment:**
+Seed keywords (added in Google Ads custom audience builder):
+- "clari vs gong"
+- "clari alternatives"
+- "people.ai pricing"
+- "revenue intelligence software"
+- "sales forecasting software"
+- "CRM forecasting accuracy"
+- "revenue operations tools"
+- "gong vs chorus"
+- "outreach.io sales intelligence"
+- "best sales analytics platforms 2024"
+
+Target: People who have recently searched these terms on Google — served YouTube pre-roll when they visit YouTube.
+
+---
+
+**In-Feed Video Ad (YouTube Search):**
+Thumbnail: VP Sales character looking at a clean dashboard with the text "Fix Your Forecast" in bold overlay — real person, not stock
+Title: "Why Your Sales Forecast Is Always Wrong (And How to Fix It in 60 Days)"
+Description line 1: "Revenue intelligence for B2B sales teams"
+Description line 2: "Free demo → See Mosaic in action"
 
 ## Success Metrics
 
-**Green Light Signals:**
-- Skippable In-Stream VTR > 30% within first 2 weeks
-- BoF campaign CPA within 25% of target by end of week 3
-- Placement quality: > 70% of spend on relevant, brand-safe placements
-- View-Through Conversion rate > 2% of video completers within 3-day window
-- Remarketing CPL at least 30% lower than cold audience campaigns
+A high-quality output from this prompt should produce:
 
-**Red Flags Requiring Immediate Action:**
-- VTR < 15% on skippable ads — hook is failing the 5-second test; rewrite opener
-- CPM > 3x category benchmark — placement targets too narrow or bid floor missed; expand placements
-- Zero view-through conversions — Google tag misconfigured or conversion window too short; audit tracking
-- CPA > 3x target after $3,000 spend — audience-product fit issue or landing page mismatch; pause and diagnose
-- Negative comments accumulating on In-Feed video ads — creative is being perceived as irrelevant or misleading; pull and redesign
+- **Audience architecture** with 3+ distinct targeting segments and 15+ custom intent keywords
+- **Full scripts** for all three ad formats — not outlines, but word-for-word production-ready copy
+- **Campaign structure** with clear budget split across awareness, consideration, conversion layers
+- **VTR benchmark** cited per format (skippable: 30–45%, bumper: n/a, in-feed: CTR 0.5–1.5%)
+- **Tracking setup** with specific conversion actions, attribution windows, and GA4 event mapping
+- **90-day roadmap** with week-by-week milestones tied to spend thresholds
+
+Red flags in output: vague creative direction ("make it engaging"), missing hook scripts, no audience exclusions, no bid strategy recommendation.
 
 ## Related Prompts
 
-- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Google-Ads-Campaign-Builder.md`
-- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/TikTok-Ads-Campaign-Builder.md`
-- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Cross-Channel-Paid-Media-Budget-Allocation-&-ROAS-Optimization-Engine.md`
-- `../../03_Content-&-Creative/Video-Marketing/B2B-Video-Script-&-Production-Brief-Engine.md`
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Google-Ads-Campaign-Builder.md` — Pair YouTube campaigns with Google Search for full-funnel demand capture
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Cross-Channel-Paid-Media-Budget-Allocation-&-ROAS-Optimization-Engine.md` — Allocate budget across YouTube, Google, LinkedIn, and Meta
+- `../../03_Content-&-Creative/Video-Marketing/YouTube-B2B-Demand-Generation-&-SEO-Channel-Growth-Engine.md` — Organic YouTube channel strategy to complement paid
+- `../../04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Connected-TV-CTV-Programmatic-Display-Campaign-Builder.md` — Extend YouTube CTV strategy to programmatic OTT inventory
 
 ## Integration Tips
 
-**Google Ads + Google Analytics 4:** Link your GA4 property to Google Ads (Admin > Google Ads Linking). Import GA4 key events as conversion actions in Google Ads. Use GA4's Path Exploration report to see how YouTube-first sessions eventually convert — YouTube's multi-touch contribution is invisible in last-click models.
+**Google Ads Integration:**
+- All YouTube campaigns run natively inside Google Ads; link your YouTube channel to your Google Ads account before launch
+- Import GA4 conversions as Google Ads conversions for unified attribution
+- Use Google Ads Audience Manager to sync CRM uploads (Customer Match) directly to YouTube targeting
 
-**HubSpot/Salesforce (B2B):** Tag all YouTube Ads traffic with UTMs (`utm_source=youtube&utm_medium=paid-video&utm_campaign=[campaign_name]&utm_content=[creative_variant]`). In HubSpot, create a YouTube Ads source attribution report to track pipeline and closed-won revenue influenced by YouTube touchpoints. Build a workflow: YouTube demo request → create deal → notify AE within 5 minutes with video watched and landing page visited.
+**HubSpot / Salesforce:**
+- Tag YouTube-sourced leads with UTM parameters: `utm_source=youtube&utm_medium=paid-video&utm_campaign=[campaign-name]`
+- Build HubSpot workflows triggered by "YouTube Demo Request" lead source for immediate sales notification
+- Map YouTube-influenced contacts to pipeline in SFDC using first-touch + video-assist attribution field
 
-**Looker Studio (Data Studio):** Build a YouTube Ads performance dashboard connecting to Google Ads API. Key widgets: CPA trend by campaign, VTR by creative variant, placement performance table, audience segment conversion rate comparison. Schedule weekly PDF delivery to marketing leadership.
+**Zapier / Make Automation:**
+- Zap: New YouTube Ads form lead → add to HubSpot + notify Slack channel + enroll in nurture sequence
+- Zap: Brand Lift Study results export → Google Sheets dashboard + send weekly email digest to CMO
 
-**Zapier:** YouTube Ads Lead Form submission → instant HubSpot contact creation → Slack notification to SDR → automated follow-up email sent within 60 seconds. This workflow is critical since YouTube lead forms do not natively push to CRM.
+**Notion Content Hub:**
+- Store winning video scripts in Notion "Creative Library" with performance metadata (VTR, CPA)
+- Tag scripts by hook type, format, funnel stage for future creative iteration
 
-**Google Merchant Center (E-commerce):** Link product feed to enable Product Feeds in Video Action campaigns. Automatically serve product carousels below your video ads featuring products relevant to the content the viewer just watched. No additional creative needed — Google's algorithm selects and displays the most relevant products.
-
-**Triple Whale / Northbeam (D2C):** YouTube's view-through conversions are systematically under-reported in last-click attribution. Use a media mix modeling or multi-touch attribution tool to measure YouTube's true contribution. Most D2C brands find YouTube drives 1.5-2.5x more revenue than Google Ads last-click reports show.
+**Creative Production Workflow:**
+- Share scripts with video production team via Frame.io or Loom review
+- Use Canva or Adobe Express for companion banner production (300×60px and 480×70px sizes)
+- Thumbnail production: create 3 thumbnail variants per video for A/B testing in YouTube Studio
 
 ## Troubleshooting
 
-**Problem: Skippable In-Stream ads have < 20% view-through rate — almost everyone is skipping**
-Fix: The pre-skip hook (seconds 0-5) is not creating sufficient curiosity or relevance to earn the skip. Diagnose by asking: Does the viewer know this ad is for them within 3 seconds? Is there immediate tension or intrigue — or does it open with a logo, generic stock footage, or slow brand build? Rewrite the first 5 seconds around a specific pain point your ICP experiences ("If you're a VP of Sales running 10+ AEs...") or an unexpected insight that creates a curiosity gap ("The #1 reason enterprise sales teams miss quota has nothing to do with the sales reps"). The goal is not to prevent skipping for everyone — it is to prevent skipping among your target audience specifically.
+**Problem: Very low View-Through Rate (VTR under 15%) on skippable in-stream ads**
+Fix: The hook is failing the 5-second test. Rewrite with an audience-specific statement, a contrarian claim, or a result lead. Test 3 different hooks as separate video creatives — do not change any other variable. A 15% VTR means roughly 85% of viewers skip before your brand even registers; fixing the hook is your single highest-leverage action.
 
-**Problem: High view-through rate but very low click-through rate and zero conversions**
-Fix: The creative is entertaining or educational but not building commercial intent. This is common when the ad delivers too much value without a meaningful next step — viewers get what they came for and have no reason to click. Diagnose three elements: (1) Is the CTA button text passive ("Learn More") instead of specific ("See How It Works" or "Get Free Analysis")? (2) Does the landing page immediately deliver on what the video promised — or does it feel like a bait-and-switch to a generic homepage? (3) Is the offer in the CTA worth interrupting behavior for? Test a content upgrade or gated asset as the CTA destination instead of a demo or purchase page — YouTube MoF traffic often needs one more educational touch before converting.
+**Problem: High CTR but poor conversion rate on the landing page**
+Fix: Message mismatch — the landing page headline doesn't continue the video's promise. If your video hook is "Why your sales forecast is always wrong," the landing page headline should echo that framing ("Stop Guessing. Make Every Forecast Accurate."). Review your LP's above-the-fold on mobile; if the form appears below the fold or the page takes > 2 seconds to load, those are the primary conversion killers for YouTube-sourced mobile traffic.
 
-**Problem: YouTube Ads CPL is 3-4x higher than Google Search Ads CPL — leadership wants to cut the channel**
-Fix: This is almost always a measurement problem, not a performance problem. YouTube operates differently from Search: it creates demand rather than capturing it. Run three analyses before cutting: (1) Pull the Path to Conversion report in GA4 — what % of Search conversions had a YouTube touchpoint earlier in the journey? (2) Activate a Brand Lift Study for 4 weeks to measure awareness and consideration lift that never shows up in CPL. (3) Build a holdout test — suppress YouTube ads for 10% of your audience and compare their Search conversion rate to the 90% who saw YouTube ads. In most B2B categories, YouTube-exposed audiences convert on Search at 2-3x the rate of unexposed audiences. The channel is building intent that Search harvests — cutting YouTube often causes Search volume to decline 30-60 days later.
+**Problem: Running out of audience reach — CPVs increasing, frequency too high**
+Fix: You've exhausted your core audience segments. Expand in three directions: (1) build a lookalike audience using your top 1,000 converters as a seed list, (2) broaden custom intent keywords to capture adjacent research behavior (e.g., if targeting "revenue forecasting software," add "sales pipeline management" and "CRM reporting"), (3) activate in-market segments you haven't tested. Also review your frequency cap settings — if users are seeing your ad 7+ times with no conversion, they've self-selected out and continued impressions are waste.
 
 ## Version History
 - v1.0: Initial creation (auto-generated)
