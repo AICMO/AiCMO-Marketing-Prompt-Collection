@@ -91,13 +91,28 @@ How to use outputs with HubSpot, Salesforce, Notion, Google Sheets, Zapier, etc.
 
 ## Output Format
 
-You are running in CI with no interactive approval. Do NOT use the Write tool or any file-writing tools. Output your response as plain text directly to stdout:
-- First line: the file path (relative to repo root)
-- Everything after: the file content
-- Nothing else. No explanations, no permission requests, no commentary.
+You are running in CI with no interactive approval. Do NOT use the Write tool or any file-writing tools. Output your response as plain text directly to stdout.
 
-Example:
+CRITICAL FORMATTING RULE — your output is parsed by a script that takes the FIRST LINE as a file path. If the first line is not a valid path, the entire run fails.
 
+- Line 1 MUST be the file path (relative to repo root). Nothing else.
+- Line 2 onward: the file content.
+- Do NOT include ANY text before the file path. No reasoning, no "Based on my analysis", no "I'll create", no preamble of any kind.
+- The very first character you output must be the start of the path (e.g., `0`).
+
+CORRECT (first line is the path):
 04_Demand-&-Lead-Generation-&-Growth/Paid-Advertising-(PPC-&-Social)/Google-Ads-Campaign-Builder.md
 # Google Ads Campaign Builder - ...
 ...full content...
+
+WRONG — causes CI failure:
+Based on my analysis, I'll create a new prompt...
+04_Demand-&-Lead-Generation-&-Growth/...
+
+WRONG — causes CI failure:
+Now I have enough context. The repo needs...
+04_Demand-&-Lead-Generation-&-Growth/...
+
+WRONG — causes CI failure:
+I'll write a prompt for...
+04_Demand-&-Lead-Generation-&-Growth/...

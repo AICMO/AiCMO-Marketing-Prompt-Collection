@@ -36,18 +36,21 @@ jobs:
         env:
           PAT: ${{ secrets.PAT_TOKEN }}
         run: |
-          # First line = path, rest = content
-          FILEPATH=$(head -1 /tmp/llm_response.txt | tr -d '[:space:]')
-          CONTENT=$(tail -n +2 /tmp/llm_response.txt)
+          # Find first line matching a valid file path (skip any LLM preamble)
+          FILEPATH=$(grep -m1 -E '^0[1-7]_[A-Za-z0-9&()/_ -]+\.md$' /tmp/llm_response.txt | tr -d '[:space:]')
 
-          if [ -z "$FILEPATH" ] || [ -z "$CONTENT" ]; then
-            echo "::error::Failed to parse LLM response"
-            head -c 200 /tmp/llm_response.txt
+          if [ -z "$FILEPATH" ]; then
+            echo "::error::No valid file path found in LLM response"
+            head -c 500 /tmp/llm_response.txt
             exit 1
           fi
 
-          if ! echo "$FILEPATH" | grep -qE '^0[1-7]_[A-Za-z0-9&()/_ -]+\.md$'; then
-            echo "::error::Path validation failed: '$FILEPATH'"
+          # Content = everything after the filepath line
+          LINE_NUM=$(grep -n -m1 -E '^0[1-7]_[A-Za-z0-9&()/_ -]+\.md$' /tmp/llm_response.txt | cut -d: -f1)
+          CONTENT=$(tail -n +$((LINE_NUM + 1)) /tmp/llm_response.txt)
+
+          if [ -z "$CONTENT" ]; then
+            echo "::error::No content found after filepath"
             exit 1
           fi
 
