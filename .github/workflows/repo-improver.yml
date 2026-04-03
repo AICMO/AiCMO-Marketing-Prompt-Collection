@@ -24,7 +24,7 @@ jobs:
 
       - name: Generate improvement
         id: llm
-        uses: aicmo/llm-call-action@v1
+        uses: aicmo/llm-call-action@33f54e4a002d7942f3bb4102e3bf0632069d7e42 # v1.1.3
         with:
           prompt_file: .github/prompts/repo-improver.md
           output_file: /tmp/llm_response.txt
