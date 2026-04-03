@@ -29,7 +29,7 @@ jobs:
           prompt_file: .github/prompts/repo-improver.md
           output_file: /tmp/llm_response.txt
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          max_turns: 20
+          max_turns: 40
           min_response_length: 500
 
       - name: Parse and commit
