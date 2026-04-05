@@ -1,238 +1,255 @@
-# AI-Powered B2B Video Script Production & Short-Form Content Creation Intelligence Engine
+# AI-Powered B2B Video Script Production & Short-Form Content Creation Intelligence Engine - Complete System for Writing High-Retention Video Scripts and Scaling Short-Form B2B Content Across LinkedIn, YouTube Shorts, TikTok, and Instagram Reels
 
-**Difficulty:** Advanced | **Time:** 20-30 min | **Tags:** b2b, video, content, short-form, demand-generation, automation, script-writing
+**Difficulty:** Advanced | **Time:** 20-30 min | **Tags:** video-marketing, short-form-video, b2b-content, script-writing, linkedin, youtube-shorts, tiktok, content-production, automation
 
 ## Overview
-Generates complete, publish-ready video scripts for every B2B video format — from 60-second LinkedIn Reels and YouTube Shorts to 5-minute explainers and customer testimonial frameworks — using proven hook formulas, AIDA structure, and buyer psychology to drive measurable pipeline and brand authority.
+This engine automates the end-to-end creation of short-form B2B video scripts and production packages — from hook engineering and narrative structure to caption optimization and multi-platform distribution playbooks. Use it when building a B2B video content program from scratch, scaling thought leadership through short-form, converting long-form assets into a high-velocity clip library, or launching a founder/executive video presence on LinkedIn and YouTube.
 
 ## Quick Copy-Paste Version
 
-You are an expert B2B video scriptwriter with 15+ years creating high-converting video content for SaaS and tech companies. Write a complete video script for the following:
+You are a senior B2B video content strategist who specializes in short-form scripts that generate pipeline. Write a complete short-form video package for the following:
 
-COMPANY: [Your Company Name]
-PRODUCT/SERVICE: [What you sell — one sentence]
-TARGET BUYER: [Job title, company size, industry]
-VIDEO TYPE: [Choose: LinkedIn Short / YouTube Short / LinkedIn Long-Form / Explainer / Thought Leadership / Customer Story / Product Demo / FAQ]
-VIDEO LENGTH: [15s / 30s / 60s / 3 min / 5 min]
-CORE MESSAGE: [The one thing you want viewers to know, feel, or do]
-CTA: [What action should viewers take? Visit page, book demo, comment, follow]
+Brand/Company: [Your Company Name]
+Spokesperson: [Founder / CMO / Subject Matter Expert / Faceless Brand Account]
+Topic/Hook: [e.g., "Why 80% of B2B email sequences fail in the first 3 lines"]
+Target Audience: [e.g., "VP Sales at B2B SaaS companies, 50-500 employees"]
+Platform: [LinkedIn / YouTube Shorts / Instagram Reels / TikTok / All four]
+Video Length: [30 seconds / 60 seconds / 90 seconds]
+Business Goal: [Brand awareness / Demand generation / Lead capture / Pipeline influence]
 
-Deliver:
-1. HOOK (first 3 seconds) — 3 alternatives using different formulas: Problem Agitation, Curiosity Gap, Bold Claim
-2. FULL SCRIPT with [PAUSE], [CUT], and [B-ROLL: description] production notes
-3. ON-SCREEN TEXT — key words to display as captions or graphics
-4. SPOKEN CTA — conversational, not salesy
-5. VIDEO DESCRIPTION — 150-word YouTube/LinkedIn post copy with hashtags
-6. THUMBNAIL CONCEPT — describe the ideal thumbnail in one sentence
+Produce the following complete package:
 
-Script format: Speaker lines in plain text. Direction notes in [brackets]. Keep sentences under 15 words for natural delivery pacing.
+1. HOOK (first 3 seconds): A single sentence that stops the scroll. No question hooks. No "did you know." Pattern interrupt or bold claim only.
+2. FULL SCRIPT: Written as spoken word with timing marks every 15 seconds. Conversational. No corporate speak. Each sentence earns its place.
+3. ON-SCREEN TEXT OVERLAYS: Key phrases to display as text (for silent viewing — 85% of social video is watched muted).
+4. B-ROLL / VISUAL CALLOUTS: What to show on screen during each section. Be specific.
+5. CAPTION-OPTIMIZED TRANSCRIPT: Same script formatted for auto-captions with strategic line breaks for readability.
+6. PLATFORM-SPECIFIC CTA: One CTA per platform — match the friction level to the platform's user behavior.
+7. COMMENT PROMPT: One question to post in the comments to ignite engagement.
+8. SERIES ANGLE: Suggest 2 follow-up video topics that deepen this content thread.
+
+Write the full script. Do not summarize — produce the actual words. Every sentence must work in isolation as a standalone soundbite.
 
 ## Advanced Customizable Version
 
-## ROLE
-You are a senior B2B video script strategist and production director. You have written scripts for companies like Gong, Salesforce, HubSpot, and Notion that have generated millions of views and thousands of demo requests. You apply the Rule of One (one idea, one emotion, one CTA), Jobs-to-be-Done buyer framing, and Cialdini persuasion principles in every script.
+ROLE: You are a principal B2B video content architect with a track record of building video programs that drive measurable pipeline for SaaS companies. You write scripts that achieve 70%+ view-through rates on LinkedIn and 500K+ organic views on YouTube Shorts. You understand the tension between brand safety and algorithmic performance — and you always optimize for both.
 
-## COMPANY CONTEXT
-- Company Name: [Company Name]
-- Product/Service: [Describe in 1-2 sentences — what it does and who it's for]
-- Unique Differentiator: [What makes you genuinely different from alternatives]
-- Target ICP: [Job title | Seniority | Industry | Company size | Key pain point]
-- Buyer Stage: [Awareness / Consideration / Decision / Retention/Expansion]
-- Proof Points: [3 specific customer results, numbers, or case study snippets]
-- Brand Voice: [Authoritative / Conversational / Challenger / Educational / Inspirational]
+CONTEXT:
+- Company: [COMPANY_NAME]
+- Product/Service Category: [e.g., "Revenue Operations Platform"]
+- Unique Mechanism: [The one thing that makes your approach or product different — one sentence, no jargon]
+- Spokesperson Profile: [Name, Title, Communication Style — e.g., "Sarah Chen, CRO, data-driven storyteller, dry wit, comfortable on camera"]
+- Target ICP: [PERSONA_TITLE] at [COMPANY_SIZE] [INDUSTRY] companies
+- ICP's Biggest Frustration Right Now: [The specific friction point your video addresses — be precise, not generic]
+- ICP's Watering Holes: [Which social platforms do they actually use? LinkedIn? YouTube? Neither? Be honest.]
+- Brand Voice: [e.g., "Confident but not arrogant. Provocative but evidence-based. Anti-hype."]
+- Primary Platform: [LinkedIn / YouTube Shorts / Instagram Reels / TikTok / Multi-platform repurpose]
+- Video Format: [Talking head / Screen share + voiceover / B-roll + narration / Animated / Hybrid]
+- Campaign Context: [Standalone evergreen / Part of a series / Supporting a launch / Nurturing a specific pipeline segment]
+- Funnel Stage Target: [Awareness / Consideration / Decision / Expansion]
+- Conversion Goal: [Profile follow / Newsletter sign-up / Demo booking / Content download / Community join]
 
-## VIDEO BRIEF
-- Video Type: [Choose one: Thought Leadership / Explainer / Product Demo / Customer Story / How-To Tutorial / FAQ / Objection Handler / Event Recap / Founder Story / Trend/Opinion]
-- Primary Platform: [LinkedIn Feed / LinkedIn Stories / Instagram Reels / YouTube Shorts / YouTube Long / TikTok / Webinar / Sales Outreach]
-- Target Length: [15s / 30s / 60s / 90s / 3 min / 5 min / 10 min]
-- Primary Emotion to Trigger: [Curiosity / Fear of missing out / Frustration validation / Aspiration / Trust / Urgency]
-- Single Core Message: [Complete this sentence: "After watching this, viewers should believe/feel/do ___"]
-- Primary CTA: [Book demo / Visit page / Follow / Comment / DM / Download / Subscribe]
+FRAMEWORKS TO APPLY:
+- Hook Engineering: Pattern Interrupt > Bold Claim > Contrast Statement > Micro-story open (ranked by retention performance for B2B)
+- Narrative Arc: PAS (Problem-Agitation-Solution) for awareness content; AIDA (Attention-Interest-Desire-Action) for conversion content; Insight Reversal for thought leadership
+- Retention Mechanics: Open loops, curiosity gaps, midpoint re-hooks, payoff timing
+- CTA Psychology: Commitment ladder (micro-yes before macro-ask), specificity principle (specific CTA > vague CTA), scarcity framing for high-intent offers
 
-## SCRIPT PRODUCTION REQUIREMENTS
+OBJECTIVE: Produce a complete, production-ready short-form video package that a content coordinator can execute immediately — no creative direction needed from you.
 
-### 1. HOOK PACKAGE (First 3 Seconds — Critical)
-Write 3 hook alternatives, each using a different formula:
-- Hook A — Problem Agitation: Open with a painful, specific scenario your ICP lives every day
-- Hook B — Curiosity Gap: State something surprising or counterintuitive about your space  
-- Hook C — Bold Claim / Pattern Interrupt: Make a specific, provable claim that stops the scroll
+---
 
-For each hook, specify:
-- Opening visual/action [VISUAL: description]
-- Exact spoken words (under 10 words for short-form)
-- On-screen text overlay
+OUTPUT REQUIRED:
 
-### 2. FULL SCRIPT
-Format using this structure:
-[VISUAL: camera direction or B-roll description]
-SPOKEN: "Exact words to say"
-[TEXT ON SCREEN: Key phrase or stat]
-[PAUSE: 0.5s]
+## SECTION 1: VIDEO STRATEGY BRIEF (150 words max)
+- The single insight or claim this video plants in the viewer's mind
+- Why this topic NOW (timing rationale — algorithm, market event, seasonal)
+- Competitive angle: What most creators in this space get wrong that you'll do differently
+- Success definition: What does a "win" look like for this specific video?
+
+## SECTION 2: HOOK VARIANTS (produce 3, ranked by expected performance)
+For each hook:
+- Opening line (exact words — 8 seconds of spoken content max)
+- Hook type: [Pattern Interrupt / Bold Claim / Micro-story / Contrast / Data Drop]
+- Why this hook works for this specific ICP
+- On-screen visual to pair with this hook
+
+## SECTION 3: FULL PRODUCTION SCRIPT
+Format: [TIMESTAMP] [VISUAL/ACTION] | [SPOKEN WORDS] | [ON-SCREEN TEXT]
 
 Requirements:
-- Sentences under 15 words for natural pacing
-- One idea per sentence
-- Use "you" not "we" — buyer-centric language throughout
-- AIDA arc: Hook (Attention) → Problem/Stakes (Interest) → Solution proof (Desire) → CTA (Action)
-- Include 1-2 social proof moments (customer name, specific metric, recognizable logo)
-- Emotional contrast: establish pain → deliver relief → create aspiration
+- Timestamps every 10 seconds
+- Every claim substantiated within 15 seconds (no unresolved assertions)
+- Re-hook at the 30-second mark for longer videos
+- Final 8 seconds: payoff + CTA with zero ambiguity
+- No filler phrases: ban "let me explain," "so basically," "at the end of the day," "game changer"
+- Spoken word rate: 140-160 words per minute
+- Silent viewability: Every key point must be communicable via text overlay alone
 
-### 3. SHORT-FORM ADAPTATION
-If the primary script is longer than 60 seconds, also produce:
-- 30-second cut: Core message only, same hook, condensed proof, direct CTA
-- 15-second cut: Hook + single proof point + CTA
+## SECTION 4: ON-SCREEN TEXT OVERLAY PLAN
+For each major point:
+- Exact overlay text (5 words or fewer per overlay)
+- Timing (when it appears / when it exits)
+- Placement: [Top / Center / Bottom / Side]
+- Style note: [Bold emphasis / Bullet reveal / Stat callout / Question prompt]
+- Reasoning: Why this text at this moment maximizes retention
 
-### 4. PRODUCTION PACKAGE
-For each script version, deliver:
+## SECTION 5: PLATFORM ADAPTATION MATRIX
 
-**Shot List Summary**
-- Scene 1: [talking head / screen recording / B-roll / animation]
-- Scene 2: [description]
-- [continue for each scene]
+| Element | LinkedIn | YouTube Shorts | Instagram Reels | TikTok |
+|---|---|---|---|---|
+| Aspect ratio | 9:16 or 1:1 | 9:16 | 9:16 | 9:16 |
+| Caption style | Sentence case, professional | Casual, searchable | Punchy, emoji-ok | Trend-aware |
+| Hook adjustment | Lead with insight | Lead with pattern interrupt | Lead with energy | Lead with sound/motion |
+| CTA type | Comment prompt or DM | Subscribe + link in bio | Save + link in bio | Follow + Duet |
+| Optimal post time | Tue/Wed/Thu 7–9am | Consistent daily | Eve/morning | Trending window |
+| SEO/hashtag | 3–5 niche hashtags | Keyword-first title | Mix of broad + niche | 3–5 trending + niche |
+| Engagement trigger | Controversial stance or poll | End-screen clickthrough | Share-worthy stat or save | Comment challenge |
 
-**Caption/Subtitle Optimization**
-- Key phrases to bold or highlight in captions
-- Words to animate on-screen for emphasis
-- Emoji placement (if platform-appropriate)
+For each platform adaptation, specify:
+- What to change in the hook (not just format — actual word changes)
+- Any content that must be cut for platform culture fit
+- Thumbnail/cover frame recommendation with text overlay
 
-**Thumbnail/Cover Frame Concept**
-- Describe the single ideal static frame in one sentence
-- Suggested text overlay (5 words max)
-- Emotion the thumbnail should convey
+## SECTION 6: COMMENT SECTION STRATEGY
+- Pinned comment copy (posted by brand immediately after publishing)
+- First-response template for engagement within hour 1
+- 3 comment prompts to seed discussion from employee advocates
+- Controversy calibration: How edgy/provocative is appropriate for this ICP on this platform?
+- Reply template for the 3 most common negative/skeptical comments
 
-### 5. DISTRIBUTION PACKAGE
-**Post Copy (Platform-Native)**
-Write a platform-optimized post for each selected platform:
-- LinkedIn: 150-200 words, professional hook, 3-5 relevant hashtags, engagement question
-- YouTube: Full description (300 words), timestamps if applicable, keyword-rich, subscribe CTA
-- Instagram/TikTok: 50-word caption, 5-10 hashtags, trend tie-in if applicable
+## SECTION 7: SHORT-FORM SERIES ARCHITECTURE
+Based on this video's topic and performance potential, design a 6-video content series:
 
-**SEO Title Variations** (for YouTube/LinkedIn)
-Write 5 title options using different formulas:
-- How-to format
-- Number-led listicle
-- Question format
-- Bold claim
-- Trend/news hook
+For each video in the series:
+- Video title / hook concept
+- Relationship to this video (builds on / contrasts / deepens / resolves)
+- Funnel stage served
+- Expected performance tier: [Broad reach / Niche authority / Conversion]
+- Internal link opportunity (how to reference other videos in the series)
 
-### 6. REPURPOSING ROADMAP
-Show how this single video script generates:
-- 3x LinkedIn text posts (pull quotes, key stats, contrarian takes)
-- 1x email newsletter section
-- 1x blog intro paragraph
-- 5x social media image cards (quote graphics)
-- 1x podcast talking points outline
+## SECTION 8: REPURPOSE & EXTEND PLAYBOOK
+Show how to extract maximum value from this one video:
+- Long-form blog post angle (400 words of additional context to expand into)
+- LinkedIn text post version (same insight, no video — for different audience segment)
+- Email newsletter teaser (2-sentence hook to drive video views)
+- Podcast talking point (how to reference this insight in a podcast appearance)
+- Sales enablement use case (when/how an SDR can share this video in a sequence)
+- Community post version (how to seed this in a Slack/Discord community without it feeling promotional)
 
-## OUTPUT FORMAT
-Deliver everything in sequential sections. Use headers for navigation. Include word count and estimated speaking duration for each script version (average: 130 words/minute for professional pacing, 150 words/minute for conversational).
+## SECTION 9: PERFORMANCE ANALYTICS SETUP
+- Primary metric: [View-through rate / Profile visits / Link clicks / Comments]
+- Secondary metrics: [Shares, saves, follower growth rate, DM volume]
+- A/B test plan: Which element to test first (hook vs. CTA vs. thumbnail)
+- Benchmark targets by platform (realistic for a B2B account with [X] followers)
+- 48-hour performance check: What signals tell you to boost/promote vs. let it die organically?
+- Long-term SEO play: How this video compounds value over 6–12 months
+
+CONSTRAINTS:
+- Every word in the script must be spoken-word natural — read it aloud before finalizing
+- No stock footage suggestions — describe original footage or screen recordings only
+- Spokesperson should never sell in the first 80% of the video — earn the CTA
+- The insight or claim must be specific enough that a viewer can act on it TODAY, without your product
+- Every video must be independently valuable as standalone content — no "watch part 1 first"
+
+---
 
 ## Example Input/Output
 
 **Input Example:**
-- Company: Clarifai (AI-powered visual recognition platform)
-- Target ICP: VP Engineering at Series B+ SaaS companies
-- Video Type: Thought Leadership / LinkedIn Short
-- Length: 60 seconds
-- Core Message: "Manual data labeling is costing your team 40% of model-building time"
-- CTA: Follow + comment with their current labeling approach
+Company: Meridian Ops (B2B RevOps platform)
+Spokesperson: Marcus Webb, VP of Marketing, analytical communicator, data storyteller
+Topic: Why companies waste 40% of their marketing budget on leads sales will never work
+Target ICP: CMOs and VPs of Demand Gen at B2B SaaS, 100–1,000 employees
+Primary Platform: LinkedIn
+Video Length: 60 seconds
+Business Goal: Demand generation — drive ICP to follow + subscribe to newsletter
 
-**Output Example:**
+**Output Example (excerpts):**
+
+**HOOK VARIANTS:**
+
+Hook 1 (Recommended): *Pattern Interrupt + Data*
+"Your sales team is ignoring 40% of the leads your marketing team spent $200K generating. And it's not their fault."
+*Why it works:* Immediately creates tension between two teams the ICP manages. Forces cognitive dissonance — they have to hear the resolution.
+*Visual:* Tight frame on Marcus, direct eye contact, neutral background. Text overlay: "40% of your leads → ignored."
+
+Hook 2: *Contrast Statement*
+"Most demand gen teams optimize for MQL volume. The best ones optimize for MQL refusal rate."
+*Why it works:* Introduces a metric most haven't tracked. Forces a re-evaluation of current measurement.
+*Visual:* Marcus with a whiteboard behind him showing two funnels — "Volume" and "Quality."
+
+Hook 3: *Bold Claim*
+"The lead scoring model you built last year is lying to your CEO."
+*Why it works:* Provocative but specific — assumes they have a lead scoring model, making it feel personally relevant.
+*Visual:* Close-up on Marcus, slight pause before "lying," for maximum effect.
+
+---
+
+**FULL PRODUCTION SCRIPT (Hook 1 selected):**
+
+[0:00] *Tight frame, direct eye contact* | "Your sales team is ignoring 40% of the leads your marketing team spent $200K generating." | **ON-SCREEN: "40% of leads → ignored"**
+
+[0:08] *Slight lean forward* | "And it's not their fault. It's a systems problem — and it starts with how you define a qualified lead." | **ON-SCREEN: "Systems problem. Not people problem."**
+
+[0:18] *Cut to screen share: CRM view with MQL stage* | "Most demand gen teams score leads on behavior — page views, email opens, content downloads. But behavior without fit is noise." | **ON-SCREEN: "Behavior ≠ Intent"**
+
+[0:28] *Back to Marcus, re-hook* | "Here's what we found analyzing 14,000 MQLs across 60 B2B companies:" | **ON-SCREEN: "14,000 MQLs analyzed"**
+
+[0:34] *Screen share: data visualization* | "Leads that matched ICP firmographic AND showed behavioral signals converted to pipeline at 3x the rate of behavior-only MQLs. 3x. Same spend." | **ON-SCREEN: "3x pipeline conversion"**
+
+[0:44] *Back to Marcus, strong close* | "Stop optimizing your lead score for marketing's MQL target. Optimize it for sales' accept rate. That's the number that actually predicts revenue." | **ON-SCREEN: "Optimize for sales accept rate"**
+
+[0:54] *CTA beat* | "I publish one insight like this every Tuesday. Follow Meridian Ops — or drop 'SCORING' in the comments and I'll send you our lead scoring audit framework." | **ON-SCREEN: "Follow + Comment 'SCORING'"**
 
 ---
 
-**HOOK A — Problem Agitation:**
-[VISUAL: developer at laptop, exhausted, surrounded by spreadsheets]
-SPOKEN: "Your best ML engineers. Labeling data. Manually."
-[TEXT ON SCREEN: ⚠️ 40% of model-building time. Gone.]
+**COMMENT SECTION STRATEGY:**
 
-**HOOK B — Curiosity Gap:**
-[VISUAL: black screen → single number fades in]
-SPOKEN: "What if I told you 3 of your engineers aren't building models right now?"
-[TEXT ON SCREEN: They're labeling data instead.]
+*Pinned comment (post within 5 minutes of publishing):*
+"If you want the lead scoring audit framework we used for this analysis — just comment 'SCORING' below. I'll DM it to the first 50. Real spreadsheet, not a PDF."
 
-**FULL SCRIPT (Hook A selected):**
-
-[VISUAL: developer at laptop, exhausted]
-SPOKEN: "Your best ML engineers. Labeling data. Manually."
-[TEXT ON SCREEN: ⚠️ This is costing you.]
-[PAUSE: 0.5s]
-
-[VISUAL: cut to fast-moving data pipeline animation]
-SPOKEN: "Our research shows teams lose 40% of model-building time to manual labeling."
-[TEXT ON SCREEN: 40% → lost to labeling]
-
-[VISUAL: side-by-side comparison: manual vs automated pipeline]
-SPOKEN: "Companies like Instacart and Walmart cut labeling time by 80% — not by hiring more people."
-[TEXT ON SCREEN: Instacart. Walmart. 80% faster.]
-
-[VISUAL: back to camera, direct eye contact]
-SPOKEN: "They automated the loop: label → train → review → improve. Continuously."
-[TEXT ON SCREEN: The Continuous Learning Loop]
-[PAUSE: 0.5s]
-
-[VISUAL: product interface briefly shown — clean, confident]
-SPOKEN: "That's the model. Not the spreadsheet."
-[TEXT ON SCREEN: Build faster. Label less.]
-
-[VISUAL: back to camera, genuine close]
-SPOKEN: "Tell me below — what's your current labeling setup? Manual, semi-automated, or something else?"
-[TEXT ON SCREEN: 👇 How do YOU label?]
-
----
-**Word count:** 97 words | **Estimated duration:** 45-52 seconds at professional pacing
-
-**LinkedIn Post Copy:**
-"Your best ML engineers shouldn't be labeling data.
-
-Yet for most teams, 40% of model-building time vanishes into manual annotation pipelines.
-
-The companies shipping faster — Instacart, Walmart, Databricks customers — automated the continuous learning loop.
-
-Label → train → review → improve. Without the spreadsheet hell.
-
-What's your current labeling setup? Drop it below 👇 — I'm curious how teams are solving this.
-
-#MLOps #MachineLearning #AIEngineering #DataLabeling #ProductivityHack"
+*Employee advocacy seed comment:*
+"We ran this audit internally last quarter — the results were uncomfortable. The 'high-intent' segment sales was rejecting had a 2% pipeline conversion rate. The segment they were manually qualifying had 18%. This model changed how we do weekly pipeline reviews."
 
 ---
 
 ## Success Metrics
 
-- **Hook retention rate:** >40% of viewers watch past 3-second hook (benchmark: platform average is 20-30%)
-- **View-through rate:** >25% complete viewing (for 60s content)
-- **Engagement rate:** >3% on LinkedIn (likes + comments + shares / impressions)
-- **CTA click-through:** >1.5% for links in description (YouTube), >2% swipe-up (Instagram Stories)
-- **Comment quality:** Substantive comments engaging with the core topic (not just "great content!")
-- **Pipeline influence:** Track demo requests or form fills attributed to video within 7-day attribution window
-- **Subscriber/follower conversion:** >0.5% of viewers follow the channel/page after watching
+- **LinkedIn hook retention:** 70%+ of viewers watch past the 3-second mark; 45%+ complete 60-second videos
+- **Profile visit rate:** 3–8% of viewers click through to company/personal profile after viewing
+- **Comment rate:** 1.5–4% of views generate comments for B2B content (industry benchmark: 0.8%)
+- **Follower conversion:** 15–30% of profile visitors from video convert to followers within 24 hours
+- **Series compound growth:** Each subsequent video in a 6-part series should achieve 15%+ more organic reach than the previous
+- **Pipeline attribution:** Track UTM-tagged CTA links in video descriptions; measure SQLs from video-sourced leads in CRM over 90 days
+- **Repurpose efficiency ratio:** One video should generate 6+ derivative content assets (blog, email, posts, clips) — track this in your content calendar
 
 ## Related Prompts
-
-- [`../../03_Content-&-Creative/Video-Content-Production/AI-Powered-B2B-Video-Content-Strategy-&-Multi-Channel-Production-Intelligence-Engine.md`](./AI-Powered-B2B-Video-Content-Strategy-&-Multi-Channel-Production-Intelligence-Engine.md) — Overall video strategy and channel distribution framework
-- [`../../03_Content-&-Creative/Repurpose-Rewrite/Podcast-to-Omnichannel-Content-Engine.md`](../Repurpose-Rewrite/Podcast-to-Omnichannel-Content-Engine.md) — Repurpose video/audio content across channels
-- [`../../03_Content-&-Creative/Social-Media-Content/AI-Powered-LinkedIn-Video-Content-Strategy-&-B2B-Pipeline-Intelligence-Engine.md`](../Social-Media-Content/AI-Powered-LinkedIn-Video-Content-Strategy-&-B2B-Pipeline-Intelligence-Engine.md) — LinkedIn-specific video optimization
-- [`../../04_Demand-&-Lead-Generation-&-Growth/Outbound-Prospecting/AI-Powered-Video-Prospecting-&-Personalized-Video-Sales-Outreach-Intelligence-Engine.md`](../../04_Demand-&-Lead-Generation-&-Growth/Outbound-Prospecting/AI-Powered-Video-Prospecting-&-Personalized-Video-Sales-Outreach-Intelligence-Engine.md) — Personalized 1:1 video outreach scripts for sales
+- [AI-Powered B2B Product Demo Video & Customer Tutorial Production Intelligence Engine](./AI-Powered-B2B-Product-Demo-Video-&-Customer-Tutorial-Production-Intelligence-Engine.md)
+- [AI-Powered LinkedIn Video Content Strategy & B2B Pipeline Intelligence Engine](../../03_Content-&-Creative/Social-Media-Content/AI-Powered-LinkedIn-Video-Content-Strategy-&-B2B-Pipeline-Intelligence-Engine.md)
+- [Founder-Led Content Machine & Multi-Channel Distribution Engine](../../03_Content-&-Creative/Founder-Brand-Content/Founder-Led-Content-Machine-&-Multi-Channel-Distribution-Engine.md)
+- [Podcast-to-Omnichannel Content Engine](../../03_Content-&-Creative/Repurpose-Rewrite/Podcast-to-Omnichannel-Content-Engine.md)
 
 ## Integration Tips
 
-- **Descript / CapCut:** Paste the script directly — both tools auto-generate captions from script text. Use the [TEXT ON SCREEN] markers as manual caption emphasis cues.
-- **HeyGen / Synthesia:** Feed the SPOKEN sections directly as teleprompter text for AI avatar videos. Use the [VISUAL] notes to configure background scenes.
-- **Notion / Airtable content calendar:** Store each script with its platform, video type, and repurposing output in a video content database. Link to the filmed asset and performance data post-publish.
-- **Zapier + YouTube Analytics:** Trigger a Zapier workflow when a new video hits 500 views → auto-pull retention curve data → feed back into the next script iteration.
-- **HubSpot / Salesforce:** Tag all contacts who view embedded videos on your site (using Wistia or Vidyard) and route high-intent viewers into ABM sequences. The CTA language in the script should mirror the sequence subject line.
-- **Clay.com (for sales outreach versions):** Use the SHORT-FORM ADAPTATION section to generate personalized video outreach scripts at scale. Feed account-specific data into the [company] and [pain point] variables dynamically.
-- **Riverside.fm / Loom:** Record the script directly. Use the Shot List as a visual cue sheet. Export transcript to feed into the Repurposing Roadmap outputs.
+- **Descript:** Paste the full script into Descript before recording — use the teleprompter view for natural delivery, then use AI overdub to fix stumbles without re-recording. Auto-remove filler words in post.
+- **Opus Clip / Munch:** After producing one long-form video, feed it into Opus Clip to auto-generate 10–15 short-form clips with AI-optimized captions — validate against the platform adaptation matrix in Section 5.
+- **LinkedIn Campaign Manager:** For high-performing organic videos (top 10% by engagement rate), boost as Thought Leader Ads targeting lookalike audiences of your best customers. Use original poster's personal profile for maximum authenticity.
+- **HubSpot Video (Vidyard integration):** Embed CTA-linked video clips in nurture email sequences; trigger sales task creation when a prospect watches 75%+ of a video.
+- **Notion Video Library:** Create a Notion database with fields: Platform, Hook Type, ICP, Funnel Stage, Views, CTA Click Rate, Pipeline Influenced. Review monthly to identify which hook types and topics compound best.
+- **Zapier → Slack:** When a video exceeds your benchmark (e.g., 500 LinkedIn reactions in 24 hours), trigger a Slack alert to the content team to immediately begin repurposing into blog + email assets while the topic is trending.
+- **Clay:** Pull comment data from high-performing videos, identify ICP commenters, and enrich them in Clay for SDR follow-up within 48 hours — treating engaged video viewers as high-intent signals.
 
 ## Troubleshooting
 
-**Problem:** The hook formula feels generic or doesn't match brand voice.
-**Solution:** Run Hook A/B/C through a second prompt pass with: "Rewrite this hook in [brand voice] for a [company stage: startup/scaleup/enterprise] audience. The founder's communication style is [e.g., direct and data-driven like a practitioner, not a marketer]. Avoid buzzwords."
+**Problem: Hook gets high 3-second retention but steep drop-off at 15 seconds**
+Solution: Your hook created curiosity but your bridge (seconds 4–15) didn't deliver the implied promise fast enough. Add an immediate "proof of concept" line right after the hook — a specific data point, a name drop, or a one-sentence story that validates the claim before diving into the full explanation. The viewer needs a reason to stay beyond the hook.
 
-**Problem:** Script runs over the target length when recorded.
-**Solution:** Use the 30-second and 15-second cut outputs. If still over, apply the Rule of One more aggressively: remove every sentence that isn't (1) establishing the problem, (2) delivering the proof, or (3) driving the CTA. Every other sentence is deletable.
+**Problem: Video performs well on LinkedIn but gets zero traction on YouTube Shorts or TikTok**
+Solution: LinkedIn rewards insight and professional friction; YouTube Shorts and TikTok reward pattern interruption and entertainment. The same script rarely works across platforms — it needs genuine adaptation, not just reformatting. For YouTube/TikTok, cut the first 5 seconds and start with visual action or unexpected audio. Replace the business-centric hook with a curiosity-gap open ("I analyzed 14,000 leads so you don't have to — here's what nobody talks about").
 
-**Problem:** The LinkedIn or YouTube post copy isn't getting organic reach.
-**Solution:** The first line of LinkedIn posts is the only text visible before "see more." Rewrite it using a hook formula from the script (Problem Agitation works best). For YouTube, front-load the primary keyword in the title and first 2 sentences of the description — YouTube's algorithm reads these first.
+**Problem: Video generates high engagement but no measurable pipeline or business outcome**
+Solution: Engagement without conversion means your CTA architecture is broken. Audit three things: (1) Is your CTA specific enough? "Follow for more" generates followers, not pipeline. "Comment 'AUDIT' for the framework" generates a list. (2) Is your landing page/offer matching the video's promise? If the video promises a framework but the CTA leads to a generic demo request form, you've lost them. (3) Are you tracking the right lag time? B2B video influence on pipeline takes 30–90 days — check attribution windows in your CRM before concluding the video failed.
 
 ## Version History
 - v1.0: Initial creation (auto-generated)
