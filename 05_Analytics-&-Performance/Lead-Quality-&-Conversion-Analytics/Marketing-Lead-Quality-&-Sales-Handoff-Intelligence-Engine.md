@@ -1,264 +1,332 @@
-# Marketing Lead Quality & Sales Handoff Intelligence Engine - Diagnose and Fix Marketing-to-Sales Conversion Breakdown
+# Marketing Lead Quality & Sales Handoff Intelligence Engine - Eliminate Revenue Leakage at the Marketing-to-Sales Boundary
 
-**Difficulty:** Advanced | **Time:** 20-30 min | **Tags:** b2b, analytics, lead-quality, sales-alignment, mql, sql, conversion, automation, saas, pipeline
+**Difficulty:** Advanced | **Time:** 20-25 min | **Tags:** b2b, saas, mql, sql, sales-handoff, lead-quality, pipeline-velocity, revenue-operations, sla, conversion-optimization
 
 ## Overview
-Automatically analyzes your full MQL→SQL→Opportunity→Close conversion funnel, identifies which marketing channels and campaigns produce the highest-quality leads (not just volume), diagnoses handoff friction between marketing and sales, and generates a data-driven SLA scorecard with prescriptive fixes. Use this when marketing and sales disagree on lead quality, when SQL-acceptance rates are declining, or when you need to defend marketing's contribution to pipeline.
+Diagnoses and rebuilds the marketing-to-sales handoff process by analyzing MQL definition accuracy, handoff SLA compliance, SQL acceptance rates, rejection reason patterns, and pipeline leakage at every conversion boundary. Use this when marketing generates leads that sales ignores, when MQL-to-SQL conversion is below 20%, or when marketing and sales argue about lead quality every quarter.
 
 ## Quick Copy-Paste Version
 
-You are a senior B2B revenue analytics consultant specializing in marketing-to-sales alignment. Analyze my lead quality and handoff performance data and produce a complete diagnostic report.
+You are a senior revenue operations analyst specializing in B2B SaaS pipeline conversion and marketing-sales alignment. Analyze my lead handoff data and produce a complete MQL-to-SQL Conversion Intelligence Report with specific fixes.
 
-My data:
-- Total MQLs last quarter: [number]
-- MQL sources: [e.g., Content 40%, Paid Search 25%, Events 20%, SDR 15%]
-- MQL→SQL conversion rate by source: [paste data or describe: e.g., Content 28%, Paid 19%, Events 41%]
-- SQL→Opportunity rate: [X%]
-- Opportunity→Closed-Won rate: [X%]
-- Average deal size by lead source: [data or "unknown"]
-- Average sales cycle by lead source: [data or "unknown"]
-- Current MQL definition/scoring criteria: [describe your scoring model or paste it]
-- Marketing-sales SLA (if any): [describe or "none defined"]
-- Top sales complaints about marketing leads: [list them]
-- Top marketing complaints about sales follow-up: [list them]
+My current situation:
+- Company stage and ACV: [e.g., Series B, $45K ACV]
+- Monthly MQL volume: [e.g., 380 MQLs/month]
+- Current MQL-to-SQL conversion rate: [e.g., 18%]
+- SQL acceptance rate (% of passed MQLs that sales accepts): [e.g., 61%]
+- Top lead rejection reasons from sales: [e.g., "wrong company size," "not the right persona," "already a customer," "no budget timeline"]
+- Current MQL scoring model: [e.g., demographic fit score + behavioral engagement score, threshold = 80 points]
+- Sales SLA for MQL follow-up: [e.g., 24 hours, but actual average is 41 hours]
+- CRM used: [HubSpot / Salesforce / Pipedrive / other]
 
 Deliver:
-1. Lead quality score by channel (composite score: SQL rate × Opp rate × Win rate × deal size)
-2. The 3 channels producing the highest-quality leads vs. highest-volume leads (they're different)
-3. Funnel leak analysis: where exactly are leads dying and why
-4. MQL definition audit: is your scoring model predicting actual buyers or just form-fillers?
-5. Marketing-sales SLA scorecard: what metrics each team owns and is missing
-6. 5 specific fixes to improve MQL quality within 30 days
-7. Recommended changes to lead scoring weights based on actual conversion data
-8. Executive summary: the business cost of current lead quality issues (in $ pipeline lost)
+1. **Handoff Failure Diagnosis**: identify the top 3 reasons MQLs fail to convert to SQL at my company
+2. **MQL Definition Audit**: recommend specific changes to scoring criteria to improve acceptance rate to 75%+
+3. **SLA Compliance Fix**: design an automated SLA enforcement workflow with escalation triggers
+4. **Rejection Reason Taxonomy**: build a structured rejection code system sales can use in under 10 seconds
+5. **Feedback Loop Architecture**: design a weekly closed-loop process where sales rejection data automatically improves the MQL model
+6. **30-day quick win plan**: 3 specific actions to improve MQL-to-SQL rate by 5+ percentage points this quarter
 
-Be specific. Use the data I've provided. Flag any gaps in my data that are preventing accurate diagnosis.
+Format as an ops-ready report with specific CRM configuration instructions.
 
 ## Advanced Customizable Version
 
-ROLE: You are a VP of Revenue Operations with 12 years of B2B SaaS experience, specializing in lead lifecycle analytics, marketing-sales alignment, and funnel optimization. You have deep expertise in Salesforce, HubSpot, Marketo, 6sense, Bombora, and SQL-based funnel analysis.
+ROLE: You are a Chief Revenue Operations Architect with 15+ years of B2B SaaS go-to-market experience. You apply MEDDIC qualification frameworks, statistical funnel analysis, and process engineering to eliminate revenue leakage at the marketing-to-sales boundary.
+
+OBJECTIVE: Perform a comprehensive MQL-to-SQL Handoff Intelligence Audit and produce a complete revenue conversion optimization system — covering lead definition architecture, SLA engineering, rejection analysis, and closed-loop learning — that increases SQL acceptance rate to 75%+ and MQL-to-pipeline conversion by 30% within 90 days.
 
 COMPANY CONTEXT:
-- Company: [Company Name]
-- Stage: [Series A / Series B / Series C / Growth / Enterprise]
-- ARR: [$X] | ACV: [$X] | Sales cycle: [X days avg]
-- Sales motion: [Inbound-led / Outbound-led / PLG / Hybrid]
-- Team: [X AEs, X SDRs, X marketing headcount]
-- CRM: [Salesforce / HubSpot / Other]
-- MAP: [Marketo / HubSpot / Pardot / Other]
-- ICP definition: [Company size, industry, tech stack, job titles of buyers]
+- Company name: [Company]
+- Product category: [e.g., B2B SaaS — revenue intelligence platform]
+- ARR and stage: [e.g., $31M ARR, Series C]
+- ACV range: [e.g., $18K–$120K, average $52K]
+- ICP definition: [e.g., VP Sales and CRO at 100–2,000 employee SaaS companies]
+- Sales team structure: [e.g., 12 AEs, 8 SDRs, segmented by company size: SMB/Mid-Market/Enterprise]
+- GTM motion: [e.g., inbound-led with SDR follow-up, demo request as primary conversion]
 
-FUNNEL DATA (paste raw CSV/table or describe):
+CURRENT HANDOFF FUNNEL DATA:
+Fill in available metrics (mark "unknown" — model will flag instrumentation gaps):
 
-MQL Volume & Sources (last [90 days / Q / 6 months]):
-| Source | MQLs | MQL→SQL % | SQL→Opp % | Opp→Close % | Avg ACV | Avg Cycle (days) |
-|--------|------|-----------|-----------|-------------|---------|-----------------|
-| [Channel 1] | | | | | | |
-| [Channel 2] | | | | | | |
-| [Channel 3] | | | | | | |
-[paste your data]
+**Volume metrics (last 90 days):**
+- Total MQLs generated: [X]
+- MQLs passed to sales: [X] (% of total MQLs that meet threshold)
+- MQLs accepted by sales as SQL: [X] (% acceptance rate)
+- SQLs converted to Opportunities: [X] (SQL-to-Opp rate)
+- Opportunities that reached Proposal stage: [X]
+- Closed Won from this MQL cohort: [X]
 
-CURRENT LEAD SCORING MODEL:
-Behavioral scores: [e.g., Email open +5, Demo request +25, Pricing page +15, Webinar attended +10]
-Firmographic scores: [e.g., Company size 201-1000 +15, Target industry +10, Job title VP+ +20]
-MQL threshold: [score needed to become MQL]
-Disqualifying signals: [e.g., competitor domain, free email, student]
+**Speed metrics:**
+- Average time from MQL trigger to sales first touch: [X hours]
+- SLA target: [X hours]
+- SLA compliance rate: [X%] 
+- Average time MQL → SQL qualification decision: [X days]
+- Average time MQL → Closed Won (for MQLs that convert): [X days]
 
-SALES FEEDBACK DATA:
-- SQL rejection reasons (from CRM disposition codes): [paste rejection reasons + counts]
-- Average time from MQL to first sales contact: [X hours/days]
-- SDR follow-up sequence: [describe or attach]
-- Win/loss themes from recent deals: [describe or attach]
+**Quality metrics:**
+- SQL acceptance rate by segment (SMB / Mid-Market / Enterprise): [X% / X% / X%]
+- SQL acceptance rate by lead source (organic / paid / event / outbound / referral): [breakdown]
+- Top 5 rejection reasons with frequency: [list]
+- Average deal size for MQL-sourced vs. non-MQL-sourced pipeline: [comparison]
 
-MARKETING CAMPAIGN DATA:
-- Top 10 campaigns by MQL volume with source and content type: [paste]
-- Content-to-MQL mapping: [which assets are converting to MQLs]
-- Paid media campaigns: [campaign names, spend, MQL volume, CPL]
+**Current MQL scoring model:**
+Describe your current scoring criteria:
+- Firmographic fit criteria: [e.g., company size 50-5000 employees = 20pts, industry match = 15pts, technology fit = 10pts]
+- Behavioral engagement criteria: [e.g., demo request = 40pts, pricing page = 20pts, content download = 5pts, webinar = 10pts]
+- Negative scoring: [e.g., -30 for student/EDU domain, -20 for competitor domain]
+- MQL threshold: [e.g., 80 points]
+- Score decay rules: [e.g., none / 10% per week of inactivity]
 
-OBJECTIVE: [Choose one or more]
-□ Diagnose why SQL acceptance rate dropped [X% → X%]
-□ Rebuild lead scoring model from conversion data
-□ Create marketing-sales SLA with enforcement metrics
-□ Identify our highest-quality lead sources for budget reallocation
-□ Build a lead quality dashboard framework
-□ Prepare executive presentation on marketing's pipeline contribution
+ANALYSIS FRAMEWORK — apply these methodologies:
 
----
+**Framework 1: MQL Definition Validity Test**
+A valid MQL definition passes four tests:
+1. **Conversion Test**: Do MQLs convert to pipeline at ≥20% rate? (Industry benchmark: 15–25%)
+2. **Sales Agreement Test**: Do sales reps accept ≥70% of passed MQLs?
+3. **Deal Size Test**: Do MQL-sourced deals close at ≥90% of the company average deal size?
+4. **Velocity Test**: Do MQL-sourced deals close within ±20% of average sales cycle?
 
-ANALYSIS FRAMEWORK: Apply the following methodologies:
+Flag which tests the current model fails and quantify the failure gap.
 
-1. LEAD QUALITY COMPOSITE SCORE (LQS)
-For each lead source, calculate:
-LQS = (MQL→SQL rate × 0.25) + (SQL→Opp rate × 0.30) + (Opp→Win rate × 0.25) + (ACV index × 0.20)
-Rank all channels by LQS, not by raw MQL volume.
-Flag any channel where volume is in the top 3 but LQS is in the bottom 3 (volume trap).
+**Framework 2: Rejection Reason Root Cause Analysis**
+Map every rejection reason to one of five root causes:
+- **ICP Mismatch** (wrong company, wrong persona, wrong industry) → fix: firmographic scoring
+- **Timing Mismatch** (no active initiative, no budget cycle alignment) → fix: behavioral intent signals
+- **Data Quality** (bounced email, wrong contact, duplicate record) → fix: data enrichment workflow
+- **Sales Process** (lead passed too early, wrong sales segment routed) → fix: handoff workflow
+- **Score Inflation** (lead gamed the score or score model is miscalibrated) → fix: negative scoring, intent verification
 
-2. FUNNEL LEAK DIAGNOSTIC
-Apply the "5-Why Funnel Analysis" to each stage:
-- MQL stage: Are MQLs meeting threshold due to genuine intent or gaming/noise?
-- MQL→SQL: What % are being rejected? What are the top 3 rejection reasons? Are rejections concentrated in specific campaigns?
-- SQL→Opp: Where are qualified leads stalling? Is this a sales motion problem or a lead quality problem?
-- Opp→Close: What are the win/loss patterns by lead source? Do marketing-sourced leads have different win rates than outbound?
+**Framework 3: SLA Engineering**
+Design a three-tier SLA system:
+- **Tier 1 — Hot Leads** (demo request, pricing page + high fit score): 15-minute SLA, Slack alert + auto-enrolled sequence
+- **Tier 2 — Warm Leads** (behavior-triggered MQL, high engagement): 4-hour SLA, automated first email + SDR task
+- **Tier 3 — Nurture Graduates** (score crossed threshold over time): 24-hour SLA, SDR outreach sequence
 
-3. LEAD SCORING AUDIT
-Evaluate the current scoring model against actual conversion outcomes:
-- Correlation analysis: which score components actually predict SQL conversion?
-- Score inflation check: are there behavioral signals that inflate scores without predicting quality? (e.g., re-opens same email 10 times = high score but low intent)
-- Firmographic fit gap: is the scoring penalizing or rewarding the right company profiles?
-- Recency weighting: are older engagements decaying appropriately?
-- Recommended scoring recalibration: new weights based on conversion data
-
-4. MARKETING-SALES SLA FRAMEWORK
-Define bilateral commitments:
-Marketing SLA to Sales:
-- Lead volume: [X MQLs/month by segment]
-- Lead quality floor: minimum LQS threshold before handoff
-- Lead context: required enrichment fields complete before SQL pass
-- Response time SLA for hot signals (demo request, pricing visit + high fit score)
-
-Sales SLA to Marketing:
-- Contact attempt: first touch within [X hours] of MQL
-- Disposition feedback: SQL rejection reason logged within [X days]
-- Qualification rigor: using agreed MEDDIC/BANT/SPICED criteria
-- Feedback loop: weekly/monthly lead quality review meeting
-
-5. CHANNEL ROI RECALIBRATION
-Reframe marketing investment decisions using quality-adjusted metrics:
-- Quality-Adjusted CPL: traditional CPL × (1 / LQS)
-- Pipeline Quality Rate: $ pipeline generated per $1 marketing spend, by channel
-- Revenue-per-MQL by source: closed-won revenue attributable to each channel / MQLs from that channel
-- Identify "budget misalignment": channels getting high spend but generating low-quality pipeline
-
-6. PREDICTIVE SIGNALS ANALYSIS
-Based on patterns in your closed-won data, identify:
-- The 3-5 behavioral signals that are most predictive of becoming a customer (not just becoming an SQL)
-- The firmographic profile that produces the shortest sales cycles
-- The content/campaign combination with the highest win rate (not just highest volume)
-- Intent signals that, when combined with fit score, predict 60-day close probability
-
----
+**Framework 4: Closed-Loop Learning System**
+Design an automated feedback system where every sales rejection automatically:
+1. Logs structured rejection code to CRM
+2. Triggers lead re-scoring or disqualification
+3. Feeds weekly aggregate data to marketing dashboard
+4. Adjusts threshold recommendation monthly via regression analysis on rejection patterns
 
 DELIVERABLES:
 
-**Section 1: Executive Diagnostic (1 page)**
-- Current state: lead quality score by channel (table)
-- Business impact of lead quality gap ($ pipeline lost to poor-quality MQLs annually)
-- Top 3 root causes of lead quality issues
-- Confidence level in data and key assumptions
+**Section 1: Handoff Diagnostic Report**
+- Current state funnel waterfall: MQL → Passed → Accepted (SQL) → Opportunity → Pipeline → Won
+- Conversion rate at each stage vs. SaaS industry benchmark (cite Forrester/SiriusDecisions benchmarks)
+- Revenue leakage quantification: "At current conversion rates, you are losing approximately $X in ARR per quarter from MQL-stage funnel failure"
+- Top 3 structural root causes of handoff failure (specific, not generic)
 
-**Section 2: Lead Quality Scorecard by Channel**
-Full table: Channel | MQLs | LQS | CPL | Quality-Adjusted CPL | Pipeline Generated | Revenue Won | Verdict (Scale / Cut / Test)
+**Section 2: MQL Scoring Model Redesign**
+Produce a revised scoring model that:
+- Separates Fit Score (firmographic/technographic: 0–50 points) from Intent Score (behavioral signals: 0–50 points)
+- Requires minimum threshold on BOTH dimensions (not just total score) to prevent high-intent-low-fit or high-fit-low-intent MQLs from slipping through
+- Adds a Surge Modifier (+15 points) for leads showing 3+ high-intent signals in 7 days
+- Adds 5 specific negative scoring rules based on the rejection patterns identified
+- Defines score decay: subtract 5 points per week of zero activity after MQL threshold crossing
+- Sets a "Sales-Ready" vs. "Nurture" routing decision tree based on score profile
 
-**Section 3: Lead Scoring Model Rebuild**
-- Current model weaknesses (with evidence)
-- Recommended new scoring weights (behavioral + firmographic)
-- New MQL threshold recommendation with rationale
-- Signals to add, remove, or reweight
+Provide: revised scoring table with point values, new MQL threshold recommendation, and projected impact on acceptance rate.
 
-**Section 4: Funnel Leak Repair Plan**
-Stage-by-stage: what's leaking, why, and the specific fix (with owner and timeline)
+**Section 3: SLA Enforcement Architecture**
+Design a fully automated SLA system:
 
-**Section 5: Marketing-Sales SLA Document**
-Ready-to-present SLA with metrics, owners, review cadence, and escalation path
+For each Tier (1/2/3):
+- Trigger conditions (exact score + behavioral criteria)
+- Automatic actions at T+0 (instant): CRM task creation, Slack/Teams notification with lead context card, auto-enrollment in first-touch sequence
+- Escalation at T+X (SLA miss): manager notification, re-routing to available rep, automatic logging of SLA violation
+- CRM configuration instructions: HubSpot workflow steps OR Salesforce Flow logic (specify for the user's CRM)
+- Dashboard metric: SLA Compliance Rate — target 90%+
 
-**Section 6: 30/60/90 Day Improvement Roadmap**
-- 30 days: quick wins (scoring adjustments, SLA rollout, data cleanup)
-- 60 days: structural fixes (campaign optimization, intent data integration)
-- 90 days: measurement (re-score all MQLs with new model, measure SQL acceptance lift)
+**Section 4: Rejection Code System**
+Design a 12-code rejection taxonomy that:
+- Takes sales reps under 10 seconds to complete (dropdown in CRM, no free text required)
+- Maps directly to marketing corrective actions
+- Enables monthly pattern reporting
 
-**Section 7: Lead Quality Dashboard Specification**
-Key metrics to track weekly, the calculation for each, and which system owns the data
+Provide: complete code list, CRM field configuration, and monthly reporting template.
+
+**Section 5: Closed-Loop Intelligence System**
+Design a weekly feedback loop:
+- Marketing reviews rejection report every Monday morning (what to look for, what thresholds trigger action)
+- Monthly model recalibration trigger: if acceptance rate drops below 65% for 3 consecutive weeks → automatic model review
+- Quarterly marketing-sales alignment review agenda (specific agenda items, data to bring, decisions to make)
+- "MQL Quality Score" internal KPI: blended metric combining acceptance rate, MQL-to-pipeline rate, and deal size index — report this to CMO weekly
+
+**Section 6: 90-Day Transformation Roadmap**
+
+Month 1 (Foundation):
+- Week 1: Instrument rejection code system in CRM + run baseline audit
+- Week 2: Launch revised MQL scoring model (parallel run with old model for 2 weeks)
+- Week 3: Deploy Tier 1 SLA hot-lead automation
+- Week 4: First closed-loop review — validate new model vs. old model acceptance rates
+
+Month 2 (Optimization):
+- Launch full three-tier SLA system
+- First monthly model recalibration using rejection data
+- SDR training on new qualification framework (MEDDIC mini-training: 30-min session)
+- Begin weekly MQL Quality Score reporting to CMO
+
+Month 3 (Scale):
+- Measure 90-day conversion improvement vs. baseline
+- Identify top 3 lead sources with highest post-fix quality improvement
+- Build board-ready slide: "MQL Engine ROI" showing revenue recovered from handoff optimization
+- Plan next iteration of model improvements
+
+OUTPUT FORMAT:
+- Executive summary: 5 bullets, revenue impact framing
+- Diagnostic waterfall chart (text-based table)
+- Revised scoring model (complete table with criteria and points)
+- SLA Architecture (three-tier table with automation instructions)
+- Rejection Code System (12-code table with CRM config notes)
+- Closed-Loop System design (process diagram in text)
+- 90-day roadmap (week-by-week)
+- Appendix: benchmark data sources and methodology notes
+
+CONSTRAINTS:
+- All scoring thresholds must be validated against the company's actual historical data before hardcoding
+- Never recommend eliminating a lead segment entirely without testing a nurture alternative first
+- SLA recommendations must account for sales team capacity (don't design a system that requires 3x more rep time)
+- Every framework change must include a rollback plan if acceptance rate worsens in first 30 days
+- MEDDIC qualification criteria must be adapted to the company's specific deal motion
 
 ## Example Input/Output
 
 **Input Example:**
 
-Company: DataSync Pro (B2B SaaS, data integration platform)
-ARR: $18M | ACV: $45,000 | Sales cycle: 67 days avg
-Stage: Series B | Team: 8 AEs, 4 SDRs, 6 marketing
+Company: Stackwise (B2B SaaS — engineering workflow automation)
+ARR: $19M, Series B
+ACV: $34K average, range $12K–$95K
+ICP: VP Engineering and Engineering Managers at 50–500 employee software companies
 
-Funnel data (last 90 days):
-| Source | MQLs | MQL→SQL % | SQL→Opp % | Opp→Close % | Avg ACV |
-|--------|------|-----------|-----------|-------------|---------|
-| Google Ads (non-brand) | 312 | 14% | 38% | 19% | $38,000 |
-| Content/SEO | 189 | 31% | 52% | 28% | $52,000 |
-| LinkedIn Ads | 156 | 22% | 45% | 24% | $49,000 |
-| Webinars | 94 | 44% | 61% | 31% | $58,000 |
-| Gated Whitepapers | 203 | 8% | 29% | 15% | $31,000 |
+Current state:
+- 290 MQLs/month, 52% passed to sales (150 MQLs), 58% SQL acceptance rate (87 SQLs)
+- MQL→SQL rate: 30% (87 of 290)
+- SQL→Opportunity: 61% (53 opportunities)
+- Opportunity→Closed Won: 24% (13 deals/month)
+- Average MQL→first-touch: 38 hours (SLA target: 24 hours)
+- SLA compliance: 54%
+- Top rejection reasons: "Too small" (31%), "Not the right person" (24%), "Already evaluated us" (18%), "No active initiative" (17%), "Other" (10%)
 
-MQL threshold: 45 points. Email open +3, content download +10, webinar attend +20, demo request +35, pricing page +15, job title VP+ +10, company 201-500 +8.
+Current scoring: Firmographic (company size 50–500=20pts, SaaS industry=15pts) + Behavioral (demo request=40pts, pricing page=15pts, docs page=10pts, content download=5pts). Threshold: 75 points.
 
-Top SQL rejection reasons: "Not the right contact" (34%), "Too small / wrong segment" (28%), "No budget / early stage" (21%), "Competitor / not a fit" (17%).
+**Output Example:**
 
-Marketing budget allocation: Google Ads 40%, LinkedIn 25%, Content 20%, Webinars 10%, Other 5%.
+**EXECUTIVE SUMMARY**
+Stackwise is losing approximately $2.1M in annual pipeline through three structural handoff failures: a scoring model that passes 23% of MQLs with company size outside ICP (the "Too small" and "wrong persona" rejection pattern), 54% SLA compliance that allows high-intent leads to go cold in 38 hours, and zero closed-loop feedback that prevents the model from self-correcting. Fixing these three issues projects a 12-percentage-point improvement in MQL-to-SQL rate (30% → 42%) and $620K in incremental quarterly pipeline.
 
----
+**HANDOFF DIAGNOSTIC WATERFALL**
 
-**Output Example (excerpt):**
+| Stage | Volume | Conversion | Benchmark | Gap |
+|---|---|---|---|---|
+| MQLs Generated | 290/mo | — | — | — |
+| Passed to Sales | 150/mo | 52% | 60–70% | Threshold too low |
+| SQL Accepted | 87/mo | 58% acceptance | 70–80% | -12 to -22 pts |
+| Converted to Opp | 53/mo | 61% SQL→Opp | 55–65% | ✓ On target |
+| Closed Won | 13/mo | 24.5% | 20–28% | ✓ On target |
+| **MQL→Won** | 13/mo | **4.5%** | **6–9%** | **-1.5 to -4.5 pts** |
 
-**Lead Quality Composite Score by Channel:**
+Revenue leakage calculation: At 6% MQL-to-Won benchmark with $34K ACV, Stackwise should close 17.4 deals/month from MQLs (not 13). Gap = 4.4 deals/month × $34K × 12 months = **$1.79M/year in recoverable revenue**.
 
-| Channel | MQL→SQL | SQL→Opp | Opp→Close | ACV Index | LQS | vs. Budget Allocation |
-|---------|---------|---------|-----------|-----------|-----|-----------------------|
-| Webinars | 44% | 61% | 31% | 1.29 | **82.4** | Underinvested (10% budget) |
-| Content/SEO | 31% | 52% | 28% | 1.16 | **71.2** | Slightly underinvested (20%) |
-| LinkedIn Ads | 22% | 45% | 24% | 1.09 | **58.1** | Appropriately invested (25%) |
-| Google Ads | 14% | 38% | 19% | 0.84 | **37.8** | **Massively overinvested (40%)** |
-| Gated Whitepapers | 8% | 29% | 15% | 0.69 | **22.3** | **Volume trap — cut or restructure** |
+**REVISED MQL SCORING MODEL**
 
-**Business Impact of Lead Quality Gap:**
-Google Ads generates 312 MQLs but only 8 close. Average ACV $38K. At 100% efficiency (matching webinar LQS), those 312 MQLs would yield ~26 deals = $988K additional closed-won revenue. The gap cost: **$760K in lost annual revenue from budget misallocation alone.**
+*Fit Score (max 50 points — minimum 25 required to reach SQL threshold):*
 
-**Immediate Fixes (30 days):**
-1. Increase webinar MQL score from +20 to +30 (data shows 44% SQL rate vs. 14% for downloads)
-2. Add "pricing page viewed" as required intent signal before Google Ads leads reach MQL threshold
-3. Implement firmographic disqualification: auto-reject companies <50 employees (28% of rejections)
-4. Redirect $80K/quarter from Google non-brand to webinar production (3 additional webinars/quarter)
-5. Create SDR fast-lane for "demo request + high-fit score" leads: 15-minute response SLA
+| Criterion | Points |
+|---|---|
+| Company size 50–500 employees | 25 |
+| Company size 501–2,000 (stretch ICP) | 10 |
+| Company size <50 or >2,000 | 0 |
+| SaaS / software industry | 15 |
+| Adjacent industry (fintech, edtech, etc.) | 8 |
+| Non-ICP industry | 0 |
+| Engineering-focused company (GitHub signals, eng blog) | 10 |
+
+*Intent Score (max 50 points — minimum 30 required to reach SQL threshold):*
+
+| Criterion | Points |
+|---|---|
+| Demo request submitted | 50 |
+| Pricing page viewed 2+ times in 7 days | 30 |
+| Documentation visited 3+ pages in one session | 20 |
+| Integration page viewed (e.g., Jira, GitHub integrations) | 15 |
+| Blog post read (3+ in 7 days) | 8 |
+| Webinar attended live | 12 |
+| Content download | 5 |
+
+*Negative Scoring:*
+- Competitor domain: -50 (disqualify)
+- Student/EDU email: -50 (disqualify)
+- "Already evaluated us" tag in CRM: -50 (route to re-engagement, not sales)
+- Company size outside 25–3,000 range: -25
+- Free email domain (gmail/yahoo) with no company enrichment match: -20
+
+**New threshold**: Fit ≥ 25 AND Intent ≥ 30 AND Total ≥ 80
+
+Projected impact: Acceptance rate improves from 58% → estimated 74% by eliminating the "wrong size" and "wrong persona" categories from reaching sales.
+
+**TIER 1 HOT LEAD SLA — HubSpot Workflow:**
+Trigger: Demo request submitted (any source)
+T+0 (immediate):
+- Create CRM task: "URGENT: Hot Lead Demo Request — Call within 15 minutes" assigned to routing logic
+- Send Slack alert to #hot-leads channel: "[Lead Name] at [Company] just requested a demo. Fit Score: [X]. Company: [size, industry]. View in HubSpot: [link]"
+- Enroll in Tier 1 automated email sequence (personalized confirmation + value prop)
+T+15 min (SLA miss trigger): If task not marked "In Progress" → escalate to SDR manager via Slack DM
+T+30 min (hard escalation): Re-assign to next available rep + log SLA violation in CRM
+
+**TOP REJECTION CODE SYSTEM:**
+Configure as a required dropdown on "Disqualify Lead" action in HubSpot/Salesforce:
+
+| Code | Label | Marketing Action |
+|---|---|---|
+| R1 | Company too small (<25 employees) | Adjust firmographic scoring threshold |
+| R2 | Company too large (>2,000 employees) | Adjust firmographic scoring threshold |
+| R3 | Wrong persona (not VP Eng / Eng Manager) | Update persona scoring, add job title negative score |
+| R4 | Already a customer | Add CRM deduplication check pre-MQL |
+| R5 | Already evaluated — no decision | Route to 6-month re-engagement sequence |
+| R6 | No active initiative / wrong timing | Move to long-term nurture, remove from sales queue |
+| R7 | Wrong industry (non-software) | Add industry negative scoring |
+| R8 | Bad data (wrong email / bounced / no answer) | Trigger data enrichment workflow (Clearbit/Clay) |
+| R9 | Competitor employee | Add competitor domain suppression list |
+| R10 | Student / academic | Add EDU domain suppression |
+| R11 | Duplicate / already in pipeline | Merge records, route to owning AE |
+| R12 | Other (requires manager review) | Flag for weekly triage |
 
 ## Success Metrics
 
-- MQL→SQL acceptance rate improves from baseline by 15%+ within 60 days of implementing new scoring
-- Quality-adjusted CPL decreases across all channels within one quarter
-- Marketing-sales SLA disputes drop (track in CRM: count of "no SLA violation" vs. "violation" dispositions)
-- Revenue-per-MQL increases within 2 quarters across the lowest-LQS channels
-- Sales team satisfaction with lead quality (measured via monthly NPS survey, target 7+/10)
-- Time from MQL to first sales contact decreases to under 4 business hours for hot signals
+- SQL acceptance rate improves from baseline to ≥75% within 90 days
+- MQL-to-Opportunity conversion rate improves by ≥8 percentage points
+- SLA compliance rate reaches ≥85% (from baseline) within 60 days
+- Sales rejection reason "ICP mismatch" drops by ≥50% (indicating improved scoring)
+- Marketing can produce a weekly MQL Quality Score reported to CMO with zero manual data pulls
+- Monthly model recalibration takes under 2 hours using the closed-loop data
 
 ## Related Prompts
 
-- [Multi-Touch Attribution & Revenue Marketing Intelligence Engine](../../05_Analytics-&-Performance/Attribution-&-Revenue-Analytics/Multi-Touch-Attribution-&-Revenue-Marketing-Intelligence-Engine.md)
-- [Demand Generation Waterfall & Pipeline Coverage Intelligence Engine](../../04_Demand-&-Lead-Generation-&-Growth/Lead-Generation-Campaigns/Demand-Generation-Waterfall-&-Pipeline-Coverage-Intelligence-Engine.md)
-- [Lead Scoring Automation](../../04_Demand-&-Lead-Generation-&-Growth/Lead-Generation-Campaigns/Lead-Scoring-Automation.md)
-- [Marketing-Sales Revenue Alignment & SLA Engine](../../01_CMO-&-Leadership/Strategy-&-Planning/Marketing-Sales-Revenue-Alignment-&-SLA-Engine.md)
+- [AI-Powered B2B Lead Source Quality Scoring & Channel Revenue Contribution Intelligence Engine](./AI-Powered-B2B-Lead-Source-Quality-Scoring-&-Channel-Revenue-Contribution-Intelligence-Engine.md)
+- [Lead Scoring Model Optimization & Predictive Buying Signal Intelligence Engine](./Lead-Scoring-Model-Optimization-&-Predictive-Buying-Signal-Intelligence-Engine.md)
+- [Marketing Funnel Conversion & Pipeline Velocity Intelligence Engine](../Funnel-Conversion-&-Pipeline-Velocity/Marketing-Funnel-Conversion-&-Pipeline-Velocity-Intelligence-Engine.md)
+- [AI-Powered B2B Conversion Rate Benchmarking & Funnel Stage Optimization Intelligence Engine](../Funnel-Conversion-&-Pipeline-Velocity/AI-Powered-B2B-Conversion-Rate-Benchmarking-&-Funnel-Stage-Optimization-Intelligence-Engine.md)
 
 ## Integration Tips
 
-- **Salesforce:** Pull the MQL→SQL→Opp→Close funnel data using the "Lead Conversion Report" and "Opportunity Source" reports. Use Campaign Influence reporting to tie campaigns to revenue.
-- **HubSpot:** Use the Funnel Report builder (Reports → Funnels) to generate stage-by-stage conversion by original source. Export to CSV and paste into the prompt.
-- **Marketo:** Run the "Program Performance" report filtered by time period and lead source to extract campaign-level MQL data.
-- **6sense / Bombora:** Overlay intent data scores onto your existing MQL population to identify which existing MQLs have in-market signals — prioritize those for immediate SDR follow-up.
-- **Gong / Chorus:** Export call disposition data and objection themes to identify why SQLs stall. Feed this into the "funnel leak" section of the prompt.
-- **Google Sheets / Notion:** Use the SLA scorecard output as a shared live doc reviewed weekly in marketing-sales sync meetings.
-- **Zapier / Make:** Automate lead quality alerts — when a high-fit + high-intent lead hits MQL threshold, trigger a Slack notification to the AE assigned to that account.
+- **HubSpot**: Build the three-tier SLA as a Workflow with enrollment triggers on Lead Score change; use HubSpot's "Lead Routing" feature to assign by segment; configure the rejection code as a custom "Disqualification Reason" property with a dropdown list — add it as a required field on the "Disqualify" button in the contact record
+- **Salesforce**: Use Salesforce Flow to create the SLA automation; build the rejection code system as a picklist field on the Lead object; use Salesforce Reports with "Lead Status = Disqualified" grouped by Rejection Reason to generate the weekly closed-loop report automatically
+- **Slack**: Create a #mql-hot-leads channel for Tier 1 alerts; use Zapier or HubSpot → Slack native integration; include deal context card (company, size, industry, behavior that triggered MQL) so reps have context before calling
+- **Clay / Clearbit / Apollo**: Run data enrichment on every MQL at the moment of threshold crossing — auto-populate company size, industry, tech stack, and LinkedIn URL before the lead reaches sales; this alone can reduce "bad data" rejections by 60–80%
+- **Google Sheets / Looker**: Build the weekly MQL Quality Score dashboard pulling from HubSpot/Salesforce API; calculate Acceptance Rate, MQL-to-Opp Rate, and Deal Size Index weekly; set up a Google Sheets trigger to email the CMO dashboard every Monday at 8am
+- **Gong / Chorus**: Pull call recordings for disqualified leads to validate rejection reason accuracy — do sales reps' actual objections match the rejection codes they log? Use this to calibrate the taxonomy quarterly
+- **Salesloft / Outreach**: Configure the three-tier SLA sequences directly as cadences; use Tier 1 as a "hot inbound" cadence with aggressive touchpoint density (call + email + LinkedIn within 15 min, 1 hr, 4 hr, 24 hr)
 
 ## Troubleshooting
 
-**Problem:** I don't have stage-by-stage conversion data broken down by channel — my CRM doesn't track lead source through the full funnel.
+- **Problem**: Sales reps skip the rejection code dropdown and just disqualify leads without logging a reason, making the closed-loop system useless.
+  **Solution**: Make the rejection code field required in your CRM — Salesforce and HubSpot both support mandatory fields on status-change actions. If reps resist, escalate to VP Sales to enforce as a process requirement tied to pipeline accuracy. Alternatively, simplify the taxonomy to 6 codes instead of 12 — fewer options = higher compliance.
 
-**Solution:** Use the Quick Version with estimated ranges if you have no data. Prioritize fixing the data problem: add "Original Lead Source" as a required field on Opportunity records in Salesforce/HubSpot. In the interim, survey your AEs on which channels they see as highest quality — their perception data is still useful as a proxy. The prompt will flag your data gaps and recommend which fields to start tracking.
+- **Problem**: After implementing the revised scoring model, MQL volume drops 40% and the sales team still complains about quality.
+  **Solution**: Run the old and new model in parallel for 30 days before fully switching — score every lead with both models and compare acceptance rates on actual sales outcomes. If the new model's volume drop is causing pipeline coverage issues, lower the Fit score minimum threshold from 25 to 20 to capture more edge-of-ICP prospects, while keeping the Intent minimum at 30 to ensure behavioral signals remain required.
 
----
-
-**Problem:** Sales says "all marketing leads are bad" but won't give specific rejection data.
-
-**Solution:** This is a process problem, not a data problem. Use the Advanced Version's SLA section to propose a 30-day "lead quality audit" where sales logs detailed rejection reasons on every MQL. Frame it as marketing wanting to help sales, not defend marketing. The prompt will generate a joint scorecard where both teams have accountability metrics — this defuses the political dynamic by making it bilateral.
-
----
-
-**Problem:** My lead scoring model is new and I don't have enough historical conversion data to validate it.
-
-**Solution:** Run the Quick Version with whatever data you have (even 30 days), focus on the "signals audit" section, and use the output to identify which data to collect going forward. Ask the prompt to generate a "minimum viable scoring model" based on your ICP definition alone if you have no behavioral data. Revisit the full analysis once you have 90 days of MQL-to-close data.
+- **Problem**: The SLA automation fires correctly but reps ignore the Slack alerts and the 15-minute Tier 1 SLA is consistently missed.
+  **Solution**: The problem is incentive misalignment, not technology. Work with VP Sales to add SLA Compliance Rate to the SDR/AE performance dashboard (visible to managers). Consider a simple incentive: reps who maintain ≥90% SLA compliance get first pick of inbound lead routing for the following week. Technology alone will not fix a process adoption problem.
 
 ## Version History
 - v1.0: Initial creation (auto-generated)
