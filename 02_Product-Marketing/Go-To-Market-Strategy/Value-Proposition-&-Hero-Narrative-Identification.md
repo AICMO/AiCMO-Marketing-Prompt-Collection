@@ -1,159 +1,251 @@
-# The Hero's Narrative Framework & Value Proposition
+# Value Proposition & Hero Narrative Identification - B2B SaaS Core Messaging Foundation Engine
 
-While the GTM blueprint provides the logical architecture, the Hero's Narrative provides the emotional soul of the brand. People don't buy what you do; they buy why you do it. A purely logical GTM plan fails to inspire action, while a purely emotional story lacks strategic direction. The most successful ventures fuse these two elements. The "Target Market" from the GTM plan *is* the Hero. The "Problem" *is* the Hero's "Challenge." The "Value Proposition" *is* the "Mentor's Gift" that enables the Hero's transformation.
+**Difficulty:** Intermediate | **Time:** 15-30 min | **Tags:** value-proposition, positioning, messaging, gtm, b2b, hero-narrative, jtbd
 
-This approach is rooted in the understanding that customers see themselves as the hero of their own story. Your brand's role is not to be the hero, but the trusted guide or mentor who helps them overcome their challenge. This framework taps into fundamental human psychology, fostering a stronger emotional connection that leads to increased loyalty and advocacy.
+## Overview
+Transform your product's raw features and ICP knowledge into a compelling value proposition and hero narrative that wins across buying committees. Use this when launching a new product, entering a new market, repositioning against emerging competitors, or rebuilding messaging that isn't converting. This prompt outputs a complete messaging foundation ready for website copy, sales decks, and demand generation campaigns.
 
-The following prompt is designed to craft this core narrative. It takes the logical inputs from the GTM blueprint and weaves them into the archetypal structure of the Hero's Journey, while simultaneously refining them into a sharp, clear, and compelling Value Proposition statement.
+## Quick Copy-Paste Version
 
-## Master Prompt: The Hero's Narrative & UVP Architect
+You are a senior B2B product marketing strategist specializing in value proposition design and narrative architecture. Build a complete messaging foundation for a B2B SaaS product.
 
-```markdown
-Act as a master brand strategist and storyteller, an expert in narrative psychology and crafting compelling value propositions. 
-Your task is to develop the core brand narrative for a startup using the Hero's Journey framework and refine its Unique Value Proposition (UVP).
+Product Context:
+- Product name: [Your Product Name]
+- What it does (in plain English): [One sentence — no jargon]
+- Target ICP: [Title, company type, company size]
+- Top 3 problems it solves: [List]
+- Primary competitor or status quo alternative: [Name]
+- One real customer outcome (metric or transformation): [Specific example]
 
-You will use the following strategic inputs from the GTM Blueprint:  
-- Ideal Customer Profile (ICP):  
-- Core Problem:  
-- Our Solution:  
-- Unique Value Proposition (UVP) Draft:
+Build the following:
 
-Based on these inputs, perform the following two tasks:
+1. JOBS-TO-BE-DONE CORE
+What functional, emotional, and social "job" is the buyer hiring this product to do?
+State the job as: "When [situation], I want to [motivation], so I can [outcome]."
 
-Part 1: The Hero's Journey Narrative
+2. HERO NARRATIVE (3 paragraphs)
+- The Hero in Their Ordinary World: Who they are, their daily pressures, what they aspire to
+- The Challenge: The specific trigger event that forces change — not a vague problem, a specific moment
+- The Transformation: Who they become after using the product — identity shift + business outcome, not feature list
 
-Structure a compelling brand story by mapping the GTM inputs onto the key stages of the Hero's Journey. Write a short paragraph for each stage, using evocative language that frames the customer's experience as an epic journey.
+3. VALUE PROPOSITION SUITE
+A. Elevator pitch (20 words max): Outcome-first, zero jargon
+B. Geoffrey Moore formula: "For [ICP], [Product] is the [category] that [key benefit]. Unlike [alternative], we [key differentiator]."
+C. Why Now (urgency frame, 2 sentences): Market forces or trigger making the status quo costly
 
-- The Hero and Their Ordinary World: Describe the ICP in their everyday life. What does their normal world look like? What are their aspirations?
+4. TOP 3 PROOF CLAIMS
+Specific, verifiable outcome statements (e.g., "Customers reduce onboarding from 3 weeks to 3 days").
 
-- The Call to Adventure (The Problem): The problem emerges, disrupting their ordinary world. This is the "what to do when your business loses power?" moment before they search for a generator.
+Output everything in a format ready to paste into a positioning document or sales deck.
 
-- Meeting the Mentor (Your Brand): The hero encounters your brand, which offers guidance, a tool, or a plan to help them succeed. You are the trusted confidant who helps them on their journey.
+## Advanced Customizable Version
 
-- Crossing the Threshold (The Decision): The hero commits to the journey by making a decision (e.g., signing up, making the first purchase). They decide to leave the comfort of their old ways.
+ROLE: You are a world-class B2B product marketing strategist with deep expertise in Jobs-to-Be-Done theory, Challenger Sale methodology, category design, and enterprise buying psychology. You are building the complete messaging foundation for a B2B SaaS product. Every output must be specific, defensible, and differentiated — no marketing platitudes.
 
-- The Ordeal & Transformation (Using the Product): The hero uses the solution to face their challenge. Describe the positive change and the "superpowers" they gain. This is not about features, but about whom the hero becomes as a result of the battle.
+CONTEXT INPUT:
+Product:
+- Name: [Product Name]
+- One-sentence description (what it does, not what it is): [Description]
+- Category (existing or new): [Are you entering an existing category or creating a new one?]
 
-- The Return with the Elixir (The New Normal): The hero returns to their world, but transformed. They now possess the solution and can share their wisdom. This is where they become an advocate.
+Buyers (complete each):
+- Primary user/champion: [Title] — what they're measured on, their biggest daily frustration
+- Secondary influencer: [Title] — their specific technical or operational concerns
+- Economic buyer: [Title] — the ROI or risk metric they care about at board level
+- Technical evaluator: [Title] — their integration, security, or implementation concerns
 
-Part 2: Refined Value Proposition
+Problem:
+- Functional pain: [The operational task that's broken or missing]
+- Emotional pain: [How this makes the buyer FEEL — fear of job loss, frustration, embarrassment]
+- Social pain: [How this makes them look to peers, their manager, their board]
+- Trigger event: [The specific moment that forces action — not "when they have a problem" but the actual precipitating event]
 
-Now, distill the essence of this narrative into a crystal-clear, powerful, and exclusive value proposition. It must be specific, pain-focused, and emphasize the unique benefits. Generate three versions based on the following templates:
+Competitive context:
+- Status quo alternative: [What they do today instead of buying you]
+- Primary named competitor: [If applicable]
+- Your unfair advantage: [The one mechanism that makes your solution work better that competitors can't easily copy]
 
-- Template A (Geoff Moore's Formula): "For whom, the [Product Name] is a [Product Category] that. Unlike [Primary Competitive Alternative], our product."
+Evidence:
+- Best customer outcome (with metrics): [Specific transformation a real customer achieved]
+- Biggest buyer objection: [The most common reason qualified prospects don't buy]
 
-- Template B (Steve Blank's Formula): "We help do by reducing/eliminating [Pain Point] and [Verb - e.g., increasing/enabling]."
+---
 
-- Template C (Headline & Sub-headline):  
-  - Headline: [An attention-grabbing, benefit-oriented statement. 4-7 words.]  
-  - Sub-headline: [A 1-2 sentence explanation of what you do, for whom, and why it's valuable.]  
-  - 3 Bullet Points: [List the top 3 specific benefits or features.]  
-  - Visual:
-```
+DELIVERABLE 1: JOBS-TO-BE-DONE ANALYSIS
 
-# Output Example
+For each buyer persona, identify:
+- Functional job: [What they're literally trying to accomplish — task-level]
+- Emotional job: [How they want to feel doing it — confident, in control, respected]
+- Social job: [How they want to be perceived by others as a result]
+- Hiring trigger: [The exact event that makes them start actively looking for a solution]
+- Success criteria: [How they define "job done well" — the metric or feeling]
 
-## Prompt
+Then write the master JTBD statement:
+"When [hiring trigger situation], I want to [desired outcome/motivation], so I can [ultimate goal or identity outcome]."
 
-```markdown
-Act as a master brand strategist and storyteller, an expert in narrative psychology and crafting compelling value propositions. Your task is to develop the core brand narrative for a startup using the Hero's Journey framework and refine its Unique Value Proposition (UVP).
+---
 
-You will use the following strategic inputs from the GTM Blueprint:  
-- Ideal Customer Profile (ICP): 
-    The primary market is early-stage (Seed to Series A) B2B SaaS companies with small marketing teams (1-5 people) under intense pressure to demonstrate rapid, efficient growth. These teams operate in a "pressure cooker" environment where every landing page is a high-stakes asset and conversion rates are a primary measure of success.
-    The Ideal Customer Profile (ICP) is a Marketing Manager, Head of Growth, or T-shaped founder.
-- Core Problem:  
-    Small B2B SaaS marketing teams struggle to consistently write and test compelling landing page copy that converts, creating a major bottleneck to growth. This manifests as:
-    Functional Pains: Writing copy takes days with no guarantee of success, hiring expert copywriters is slow and expensive ($3,000-$7,500 per project), and A/B tests are often inconclusive due to a lack of distinct hypotheses.
-    Emotional & Social Pains: Marketing leaders feel creatively drained, fear failing their team, and look unprofessional compared to larger competitors, making it harder to justify bigger budgets.
-- Our Solution:
-    A specialized platform that analyzes a company's landing page and instantly generates multiple copy variations (headlines, CTAs) tailored to their product. It then integrates with existing A/B testing tools (VWO, Optimizely) to deploy and track these variations automatically.
-        * Strategic Differentiator 1: Niche-First AI Model. To ensure exceptionally high-quality output, the AI will initially be trained on a hyper-specific vertical (e.g., "landing pages for developer tools"), creating a defensible moat.  
-        * Strategic Differentiator 2: "Human-in-the-Loop" (HITL) Quality Guarantee. A premium feature allowing users to have AI-generated copy reviewed and refined by a professional B2B copywriter, de-risking adoption and building trust.
-- Unique Value Proposition (UVP) Draft: "For growth-focused B2B SaaS marketers, CopyGenius is the conversion optimization engine that instantly generates and tests high-performance landing page copy. Unlike generic AI writers that produce fluff or expensive copywriters with long lead times, CopyGenius combines a specialized AI with an optional human-expert review to guarantee on-brand, conversion-focused copy that boosts your marketing ROI."
+DELIVERABLE 2: CHALLENGER INSIGHT THREAD (Teach → Tailor → Take Control)
 
-Based on these inputs, perform the following two tasks:
+Design a narrative that challenges the buyer's current worldview:
 
-Part 1: The Hero's Journey Narrative
+The Insight (paragraph 1):
+[A non-obvious, data-backed insight about your buyer's industry that challenges a common assumption they hold. This must be something they didn't know or hadn't framed this way — not a problem statement they already accept. Start with "Most [ICP title]s believe..." then introduce the insight that contradicts or complicates that belief.]
 
-Structure a compelling brand story by mapping the GTM inputs onto the key stages of the Hero's Journey. Write a short paragraph for each stage, using evocative language that frames the customer's experience as an epic journey.
+The Reframe (paragraph 2):
+[How this insight reframes their problem. They thought they needed X. The insight reveals they actually need Y. Connect the insight to financial impact or competitive risk they haven't quantified. Make the cost of inaction concrete.]
 
-- The Hero and Their Ordinary World: Describe the ICP in their everyday life. What does their normal world look like? What are their aspirations?
+The Solution (paragraph 3):
+[How your product is the natural, logical answer to the reframed problem. Don't introduce the product by name at first — build to it. "The companies solving for Y rather than X are doing three things differently..." Then reveal that your product does exactly this.]
 
-- The Call to Adventure (The Problem): The problem emerges, disrupting their ordinary world. This is the "what to do when your business loses power?" moment before they search for a generator.
+This 3-paragraph arc should be usable verbatim in discovery calls, email sequences, and keynote presentations.
 
-- Meeting the Mentor (Your Brand): The hero encounters your brand, which offers guidance, a tool, or a plan to help them succeed. You are the trusted confidant who helps them on their journey.
+---
 
-- Crossing the Threshold (The Decision): The hero commits to the journey by making a decision (e.g., signing up, making the first purchase). They decide to leave the comfort of their old ways.
+DELIVERABLE 3: HERO'S JOURNEY NARRATIVE ARCHITECTURE
 
-- The Ordeal & Transformation (Using the Product): The hero uses the solution to face their challenge. Describe the positive change and the "superpowers" they gain. This is not about features, but about whom the hero becomes as a result of the battle.
+Map the buyer's transformation across 6 stages. Write 3-4 sentences per stage. Use second person ("you") to make it visceral.
 
-- The Return with the Elixir (The New Normal): The hero returns to their world, but transformed. They now possess the solution and can share their wisdom. This is where they become an advocate.
+Stage 1 — The Hero in Their Ordinary World:
+Paint their daily reality with specificity: job title, team size, the metrics they're measured on, the meetings they sit in. Show their ambition — what they're trying to build. Then show the shadow: what's holding them back that they've partially accepted as "just how it is."
 
-Part 2: Refined Value Proposition
+Stage 2 — The Inciting Incident (Call to Adventure):
+A specific trigger event forces action. This is NOT a gradual dissatisfaction — it's a moment. A board question they couldn't answer. A competitor who ships a feature they've been promising for two quarters. A customer churn they could have prevented. Write it as a scene.
 
-Now, distill the essence of this narrative into a crystal-clear, powerful, and exclusive value proposition. It must be specific, pain-focused, and emphasize the unique benefits. Generate three versions based on the following templates:
+Stage 3 — Meeting the Mentor (Your Brand Enters):
+How they discover your solution, and why they trust it immediately. What you say that lands differently than every other vendor. Critically: you are the guide, not the hero. Position your brand as the trusted confidant who gives the hero a tool, a plan, and the confidence to succeed. Never make the brand the hero of this story.
 
-- Template A (Geoff Moore's Formula): "For whom, the [Product Name] is a [Product Category] that. Unlike [Primary Competitive Alternative], our product."
+Stage 4 — Crossing the Threshold (The Decision to Act):
+The moment they commit — booking a demo, starting a trial, or building the internal business case. What gives them the courage to act? What fear do they overcome? What's the first small win that validates the decision?
 
-- Template B (Steve Blank's Formula): "We help do by reducing/eliminating [Pain Point] and [Verb - e.g., increasing/enabling]."
+Stage 5 — The Transformation (Using the Product):
+The journey from first use to value realization. Write in terms of identity shift, not feature adoption. "They went from reactive firefighter to proactive architect." Describe the "aha moments" — specific in-product experiences that shift their mental model. Name the superpowers they now have that they didn't before.
 
-- Template C (Headline & Sub-headline):  
-  - Headline: [An attention-grabbing, benefit-oriented statement. 4-7 words.]  
-  - Sub-headline: [A 1-2 sentence explanation of what you do, for whom, and why it's valuable.]  
-  - 3 Bullet Points: [List the top 3 specific benefits or features.]  
-  - Visual:
-```
+Stage 6 — The Return with the Elixir (Advocacy):
+Their new normal. The results they present in the next QBR. The respect they earn from their leadership team. How they share the method — not just the tool — with peers at other companies. This is when they stop being a customer and become a champion. The elixir is not the product; it's the outcome and the credibility that came with it.
 
-The output of this prompt is a strategic document that forces a founder to confront the most critical questions before investing significant resources. A startup's greatest risk is not building the product wrong, but building the wrong product entirely. This GTM blueprint acts as a disciplined framework to de-risk the venture by focusing on a specific customer segment and their acute needs. By externalizing these strategic pillars into a shareable format, it becomes a living document that can be rapidly iterated upon as market feedback is gathered, directly supporting the agile principles of a lean startup methodology. 
+---
 
-## Response Example (using Research mode ON)
+DELIVERABLE 4: COMPLETE VALUE PROPOSITION SUITE
 
-```markdown
-Here is the core brand narrative and refined Unique Value Proposition for CopyGenius.
+A. Core Positioning Statement (Geoffrey Moore's Framework):
+"For [specific ICP with firmographic and psychographic detail], [Product Name] is the [category] that [primary measurable benefit]. Unlike [primary alternative or competitor], [Product Name] [key differentiator that's specific, defensible, and not easily copied]."
 
-## Part 1: The Hero's Journey Narrative
-This is the epic story of the modern B2B SaaS marketer, charting their path from struggle to strategic victory.
+B. Three-Layer Value Prop (from business outcome to emotional benefit):
+- Business outcome (for economic buyer): [Measurable revenue, cost, risk, or efficiency metric]
+- Functional benefit (for primary user): [What they actually get to DO differently day-to-day]
+- Emotional benefit (identity layer): [How they FEEL and how they're PERCEIVED — confident, recognized, safe]
 
-### The Hero and Their Ordinary World
-Our hero is the ambitious Marketing Manager or Head of Growth at a promising early-stage B2B SaaS company. Their world is a pressure cooker of Seed or Series A funding, where every metric is scrutinized and the runway always feels too short. They are a "T-shaped" talent, juggling a dozen roles, but their primary battlefield is the landing page. Armed with a small but mighty team of 1-5, they aspire to be the engine of growth, the one who cracks the code to scalable success and proves to investors, their CEO, and themselves that this venture has what it takes to win. Their days are a blur of stand-ups, strategy sessions, and staring at a blinking cursor on a blank page, knowing the fate of the next quarter rests heavily on the words they choose.
+C. One-Sentence Elevator Pitch:
+[Maximum 20 words. Start with the outcome, not the product. A non-expert should immediately understand why this matters. Test: if someone heard this at a party, would they say "tell me more"?]
 
-### The Call to Adventure (The Problem)
-The call to adventure is not a gentle knock; it's a blaring alarm. A high-stakes product launch is imminent, a crucial marketing campaign is underperforming, or the CEO just asked in a board meeting, "Why aren't our conversion rates higher?" Suddenly, the familiar struggle of writing compelling landing page copy becomes an insurmountable obstacle. The blank page mocks them, a monument to their creative exhaustion. They know their product is brilliant, yet they can't find the words to make prospects see it. The thought of spending weeks and thousands of dollars on a freelance copywriter they can't afford feels like admitting defeat, while another inconclusive A/B test feels like a waste of precious time. This is the bottleneck that throttles growth, drains their confidence, and makes them feel like an imposter in a world of polished, high-converting competitors.
+D. Why Now (Urgency Frame):
+[2-3 sentences explaining why the timing is critical in [CURRENT YEAR]. Reference market forces, technology shifts, regulatory changes, or competitive dynamics that make waiting costly. This creates urgency without discounting.]
 
-### Meeting the Mentor (Your Brand)
-Just as our hero feels the weight of impending failure, they meet a guide: CopyGenius. This is not just another faceless AI tool promising generic "content." CopyGenius appears as a trusted confidant, a specialist who understands their unique struggle. It speaks their language, not in code, but in conversion rates and customer psychology. It doesn't offer a magic wand, but a strategic weapon, an AI model trained specifically on their niche, a "human-in-the-loop" guarantee of quality, and a clear, automated path to testing what truly works. CopyGenius is the mentor who says, "You have the strategy; I have the focused firepower. Let's turn your insights into copy that converts."
+E. Anti-Pitch (Self-Qualification Filter):
+[2-3 sentences stating clearly who this is NOT for and what situations where this product won't work. This builds trust, reduces bad-fit deals, and — paradoxically — makes the right buyers more confident in the fit.]
 
-### Crossing the Threshold (The Decision)
-The hero makes a choice. They decide to leave the "Ordinary World" of manual guesswork, creative burnout, and expensive gambles. Crossing the threshold happens the moment they connect their landing page to CopyGenius. With a mix of hope and skepticism, they click "Generate Variations." This single action is their commitment to a new way of working. They are stepping away from the comfort of their old, broken process and placing their trust in a new, specialized power, ready to face the challenge head-on.
+---
 
-### The Ordeal & Transformation (Using the Product)
-Instantly, the ordeal begins to transform into an experience of empowerment. Where there was once a single, agonizing headline, there are now ten distinct, high-potential options, each rooted in a different psychological trigger. Our hero isn't just handed copy; they are handed clarity. They deploy tests with the click of a button, their A/B testing tools now fueled with meaningful hypotheses. The transformation is profound. They evolve from a stressed copy-drafter into a strategic growth architect. Their "superpower" is no longer just intuition, but the ability to test, validate, and scale high-performance messaging at a velocity they never thought possible. The fear of failure is replaced by the thrill of optimization, and they become the master of their growth funnel.
+DELIVERABLE 5: BUYING COMMITTEE MESSAGING MATRIX
 
-### The Return with the Elixir (The New Normal)
-Our hero returns to their team not just with a winning landing page, but with the "elixir" of a proven, scalable process for growth. The new normal is a world of data-backed confidence. In marketing meetings, they no longer have to defend their budget with hope; they present dashboards showing clear, attributable ROI. They are the innovator who brought a secret weapon into the company, transforming the marketing function from a cost center into a predictable revenue engine. They share the knowledge and the tool with their team, empowering them to replicate this success across every campaign. They become an internal advocate, a leader who didn't just find a solution, but forged a new, more intelligent way to grow.
+Complete this table for each stakeholder involved in the purchase decision:
 
-## Part 2: Refined Value Proposition
-Here are three powerful versions of the UVP, distilled from the core narrative.
+| Stakeholder | Their Primary Fear | Their Primary Goal | The One Message That Lands | The Proof Claim That Convinces |
+|-------------|-------------------|-------------------|---------------------------|-------------------------------|
+| [Primary Champion] | | | | |
+| [Economic Buyer] | | | | |
+| [Technical Evaluator] | | | | |
+| [End User] | | | | |
+| [Security/Legal/Compliance] | | | | |
 
-### Template A (Geoff Moore's Formula)
-For growth-focused marketing leaders at early-stage B2B SaaS companies, the CopyGenius is a conversion optimization engine that instantly generates and tests high-performance landing page copy. Unlike generic AI writers or expensive freelance copywriters, our product combines a niche-specific AI model with an optional human-expert review to deliver on-brand, conversion-focused copy that demonstrably lifts your ROI.
+Key rule: Each stakeholder's message must connect to the same macro business outcome, but emphasize a different dimension. Do not give five people the same message with different job titles bolted on.
 
-### Template B (Steve Blank's Formula)
-We help B2B SaaS marketing teams drive growth by reducing the time and cost of writing high-converting landing page copy and eliminating inconclusive A/B tests.
+---
 
-### Template C (Headline & Sub-headline)
-Headline:
- Ship Landing Pages That Convert. Instantly.
+DELIVERABLE 6: OBJECTION PRE-EMPTION ARCHITECTURE
 
-Sub-headline:
- CopyGenius is the specialized AI platform for B2B SaaS marketers that writes, refines, and helps you test landing page copy, turning your biggest growth bottleneck into your greatest advantage.
+For each of the top 3 objections, provide:
+- The objection (exact phrasing prospects use)
+- Why they raise it (the underlying fear or belief)
+- Pre-emptive narrative (how to weave the answer into positioning BEFORE the objection is raised, so it never becomes a formal objection)
+- If raised directly, the response sequence (acknowledge → reframe → evidence → bridge to next step)
 
-3 Bullet Points:
- * Niche-Specific AI: Instantly generate dozens of copy variations from an AI trained on high-performing pages in your specific vertical.
- * Launch with Confidence: Deploy A/B tests with a single click or get a final polish from our on-demand professional copywriters.
- * Prove Your ROI: Move faster, get statistically significant results, and finally have the conversion data you need to justify your marketing spend.
+---
 
-Visual:
- A clean, dynamic graphic showing a user's landing page URL being entered into a simple input field. On the right, multiple, distinct headline and CTA variations instantly appear, with one being highlighted and feeding directly into logos for VWO and Optimizely, visually representing the seamless workflow.
-```
+DELIVERABLE 7: PROOF ARCHITECTURE (In Order of Persuasive Strength)
+
+Design 5 proof claims, ordered from most specific to most general:
+1. Customer metric proof: "[Named Company] achieved [specific metric] in [timeframe] after [what they did with your product]"
+2. Mechanism proof: "Unlike [alternative that does X], [Product] does [specific mechanism] which means [outcome buyers can verify]"
+3. Scale/credibility proof: "[Number] [ICP-type companies] use [Product] to [specific outcome category]"
+4. Third-party validation: "[Analyst firm/Award/Publication]: [specific quote or recognition]"
+5. Risk-removal proof: "[The low-friction entry point: pilot structure, money-back guarantee, or time-to-value commitment that removes the fear of commitment]"
+
+OUTPUT FORMAT: Deliver all 7 deliverables as a complete, structured positioning document. Label each section clearly. Use specific language — every claim must be verifiable and differentiated. This document should be immediately usable by sales, marketing, and product without further editing.
+
+## Example Input/Output
+
+**Input Example:**
+- Product: Vigil — an AI employee retention analytics platform
+- ICP (Primary): VP of People at Series B-D tech companies, 200-1,500 employees
+- ICP (Economic Buyer): CFO, focused on reducing the $180K average replacement cost per departed engineer
+- Core Problem: Companies discover high-performer attrition risk the day someone resigns — not 60-90 days before, when intervention is still possible
+- Primary alternative: Annual engagement surveys + manager instinct
+- Best customer outcome: Carta reduced voluntary engineer attrition 31% in 6 months, saving $4.2M in replacement costs
+
+**Output Example (Abbreviated):**
+
+*JTBD Core Statement:*
+"When our best engineers quietly start disengaging — updating their LinkedIn, skipping Slack channels, going quiet in planning meetings — I want a signal with enough lead time to actually do something about it, so I can protect the team's output and avoid the 6-month hole that follows every unexpected resignation."
+
+*Challenger Insight Thread (excerpt):*
+"Most HR leaders believe employee attrition is unpredictable — a sudden decision triggered by a competing offer or a bad manager moment. The data tells a different story. Employees who leave exhibit at least 7 measurable behavioral shifts in the 60-90 days before resignation, across communication patterns, project participation, and compensation benchmarking activity. The exits aren't sudden. They're just invisible to the tools most HR teams use..."
+
+*Core Positioning Statement:*
+"For People leaders at high-growth tech companies managing engineering teams of 50+, Vigil is the AI retention platform that identifies employee flight risk 60-90 days before resignation. Unlike annual engagement surveys that capture yesterday's sentiment after employees have already decided to leave, Vigil continuously analyzes behavioral signals across your HR stack — Slack, Jira, Workday, compensation data — to give managers specific, timely actions that keep high performers engaged."
+
+*Elevator Pitch:*
+"Vigil tells you which engineers are thinking about leaving — before they do."
+
+*Why Now:*
+"Engineering hiring costs have increased 34% since 2022 while engineering headcount budgets have shrunk. Every unexpected resignation now costs 12-18 months of fully-loaded salary to replace. Companies that continue relying on annual pulse surveys to detect attrition risk are operating with a 12-month lag in a market where top engineers decide to leave in 60 days."
+
+*Anti-Pitch:*
+"Vigil is not the right fit for companies under 100 employees where every manager already has daily visibility into each direct report, for organizations without HRIS integration capability, or for teams where leadership isn't willing to act on early warnings within 30-day windows."
+
+## Success Metrics
+- The positioning statement passes the "so what?" test: every phrase has a clear implication for the buyer, with no phrases that apply equally to any competitor
+- The hero narrative generates "that's exactly my situation" reactions in ICP win interviews (target: 8 of 10 interviewees recognize themselves)
+- The one-sentence elevator pitch can be recalled accurately by any team member 24 hours after first hearing it (target: >80% recall accuracy)
+- Sales team adopts the new messaging without modifications in their own pitch decks (measure within 30 days of launch)
+- Demo request page conversion rate improves >15% within 60 days of implementing the new positioning
+
+## Related Prompts
+- [Buying Committee Message Matrix](../../02_Product-Marketing/Messaging-&-Positioning/AI-Powered-B2B-SaaS-Buying-Committee-Message-Matrix-&-Multi-Stakeholder-Persona-Personalization-Intelligence-Engine.md)
+- [Competitive Positioning Framework](../../02_Product-Marketing/Positioning-&-Messaging/Competitive-Positioning-Framework.md)
+- [ICP Discovery Engine](../../02_Product-Marketing/Customer-&-Market-Research/ICP-Discovery-Engine.md)
+- [Jobs-to-Be-Done Research & Messaging Translation Engine](../../02_Product-Marketing/Positioning-&-Messaging/Jobs-To-Be-Done-Research-&-Messaging-Translation-Engine.md)
+
+## Integration Tips
+- **Notion**: Paste the 7-deliverable output directly into a Notion positioning document template. Use Notion AI to auto-populate linked sales playbook pages with the messaging matrix and objection responses
+- **HubSpot**: Map the buying committee messaging matrix to contact property fields (job title → persona); trigger persona-specific email nurture sequences and sales sequences automatically at lead creation
+- **Salesforce**: Store the objection pre-emption responses in Salesforce Knowledge or Opportunity fields tagged by deal stage; alert sales managers when reps encounter the top objections in Gong-synced call data
+- **Gong / Chorus / Clari**: Upload the hero narrative as the benchmark "discovery excellence" script; create a call library playlist where reps successfully execute each narrative stage; flag deviation from the messaging in new rep calls during ramp
+- **Figma / Canva**: Feed the elevator pitch + proof claims + hero narrative excerpt directly into your brand design team's brief for homepage hero sections, paid social creative, and conference booth copy
+- **Seismic / Highspot**: Tag the positioning document and messaging matrix to trigger automatically for first-touch sales sequences, new AE onboarding paths, and competitive deal rooms when a competitor tag is added to an opportunity
+
+## Troubleshooting
+
+**Problem:** The positioning statement sounds generic — interchangeable with any other B2B SaaS vendor in the category.
+**Fix:** Run the "anti-pitch" exercise before the positioning statement. Force yourself to name who this is specifically NOT for. The specificity of exclusion reveals what makes you specific for those you do serve. Replace category-level verbs ("helps teams collaborate") with mechanism-specific outcome verbs ("reduces the time between engineer resignation and replacement hire from 4.5 months to 6 weeks by identifying risk 90 days earlier"). If any competitor could copy your positioning statement by swapping in their name, it's not differentiated enough.
+
+**Problem:** The hero narrative feels like a product brochure — it lists benefits rather than creating emotional resonance.
+**Fix:** Add three specificity anchors: (1) a precise trigger event with a time, place, or situation (not "when they have a problem" but "when the board asks in the Q3 review why voluntary attrition jumped 14% and you don't have an answer ready"); (2) a named villain (not "manual processes" but "the spreadsheet the previous People Ops director built in 2021 that takes 6 hours to update every month and still doesn't tell you who's at risk"); (3) an identity-level transformation (not "better retention metrics" but "the shift from being seen as a reactive HR administrator to being the executive who predicted and prevented the engineering exodus that would have derailed the Series C"). Emotion lives in the specific, not the general.
+
+**Problem:** The economic buyer (CFO/CEO) and the primary user (VP of HR) have seemingly incompatible value propositions — one cares about ROI, the other cares about team wellbeing.
+**Fix:** This is normal in enterprise B2B multi-stakeholder selling and is not a positioning failure — it's a reality to be designed for. Connect both value props to a single Macro Outcome that transcends the individual stakeholder's lens (e.g., "workforce stability as a competitive moat"). The CFO's ROI and the HR leader's team health are both dimensions of the same macro outcome. Build the positioning document with a shared macro outcome at the top, then branch into stakeholder-specific value layers below it. Never force different stakeholders to share a single value prop — that's where generic messaging comes from.
+
+## Version History
+- v1.0: Initial creation with Hero's Journey framework and Geoffrey Moore positioning formula
+- v2.0: Full rewrite with 7-deliverable architecture including JTBD analysis, Challenger Sale insight thread, buying committee messaging matrix, objection pre-emption, proof architecture, integration tips, and 2026 B2B SaaS enterprise buying context (auto-generated)
