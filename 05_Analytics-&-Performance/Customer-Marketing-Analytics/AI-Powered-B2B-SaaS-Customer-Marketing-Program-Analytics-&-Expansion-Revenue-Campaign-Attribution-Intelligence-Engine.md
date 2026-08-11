@@ -1,585 +1,379 @@
-# AI-Powered B2B SaaS Customer Marketing Program Analytics & Expansion Revenue Campaign Attribution Intelligence Engine
+# AI-Powered B2B SaaS Customer Marketing Program Analytics — Expansion Revenue Campaign Attribution Intelligence Engine
 
-**Difficulty:** Advanced | **Time:** 25 min | **Tags:** b2b, customer-marketing, analytics, expansion-revenue, renewal-marketing, upsell, cross-sell, win-back, saas, attribution
+**Difficulty:** Advanced | **Time:** 25 min | **Tags:** b2b-saas, customer-marketing, expansion-revenue, upsell, cross-sell, nrr, net-revenue-retention, campaign-attribution, lifecycle-marketing, analytics
 
 ## Overview
-This prompt transforms your customer marketing program data into a comprehensive performance analytics and attribution system, revealing which expansion campaigns (upsell, cross-sell, renewal, win-back, NPS advocacy) actually drive incremental revenue versus what would have happened organically. Use it monthly to measure customer marketing ROI, quarterly to reallocate program budget toward the highest-performing motions, and annually to demonstrate the revenue contribution of customer marketing to the CFO and board.
+This prompt transforms your customer marketing program data into an expansion revenue attribution engine — quantifying exactly how post-sale marketing campaigns (lifecycle emails, product adoption campaigns, customer newsletters, upsell events, and digital touchpoints) contribute to upsell, cross-sell, and renewal revenue. Use it quarterly to prove customer marketing ROI to leadership, and monthly to reallocate budget toward the programs generating the highest expansion revenue per dollar invested.
 
 ## Quick Copy-Paste Version
 
-You are a senior B2B SaaS customer marketing analytics expert specializing in expansion revenue measurement and program attribution. Analyze my customer marketing program performance and produce a comprehensive revenue attribution and program effectiveness report.
+You are a senior B2B SaaS customer marketing analytics expert. Analyze my customer marketing program performance data and produce a comprehensive expansion revenue attribution report.
 
-Here is my customer marketing program data for the past 90 days:
+Here is my customer marketing data for the past 90 days:
 
 CUSTOMER BASE OVERVIEW:
 - Total active customers: [number]
-- Average ACV: $[amount]
-- Overall NRR (Net Revenue Retention): [%]
-- Overall gross renewal rate: [%]
-- Total expansion revenue this period: $[amount]
-- Total customer marketing program spend: $[amount]
+- Customers eligible for upsell (not at max tier): [number]
+- Customers eligible for cross-sell (adjacent products not purchased): [number]
+- Target expansion revenue quota this quarter: $[amount]
+- Actual expansion revenue closed this quarter: $[amount]
+- Net Revenue Retention (NRR) current quarter: [%]
+- Target NRR: [%]
 
-PROGRAM PERFORMANCE BY TYPE:
-Renewal Marketing Campaigns:
-- Accounts enrolled in renewal campaign sequences: [number]
-- Accounts NOT in renewal campaigns (control group): [number]
-- Renewal rate for campaign-enrolled accounts: [%]
-- Renewal rate for control group accounts: [%]
-- Average renewal campaign touchpoints before renewal decision: [number]
-- Total pipeline at risk rescued by renewal campaigns: $[amount]
+EMAIL & LIFECYCLE MARKETING:
+- Customer newsletter: subscribers [number], open rate [%], click rate [%], unsubscribes [number]
+- Upsell email sequences running: [number of sequences]
+- Total upsell emails sent: [number], open rate [%], click rate [%]
+- Product adoption campaigns: [number], activation rate improvement [%]
+- Expansion pipeline generated from email campaigns: $[amount]
+- Closed-won expansion revenue attributed to email campaigns: $[amount]
 
-Upsell/Cross-Sell Campaigns:
-- Accounts targeted for upsell campaigns: [number]
-- Upsell campaign conversion rate (account → expansion opportunity): [%]
-- Average upsell deal size: $[amount]
-- Campaign-influenced expansion deals closed: [number]
-- Total upsell revenue attributed to campaigns: $[amount]
+CUSTOMER EVENTS & WEBINARS:
+- Customer-only webinars/events held: [number]
+- Total attendees: [number], % of customer base attending: [%]
+- Post-event expansion opportunities created: [number]
+- Expansion revenue from event-attendee accounts (90-day window): $[amount]
+- In-person customer events (EBRs, roundtables, dinners): [number]
+- Executive relationship touchpoints: [number accounts reached]
 
-Win-Back Campaigns:
-- Churned accounts entered into win-back sequences: [number]
-- Win-back campaign conversion rate: [%]
-- Average ACV of reactivated accounts: $[amount]
-- Total win-back revenue: $[amount]
+PRODUCT-TRIGGERED CAMPAIGNS:
+- Usage milestone campaigns triggered: [number]
+- Feature adoption campaigns sent: [number]
+- Expansion opportunities from product signal triggers: [number]
+- Closed-won expansion from product-triggered campaigns: $[amount]
 
-NPS-Driven Advocacy Programs:
-- Promoters (NPS 9-10) activated as advocates: [number]
-- Advocate-sourced referrals generated: [number]
-- Referral conversion rate to closed deal: [%]
-- Referral-sourced pipeline value: $[amount]
+DIGITAL TOUCHPOINTS:
+- In-app messages / product tours sent: [number], engagement rate [%]
+- Customer community posts/content: [number], engagement rate [%]
+- Customer-specific landing pages or microsites: [number], visits [number]
+
+OVERALL PROGRAM:
+- Total customer marketing program spend this quarter: $[amount]
+- Customer marketing team FTEs: [number]
+- Total expansion revenue attributed to customer marketing: $[amount]
 
 Please provide:
-1. Customer marketing program ROI across all four program types with incremental revenue calculations
-2. Attribution analysis — which campaigns drove expansion above the organic baseline
-3. Program performance ranking with budget reallocation recommendations
-4. The "customer marketing contribution" to NRR — how many NRR points are owned by marketing programs vs. CS-led or organic motions
-5. 90-day action plan to improve expansion revenue by at least 15%
+1. Expansion revenue attribution: total closed-won and pipeline expansion attributable to each customer marketing program
+2. Customer marketing ROI: revenue generated per dollar invested by program type
+3. Campaign performance benchmarks: which programs are above/below efficiency thresholds
+4. Account-level gap analysis: which customer segments are underserved by current programs
+5. Lifecycle stage diagnosis: where in the customer journey expansion opportunities are being missed
+6. 90-day optimization plan with the three highest-ROI investments to shift budget toward
 
-Format as a board-ready executive summary with program scorecards and specific ROI calculations.
+Format as a board-ready executive summary with program scorecards and specific action plan.
 
 ## Advanced Customizable Version
 
-ROLE: You are a Revenue Marketing Analytics Director with 12+ years of B2B SaaS experience, specializing in customer marketing measurement, expansion revenue attribution, and retention program analytics. You understand the fundamental challenge of customer marketing analytics — separating program-driven outcomes from what CS teams and organic relationship dynamics would have produced anyway. You bring econometric rigor to customer marketing measurement, using incrementality testing, matched control groups, and cohort analysis to isolate true program impact. You communicate findings at the CFO level: every dollar invested in customer marketing must be justified against the alternative of not running the program.
+**ROLE:** You are a Revenue Marketing Analytics Director with 12+ years of B2B SaaS experience, specializing in customer marketing measurement, expansion revenue attribution, and post-sale lifecycle program optimization. You understand the fundamental attribution challenge in customer marketing: expansion decisions are influenced by product experience, CSM relationships, pricing conversations, AND marketing programs — all simultaneously. Your approach uses multi-signal attribution thinking that respects this complexity. You combine CRM data, marketing automation analytics, product usage data, and customer health signals to build the most complete picture of marketing's contribution to expansion revenue. You communicate in CFO-grade language: every customer marketing investment is justified by measurable pipeline influence, expansion velocity improvement, or NRR lift — and you distinguish between marketing-assisted and marketing-sourced expansion clearly.
 
-CONTEXT:
-Company: [Company name]
-Industry: [B2B SaaS vertical — e.g., HR Tech, Security, FinTech, MarTech, DevTools]
-ACV: $[average contract value]
-Average customer tenure: [months]
-ICP customer profile: [1-2 sentence description]
-CRM: [Salesforce / HubSpot / other]
-Customer success platform: [Gainsight / ChurnZero / Totango / Planhat / other]
-Marketing automation: [Marketo / HubSpot Marketing / Pardot / other]
-Reporting period: [Date range — e.g., Q2 2026, last 90 days, last 12 months]
-Customer marketing team size: [number of people and roles]
-Total customer marketing budget this period: $[amount]
+**CONTEXT:**
+- Company name: [Company name]
+- Product description: [2-sentence description of what your SaaS product does]
+- Primary customer segments: [Enterprise / Mid-Market / SMB breakdown]
+- Average expansion ACV: $[amount per expansion deal]
+- Average time from marketing touchpoint to expansion close: [days]
+- Primary expansion motions: [upsell to higher tier / seat expansion / cross-sell additional modules / new business unit / geography]
+- CRM: [Salesforce / HubSpot / other]
+- Marketing automation platform: [Marketo / HubSpot / Pardot / other]
+- Customer success platform: [Gainsight / Totango / ChurnZero / other]
+- Product analytics: [Amplitude / Mixpanel / Pendo / other]
+- Primary competitors in expansion situations: [list 2-3 — these are vendors competing for the same budget expansion dollars]
+- Reporting period: [date range]
+- Customer marketing team size: [FTEs and roles]
+- Total customer marketing budget this quarter: $[amount]
 
-CUSTOMER BASE OVERVIEW:
+**CUSTOMER BASE FOUNDATION:**
 Total active customers: [number]
-- Enterprise accounts (ACV >$50K): [number]
-- Mid-market accounts (ACV $10K-$50K): [number]
-- SMB accounts (ACV <$10K): [number]
-
-Revenue retention metrics (current period vs. prior period):
-- Net Revenue Retention (NRR): [%] vs. [prior period %]
-- Gross Revenue Retention (GRR): [%] vs. [prior period %]
-- Expansion Revenue (upsell + cross-sell): $[amount] vs. $[prior period amount]
-- Contraction Revenue (downsells): $[amount]
-- Churned Revenue: $[amount] vs. $[prior period amount]
-- New seats/licenses added by existing customers (non-campaign): $[amount]
-
-Customer health distribution:
-- Healthy (green health score): [number] accounts representing $[ARR]
-- At-risk (yellow health score): [number] accounts representing $[ARR]
-- Red/churning (red health score): [number] accounts representing $[ARR]
-
-PROGRAM 1: RENEWAL MARKETING CAMPAIGNS
-Campaign architecture: [describe sequence — e.g., 90-day pre-renewal email + in-app notification + exec sponsor outreach]
-Target segment: [which accounts are enrolled — e.g., all renewals >$25K ACV, specific health score range, specific industries]
-
-Accounts enrolled in renewal campaigns (treatment group):
-- Number of accounts: [number] representing $[ARR at risk]
-- Renewal rate for treated accounts: [%]
-- Average days from campaign enrollment to renewal decision: [days]
-- Accounts that renewed early (>30 days before renewal date): [number]
-- Accounts that renewed on time (within ±7 days of renewal date): [number]
-- Accounts that required rescue (CS intervention + marketing campaign): [number]
-- Average number of campaign touchpoints before renewal: [number]
-- Most impactful campaign asset by engagement (open rate / click rate): [asset name and metrics]
-
-Accounts NOT enrolled in renewal campaigns (control group):
-- Number of accounts: [number] representing $[ARR at risk]
-- Renewal rate for control group: [%]
-- Note: If no control group exists, describe your baseline — [historical renewal rate without campaigns: %]
-
-Renewal campaign cost breakdown:
-- Creative and content production: $[amount]
-- Marketing automation platform costs allocated: $[amount]
-- Customer marketing team time (hours × hourly rate): $[amount]
-- Executive sponsor program costs (gifts, events, travel): $[amount]
-- Total renewal program cost: $[amount]
-
-PROGRAM 2: UPSELL AND CROSS-SELL EXPANSION CAMPAIGNS
-Upsell campaigns (same product, more seats/volume/tier):
-- Accounts targeted for upsell: [number]
-- Targeting criteria used: [e.g., product usage >80% capacity, feature adoption >5 core features, account growth signals — hiring, funding]
-- Campaign type: [email sequence / in-app / SDR + marketing combo / event-triggered / all]
-- Accounts that opened upsell opportunity after campaign: [number]
-- Upsell campaign conversion rate (account targeted → opportunity created): [%]
-- Opportunities closed-won from upsell campaigns: [number]
-- Average upsell deal ACV increase: $[amount] (i.e., from $[baseline ACV] to $[new ACV])
-- Total upsell revenue from campaign-influenced deals: $[amount]
-- Average sales cycle length for upsell deals: [days]
-- Campaign-influenced upsell deals vs. organic upsell deals (not touched by campaign): [number] vs. [number]
-
-Cross-sell campaigns (different product / module):
-- Products/modules being cross-sold: [product names]
-- Accounts targeted: [number]
-- Cross-sell conversion rate: [%]
-- Average cross-sell deal size: $[amount]
-- Total cross-sell revenue from campaigns: $[amount]
-- Sales cycle length for cross-sell vs. upsell: [days] vs. [days]
-- Penetration rate of cross-sell product within customer base: [%] before campaign vs. [%] after
-
-Expansion campaign cost breakdown:
-- Total cost: $[amount]
-- Cost per expansion opportunity created: $[amount]
-- Cost per expansion dollar closed: $[amount]
-
-PROGRAM 3: WIN-BACK AND REACTIVATION CAMPAIGNS
-Win-back program design: [describe approach — e.g., 60-day sequence starting 30 days post-churn, personalized executive outreach at day 15, offer at day 45]
-
-Churned accounts targeted:
-- Total accounts churned in last 12 months eligible for win-back: [number] representing $[churned ARR]
-- Accounts actively enrolled in win-back sequences: [number]
-- Win-back campaign enrollment criteria: [e.g., churned within 12 months, original ACV >$X, churn reason was pricing or competitor — not product fit]
-- Win-back conversion rate (enrolled account → new deal signed): [%]
-- Accounts reactivated: [number]
-- Average ACV of reactivated accounts: $[amount]
-- Average time from campaign start to signed contract: [days]
-- Total reactivated ARR: $[amount]
-- Discount or concession required to win back: [% of accounts required discount] [average discount: %]
-- Top stated reasons for return: [list 2-3]
-- Win-back campaign total cost: $[amount]
-
-PROGRAM 4: NPS-DRIVEN ADVOCACY AND REFERRAL PROGRAMS
-NPS program overview:
-- NPS survey response rate: [%]
-- Promoters (9-10): [number] representing [%] of respondents
-- Passives (7-8): [number]
-- Detractors (0-6): [number]
-- Current NPS score: [number]
-- Trend vs. prior period: [up/down/flat by X points]
-
-Promoter activation for advocacy:
-- Promoters asked to participate in advocacy program: [number]
-- Promoters who agreed (advocate opt-in rate): [%]
-- Advocates who provided a G2/Capterra/peer review: [number]
-- Advocates who participated in a customer case study: [number]
-- Advocates who agreed to serve as a sales reference: [number]
-- Advocates who participated in co-marketing (webinar, conference, content): [number]
-
-NPS-driven referral program:
-- Promoters asked to refer peers: [number]
-- Promoters who made at least one referral introduction: [number]
-- Total referrals introduced: [number]
-- Referral-to-qualified-opportunity conversion rate: [%]
-- Opportunities opened from referrals: [number]
-- Referral-sourced pipeline: $[amount]
-- Referral-sourced closed revenue: $[amount]
-- Referral close rate vs. inbound close rate: [%] vs. [%]
-- Referral ACV vs. average new logo ACV: $[amount] vs. $[amount]
-- Advocacy program total cost (team time + incentives + platform): $[amount]
-
-PROGRAM 5: CUSTOMER MILESTONE AND LIFECYCLE CAMPAIGNS
-Milestone campaigns (QBR follow-ups, anniversary campaigns, certification completions, value realization moments):
-- Milestone campaign types running: [list e.g., "90-day value realization", "12-month anniversary", "certification completion", "QBR follow-up sequence"]
-- Total customers enrolled in milestone campaigns: [number]
-- Average engagement rate (email open or in-app action): [%]
-- Accounts that expanded within 30 days of receiving milestone campaign: [number]
-- Expansion revenue within 30 days of milestone campaign (correlation, not causation unless attribution logic exists): $[amount]
-- NPS score change for milestone campaign recipients vs. non-recipients: [+/- X points] vs. [+/- X points]
-- Milestone campaign total cost: $[amount]
-
-BASELINE AND CONTROL DATA:
-Organic renewal rate (accounts with no customer marketing campaign touches): [%]
-Organic upsell rate (accounts that expanded without any campaign influence): [%] of eligible accounts
-Average time-to-expansion without campaign influence: [days]
-Historical NRR before customer marketing programs were formalized: [%] (e.g., 2 years ago)
-Current NRR: [%]
-NRR improvement since formalizing customer marketing: [percentage points]
-
-CS team activity during the period (for separating CS-driven from marketing-driven outcomes):
-- QBRs completed: [number]
-- CS-initiated expansion conversations (not triggered by marketing): [number]
-- CS-sourced expansion deals (no marketing campaign touch): [number] representing $[amount]
-
-OBJECTIVE: Produce a comprehensive Customer Marketing Program Analytics & Expansion Revenue Attribution Report covering all five program types with the following sections:
-
-**SECTION 1: CUSTOMER MARKETING EXECUTIVE SUMMARY**
-- Total customer marketing program investment: $[sum of all program costs]
-- Total expansion revenue attributed to customer marketing programs: $[amount]
-- Blended customer marketing ROI: (attributed expansion revenue / program investment) × 100
-- Incremental NRR contribution: how many NRR percentage points are owned by customer marketing programs vs. organic/CS-led motions
-- One-paragraph board-ready narrative: "Without customer marketing programs, our NRR would be [X]% instead of [Y]%. Our programs generated $[Z] in incremental expansion revenue on $[investment], representing a [ROI]x return."
-- Program health scorecard: red/yellow/green status for each of the 5 programs on dimensions of ROI, coverage (% of eligible accounts enrolled), and execution quality
-
-**SECTION 2: PROGRAM ROI SCORECARD**
-
-For each of the five programs, calculate:
-
-**Incremental Revenue Framework:**
-- Treatment group outcome: [revenue or rate achieved by accounts in program]
-- Control group baseline: [revenue or rate achieved by accounts NOT in program, or historical baseline]
-- Incremental lift: treatment minus control, expressed in revenue dollars and percentage points
-- Program cost: total investment in this program
-- Incremental ROI: incremental lift in revenue / program cost
-- Cost per incremental dollar of expansion revenue
-
-**Renewal Marketing:**
-- Incremental renewal rate: [treatment renewal rate] minus [control renewal rate] = [X percentage points]
-- ARR saved by incremental renewal rate: incremental rate × total ARR at risk in treatment group
-- Renewal campaign ROI: ARR saved / renewal campaign cost
-- If no control group: use survival analysis — compare actual renewal rate vs. historical baseline, discount for external factors (market conditions, product changes)
-
-**Upsell/Cross-Sell Campaigns:**
-- Campaign-influenced expansion revenue vs. organic expansion revenue per eligible account
-- Expansion velocity lift: days to expansion for campaign-touched accounts vs. untouched accounts
-- Expansion campaign ROMI: campaign-influenced expansion revenue / campaign cost
-- Pipeline influence rate: what % of total expansion pipeline had ≥1 campaign touch
-
-**Win-Back Programs:**
-- Win-back revenue as % of total churned ARR targeted
-- Win-back CAC: total win-back program cost / accounts reactivated
-- Win-back LTV projection: reactivated accounts × expected tenure × ACV (apply a 20% discount to account for higher second-churn risk)
-- Win-back ROI: win-back LTV / win-back CAC
-- Opportunity cost of discounts granted: % of reactivated accounts requiring discounts × average discount % × reactivated ARR
-
-**NPS/Advocacy Programs:**
-- Referral revenue ROI: referral-sourced closed revenue / advocacy program cost
-- Advocacy multiplier: total value generated by advocate activity (referral revenue + case study pipeline influence + review-driven conversion lift) / advocacy program cost
-- Advocate NPS halo effect: NPS score trend for activated advocates vs. unactivated promoters (measure whether being asked to advocate increases or decreases NPS)
-- G2/Capterra review pipeline attribution: estimate the review influence contribution to inbound pipeline using review impression data and conversion rate benchmarks
-
-**Milestone/Lifecycle Campaigns:**
-- Expansion correlation rate: accounts in milestone campaigns that expanded within 30 days vs. those not in campaigns
-- NPS improvement: milestone campaign recipients vs. control group
-- Engagement rate benchmarks vs. standard marketing email benchmarks
-
-Deliver as a ranked table:
-| Program | Investment | Attributed Revenue | Incremental Revenue | ROI | Coverage | Recommendation |
-|---|---|---|---|---|---|---|
-| [Each program] | $[amount] | $[amount] | $[amount] | [x]x | [%] | Scale/Maintain/Optimize/Terminate |
-
-**SECTION 3: NRR DECOMPOSITION — MARKETING CONTRIBUTION ANALYSIS**
-
-Decompose NRR into its component drivers and identify customer marketing's contribution to each:
-
-NRR Waterfall:
-Starting ARR: $[amount]
-+ Upsell expansion: $[amount]  → Customer Marketing contribution: $[amount] ([%] of total upsell)
-+ Cross-sell expansion: $[amount]  → Customer Marketing contribution: $[amount] ([%] of total cross-sell)
-+ New seats/organic growth: $[amount]  → Customer Marketing contribution: $0 (organic)
-- Downsell/contraction: $[amount]  → Customer Marketing rescue: $[amount saved] ([%] of downsells prevented)
-- Churn: $[amount]  → Customer Marketing save: $[amount saved] ([%] of at-risk ARR saved by renewal campaigns)
-+ Win-back: $[amount]  → Customer Marketing contribution: $[amount] (100% owned by win-back program)
-= Ending ARR: $[amount]
-
-Marketing-owned NRR contribution in percentage points:
-- Each percentage point of NRR = [$ ARR impact at your scale]
-- Customer marketing program contribution: [X] NRR points = $[dollar impact]
-- Without customer marketing programs, NRR would have been: [%]
-
-**SECTION 4: SEGMENT-LEVEL ATTRIBUTION ANALYSIS**
-
-Break down customer marketing program performance by customer segment:
-
-By ACV tier (Enterprise / Mid-Market / SMB):
-- Which segment responds best to which program type?
-- Program ROI by segment
-- Recommended program focus by segment going forward
-
-By customer tenure:
-- Do renewal campaigns work better for accounts in Year 1, Year 2, or Year 3+?
-- Do upsell campaigns convert faster for tenured accounts?
-- Optimal timing for each program type by tenure cohort
-
-By industry/vertical:
-- Which verticals have the highest win-back conversion rates?
-- Which verticals produce the most referrals per promoter activated?
-- Vertical-specific program timing and messaging recommendations
-
-By health score:
-- Do renewal campaigns on yellow-health accounts actually improve outcomes, or do they create false urgency that damages the relationship?
-- Which health score tier is most receptive to upsell campaigns?
-- Are you targeting the right health score ranges for each program type?
-
-**SECTION 5: ATTRIBUTION MODEL ANALYSIS**
-
-Address the core attribution challenge in customer marketing:
-
-Challenge: Most expansion revenue has multiple influences — CS relationship, product improvements, economic factors, marketing campaigns. How do you isolate program contribution?
-
-Recommend the appropriate attribution model for each program:
-- **Renewal campaigns:** Use difference-in-differences analysis (compare renewal rate lift in treatment vs. control, adjusting for health score differences between groups). If no control group, use regression analysis controlling for product usage, tenure, and industry as confounding variables.
-- **Upsell/cross-sell:** Use multi-touch attribution with time-decay weighting — apply credit to campaign touches that occurred within the sales cycle window (typically 90 days before expansion opportunity created). Compare campaign-touched expansion deal ACV and velocity vs. purely CS-driven deals.
-- **Win-back:** Direct attribution is clean — the win-back campaign is the primary driver. Calculate LTV discount for higher second-churn risk.
-- **NPS advocacy/referral:** Direct attribution for referral deals. For review influence, use a proxy model: review page views × industry benchmark conversion rate × average ACV.
-- **Milestone campaigns:** Correlational analysis with 30-day expansion window. Recommend A/B testing framework to establish causal relationship.
-
-Design the incrementality testing roadmap:
-- Which programs should be A/B tested (holdout groups) in the next 90 days?
-- What sample sizes are required for statistical significance?
-- How long should each test run to capture enough renewal/expansion cycles?
-
-**SECTION 6: CUSTOMER MARKETING FUNNEL ANALYSIS**
-
-Map the customer marketing funnel for each program type and identify conversion rate gaps:
-
-Renewal Marketing Funnel:
-Accounts eligible for renewal campaign → Enrolled in campaign → Opened/engaged with first touchpoint → Engaged with follow-up sequence → Renewed → Renewed at full ACV (no discount)
-- Identify the primary drop-off stage
-- Calculate the revenue impact of each 10-point improvement in each funnel stage
-
-Expansion Marketing Funnel:
-Accounts eligible for upsell/cross-sell → Targeted → Campaign engaged → Expansion opportunity created → Opportunity advanced to proposal → Closed-won
-- Compare funnel conversion rates by campaign type (email vs. in-app vs. SDR-assisted)
-- Identify which funnel stage marketing owns vs. CS vs. sales
-
-Advocacy Marketing Funnel:
-Promoters identified → Invited to advocacy program → Opted in → Completed first advocacy action (review, referral, case study) → Became active multi-action advocate
-- Advocacy activation rate and primary barriers
-- Revenue generated per active advocate
-
-**SECTION 7: COMPETITIVE BENCHMARKS AND PEER COMPARISON**
-
-Compare program metrics against B2B SaaS industry benchmarks:
-
-NRR Benchmarks (source: Bessemer Venture Partners, KeyBanc Capital Markets, OpenView):
-- SMB-focused SaaS (ACV <$10K): NRR benchmark 95-105%
-- Mid-market SaaS (ACV $10-50K): NRR benchmark 105-115%
-- Enterprise SaaS (ACV >$50K): NRR benchmark 115-130%
-- Your NRR vs. benchmark: [above/below/at] by [X] percentage points
-
-Expansion Program Benchmarks:
-- Best-in-class upsell conversion rate (eligible accounts → expansion): 25-40% per year
-- Average win-back rate (churned accounts reactivated within 12 months): 10-20%
-- NPS promoter-to-referral conversion rate: 15-25% of activated promoters
-- G2/Capterra review rate from promoters asked to leave a review: 20-35%
-- Customer marketing program ROMI benchmark: 3-8x depending on program type
-
-For each metric where you're below benchmark, provide:
-- Specific root cause hypothesis (is it program design, targeting, timing, or content quality?)
-- Recommended improvement action
-- Expected timeline to reach benchmark
-
-**SECTION 8: 90-DAY CUSTOMER MARKETING OPTIMIZATION ROADMAP**
-
-Organized by impact and effort:
-
-HIGH IMPACT / LOW EFFORT (Do immediately — Week 1-2):
-- [Specific actions with owner, tool, and expected revenue impact]
-
-HIGH IMPACT / HIGH EFFORT (Plan and start — Week 3-6):
-- [Specific actions with owner, tool, and expected revenue impact]
-
-MEDIUM IMPACT / LOW EFFORT (Quick wins — Ongoing):
-- [Specific actions]
-
-STRATEGIC INVESTMENTS (Quarter 2 planning):
-- Programs to build, test frameworks to implement, technology to evaluate
-
-For each initiative: estimated incremental ARR impact, investment required, ROI calculation, and owner (customer marketing, CS, product, sales).
-
-**SECTION 9: BUDGET REALLOCATION RECOMMENDATIONS**
-
-Based on program ROI analysis:
-- Current budget allocation across programs: [breakdown]
-- Recommended budget allocation: [new breakdown with rationale]
-- Programs to increase investment: [which ones and why]
-- Programs to reduce investment or sunset: [which ones and why]
-- New programs to pilot with reallocated budget: [recommendations]
-
-Calculate the revenue impact of optimal budget allocation vs. current allocation:
-- If you reallocated $X from Program A (low ROI) to Program B (high ROI), the estimated annual revenue impact is $[amount]
-
-**SECTION 10: MEASUREMENT INFRASTRUCTURE RECOMMENDATIONS**
-
-If any of the above analytics are currently impossible due to data gaps, prioritize these infrastructure fixes:
-- CRM data model changes needed for campaign attribution
-- CS platform integrations required for health score correlation
-- A/B testing framework needed for incrementality measurement
-- Dashboard recommendations: which 8-10 metrics should appear on a live Customer Marketing Performance Dashboard, viewed weekly by the CMO and VP of Customer Success
-
-OUTPUT FORMAT:
-- Lead with the program ROI scorecard table and NRR contribution narrative
-- Use tables for all program comparisons and segment analysis
-- Use red/yellow/green health indicators for each program
-- Bold every specific dollar amount, ROI figure, and action item
-- End with a "Top 5 Customer Marketing Priorities" summary box — a 5-minute CMO briefing
-- Total length: 2,200-3,000 words
+- Enterprise accounts (ACV >$100K): [number]
+- Mid-market accounts (ACV $25K–$100K): [number]
+- SMB accounts (ACV <$25K): [number]
+Customer health score distribution:
+- Green (healthy, expansion-ready): [number / %]
+- Yellow (at-risk or stalled): [number / %]
+- Red (churn risk): [number / %]
+Expansion-eligible accounts (not at product/seat maximum): [number]
+Cross-sell eligible accounts (adjacent product not purchased): [number]
+Average product engagement score across customer base: [score or percentile]
+NRR this quarter: [%] | Target NRR: [%] | NRR last quarter: [%]
+Net new expansion revenue closed this quarter: $[amount]
+Expansion revenue quota this quarter: $[amount]
+Expansion revenue quota attainment: [%]
+
+**EMAIL AND LIFECYCLE MARKETING PERFORMANCE:**
+
+Customer Newsletter:
+- Total subscriber count: [number] | % of total customers subscribed: [%]
+- Open rate: [%] | Benchmark for B2B customer newsletters: ~35–45%
+- Click-through rate: [%] | Benchmark: ~4–7%
+- Unsubscribe rate per send: [%]
+- Top-clicked content topics this period: [list 3]
+- Accounts that clicked newsletter content and subsequently expanded: [number]
+- Pipeline influenced by newsletter-engaged accounts (90-day window): $[amount]
+
+Upsell/Cross-Sell Email Sequences:
+- Number of active upsell sequences running: [number]
+- Total contacts enrolled in upsell sequences: [number]
+- Total emails sent in upsell sequences: [number]
+- Sequence open rate: [%] | Click rate: [%] | Reply rate (if applicable): [%]
+- Expansion opportunities created from sequence-engaged contacts: [number]
+- Closed-won expansion revenue from sequence-touched accounts: $[amount]
+- Sequence-to-opportunity conversion rate: [%]
+- Top-performing sequence (by expansion revenue influenced): [sequence name]
+- Worst-performing sequence (low opens or no expansion influence): [sequence name]
+
+Product Adoption / Feature Awareness Campaigns:
+- Campaigns running (feature adoption, activation nudges, upgrade prompts): [number]
+- Accounts reached by adoption campaigns: [number]
+- Feature adoption rate lift (pre- vs. post-campaign): [%]
+- Expansion opportunities created from accounts that adopted targeted features: [number]
+- Closed-won expansion from adoption-campaign-engaged accounts: $[amount]
+
+Re-engagement / At-Risk Campaigns:
+- At-risk accounts targeted (yellow/red health score): [number]
+- Re-engagement campaign send volume: [number emails/touches]
+- Health score improvement rate (accounts that moved from yellow to green): [%]
+- Expansion opportunities salvaged from previously at-risk accounts: [number]
+
+**EVENT AND ENGAGEMENT PROGRAM PERFORMANCE:**
+
+Customer-Only Webinars and Virtual Events:
+- Webinars hosted this quarter: [number]
+- Total registrants: [number] | Total attendees: [number] | Attendance rate: [%]
+- % of customer base that attended at least one event: [%]
+- Post-webinar expansion opportunities created within 60 days: [number]
+- Expansion pipeline from webinar-attendee accounts (90-day window): $[amount]
+- Closed-won expansion from webinar-attendee accounts: $[amount]
+- Best-performing webinar by expansion influence: [webinar name, date]
+
+In-Person Customer Events (Executive Dinners, Roundtables, On-Site EBRs):
+- Events held: [number]
+- Accounts represented: [number]
+- Executive-level attendees: [number]
+- Follow-up expansion conversations initiated post-event: [number]
+- Expansion pipeline created from event-attendee accounts (90-day window): $[amount]
+- Closed-won expansion from event-attendee accounts: $[amount]
+
+Customer Conference or User Summit (if applicable):
+- Event held: [Yes/No | if yes, date and location]
+- Total attendees: [number] | % from existing customers: [%]
+- Expansion opportunities created within 90 days post-event: [number]
+- Expansion revenue attributed to conference-engaged accounts: $[amount]
+
+**PRODUCT-TRIGGERED MARKETING CAMPAIGNS:**
+
+Usage Milestone Campaigns:
+- Milestones triggering marketing outreach: [list — e.g., "100 reports run," "team > 10 users," "API calls > 1,000/day"]
+- Total milestone campaigns triggered this period: [number]
+- Accounts reached: [number]
+- Expansion opportunities created from milestone-triggered accounts: [number]
+- Closed-won expansion: $[amount]
+
+Feature Adoption Campaigns (In-App + Email):
+- Features targeted for adoption campaign this period: [list]
+- In-app prompts sent: [number] | Engagement rate: [%]
+- Email follow-up campaigns for non-adopters: [number] | Open rate: [%]
+- Feature adoption rate improvement (before vs. after campaign): [%]
+- Expansion opportunities from accounts that adopted targeted features: [number]
+
+Seat Expansion / License Upgrade Prompts:
+- Accounts approaching seat limit (>80% utilization): [number]
+- Seat expansion prompts sent: [number]
+- Response rate: [%]
+- Seat expansion closed from prompt-touched accounts: [number deals, $amount]
+- Average days from first prompt to seat expansion close: [days]
+
+**DIGITAL TOUCHPOINTS AND COMMUNITY:**
+
+Customer Community (Slack / Discourse / Khoros / Gainsight Community):
+- Total community members: [number] | % of customer base: [%]
+- Monthly active members: [number]
+- Posts/discussions this period: [number]
+- Expansion-relevant discussions initiated: [number] (e.g., "how do I do X with the Enterprise plan?")
+- Accounts with community-active users that expanded this quarter: [number]
+- Expansion pipeline correlated with community-active accounts: $[amount]
+
+In-Product Marketing (Pendo / Appcues / Intercom):
+- In-app messages/banners sent: [number] | Engagement rate: [%]
+- Product tours triggered: [number] | Completion rate: [%]
+- In-app CTAs for upgrade/expansion: [number] | Click rate: [%]
+- Expansion opportunities influenced by in-app CTAs: [number]
+
+Customer-Facing Content (Help Center, Academy, Thought Leadership):
+- Help center articles viewed by customers this period: [number unique articles, total views]
+- Academy/certification completions: [number]
+- Accounts with certified users that expanded: [number]
+- Customer thought leadership content consumed (blogs, reports): [number views from customer IP ranges]
+
+**COMPETITIVE EXPANSION INTELLIGENCE:**
+- Deals where competitor tried to displace during renewal: [number]
+- Competitive displacement attempts this quarter (by competitor name): [list]
+- Customer marketing campaigns that specifically reinforced value vs. competitor: [describe]
+- Win rate for renewals where customer had attended customer marketing event vs. not: [%]
+
+**OBJECTIVE:** Produce an AI-powered Customer Marketing Revenue Attribution Intelligence Report with the following sections:
+
+**1. EXECUTIVE EXPANSION REVENUE SCORECARD**
+- Total customer marketing program investment this quarter: $[calculated]
+- Total marketing-attributed expansion pipeline created: $[calculate]
+- Total marketing-attributed closed-won expansion revenue: $[calculate]
+- Customer marketing program blended ROI: X:1 (expansion revenue influenced / total spend)
+- NRR contribution analysis: how much of NRR improvement (or shortfall) is attributable to customer marketing programs vs. CSM relationship vs. product improvement
+- Key narrative: "Our customer marketing programs generated $X in closed-won expansion revenue at a cost of $Y — a Z:1 return. The top-performing program was [program], and the largest efficiency gap is in [area]."
+- Quarter-over-quarter trend: improvement or decline in marketing-attributed expansion per customer
+
+**2. PROGRAM-BY-PROGRAM ATTRIBUTION ANALYSIS**
+For each program type (newsletter, upsell sequences, product-triggered campaigns, events, in-app, community), deliver:
+- Total investment (staff time + direct spend allocated)
+- Expansion pipeline generated: $[amount]
+- Closed-won expansion revenue influenced: $[amount]
+- Revenue per dollar invested: X:1
+- Engagement rate vs. B2B SaaS benchmark
+- Top-performing campaign/asset within the program (most expansion influenced)
+- Underperforming asset or sequence (lowest ROI, recommend audit or cut)
+- Recommended budget allocation change: increase / decrease / maintain
+
+**3. CUSTOMER SEGMENT EXPANSION GAP ANALYSIS**
+- Expansion rate by customer segment (Enterprise / Mid-Market / SMB): which segment has highest expansion velocity, which is stalled
+- Expansion rate by industry vertical: which verticals are expanding vs. contracting
+- Expansion rate by product usage tier: do high-usage customers expand faster? What is the usage threshold above which expansion probability doubles?
+- Expansion rate by customer tenure: do customers in months 6–18 expand faster than >36 months? Which lifecycle window has the highest expansion conversion?
+- Marketing program coverage by segment: are enterprise accounts receiving the same touch cadence as mid-market? Where are the gaps?
+- Customer segments where marketing has zero or low program coverage despite high expansion potential: flag these as priority
+
+**4. LIFECYCLE STAGE ATTRIBUTION AND TIMING ANALYSIS**
+- Map marketing touchpoints to expansion conversion by lifecycle stage: Onboarding (0–90 days), Adoption (90–180 days), Growth (180–365 days), Mature (365+ days)
+- Identify the lifecycle stage where marketing-attributed expansion is highest — this is where to concentrate program investment
+- Analyze "expansion conversion lag": average days from first marketing touchpoint to expansion opportunity creation, and from opportunity creation to close
+- Identify the lifecycle stage where marketing programs have zero or negative impact (over-touching at wrong moment)
+- Recommended lifecycle-stage marketing calendar: specific program types mapped to customer age milestones
+
+**5. PRODUCT-SIGNAL EXPANSION INTELLIGENCE**
+- Which product usage signals most reliably predict expansion readiness (correlation analysis):
+  - Feature adoption triggers (which features, when adopted, precede expansion)
+  - Seat utilization thresholds (what % seat utilization triggers highest conversion from expansion prompt?)
+  - Engagement frequency (daily active users vs. expansion probability)
+  - Login recency (what recency pattern correlates with expansion vs. churn?)
+- Recommended real-time trigger architecture: which signals should automatically trigger marketing campaigns vs. CSM outreach vs. both
+- Product signals currently unmonitored that should be added to campaign trigger library
+
+**6. CUSTOMER MARKETING EFFICIENCY OPTIMIZATION PLAN**
+- Cut recommendation: identify bottom-20% programs by ROI and recommend reducing investment or sunsetting
+- Amplify recommendation: identify top-20% programs by ROI and recommend increasing investment or frequency
+- New program recommendation: based on gap analysis, identify 2-3 programs that should be added this quarter (with expected ROI based on benchmark data)
+- Attribution model improvement: if current attribution is last-touch or first-touch, recommend multi-touch model with specific data requirements to implement
+- 90-day action plan: table with program, owner, action (cut/amplify/launch/test), timeline, and expected expansion revenue impact
+
+**CONSTRAINTS:**
+- Distinguish marketing-attributed expansion from total expansion: some expansion is CSM-driven, product-led, or inbound — do not claim credit for all expansion revenue
+- Acknowledge the selection bias problem: customers who attend events or engage with marketing content may already be higher-intent to expand — use cohort comparison data where available
+- Separate correlation from causation: flag where data shows "accounts that attended event X expanded at 2x rate" vs. where you can prove the event caused the expansion
+- All ROI calculations must show formulas and assumptions transparently
+- Flag data gaps: where sufficient data does not exist to make a confident recommendation, say so and specify what data to collect going forward
+
+**OUTPUT FORMAT:**
+- Executive Summary: 1 page (300–400 words), board-ready
+- Program scorecards: one per program type with investment, revenue attributed, and ROI calculation
+- Lifecycle stage expansion map: visual table showing marketing program types vs. customer lifecycle stage, colored by expansion conversion rate
+- Segment heat map: expansion rate by customer segment + program coverage grade (A/B/C/D)
+- 90-day action plan: table with program, action, owner, timeline, expected expansion revenue impact
+- Data quality assessment: flag which inputs have low confidence and how to improve measurement going forward
 
 ## Example Input/Output
 
-**Input Example:**
+**Company:** Vantara Analytics — B2B SaaS revenue analytics platform for mid-market and enterprise. ACV: $85K new logo, $35K average expansion deal. Sales cycle for expansion: 45 days. Primary buyer for expansion: VP Revenue Operations (current champion) and CFO (new approver at >$50K expansions). Competitors in expansion situations: Clari (revenue forecasting) and Gong (conversation intelligence). 280 total active customers.
 
-Company: Stackline Analytics (B2B SaaS, retail intelligence and e-commerce analytics platform)
-ACV: $42,000
-Sales cycle: 38 days (new logo); 21 days (expansion)
-ICP: VP Ecommerce and Digital Directors at US omnichannel retailers and DTC brands, 200-5,000 employees
-CRM: Salesforce
-CS platform: Gainsight
-Reporting period: Q1 2026
+**Sample Data Inputs:**
+- NRR this quarter: 108% | Target: 115%
+- Expansion revenue closed: $2.1M | Quota: $2.75M | Attainment: 76%
+- Customer newsletter: 190 subscribers (68% of customers), 39% open rate, 5.2% CTR
+- Upsell sequences: 4 active sequences, 312 contacts enrolled, 22% open rate, 3.1% click rate, $340K expansion pipeline influenced
+- Product-triggered campaigns (seat expansion prompts): 47 accounts at >80% seat utilization triggered, 14 expansions closed, $490K revenue
+- Customer webinars: 3 webinars held, 89 total attendees (32% of customers), $780K expansion pipeline in 60-day window
+- Executive dinner (1 event, 22 accounts): $920K expansion pipeline in 90-day window, $340K closed-won
+- In-app upgrade prompts: 210 total displays, 4.2% click rate, $120K expansion pipeline
+- Total customer marketing spend: $185,000 this quarter
 
-Customer base: 610 active accounts — 85 enterprise (ACV >$50K), 310 mid-market, 215 SMB
-NRR: 114% (vs. 109% prior year Q1)
-GRR: 87%
+**Sample Output (Executive Summary excerpt):**
 
-Renewal Marketing:
-- Treatment group: 145 accounts up for renewal — enrolled in 90-day campaign sequence
-- Treatment renewal rate: 91%
-- Control group: 38 accounts not enrolled (small team, couldn't scale campaigns to all renewals)
-- Control renewal rate: 76%
-- Renewal campaign cost: $28,500 (team time + automation + exec gifts)
-
-Upsell Campaigns:
-- 220 accounts targeted for upsell (usage >75% of current plan capacity)
-- Upsell conversion rate: 18% (40 accounts opened expansion opportunities)
-- 31 closed-won upsell deals at average ACV increase of $14,000 = $434,000 in expansion revenue
-- Without campaigns, estimated organic upsell rate (from prior year when no campaigns ran): 9%
-- Campaign cost: $19,000
-
-Win-Back:
-- 94 churned accounts eligible (churned in last 12 months, ACV >$15K)
-- 52 enrolled in win-back sequence
-- 9 accounts reactivated at average ACV of $31,000 = $279,000 reactivated ARR
-- 5 of 9 required 15% discount
-- Campaign cost: $12,000
-
-NPS Advocacy:
-- 88 promoters identified
-- 62 invited to advocacy program; 41 opted in (66% opt-in)
-- 18 submitted G2 reviews, 12 became sales references, 6 joined case studies, 24 made referrals
-- Referral-sourced pipeline: $1.2M; referrals closed: $380,000
-- Campaign cost: $22,000
-
-CS baseline: CS team ran 198 QBRs; 44 CS-sourced expansion deals not touched by marketing ($1.1M expansion)
-
-**Output Example (abbreviated):**
-
----
-
-**CUSTOMER MARKETING EXECUTIVE SUMMARY**
-
-Stackline Analytics' customer marketing programs generated an estimated **$1.31M in incremental expansion and retention revenue** on **$81,500 in total program investment** in Q1 2026 — a **16.1x blended ROMI**. Programs contributed approximately **3 NRR percentage points** above the organic baseline, moving NRR from an estimated 111% (CS-only) to the actual 114%. Without these programs, Stackline would have retained approximately **$1.8M less ARR** on an annualized basis.
-
-**Customer Marketing Program Scorecard:**
-
-| Program | Investment | Attributed Revenue | Incremental Revenue | ROI | Status |
-|---|---|---|---|---|---|
-| Renewal Campaigns | $28,500 | $1.07M ARR saved | $285K incremental (15pp lift × $1.9M at risk) | **10x** | 🟢 Scale |
-| Upsell/Cross-Sell | $19,000 | $434K | $189K incremental (vs. 9% organic baseline) | **9.9x** | 🟢 Scale |
-| Win-Back | $12,000 | $279K reactivated ARR | $279K (100% program-owned) | **23x** | 🟢 Expand |
-| NPS Advocacy | $22,000 | $380K referral revenue | $380K (program-owned referrals) | **17.3x** | 🟢 Scale |
-| Milestone Campaigns | N/A | Correlational only | Not yet measured | 🟡 | Add measurement |
-
----
-
-**NRR DECOMPOSITION:**
-
-Without customer marketing programs, Stackline's NRR would have been approximately **111%**, not 114%. The 3-point difference represents **$1.8M in annualized ARR** at Stackline's $60M ARR scale.
-
-| NRR Driver | Total | CS-Owned | Marketing-Owned |
-|---|---|---|---|
-| Upsell expansion | +$1.31M | $1.1M (CS-sourced) | $210K net incremental |
-| Renewal save rate | +$285K incremental | Baseline 76% | +15pp = $285K saved |
-| Win-back reactivations | +$279K | $0 | $279K (100%) |
-| Referral-driven new ARR | +$380K | $0 | $380K (100%) |
-| **Total marketing contribution** | **$1.15M** | — | **~3 NRR points** |
-
----
-
-**PROGRAM DEEP DIVE — RENEWAL CAMPAIGNS:**
-
-Treatment group (145 accounts): **91% renewal rate** — 132 renewals
-Control group (38 accounts): **76% renewal rate** — 29 renewals
-Incremental renewal rate lift: **+15 percentage points**
-
-At-risk ARR in treatment group: $6.09M
-ARR saved by incremental 15pp lift: $6.09M × 0.15 = **$913,500 in saved ARR**
-Renewal campaign cost: $28,500
-Renewal campaign ROI: **32x on retained ARR**; **10x on annualized first-year incremental value** (using 30% of retained ARR as year-1 contribution metric for comparability to acquisition CAC)
-
-Caution: The control group (38 accounts) self-selected due to team capacity constraints — these accounts may have had slightly different health score distributions. Recommend proper randomized holdout in Q2 for cleaner incrementality measurement.
-
----
-
-**SEGMENT ANALYSIS — UPSELL CAMPAIGNS:**
-
-Mid-market accounts (ACV $10-50K) converted at **22%** vs. enterprise at **11%** — enterprise accounts require more CS-led conversation and marketing campaign alone is insufficient. Recommendation: for enterprise upsell, shift from marketing-only sequences to marketing + SDR + CS-assisted plays, accepting lower volume but higher deal size.
-
----
-
-**WIN-BACK ANALYSIS:**
-
-9 reactivations at $31,000 average ACV = $279,000 reactivated ARR
-Win-back cost: $12,000 → **$1,333 cost per reactivated account** vs. average new logo CAC of $18,500
-5 accounts required 15% discount: effective ACV = $26,350; discounted ARR from these 5 = $131,750
-
-**Win-back LTV projection** (applying 20% second-churn discount to tenure assumption):
-- Standard customer expected tenure: 4.2 years
-- Win-back customer expected tenure (20% haircut): 3.4 years
-- Win-back LTV: 9 accounts × $29,200 avg ACV (blended with discounts) × 3.4 years = **$893K LTV**
-- Win-back ROI on LTV basis: $893K / $12,000 = **74x**
-
-The win-back program generates the highest LTV-adjusted ROI of any customer marketing program at Stackline. **Recommendation: immediately expand the win-back program to all 94 eligible churned accounts** (currently only 52 are enrolled), adding 42 more accounts and projecting 7 additional reactivations at current 17% conversion rate = **$217K additional reactivated ARR**.
-
----
-
-**TOP 5 CUSTOMER MARKETING PRIORITIES:**
-
-1. **Expand win-back program to all 94 eligible churned accounts** — 42 additional accounts at 17% conversion rate projects $217K incremental ARR; add only $5,500 in incremental program cost for a 39x ROI on the expansion investment
-2. **Implement randomized holdout group for renewal campaigns in Q2** — the Q1 control group was not randomly selected; a clean A/B test (50/50 holdout of 30 accounts each) will produce defensible incrementality data for board presentation
-3. **Double down on win-back for churned accounts in the $25K-$50K ACV range** — this segment has the highest win-back conversion rate and best LTV-adjusted outcome; prioritize in your reactivation sequence with personalized VP-level outreach
-4. **Shift enterprise upsell to CS + marketing assisted plays** — enterprise upsell conversion rate (11%) is below program average; adding SDR-assisted touchpoints to the campaign sequence for accounts >$50K ACV projects conversion rate improvement to 18-20%
-5. **Add measurement infrastructure for milestone campaigns** — currently the highest mystery in the portfolio; instrument a simple A/B test in Q2 pairing Gainsight milestone trigger + Marketo campaign for 100 eligible accounts vs. 50 CS-only control accounts; 90-day readout will quantify the $X revenue impact of systematic milestone marketing
-
----
+> **Vantara Analytics Customer Marketing Q2 2026 Expansion Revenue Intelligence Report**
+>
+> **Customer marketing program ROI: 8.7:1** — $1.61M in marketing-attributed closed-won expansion revenue against $185K total investment. Marketing-attributed programs contributed 77% of total expansion revenue closed this quarter, with the remaining 23% driven by CSM-initiated conversations with no prior marketing touchpoint.
+>
+> **Biggest Win: Product-Triggered Seat Expansion Campaigns.** Seat expansion prompts sent to accounts exceeding 80% utilization delivered a 30% conversion rate (14 of 47 triggered accounts expanded). At $35K average expansion ACV, this program generated $490K closed-won at an effective cost of $3,100/expansion deal — the highest ROI program in the portfolio. **Immediate recommendation:** Lower the trigger threshold from 80% to 70% utilization. Accounts at 70–79% seat utilization represent 31 additional eligible accounts — if conversion holds at even 25%, that's 7-8 additional expansion deals ($245–$280K) this quarter.
+>
+> **Biggest Gap: Expansion Quota Miss in Mid-Market.** Mid-market accounts (61 total, ACV $25K–$100K) expanded at a 22% rate vs. 41% for enterprise accounts. Marketing program coverage analysis reveals mid-market accounts receive newsletter and in-app prompts only — they are excluded from executive dinner targeting and rarely attend webinars (11% attendance vs. 38% for enterprise). The 47 mid-market accounts eligible for cross-sell (adjacent HR Analytics module) received zero dedicated cross-sell campaigns this quarter. Launching a single targeted mid-market cross-sell email sequence is estimated to generate $250–$350K additional expansion pipeline based on Vantara's existing sequence conversion benchmarks.
+>
+> **Underinvested Program: Customer Webinars.** Three webinars generated $780K in expansion pipeline (90-day window) from 89 attendees — an average of $8,764 pipeline per attendee. At an estimated cost of $12,000 per webinar ($36K total), pipeline-per-dollar is 21.7:1. However, 68% of customers never attended a webinar this quarter. Doubling webinar frequency from 1/month to 2/month and adding a 3-email promotion sequence specifically targeting non-attendees from the prior quarter is projected to increase webinar reach to 50% of the customer base and generate an incremental $400K in expansion pipeline.
+>
+> **Attribution Model Limitation:** Current attribution is last-touch CRM activity. For 34% of expansion deals, the last recorded marketing touchpoint preceded close by >60 days, suggesting meaningful influence is being undercounted. Recommend adding a 2-question expansion survey to closed-won deals: "Which of the following influenced your decision to expand?" — this self-reported data, used alongside CRM attribution, will provide a 30% more complete picture of marketing's actual contribution.
 
 ## Success Metrics
 
-- **Blended Customer Marketing ROMI:** Target ≥5x incremental revenue return on total program investment; measure quarterly with proper control groups
-- **Renewal Campaign Lift:** Incremental renewal rate in campaign-enrolled accounts vs. holdout group ≥10 percentage points; benchmark against industry average of 8-12pp lift for digital-only renewal campaigns
-- **Win-Back Conversion Rate:** ≥15% of enrolled churned accounts reactivated; best-in-class B2B SaaS benchmark is 18-22%
-- **NPS Promoter Activation Rate:** ≥50% of identified promoters should be enrolled in a structured advocacy action within 30 days of NPS response receipt
-- **Referral-to-Pipeline Rate:** ≥15% of referral introductions should convert to a qualified opportunity; benchmark for peer-introduced B2B referrals is 20-35%
-- **Customer Marketing NRR Contribution:** Customer marketing programs should demonstrably contribute ≥2 NRR points annually vs. a CS-only baseline; track via quarterly difference-in-differences analysis
+**Immediate (post-prompt):**
+- Every customer marketing program has a calculated ROI with formula and assumptions
+- At least 3 specific customer segments or lifecycle stages flagged as underserved despite expansion potential
+- Product usage signals identified that should trigger additional marketing campaigns
+
+**30 days:**
+- Budget reallocation implemented: lowest-ROI programs reduced, highest-ROI programs increased
+- At least 1 new program launched based on gap analysis (e.g., mid-market cross-sell sequence, webinar frequency increase)
+- Attribution model improvement in progress: CRM field added for closed-won expansion surveys
+
+**90 days:**
+- Marketing-attributed expansion pipeline increased quarter-over-quarter
+- Seat-expansion trigger thresholds recalibrated based on conversion data
+- Lifecycle-stage marketing calendar in operation (right program, right customer age, right timing)
+- Customer marketing ROI formally presented to CFO with reproducible methodology
+
+**Validation test:** Have your VP of Customer Success review the segment gap analysis. If they say "yes, we've been struggling to expand those accounts too and we had no marketing support for it," the analysis has identified a real opportunity. Alignment with CS confirms the recommendation is grounded in operational reality, not just analytics artifact.
 
 ## Related Prompts
 
-- [`../../04_Demand-&-Lead-Generation-&-Growth/Customer-Marketing/AI-Powered-B2B-SaaS-Customer-Marketing-Expansion-Revenue-Campaign-Architecture-&-Cross-Sell-Upsell-Pipeline-Intelligence-Engine.md`](../../04_Demand-&-Lead-Generation-&-Growth/Customer-Marketing/AI-Powered-B2B-SaaS-Customer-Marketing-Expansion-Revenue-Campaign-Architecture-&-Cross-Sell-Upsell-Pipeline-Intelligence-Engine.md) — Design the expansion revenue campaigns that this analytics prompt will measure
-- [`../../04_Demand-&-Lead-Generation-&-Growth/Customer-Marketing/AI-Powered-B2B-SaaS-Renewal-Marketing-Program-Architecture-&-At-Risk-Account-Churn-Prevention-Revenue-Intelligence-Engine.md`](../../04_Demand-&-Lead-Generation-&-Growth/Customer-Marketing/AI-Powered-B2B-SaaS-Renewal-Marketing-Program-Architecture-&-At-Risk-Account-Churn-Prevention-Revenue-Intelligence-Engine.md) — Build the renewal marketing programs whose performance you'll measure here
-- [`../Customer-Lifetime-Value-Analytics/AI-Powered-B2B-CLV-Marketing-Investment-Optimization-&-Customer-Portfolio-Intelligence-Engine.md`](../Customer-Lifetime-Value-Analytics/AI-Powered-B2B-CLV-Marketing-Investment-Optimization-&-Customer-Portfolio-Intelligence-Engine.md) — Use CLV models to segment customers for optimal program targeting
-- [`../Churn-Prevention-&-Retention-Analytics/AI-Powered-B2B-SaaS-Marketing-Sourced-Churn-Analysis-&-Acquisition-Quality-Revenue-Intelligence-Engine.md`](../Churn-Prevention-&-Retention-Analytics/AI-Powered-B2B-SaaS-Marketing-Sourced-Churn-Analysis-&-Acquisition-Quality-Revenue-Intelligence-Engine.md) — Understand which acquisition cohorts churn fastest before designing win-back targeting criteria
+- [`../../05_Analytics-&-Performance/Customer-Marketing-Analytics/AI-Powered-B2B-SaaS-Customer-Advocacy-Reference-Program-Analytics-&-Peer-Influence-Revenue-Intelligence-Engine.md`](../../05_Analytics-&-Performance/Customer-Marketing-Analytics/AI-Powered-B2B-SaaS-Customer-Advocacy-Reference-Program-Analytics-&-Peer-Influence-Revenue-Intelligence-Engine.md) — Measuring advocacy and reference program ROI that feeds into overall customer marketing analytics
+- [`../../04_Demand-&-Lead-Generation-&-Growth/Customer-Marketing/AI-Powered-B2B-SaaS-Customer-Marketing-Expansion-Revenue-Campaign-Architecture-&-Cross-Sell-Upsell-Pipeline-Intelligence-Engine.md`](../../04_Demand-&-Lead-Generation-&-Growth/Customer-Marketing/AI-Powered-B2B-SaaS-Customer-Marketing-Expansion-Revenue-Campaign-Architecture-&-Cross-Sell-Upsell-Pipeline-Intelligence-Engine.md) — Designing the expansion campaigns this prompt measures
+- [`../../06_Customer-Success-&-Retention/Churn-Prevention-&-Expansion/AI-Powered-B2B-SaaS-NRR-Marketing-Program-Architecture-&-Expansion-Revenue-Campaign-Intelligence-Engine.md`](../../06_Customer-Success-&-Retention/Churn-Prevention-&-Expansion/AI-Powered-B2B-SaaS-NRR-Marketing-Program-Architecture-&-Expansion-Revenue-Campaign-Intelligence-Engine.md) — NRR program architecture that drives the expansion revenue this prompt tracks
+- [`../../05_Analytics-&-Performance/Customer-Lifecycle-Marketing-Analytics/AI-Powered-B2B-SaaS-Customer-Lifecycle-Marketing-Performance-Analytics-&-Retention-Revenue-Attribution-Intelligence-Engine.md`](../../05_Analytics-&-Performance/Customer-Lifecycle-Marketing-Analytics/AI-Powered-B2B-SaaS-Customer-Lifecycle-Marketing-Performance-Analytics-&-Retention-Revenue-Attribution-Intelligence-Engine.md) — Lifecycle performance analytics that complements expansion-specific attribution
 
 ## Integration Tips
 
-- **Gainsight:** Use Gainsight's "Journey Orchestrator" to track which campaign touchpoints precede expansion milestones. Build a custom Cockpit report filtering to "Expansion Opportunities Created Within 30 Days of Campaign Touch" using the `ctaType = CustomerMarketing` filter. Export the account-level outcome data and join with Salesforce Opportunity data using `AccountId` as the key to build your program attribution table.
-- **Salesforce:** Create a custom Campaign Type = "Customer Marketing" and sub-types for each program (Renewal, Upsell, Win-Back, Advocacy, Milestone). Tag every campaign-touched account with a `LastCustomerMarketingCampaign` field and `LastCustomerMarketingCampaignDate`. Build an Opportunity Influence report joining `CampaignMember` + `Opportunity` (using `AccountId`) to calculate pipeline and closed revenue by campaign type. Filter to `Opportunity Type = Renewal` or `Type = Add-On` to separate expansion from new logo attribution.
-- **HubSpot CRM:** Use HubSpot's "Customer Lifecycle" workflows to tag contacts with `CustomerMarketingProgramEnrolled = [program name]` when they enter a customer marketing sequence. Build a custom report in HubSpot Reports → Attribution → "Customer Marketing Revenue Attribution" by filtering Deal Pipeline to "Renewal" and "Expansion" pipelines and grouping by `Associated Marketing Campaign`. Use HubSpot's "Compare Date Ranges" feature to measure renewal rates in campaign-enrolled vs. non-enrolled cohorts quarter-over-quarter.
-- **Marketo:** Build a "Customer Marketing Attribution" smart campaign that adds a `Program Type = Customer Marketing` tag to all customer contacts who engage with any customer marketing email. Use Marketo's Revenue Cycle Explorer to build a "Customer Marketing Program Influence" report showing opportunities touched by customer marketing programs within a 90-day attribution window, segmented by program type.
-- **Looker / Looker Studio Dashboard:** Build a "Customer Marketing Command Center" dashboard with 8 tiles: (1) NRR Decomposition Waterfall, (2) Program ROI League Table, (3) Renewal Campaign Lift (treatment vs. control), (4) Win-Back Funnel Conversion Rates, (5) NPS Promoter Activation Pipeline, (6) Upsell/Cross-Sell Expansion Funnel, (7) Customer Marketing Attribution by Segment (Enterprise/MM/SMB), (8) 90-Day Program Budget vs. Revenue Trend. Refresh weekly from Salesforce via Fivetran or direct API connection.
-- **Zapier / Make automation for monthly reporting:** (1) Pull renewal campaign outcome data from Salesforce via SOQL query on Opportunities filtered by `CloseDate = last 30 days AND Type = Renewal AND CampaignMember.CampaignId IN [renewal campaign IDs]`; (2) Pull win-back reactivation data similarly; (3) Pull NPS advocate activity from your CS platform API; (4) Assemble into a structured data table; (5) Pass to Claude API with this prompt; (6) Auto-post the generated report to Notion, Slack #customer-marketing, and email the CMO and VP CS.
+**Salesforce / HubSpot CRM:**
+- Create a custom opportunity field `Marketing_Attributed = TRUE/FALSE` with a sub-field `Marketing_Program_Source` (dropdown: Newsletter, Upsell Sequence, Product-Triggered, Event, In-App, Community, Other) — train CS and AE teams to log this at opportunity creation
+- Build a quarterly expansion revenue report filtered by `Opportunity_Type = Expansion` and segmented by `Marketing_Attributed` to create a clear marketing vs. non-marketing attribution split
+- Add a post-close survey field to closed-won expansion opportunities: "Which marketing touchpoints influenced this expansion?" (multi-select checklist) — this is the highest-signal attribution data available
+
+**Gainsight / Totango (Customer Success Platform):**
+- Configure CTAs (Calls to Action) that fire when marketing campaigns generate clicks/replies — route CTA to CSM so they know which accounts are "marketing-warm" and ready for an expansion conversation
+- Build a Customer 360 view that shows marketing engagement score alongside health score — accounts with high health + high marketing engagement are highest-priority expansion targets
+- Use Gainsight's Journey Orchestrator to coordinate marketing automation sends with CSM outreach timing — avoid simultaneous marketing email and CSM call-back on the same day
+
+**Marketo / HubSpot (Marketing Automation):**
+- Build a customer marketing segment list filtered by `Customer = TRUE` and layered with expansion eligibility flags from CRM (`Expansion_Eligible = TRUE`, `Cross_Sell_Eligible = TRUE`)
+- Use smart campaigns with product usage triggers: when Amplitude/Mixpanel pushes a "seat utilization > 80%" webhook, Marketo auto-enrolls the account champion in the seat expansion nurture sequence
+- Build a revenue attribution report in Marketo that shows expansion pipeline and closed-won revenue associated with each customer marketing campaign using the CRM Sync opportunity association
+
+**Pendo / Appcues / Intercom (In-App Marketing):**
+- Tag in-app messages by expansion intent type: `Feature Adoption`, `Seat Expansion Prompt`, `Cross-Sell Introduction`, `Renewal Reminder` — track click-through rates by type and correlate with CRM expansion outcomes
+- Use Pendo's data explorer to identify the features adopted by customers who expanded vs. those who did not — these are the feature adoption campaigns to prioritize
+- A/B test upgrade prompts: test CTA wording ("Upgrade your plan" vs. "Talk to your account team about adding seats") to identify which drives more expansion conversations
+
+**Amplitude / Mixpanel (Product Analytics):**
+- Export monthly active user (MAU) and seat utilization data to CRM at the account level — this enables expansion trigger logic in marketing automation
+- Build a cohort analysis: "accounts that adopted Feature X within first 90 days" vs. "accounts that did not" — compare expansion rates at 12 months. The delta quantifies the revenue value of Feature X adoption for your case study arsenal
+
+**Notion / Google Sheets (Customer Marketing Dashboard):**
+- Build a live Customer Marketing Attribution Tracker: campaign name, send date, customer segment targeted, CRM opportunities created (linked), expansion revenue attributed, cost, ROI — update weekly
+- Track webinar attendee lists against CRM accounts; flag accounts with webinar attendance in the 60 days before an expansion close as "event-influenced" for quarterly reporting
 
 ## Troubleshooting
 
-**Problem: No control group exists for renewal campaigns — every eligible account is enrolled, making it impossible to measure incremental lift.**
-Solution: Implement a structured holdout group starting next quarter. The most practical approach: randomly assign 15-20% of renewal accounts (stratified by ACV tier and health score) to a "CS-only" control group where customer marketing automation is suppressed — CS still conducts their normal relationship activities, but no automated renewal campaigns fire. Even a small holdout (30-40 accounts per quarter) generates statistically meaningful signal after 2-3 quarters. In the interim, use a historical baseline comparison: compare this quarter's renewal rate against the 4 quarters before your customer marketing programs existed, controlling for known confounders (product improvement, pricing changes, market conditions). Apply a 20-30% discount to the estimated lift to account for the unmeasured improvement trend. This conservative estimate is more credible to a skeptical CFO than no measurement at all.
+**Problem: "We can't tell if marketing programs are causing expansion or just correlating with accounts that were already going to expand."**
+*Fix:* Run a holdout test for one quarter: randomly exclude 15–20% of expansion-eligible accounts from all customer marketing programs. Compare their expansion rate to the marketed cohort at quarter-end. This is the closest B2B analog to an A/B test for expansion attribution and will give you defensible incrementality data. If a full holdout feels too risky, run it only on mid-market accounts where the stakes are lower. Even a 90-day holdout on 30 accounts gives you statistically meaningful signal if your typical expansion rates differ by >10 percentage points.
 
-**Problem: CS and customer marketing activities are deeply intertwined — it's impossible to separate which team drove a renewal or expansion.**
-Solution: Implement a "last marketing touch before opportunity creation" rule for attribution — if a customer marketing campaign touchpoint (email open, in-app message click, webinar attendance, referral referral invite) occurred within 30 days before an expansion opportunity was created in Salesforce, attribute "marketing-assisted" credit to the program. CS gets primary credit for the relationship; marketing gets "influence credit" for the campaign assist. For budget justification purposes, calculate "marketing-assisted expansion revenue" (where marketing had any touch within the sales cycle) and "marketing-sourced expansion revenue" (where marketing was the first outreach that sparked the conversation). Present both numbers to your CFO with the attribution model logic — the honest answer is that customer marketing and CS co-create expansion outcomes, and both deserve proportional credit.
+**Problem: "Our CSMs say marketing emails confuse customers who are mid-negotiation on an expansion deal."**
+*Fix:* Implement a "deal suppression" rule in marketing automation: any account with an active expansion opportunity in Stage 3 or later (Negotiation / Proposal) is automatically excluded from outbound marketing sends until the deal closes or is lost. This requires a bi-directional CRM sync where Salesforce pushes `Active_Expansion_Stage ≥ 3 = TRUE` to Marketo/HubSpot, which triggers list suppression. The tradeoff is slightly less marketing influence in late-stage deals; the benefit is eliminating noise that annoys champions and CSMs.
 
-**Problem: Win-back program ROI looks exceptional on a short-term basis, but reactivated customers keep churning again within 6-12 months.**
-Solution: Implement a "second-churn cohort analysis" by tracking all win-back reactivated accounts for 12 months post-reactivation. If second-churn rate is >35% within 12 months, your win-back ROI calculation needs a significant haircut — use 50% of standard tenure in your LTV projection. More importantly, diagnose WHY they're churning again: exit interview data will reveal whether the win-back offers false urgency (reactivated on a discount but underlying product-fit issue was never resolved) or whether a specific segment is win-backable (e.g., customers who churned for pricing reasons, not product reasons). Segment your win-back program by stated churn reason, run only price-reason churners through the win-back sequence, and decline-to-pursue product-fit churners until the product gap is addressed. This discipline dramatically improves both win-back conversion rate and second-churn rate.
+**Problem: "Leadership doesn't believe our attribution numbers — they think we're claiming credit for deals that would have happened without marketing."**
+*Fix:* Build a two-tier attribution report: "Marketing-Sourced Expansion" (marketing was the first touchpoint that created the opportunity — rare but high-confidence) and "Marketing-Influenced Expansion" (marketing touched the account within 90 days of expansion close, but other factors also contributed — more common, lower confidence). Present both numbers. Acknowledge that Marketing-Influenced is an upper bound and Marketing-Sourced is a lower bound. The real number is somewhere in between, and the holdout test (Problem 1) is the way to triangulate toward the true causal number over time. This two-tier framing is more credible with CFOs than a single "attributed" number that claims full credit.
 
 ## Version History
 - v1.0: Initial creation (auto-generated)
